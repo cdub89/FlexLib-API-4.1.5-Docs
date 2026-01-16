@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayConfigPath.Rotation
+  commentId: T:Flex.Util.DisplayConfigPath.Rotation
+  id: DisplayConfigPath.Rotation
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayConfigPath.Rotation.ForceUInt32
+  - Flex.Util.DisplayConfigPath.Rotation.Identity
+  - Flex.Util.DisplayConfigPath.Rotation.Rotate180
+  - Flex.Util.DisplayConfigPath.Rotation.Rotate270
+  - Flex.Util.DisplayConfigPath.Rotation.Rotate90
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfigPath.Rotation
+  nameWithType: DisplayConfigPath.Rotation
+  fullName: Flex.Util.DisplayConfigPath.Rotation
+  type: Enum
+  source:
+    id: Rotation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 442
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public enum DisplayConfigPath.Rotation
+    content.vb: Public Enum DisplayConfigPath.Rotation
+- uid: Flex.Util.DisplayConfigPath.Rotation.Identity
+  commentId: F:Flex.Util.DisplayConfigPath.Rotation.Identity
+  id: Identity
+  parent: Flex.Util.DisplayConfigPath.Rotation
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: DisplayConfigPath.Rotation.Identity
+  fullName: Flex.Util.DisplayConfigPath.Rotation.Identity
+  type: Field
+  source:
+    id: Identity
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 444
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Identity = 1
+    return:
+      type: Flex.Util.DisplayConfigPath.Rotation
+- uid: Flex.Util.DisplayConfigPath.Rotation.Rotate90
+  commentId: F:Flex.Util.DisplayConfigPath.Rotation.Rotate90
+  id: Rotate90
+  parent: Flex.Util.DisplayConfigPath.Rotation
+  langs:
+  - csharp
+  - vb
+  name: Rotate90
+  nameWithType: DisplayConfigPath.Rotation.Rotate90
+  fullName: Flex.Util.DisplayConfigPath.Rotation.Rotate90
+  type: Field
+  source:
+    id: Rotate90
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 445
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Rotate90 = 2
+    return:
+      type: Flex.Util.DisplayConfigPath.Rotation
+- uid: Flex.Util.DisplayConfigPath.Rotation.Rotate180
+  commentId: F:Flex.Util.DisplayConfigPath.Rotation.Rotate180
+  id: Rotate180
+  parent: Flex.Util.DisplayConfigPath.Rotation
+  langs:
+  - csharp
+  - vb
+  name: Rotate180
+  nameWithType: DisplayConfigPath.Rotation.Rotate180
+  fullName: Flex.Util.DisplayConfigPath.Rotation.Rotate180
+  type: Field
+  source:
+    id: Rotate180
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 446
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Rotate180 = 3
+    return:
+      type: Flex.Util.DisplayConfigPath.Rotation
+- uid: Flex.Util.DisplayConfigPath.Rotation.Rotate270
+  commentId: F:Flex.Util.DisplayConfigPath.Rotation.Rotate270
+  id: Rotate270
+  parent: Flex.Util.DisplayConfigPath.Rotation
+  langs:
+  - csharp
+  - vb
+  name: Rotate270
+  nameWithType: DisplayConfigPath.Rotation.Rotate270
+  fullName: Flex.Util.DisplayConfigPath.Rotation.Rotate270
+  type: Field
+  source:
+    id: Rotate270
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 447
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Rotate270 = 4
+    return:
+      type: Flex.Util.DisplayConfigPath.Rotation
+- uid: Flex.Util.DisplayConfigPath.Rotation.ForceUInt32
+  commentId: F:Flex.Util.DisplayConfigPath.Rotation.ForceUInt32
+  id: ForceUInt32
+  parent: Flex.Util.DisplayConfigPath.Rotation
+  langs:
+  - csharp
+  - vb
+  name: ForceUInt32
+  nameWithType: DisplayConfigPath.Rotation.ForceUInt32
+  fullName: Flex.Util.DisplayConfigPath.Rotation.ForceUInt32
+  type: Field
+  source:
+    id: ForceUInt32
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 448
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: ForceUInt32 = -1
+    return:
+      type: Flex.Util.DisplayConfigPath.Rotation
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: Flex.Util.DisplayConfigPath.Rotation
+  commentId: T:Flex.Util.DisplayConfigPath.Rotation
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.Rotation
+  nameWithType: DisplayConfigPath.Rotation
+  fullName: Flex.Util.DisplayConfigPath.Rotation
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: Rotation
+    href: Flex.Util.DisplayConfigPath.Rotation.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: Rotation
+    href: Flex.Util.DisplayConfigPath.Rotation.html

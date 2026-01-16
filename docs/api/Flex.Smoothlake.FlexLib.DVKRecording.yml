@@ -1,0 +1,796 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.DVKRecording
+  commentId: T:Flex.Smoothlake.FlexLib.DVKRecording
+  id: DVKRecording
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.DVKRecording.#ctor(System.UInt32,System.String,System.UInt32)
+  - Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds
+  - Flex.Smoothlake.FlexLib.DVKRecording.FORBIDDEN_NAME_CHARS
+  - Flex.Smoothlake.FlexLib.DVKRecording.Id
+  - Flex.Smoothlake.FlexLib.DVKRecording.Name
+  langs:
+  - csharp
+  - vb
+  name: DVKRecording
+  nameWithType: DVKRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording
+  type: Class
+  source:
+    id: DVKRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 322
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class DVKRecording : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class DVKRecording Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.Id
+  commentId: P:Flex.Smoothlake.FlexLib.DVKRecording.Id
+  id: Id
+  parent: Flex.Smoothlake.FlexLib.DVKRecording
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DVKRecording.Id
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.Id
+  type: Property
+  source:
+    id: Id
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 325
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint Id { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Id As UInteger
+  overload: Flex.Smoothlake.FlexLib.DVKRecording.Id*
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.Name
+  commentId: P:Flex.Smoothlake.FlexLib.DVKRecording.Name
+  id: Name
+  parent: Flex.Smoothlake.FlexLib.DVKRecording
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DVKRecording.Name
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 338
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Flex.Smoothlake.FlexLib.DVKRecording.Name*
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds
+  commentId: P:Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds
+  id: DurationMilliseconds
+  parent: Flex.Smoothlake.FlexLib.DVKRecording
+  langs:
+  - csharp
+  - vb
+  name: DurationMilliseconds
+  nameWithType: DVKRecording.DurationMilliseconds
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds
+  type: Property
+  source:
+    id: DurationMilliseconds
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 350
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint DurationMilliseconds { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property DurationMilliseconds As UInteger
+  overload: Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds*
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.#ctor(System.UInt32,System.String,System.UInt32)
+  commentId: M:Flex.Smoothlake.FlexLib.DVKRecording.#ctor(System.UInt32,System.String,System.UInt32)
+  id: '#ctor(System.UInt32,System.String,System.UInt32)'
+  parent: Flex.Smoothlake.FlexLib.DVKRecording
+  langs:
+  - csharp
+  - vb
+  name: DVKRecording(uint, string, uint)
+  nameWithType: DVKRecording.DVKRecording(uint, string, uint)
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.DVKRecording(uint, string, uint)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 361
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public DVKRecording(uint id, string name, uint durationMilliseconds)
+    parameters:
+    - id: id
+      type: System.UInt32
+    - id: name
+      type: System.String
+    - id: durationMilliseconds
+      type: System.UInt32
+    content.vb: Public Sub New(id As UInteger, name As String, durationMilliseconds As UInteger)
+  overload: Flex.Smoothlake.FlexLib.DVKRecording.#ctor*
+  nameWithType.vb: DVKRecording.New(UInteger, String, UInteger)
+  fullName.vb: Flex.Smoothlake.FlexLib.DVKRecording.New(UInteger, String, UInteger)
+  name.vb: New(UInteger, String, UInteger)
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.FORBIDDEN_NAME_CHARS
+  commentId: F:Flex.Smoothlake.FlexLib.DVKRecording.FORBIDDEN_NAME_CHARS
+  id: FORBIDDEN_NAME_CHARS
+  parent: Flex.Smoothlake.FlexLib.DVKRecording
+  langs:
+  - csharp
+  - vb
+  name: FORBIDDEN_NAME_CHARS
+  nameWithType: DVKRecording.FORBIDDEN_NAME_CHARS
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.FORBIDDEN_NAME_CHARS
+  type: Field
+  source:
+    id: FORBIDDEN_NAME_CHARS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 368
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public static readonly char[] FORBIDDEN_NAME_CHARS
+    return:
+      type: System.Char[]
+    content.vb: Public Shared ReadOnly FORBIDDEN_NAME_CHARS As Char()
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.Id*
+  commentId: Overload:Flex.Smoothlake.FlexLib.DVKRecording.Id
+  href: Flex.Smoothlake.FlexLib.DVKRecording.html#Flex_Smoothlake_FlexLib_DVKRecording_Id
+  name: Id
+  nameWithType: DVKRecording.Id
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.Id
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.Name*
+  commentId: Overload:Flex.Smoothlake.FlexLib.DVKRecording.Name
+  href: Flex.Smoothlake.FlexLib.DVKRecording.html#Flex_Smoothlake_FlexLib_DVKRecording_Name
+  name: Name
+  nameWithType: DVKRecording.Name
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds*
+  commentId: Overload:Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds
+  href: Flex.Smoothlake.FlexLib.DVKRecording.html#Flex_Smoothlake_FlexLib_DVKRecording_DurationMilliseconds
+  name: DurationMilliseconds
+  nameWithType: DVKRecording.DurationMilliseconds
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.DurationMilliseconds
+- uid: Flex.Smoothlake.FlexLib.DVKRecording.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.DVKRecording.#ctor
+  href: Flex.Smoothlake.FlexLib.DVKRecording.html#Flex_Smoothlake_FlexLib_DVKRecording__ctor_System_UInt32_System_String_System_UInt32_
+  name: DVKRecording
+  nameWithType: DVKRecording.DVKRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKRecording.DVKRecording
+  nameWithType.vb: DVKRecording.New
+  fullName.vb: Flex.Smoothlake.FlexLib.DVKRecording.New
+  name.vb: New
+- uid: System.Char[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
+  nameWithType.vb: Char()
+  fullName.vb: Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )

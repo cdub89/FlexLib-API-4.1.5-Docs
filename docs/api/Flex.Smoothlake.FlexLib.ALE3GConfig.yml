@@ -1,0 +1,740 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig
+  commentId: T:Flex.Smoothlake.FlexLib.ALE3GConfig
+  id: ALE3GConfig
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.All
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Amd
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Any
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Description
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Name
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Rate
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Sound
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout
+  - Flex.Smoothlake.FlexLib.ALE3GConfig.Wild
+  langs:
+  - csharp
+  - vb
+  name: ALE3GConfig
+  nameWithType: ALE3GConfig
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig
+  type: Class
+  source:
+    id: ALE3GConfig
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 571
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public class ALE3GConfig
+    content.vb: Public Class ALE3GConfig
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Name
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Name
+  id: Name
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ALE3GConfig.Name
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 573
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Name*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Description
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Description
+  id: Description
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ALE3GConfig.Description
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Description
+  type: Property
+  source:
+    id: Description
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 574
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Description*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Rate
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Rate
+  id: Rate
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Rate
+  nameWithType: ALE3GConfig.Rate
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Rate
+  type: Property
+  source:
+    id: Rate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 575
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Rate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Rate As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Rate*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout
+  id: Timeout
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: ALE3GConfig.Timeout
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout
+  type: Property
+  source:
+    id: Timeout
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 576
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Timeout As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk
+  id: ListenBeforeTalk
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: ListenBeforeTalk
+  nameWithType: ALE3GConfig.ListenBeforeTalk
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk
+  type: Property
+  source:
+    id: ListenBeforeTalk
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 577
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string ListenBeforeTalk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListenBeforeTalk As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries
+  id: ScanRetries
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: ScanRetries
+  nameWithType: ALE3GConfig.ScanRetries
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries
+  type: Property
+  source:
+    id: ScanRetries
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 578
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string ScanRetries { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScanRetries As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries
+  id: CallRetries
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: CallRetries
+  nameWithType: ALE3GConfig.CallRetries
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries
+  type: Property
+  source:
+    id: CallRetries
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 579
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string CallRetries { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CallRetries As String
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.All
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.All
+  id: All
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ALE3GConfig.All
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.All
+  type: Property
+  source:
+    id: All
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 580
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool All { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property All As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.All*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Any
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Any
+  id: Any
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: ALE3GConfig.Any
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Any
+  type: Property
+  source:
+    id: Any
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 581
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Any { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Any As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Any*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Wild
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Wild
+  id: Wild
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Wild
+  nameWithType: ALE3GConfig.Wild
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Wild
+  type: Property
+  source:
+    id: Wild
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 582
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Wild { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Wild As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Wild*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Amd
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Amd
+  id: Amd
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Amd
+  nameWithType: ALE3GConfig.Amd
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Amd
+  type: Property
+  source:
+    id: Amd
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 583
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Amd { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Amd As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Amd*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm
+  id: Dtm
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Dtm
+  nameWithType: ALE3GConfig.Dtm
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm
+  type: Property
+  source:
+    id: Dtm
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 584
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Dtm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Dtm As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm*
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Sound
+  commentId: P:Flex.Smoothlake.FlexLib.ALE3GConfig.Sound
+  id: Sound
+  parent: Flex.Smoothlake.FlexLib.ALE3GConfig
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: ALE3GConfig.Sound
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Sound
+  type: Property
+  source:
+    id: Sound
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE3G.cs
+    startLine: 585
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Sound { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Sound As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE3GConfig.Sound*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Name*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Name
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Name
+  name: Name
+  nameWithType: ALE3GConfig.Name
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Description*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Description
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Description
+  name: Description
+  nameWithType: ALE3GConfig.Description
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Description
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Rate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Rate
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Rate
+  name: Rate
+  nameWithType: ALE3GConfig.Rate
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Rate
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Timeout
+  name: Timeout
+  nameWithType: ALE3GConfig.Timeout
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Timeout
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_ListenBeforeTalk
+  name: ListenBeforeTalk
+  nameWithType: ALE3GConfig.ListenBeforeTalk
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.ListenBeforeTalk
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_ScanRetries
+  name: ScanRetries
+  nameWithType: ALE3GConfig.ScanRetries
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.ScanRetries
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_CallRetries
+  name: CallRetries
+  nameWithType: ALE3GConfig.CallRetries
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.CallRetries
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.All*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.All
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_All
+  name: All
+  nameWithType: ALE3GConfig.All
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.All
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Any*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Any
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Any
+  name: Any
+  nameWithType: ALE3GConfig.Any
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Any
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Wild*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Wild
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Wild
+  name: Wild
+  nameWithType: ALE3GConfig.Wild
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Wild
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Amd*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Amd
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Amd
+  name: Amd
+  nameWithType: ALE3GConfig.Amd
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Amd
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Dtm
+  name: Dtm
+  nameWithType: ALE3GConfig.Dtm
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Dtm
+- uid: Flex.Smoothlake.FlexLib.ALE3GConfig.Sound*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE3GConfig.Sound
+  href: Flex.Smoothlake.FlexLib.ALE3GConfig.html#Flex_Smoothlake_FlexLib_ALE3GConfig_Sound
+  name: Sound
+  nameWithType: ALE3GConfig.Sound
+  fullName: Flex.Smoothlake.FlexLib.ALE3GConfig.Sound

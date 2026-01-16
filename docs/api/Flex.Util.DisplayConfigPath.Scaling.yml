@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayConfigPath.Scaling
+  commentId: T:Flex.Util.DisplayConfigPath.Scaling
+  id: DisplayConfigPath.Scaling
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayConfigPath.Scaling.AspectRatioCenteredMax
+  - Flex.Util.DisplayConfigPath.Scaling.Centered
+  - Flex.Util.DisplayConfigPath.Scaling.Custom
+  - Flex.Util.DisplayConfigPath.Scaling.ForceUInt32
+  - Flex.Util.DisplayConfigPath.Scaling.Identity
+  - Flex.Util.DisplayConfigPath.Scaling.Preferred
+  - Flex.Util.DisplayConfigPath.Scaling.Stretched
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfigPath.Scaling
+  nameWithType: DisplayConfigPath.Scaling
+  fullName: Flex.Util.DisplayConfigPath.Scaling
+  type: Enum
+  source:
+    id: Scaling
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 451
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public enum DisplayConfigPath.Scaling
+    content.vb: Public Enum DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.Identity
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.Identity
+  id: Identity
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: DisplayConfigPath.Scaling.Identity
+  fullName: Flex.Util.DisplayConfigPath.Scaling.Identity
+  type: Field
+  source:
+    id: Identity
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 453
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Identity = 1
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.Centered
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.Centered
+  id: Centered
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: Centered
+  nameWithType: DisplayConfigPath.Scaling.Centered
+  fullName: Flex.Util.DisplayConfigPath.Scaling.Centered
+  type: Field
+  source:
+    id: Centered
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 454
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Centered = 2
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.Stretched
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.Stretched
+  id: Stretched
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: Stretched
+  nameWithType: DisplayConfigPath.Scaling.Stretched
+  fullName: Flex.Util.DisplayConfigPath.Scaling.Stretched
+  type: Field
+  source:
+    id: Stretched
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 455
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Stretched = 3
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.AspectRatioCenteredMax
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.AspectRatioCenteredMax
+  id: AspectRatioCenteredMax
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: AspectRatioCenteredMax
+  nameWithType: DisplayConfigPath.Scaling.AspectRatioCenteredMax
+  fullName: Flex.Util.DisplayConfigPath.Scaling.AspectRatioCenteredMax
+  type: Field
+  source:
+    id: AspectRatioCenteredMax
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 456
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: AspectRatioCenteredMax = 4
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.Custom
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.Custom
+  id: Custom
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: DisplayConfigPath.Scaling.Custom
+  fullName: Flex.Util.DisplayConfigPath.Scaling.Custom
+  type: Field
+  source:
+    id: Custom
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 457
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Custom = 5
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.Preferred
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.Preferred
+  id: Preferred
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: Preferred
+  nameWithType: DisplayConfigPath.Scaling.Preferred
+  fullName: Flex.Util.DisplayConfigPath.Scaling.Preferred
+  type: Field
+  source:
+    id: Preferred
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 458
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Preferred = 128
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+- uid: Flex.Util.DisplayConfigPath.Scaling.ForceUInt32
+  commentId: F:Flex.Util.DisplayConfigPath.Scaling.ForceUInt32
+  id: ForceUInt32
+  parent: Flex.Util.DisplayConfigPath.Scaling
+  langs:
+  - csharp
+  - vb
+  name: ForceUInt32
+  nameWithType: DisplayConfigPath.Scaling.ForceUInt32
+  fullName: Flex.Util.DisplayConfigPath.Scaling.ForceUInt32
+  type: Field
+  source:
+    id: ForceUInt32
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 459
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: ForceUInt32 = -1
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: Flex.Util.DisplayConfigPath.Scaling
+  commentId: T:Flex.Util.DisplayConfigPath.Scaling
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.Scaling
+  nameWithType: DisplayConfigPath.Scaling
+  fullName: Flex.Util.DisplayConfigPath.Scaling
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: Scaling
+    href: Flex.Util.DisplayConfigPath.Scaling.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: Scaling
+    href: Flex.Util.DisplayConfigPath.Scaling.html

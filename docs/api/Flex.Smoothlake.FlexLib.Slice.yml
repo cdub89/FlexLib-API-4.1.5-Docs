@@ -1,0 +1,4429 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Slice
+  commentId: T:Flex.Smoothlake.FlexLib.Slice
+  id: Slice
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.Slice.AGCMode
+  - Flex.Smoothlake.FlexLib.Slice.AGCOffLevel
+  - Flex.Smoothlake.FlexLib.Slice.AGCThreshold
+  - Flex.Smoothlake.FlexLib.Slice.ANFLOn
+  - Flex.Smoothlake.FlexLib.Slice.ANFL_Level
+  - Flex.Smoothlake.FlexLib.Slice.ANFLevel
+  - Flex.Smoothlake.FlexLib.Slice.ANFOn
+  - Flex.Smoothlake.FlexLib.Slice.ANFTOn
+  - Flex.Smoothlake.FlexLib.Slice.APFLevel
+  - Flex.Smoothlake.FlexLib.Slice.APFOn
+  - Flex.Smoothlake.FlexLib.Slice.Active
+  - Flex.Smoothlake.FlexLib.Slice.AudioGain
+  - Flex.Smoothlake.FlexLib.Slice.AudioPan
+  - Flex.Smoothlake.FlexLib.Slice.AutoPan
+  - Flex.Smoothlake.FlexLib.Slice.CheckReady
+  - Flex.Smoothlake.FlexLib.Slice.ClientHandle
+  - Flex.Smoothlake.FlexLib.Slice.Close
+  - Flex.Smoothlake.FlexLib.Slice.DAXChannel
+  - Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis
+  - Flex.Smoothlake.FlexLib.Slice.DIGLOffset
+  - Flex.Smoothlake.FlexLib.Slice.DIGUOffset
+  - Flex.Smoothlake.FlexLib.Slice.DemodMode
+  - Flex.Smoothlake.FlexLib.Slice.DiversityChild
+  - Flex.Smoothlake.FlexLib.Slice.DiversityIndex
+  - Flex.Smoothlake.FlexLib.Slice.DiversityOn
+  - Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner
+  - Flex.Smoothlake.FlexLib.Slice.ESCEnabled
+  - Flex.Smoothlake.FlexLib.Slice.ESCGain
+  - Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift
+  - Flex.Smoothlake.FlexLib.Slice.EqCompBypass
+  - Flex.Smoothlake.FlexLib.Slice.FMDeviation
+  - Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq
+  - Flex.Smoothlake.FlexLib.Slice.FMTX1750
+  - Flex.Smoothlake.FlexLib.Slice.FMToneValue
+  - Flex.Smoothlake.FlexLib.Slice.FilterHigh
+  - Flex.Smoothlake.FlexLib.Slice.FilterLow
+  - Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex(System.Int32)
+  - Flex.Smoothlake.FlexLib.Slice.FindMeterByName(System.String)
+  - Flex.Smoothlake.FlexLib.Slice.Freq
+  - Flex.Smoothlake.FlexLib.Slice.Index
+  - Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice
+  - Flex.Smoothlake.FlexLib.Slice.Letter
+  - Flex.Smoothlake.FlexLib.Slice.Lock
+  - Flex.Smoothlake.FlexLib.Slice.LoopA
+  - Flex.Smoothlake.FlexLib.Slice.LoopB
+  - Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts
+  - Flex.Smoothlake.FlexLib.Slice.MeterAdded
+  - Flex.Smoothlake.FlexLib.Slice.MeterRemoved
+  - Flex.Smoothlake.FlexLib.Slice.ModeList
+  - Flex.Smoothlake.FlexLib.Slice.Mute
+  - Flex.Smoothlake.FlexLib.Slice.NBLevel
+  - Flex.Smoothlake.FlexLib.Slice.NBOn
+  - Flex.Smoothlake.FlexLib.Slice.NRFLevel
+  - Flex.Smoothlake.FlexLib.Slice.NRFOn
+  - Flex.Smoothlake.FlexLib.Slice.NRLOn
+  - Flex.Smoothlake.FlexLib.Slice.NRL_Level
+  - Flex.Smoothlake.FlexLib.Slice.NRLevel
+  - Flex.Smoothlake.FlexLib.Slice.NROn
+  - Flex.Smoothlake.FlexLib.Slice.NRSLevel
+  - Flex.Smoothlake.FlexLib.Slice.NRSOn
+  - Flex.Smoothlake.FlexLib.Slice.Owner
+  - Flex.Smoothlake.FlexLib.Slice.Panadapter
+  - Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID
+  - Flex.Smoothlake.FlexLib.Slice.PlayEnabled
+  - Flex.Smoothlake.FlexLib.Slice.PlayOn
+  - Flex.Smoothlake.FlexLib.Slice.QSK
+  - Flex.Smoothlake.FlexLib.Slice.RFGain
+  - Flex.Smoothlake.FlexLib.Slice.RITFreq
+  - Flex.Smoothlake.FlexLib.Slice.RITOn
+  - Flex.Smoothlake.FlexLib.Slice.RNNOn
+  - Flex.Smoothlake.FlexLib.Slice.RTTYMark
+  - Flex.Smoothlake.FlexLib.Slice.RTTYShift
+  - Flex.Smoothlake.FlexLib.Slice.RXAnt
+  - Flex.Smoothlake.FlexLib.Slice.RXAntList
+  - Flex.Smoothlake.FlexLib.Slice.Radio
+  - Flex.Smoothlake.FlexLib.Slice.RecordOn
+  - Flex.Smoothlake.FlexLib.Slice.Remove
+  - Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection
+  - Flex.Smoothlake.FlexLib.Slice.SMeterDataReady
+  - Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand(System.Nullable{System.Boolean})
+  - Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand(System.String)
+  - Flex.Smoothlake.FlexLib.Slice.SquelchLevel
+  - Flex.Smoothlake.FlexLib.Slice.SquelchOn
+  - Flex.Smoothlake.FlexLib.Slice.StatusUpdate(System.String)
+  - Flex.Smoothlake.FlexLib.Slice.TXAnt
+  - Flex.Smoothlake.FlexLib.Slice.TXAntList
+  - Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq
+  - Flex.Smoothlake.FlexLib.Slice.ToString
+  - Flex.Smoothlake.FlexLib.Slice.ToneMode
+  - Flex.Smoothlake.FlexLib.Slice.TuneStep
+  - Flex.Smoothlake.FlexLib.Slice.TuneStepList
+  - Flex.Smoothlake.FlexLib.Slice.UpdateFilter(System.Int32,System.Int32)
+  - Flex.Smoothlake.FlexLib.Slice.WNBLevel
+  - Flex.Smoothlake.FlexLib.Slice.WNBOn
+  - Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceived
+  - Flex.Smoothlake.FlexLib.Slice.Wide
+  - Flex.Smoothlake.FlexLib.Slice.XITFreq
+  - Flex.Smoothlake.FlexLib.Slice.XITOn
+  langs:
+  - csharp
+  - vb
+  name: Slice
+  nameWithType: Slice
+  fullName: Flex.Smoothlake.FlexLib.Slice
+  type: Class
+  source:
+    id: Slice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 86
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Represents a receiver/transmitter channel (slice) in a FlexRadio device.
+  remarks: >-
+    <p>
+
+    A slice is an independent receiver or transmitter channel that can be tuned
+
+    to any frequency within the radio's capabilities. Modern FlexRadio devices
+
+    support multiple simultaneous slices (typically up to 8), allowing monitoring
+
+    of different frequencies or modes at the same time.
+
+    </p>
+
+    <p>
+
+    Each slice has its own:
+
+    <ul><li>Frequency and mode settings</li><li>Filter configuration</li><li>Audio gain and routing</li><li>AGC settings</li><li>Antenna selection</li><li>Processing features (NR, NB, ANF, APF)</li></ul>
+
+    </p>
+
+    <p>
+
+    Slices are created by calling Radio.RequestSliceFromRadio and
+
+    removed with <xref href="Flex.Smoothlake.FlexLib.Radio.RemoveSlice(Flex.Smoothlake.FlexLib.Slice)" data-throw-if-not-resolved="false"></xref>. This class implements 
+
+    <xref href="System.ComponentModel.INotifyPropertyChanged" data-throw-if-not-resolved="false"></xref> for data binding support.
+
+    </p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Create and configure a slice
+
+    radio.RequestSliceFromRadio();
+
+    await Task.Delay(500);
+
+
+    var slice = radio.SliceList.FirstOrDefault();
+
+    if (slice != null)
+
+    {
+        slice.Freq = 14.200;           // Tune to 14.200 MHz
+        slice.Mode = "USB";            // Set to Upper Sideband
+        slice.FilterLow = 200;         // Set filter low cut
+        slice.FilterHigh = 2800;       // Set filter high cut
+        slice.Active = true;           // Activate slice
+    }</code></pre>
+  syntax:
+    content: 'public class Slice : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class Slice Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Flex.Smoothlake.FlexLib.Slice.Radio
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Radio
+  id: Radio
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Radio
+  nameWithType: Slice.Radio
+  fullName: Flex.Smoothlake.FlexLib.Slice.Radio
+  type: Property
+  source:
+    id: Radio
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 89
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Radio Radio { get; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio
+    content.vb: Public ReadOnly Property Radio As Radio
+  overload: Flex.Smoothlake.FlexLib.Slice.Radio*
+- uid: Flex.Smoothlake.FlexLib.Slice.Index
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Index
+  id: Index
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Slice.Index
+  fullName: Flex.Smoothlake.FlexLib.Slice.Index
+  type: Property
+  source:
+    id: Index
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 106
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets the slice index of the Slice.
+  example: []
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Index As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.Index*
+- uid: Flex.Smoothlake.FlexLib.Slice.Letter
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Letter
+  id: Letter
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Letter
+  nameWithType: Slice.Letter
+  fullName: Flex.Smoothlake.FlexLib.Slice.Letter
+  type: Property
+  source:
+    id: Letter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 113
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Letter { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Letter As String
+  overload: Flex.Smoothlake.FlexLib.Slice.Letter*
+- uid: Flex.Smoothlake.FlexLib.Slice.ClientHandle
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ClientHandle
+  id: ClientHandle
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ClientHandle
+  nameWithType: Slice.ClientHandle
+  fullName: Flex.Smoothlake.FlexLib.Slice.ClientHandle
+  type: Property
+  source:
+    id: ClientHandle
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 120
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint ClientHandle { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ClientHandle As UInteger
+  overload: Flex.Smoothlake.FlexLib.Slice.ClientHandle*
+- uid: Flex.Smoothlake.FlexLib.Slice.ModeList
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ModeList
+  id: ModeList
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ModeList
+  nameWithType: Slice.ModeList
+  fullName: Flex.Smoothlake.FlexLib.Slice.ModeList
+  type: Property
+  source:
+    id: ModeList
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 130
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: A list of available modes for this slice
+  example: []
+  syntax:
+    content: public List<string> ModeList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property ModeList As List(Of String)
+  overload: Flex.Smoothlake.FlexLib.Slice.ModeList*
+- uid: Flex.Smoothlake.FlexLib.Slice.Active
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Active
+  id: Active
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: Slice.Active
+  fullName: Flex.Smoothlake.FlexLib.Slice.Active
+  type: Property
+  source:
+    id: Active
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 155
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the whether the Slice is the Active Slice.
+  example: []
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.Active*
+- uid: Flex.Smoothlake.FlexLib.Slice.Panadapter
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Panadapter
+  id: Panadapter
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Panadapter
+  nameWithType: Slice.Panadapter
+  fullName: Flex.Smoothlake.FlexLib.Slice.Panadapter
+  type: Property
+  source:
+    id: Panadapter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 182
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets the Panadapter object that the Slice is associated with.
+  example: []
+  syntax:
+    content: public Panadapter Panadapter { get; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Panadapter
+    content.vb: Public Property Panadapter As Panadapter
+  overload: Flex.Smoothlake.FlexLib.Slice.Panadapter*
+- uid: Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID
+  id: PanadapterStreamID
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: PanadapterStreamID
+  nameWithType: Slice.PanadapterStreamID
+  fullName: Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID
+  type: Property
+  source:
+    id: PanadapterStreamID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 193
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets the Stream ID of the Panadapter object that the Slice 
+
+    is associated with.
+  example: []
+  syntax:
+    content: public uint PanadapterStreamID { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PanadapterStreamID As UInteger
+  overload: Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID*
+- uid: Flex.Smoothlake.FlexLib.Slice.Owner
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Owner
+  id: Owner
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: Slice.Owner
+  fullName: Flex.Smoothlake.FlexLib.Slice.Owner
+  type: Property
+  source:
+    id: Owner
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 203
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Owner { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Owner As String
+  overload: Flex.Smoothlake.FlexLib.Slice.Owner*
+- uid: Flex.Smoothlake.FlexLib.Slice.RXAntList
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RXAntList
+  id: RXAntList
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RXAntList
+  nameWithType: Slice.RXAntList
+  fullName: Flex.Smoothlake.FlexLib.Slice.RXAntList
+  type: Property
+  source:
+    id: RXAntList
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 219
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    A list of the available RX Antenna ports on 
+
+    the radio, i.e. "ANT1", "ANT2", "RX_A", 
+
+    "RX_B", "XVTR"
+  example: []
+  syntax:
+    content: public string[] RXAntList { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property RXAntList As String()
+  overload: Flex.Smoothlake.FlexLib.Slice.RXAntList*
+- uid: Flex.Smoothlake.FlexLib.Slice.RXAnt
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RXAnt
+  id: RXAnt
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RXAnt
+  nameWithType: Slice.RXAnt
+  fullName: Flex.Smoothlake.FlexLib.Slice.RXAnt
+  type: Property
+  source:
+    id: RXAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 236
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets or sets the receive antenna for the slice as a string:  
+
+    "ANT1", "ANT2", "RX_A", "RX_B", "XVTR"
+  example: []
+  syntax:
+    content: public string RXAnt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RXAnt As String
+  overload: Flex.Smoothlake.FlexLib.Slice.RXAnt*
+- uid: Flex.Smoothlake.FlexLib.Slice.RFGain
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RFGain
+  id: RFGain
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RFGain
+  nameWithType: Slice.RFGain
+  fullName: Flex.Smoothlake.FlexLib.Slice.RFGain
+  type: Property
+  source:
+    id: RFGain
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 255
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Sets the RF gain for the SCU on which this Slice is on (-10, 0 , 10, 20, 30)
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This property is no longer used. Use the RFGain property in Panadapter.cs instead.")]
+
+      public int RFGain { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("This property is no longer used. Use the RFGain property in Panadapter.cs instead.")>
+
+      Public Property RFGain As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.RFGain*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This property is no longer used. Use the RFGain property in Panadapter.cs instead.
+- uid: Flex.Smoothlake.FlexLib.Slice.TXAntList
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.TXAntList
+  id: TXAntList
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: TXAntList
+  nameWithType: Slice.TXAntList
+  fullName: Flex.Smoothlake.FlexLib.Slice.TXAntList
+  type: Property
+  source:
+    id: TXAntList
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 276
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    A list of the available RX Antenna ports on 
+
+    the radio, i.e. "ANT1", "ANT2", "RX_A", 
+
+    "RX_B", "XVTR"
+  example: []
+  syntax:
+    content: public string[] TXAntList { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property TXAntList As String()
+  overload: Flex.Smoothlake.FlexLib.Slice.TXAntList*
+- uid: Flex.Smoothlake.FlexLib.Slice.TXAnt
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.TXAnt
+  id: TXAnt
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: TXAnt
+  nameWithType: Slice.TXAnt
+  fullName: Flex.Smoothlake.FlexLib.Slice.TXAnt
+  type: Property
+  source:
+    id: TXAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 292
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets or sets the transmit antenna for the slice as a string:
+
+    "ANT1", "ANT2", "XVTR"
+  example: []
+  syntax:
+    content: public string TXAnt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TXAnt As String
+  overload: Flex.Smoothlake.FlexLib.Slice.TXAnt*
+- uid: Flex.Smoothlake.FlexLib.Slice.Wide
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Wide
+  id: Wide
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Wide
+  nameWithType: Slice.Wide
+  fullName: Flex.Smoothlake.FlexLib.Slice.Wide
+  type: Property
+  source:
+    id: Wide
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 320
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets the 'wide' state of the radio, if applicable.  When true,
+
+    the receive preselector filters in the radio are bypassed.
+  example: []
+  syntax:
+    content: public bool Wide { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Wide As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.Wide*
+- uid: Flex.Smoothlake.FlexLib.Slice.DemodMode
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DemodMode
+  id: DemodMode
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DemodMode
+  nameWithType: Slice.DemodMode
+  fullName: Flex.Smoothlake.FlexLib.Slice.DemodMode
+  type: Property
+  source:
+    id: DemodMode
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 377
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string DemodMode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DemodMode As String
+  overload: Flex.Smoothlake.FlexLib.Slice.DemodMode*
+- uid: Flex.Smoothlake.FlexLib.Slice.Lock
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Lock
+  id: Lock
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Lock
+  nameWithType: Slice.Lock
+  fullName: Flex.Smoothlake.FlexLib.Slice.Lock
+  type: Property
+  source:
+    id: Lock
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 396
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets or sets whether or not the Slice is locked.  When locked, 
+
+    the Slice frequency cannot be changed.
+  example: []
+  syntax:
+    content: public bool Lock { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Lock As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.Lock*
+- uid: Flex.Smoothlake.FlexLib.Slice.AutoPan
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.AutoPan
+  id: AutoPan
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: AutoPan
+  nameWithType: Slice.AutoPan
+  fullName: Flex.Smoothlake.FlexLib.Slice.AutoPan
+  type: Property
+  source:
+    id: AutoPan
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 413
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool AutoPan { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoPan As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.AutoPan*
+- uid: Flex.Smoothlake.FlexLib.Slice.DAXChannel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DAXChannel
+  id: DAXChannel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DAXChannel
+  nameWithType: Slice.DAXChannel
+  fullName: Flex.Smoothlake.FlexLib.Slice.DAXChannel
+  type: Property
+  source:
+    id: DAXChannel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 430
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the DAX Channel for the Slice, from 0 to 8
+  example: []
+  syntax:
+    content: public int DAXChannel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DAXChannel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.DAXChannel*
+- uid: Flex.Smoothlake.FlexLib.Slice.Freq
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Freq
+  id: Freq
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Freq
+  nameWithType: Slice.Freq
+  fullName: Flex.Smoothlake.FlexLib.Slice.Freq
+  type: Property
+  source:
+    id: Freq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 485
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the frequency of the slice in megahertz (MHz).
+  remarks: >-
+    <p>
+
+    Setting this property sends a command to the radio to tune the slice to the
+
+    specified frequency. The actual tuned frequency may differ slightly due to
+
+    radio hardware constraints.
+
+    </p>
+
+    <p>
+
+    If the slice is locked (<xref href="Flex.Smoothlake.FlexLib.Slice.Lock" data-throw-if-not-resolved="false"></xref> is <code>true</code>), setting this
+
+    property has no effect.
+
+    </p>
+
+    <p>
+
+    This property raises <xref href="System.ComponentModel.INotifyPropertyChanged.PropertyChanged" data-throw-if-not-resolved="false"></xref>
+
+    when the frequency changes.
+
+    </p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Tune to 14.200 MHz (20m band)
+
+    slice.Freq = 14.200;
+
+
+    // Tune to 146.52 MHz (2m simplex)
+
+    slice.Freq = 146.52;
+
+
+    // Monitor frequency changes
+
+    slice.PropertyChanged += (s, e) =&gt;
+
+    {
+        if (e.PropertyName == "Freq")
+            Console.WriteLine($"Now tuned to: {slice.Freq:F6} MHz");
+    };</code></pre>
+  syntax:
+    content: public double Freq { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: >-
+        The frequency in MHz. Valid range depends on radio model and configuration,
+
+        typically from 0.03 MHz to 77 MHz (direct sampling) and 122.88 MHz to 245.76 MHz.
+    content.vb: Public Property Freq As Double
+  overload: Flex.Smoothlake.FlexLib.Slice.Freq*
+  seealso:
+  - linkId: Flex.Smoothlake.FlexLib.Slice.Lock
+    commentId: P:Flex.Smoothlake.FlexLib.Slice.Lock
+- uid: Flex.Smoothlake.FlexLib.Slice.RTTYMark
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RTTYMark
+  id: RTTYMark
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RTTYMark
+  nameWithType: Slice.RTTYMark
+  fullName: Flex.Smoothlake.FlexLib.Slice.RTTYMark
+  type: Property
+  source:
+    id: RTTYMark
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 558
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Slice RTTY Mark offset
+  example: []
+  syntax:
+    content: public int RTTYMark { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RTTYMark As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.RTTYMark*
+- uid: Flex.Smoothlake.FlexLib.Slice.RTTYShift
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RTTYShift
+  id: RTTYShift
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RTTYShift
+  nameWithType: Slice.RTTYShift
+  fullName: Flex.Smoothlake.FlexLib.Slice.RTTYShift
+  type: Property
+  source:
+    id: RTTYShift
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 576
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Slice RTTY Shift offset
+  example: []
+  syntax:
+    content: public int RTTYShift { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RTTYShift As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.RTTYShift*
+- uid: Flex.Smoothlake.FlexLib.Slice.DIGLOffset
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DIGLOffset
+  id: DIGLOffset
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DIGLOffset
+  nameWithType: Slice.DIGLOffset
+  fullName: Flex.Smoothlake.FlexLib.Slice.DIGLOffset
+  type: Property
+  source:
+    id: DIGLOffset
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 594
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Slice DIGL offset
+  example: []
+  syntax:
+    content: public int DIGLOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DIGLOffset As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.DIGLOffset*
+- uid: Flex.Smoothlake.FlexLib.Slice.DIGUOffset
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DIGUOffset
+  id: DIGUOffset
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DIGUOffset
+  nameWithType: Slice.DIGUOffset
+  fullName: Flex.Smoothlake.FlexLib.Slice.DIGUOffset
+  type: Property
+  source:
+    id: DIGUOffset
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 612
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Slice DIGL offset
+  example: []
+  syntax:
+    content: public int DIGUOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DIGUOffset As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.DIGUOffset*
+- uid: Flex.Smoothlake.FlexLib.Slice.FilterLow
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.FilterLow
+  id: FilterLow
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FilterLow
+  nameWithType: Slice.FilterLow
+  fullName: Flex.Smoothlake.FlexLib.Slice.FilterLow
+  type: Property
+  source:
+    id: FilterLow
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 630
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Slice receive filter low cut in Hz
+  example: []
+  syntax:
+    content: public int FilterLow { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FilterLow As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.FilterLow*
+- uid: Flex.Smoothlake.FlexLib.Slice.FilterHigh
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.FilterHigh
+  id: FilterHigh
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FilterHigh
+  nameWithType: Slice.FilterHigh
+  fullName: Flex.Smoothlake.FlexLib.Slice.FilterHigh
+  type: Property
+  source:
+    id: FilterHigh
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 696
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Slice receive filter high cut in Hz
+  example: []
+  syntax:
+    content: public int FilterHigh { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FilterHigh As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.FilterHigh*
+- uid: Flex.Smoothlake.FlexLib.Slice.UpdateFilter(System.Int32,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.UpdateFilter(System.Int32,System.Int32)
+  id: UpdateFilter(System.Int32,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: UpdateFilter(int, int)
+  nameWithType: Slice.UpdateFilter(int, int)
+  fullName: Flex.Smoothlake.FlexLib.Slice.UpdateFilter(int, int)
+  type: Method
+  source:
+    id: UpdateFilter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 763
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Updates the Slice receive filter bandwidth
+  example: []
+  syntax:
+    content: public void UpdateFilter(int low, int high)
+    parameters:
+    - id: low
+      type: System.Int32
+      description: The filter low cut frequency in Hz
+    - id: high
+      type: System.Int32
+      description: The filter high cut frequecny in Hz
+    content.vb: Public Sub UpdateFilter(low As Integer, high As Integer)
+  overload: Flex.Smoothlake.FlexLib.Slice.UpdateFilter*
+  nameWithType.vb: Slice.UpdateFilter(Integer, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.Slice.UpdateFilter(Integer, Integer)
+  name.vb: UpdateFilter(Integer, Integer)
+- uid: Flex.Smoothlake.FlexLib.Slice.AudioPan
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.AudioPan
+  id: AudioPan
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: AudioPan
+  nameWithType: Slice.AudioPan
+  fullName: Flex.Smoothlake.FlexLib.Slice.AudioPan
+  type: Property
+  source:
+    id: AudioPan
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 831
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets or sets the left-right pan for the Slice audio from 0 to 100.  
+
+    A value of 50 pans evenly between left and right.
+  example: []
+  syntax:
+    content: public int AudioPan { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AudioPan As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.AudioPan*
+- uid: Flex.Smoothlake.FlexLib.Slice.AudioGain
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.AudioGain
+  id: AudioGain
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: AudioGain
+  nameWithType: Slice.AudioGain
+  fullName: Flex.Smoothlake.FlexLib.Slice.AudioGain
+  type: Property
+  source:
+    id: AudioGain
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 858
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Sets the Slice audio level from 0 to 100.
+  example: []
+  syntax:
+    content: public int AudioGain { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AudioGain As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.AudioGain*
+- uid: Flex.Smoothlake.FlexLib.Slice.Mute
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Mute
+  id: Mute
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Mute
+  nameWithType: Slice.Mute
+  fullName: Flex.Smoothlake.FlexLib.Slice.Mute
+  type: Property
+  source:
+    id: Mute
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 887
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets or sets the mute state of the Slice.  When true, the
+
+    Slice audio is muted.
+  example: []
+  syntax:
+    content: public bool Mute { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Mute As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.Mute*
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ANFOn
+  id: ANFOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ANFOn
+  nameWithType: Slice.ANFOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFOn
+  type: Property
+  source:
+    id: ANFOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 905
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the auto-notch filter (ANF) for the Slice.
+  example: []
+  syntax:
+    content: public bool ANFOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ANFOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.ANFOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.APFOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.APFOn
+  id: APFOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: APFOn
+  nameWithType: Slice.APFOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.APFOn
+  type: Property
+  source:
+    id: APFOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 923
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the auto-peaking filter (APF) for the Slice.
+  example: []
+  syntax:
+    content: public bool APFOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property APFOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.APFOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ANFLevel
+  id: ANFLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ANFLevel
+  nameWithType: Slice.ANFLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFLevel
+  type: Property
+  source:
+    id: ANFLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 941
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the auto-notch filter (ANF) level from 0 to 100.
+  example: []
+  syntax:
+    content: public int ANFLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ANFLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.ANFLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.APFLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.APFLevel
+  id: APFLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: APFLevel
+  nameWithType: Slice.APFLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.APFLevel
+  type: Property
+  source:
+    id: APFLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 969
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the auto-peaking filter (APF) level from 0 to 100.
+  example: []
+  syntax:
+    content: public int APFLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property APFLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.APFLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversityOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DiversityOn
+  id: DiversityOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DiversityOn
+  nameWithType: Slice.DiversityOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversityOn
+  type: Property
+  source:
+    id: DiversityOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 995
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Enables or disables the simple Diversity reception for the Slice.
+
+    Only available for the FLEX-6700 and FLEX-6700R.
+  example: []
+  syntax:
+    content: public bool DiversityOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DiversityOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.DiversityOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversityChild
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DiversityChild
+  id: DiversityChild
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DiversityChild
+  nameWithType: Slice.DiversityChild
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversityChild
+  type: Property
+  source:
+    id: DiversityChild
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1021
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Represents if this slice is a diversity child. Only available for 2-SCU radios
+  example: []
+  syntax:
+    content: public bool DiversityChild { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DiversityChild As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.DiversityChild*
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversityIndex
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DiversityIndex
+  id: DiversityIndex
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DiversityIndex
+  nameWithType: Slice.DiversityIndex
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversityIndex
+  type: Property
+  source:
+    id: DiversityIndex
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1043
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The slice index of the paired diversity slice.
+  example: []
+  syntax:
+    content: public int DiversityIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DiversityIndex As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.DiversityIndex*
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner
+  id: DiversitySlicePartner
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DiversitySlicePartner
+  nameWithType: Slice.DiversitySlicePartner
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner
+  type: Property
+  source:
+    id: DiversitySlicePartner
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1073
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The diversity Slice is associated with this Slice, if
+
+    this Slice is a diversity Slice parent or child.
+
+    If this Slice is a diversity parent, DiversitySlicePartner
+
+    will be the diversity child Slice and vice versa.
+  example: []
+  syntax:
+    content: public Slice DiversitySlicePartner { get; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Slice
+    content.vb: Public Property DiversitySlicePartner As Slice
+  overload: Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner*
+- uid: Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand(System.Nullable{System.Boolean})
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand(System.Nullable{System.Boolean})
+  id: SendCWAutotuneCommand(System.Nullable{System.Boolean})
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: SendCWAutotuneCommand(bool?)
+  nameWithType: Slice.SendCWAutotuneCommand(bool?)
+  fullName: Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand(bool?)
+  type: Method
+  source:
+    id: SendCWAutotuneCommand
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1085
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendCWAutotuneCommand(bool? isIntermittent)
+    parameters:
+    - id: isIntermittent
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Sub SendCWAutotuneCommand(isIntermittent As Boolean?)
+  overload: Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand*
+  nameWithType.vb: Slice.SendCWAutotuneCommand(Boolean?)
+  fullName.vb: Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand(Boolean?)
+  name.vb: SendCWAutotuneCommand(Boolean?)
+- uid: Flex.Smoothlake.FlexLib.Slice.WNBOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.WNBOn
+  id: WNBOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: WNBOn
+  nameWithType: Slice.WNBOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.WNBOn
+  type: Property
+  source:
+    id: WNBOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1100
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the Wideband Noise Blanker (WNB) for the Slice.
+  example: []
+  syntax:
+    content: public bool WNBOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WNBOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.WNBOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.NBOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NBOn
+  id: NBOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NBOn
+  nameWithType: Slice.NBOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NBOn
+  type: Property
+  source:
+    id: NBOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1118
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the Noise Blanker (NB) for the Slice.
+  example: []
+  syntax:
+    content: public bool NBOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NBOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.NBOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.WNBLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.WNBLevel
+  id: WNBLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: WNBLevel
+  nameWithType: Slice.WNBLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.WNBLevel
+  type: Property
+  source:
+    id: WNBLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1136
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Wideband Noise Blanker (WNB) level from 0 to 100.
+  example: []
+  syntax:
+    content: public int WNBLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WNBLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.WNBLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.NBLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NBLevel
+  id: NBLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NBLevel
+  nameWithType: Slice.NBLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NBLevel
+  type: Property
+  source:
+    id: NBLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1163
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Noise Blanker (NB) level from 0 to 100.
+  example: []
+  syntax:
+    content: public int NBLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NBLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.NBLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.NROn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NROn
+  id: NROn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NROn
+  nameWithType: Slice.NROn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NROn
+  type: Property
+  source:
+    id: NROn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1190
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the Noise Reduction (NR) for the Slice.
+  example: []
+  syntax:
+    content: public bool NROn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NROn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.NROn*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRLevel
+  id: NRLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRLevel
+  nameWithType: Slice.NRLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRLevel
+  type: Property
+  source:
+    id: NRLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1208
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Noise Reduction (NR) level from 0 to 100 for the Slice.
+  example: []
+  syntax:
+    content: public int NRLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NRLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.NRLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRLOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRLOn
+  id: NRLOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRLOn
+  nameWithType: Slice.NRLOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRLOn
+  type: Property
+  source:
+    id: NRLOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1233
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the lms legacy noise reduction (NRL) for the slice.
+  example: []
+  syntax:
+    content: public bool NRLOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NRLOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.NRLOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRL_Level
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRL_Level
+  id: NRL_Level
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRL_Level
+  nameWithType: Slice.NRL_Level
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRL_Level
+  type: Property
+  source:
+    id: NRL_Level
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1250
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the lms legacy Noise Reduction (NRL) level from 0 to 100 for the slice.
+  example: []
+  syntax:
+    content: public int NRL_Level { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NRL_Level As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.NRL_Level*
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFLOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ANFLOn
+  id: ANFLOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ANFLOn
+  nameWithType: Slice.ANFLOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFLOn
+  type: Property
+  source:
+    id: ANFLOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1277
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the lms legacy auto-notch filter (ANFL) for the slice.
+  example: []
+  syntax:
+    content: public bool ANFLOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ANFLOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.ANFLOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFL_Level
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ANFL_Level
+  id: ANFL_Level
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ANFL_Level
+  nameWithType: Slice.ANFL_Level
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFL_Level
+  type: Property
+  source:
+    id: ANFL_Level
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1294
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the lms legacy auto-notch filter (ANFL) level from 0 to 100 for the slice.
+  example: []
+  syntax:
+    content: public int ANFL_Level { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ANFL_Level As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.ANFL_Level*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRSOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRSOn
+  id: NRSOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRSOn
+  nameWithType: Slice.NRSOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRSOn
+  type: Property
+  source:
+    id: NRSOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1321
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables spectral subtraction noise reduction (NRS) for the slice.
+  example: []
+  syntax:
+    content: public bool NRSOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NRSOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.NRSOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRSLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRSLevel
+  id: NRSLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRSLevel
+  nameWithType: Slice.NRSLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRSLevel
+  type: Property
+  source:
+    id: NRSLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1338
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets spectral subtraction noise reduction (NRS) level from 0 to 100 of the slice.
+  example: []
+  syntax:
+    content: public int NRSLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NRSLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.NRSLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.RNNOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RNNOn
+  id: RNNOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RNNOn
+  nameWithType: Slice.RNNOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.RNNOn
+  type: Property
+  source:
+    id: RNNOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1366
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables AI noise reduction (RNN) for the slice.
+  example: []
+  syntax:
+    content: public bool RNNOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RNNOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.RNNOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFTOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ANFTOn
+  id: ANFTOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ANFTOn
+  nameWithType: Slice.ANFTOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFTOn
+  type: Property
+  source:
+    id: ANFTOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1383
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables FFT-based automatic notch filter (ANFT) for the slice.
+  example: []
+  syntax:
+    content: public bool ANFTOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ANFTOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.ANFTOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRFOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRFOn
+  id: NRFOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRFOn
+  nameWithType: Slice.NRFOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRFOn
+  type: Property
+  source:
+    id: NRFOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1400
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables Noise Reduction w/ Filter (NRF, better NR) for the slice.
+  example: []
+  syntax:
+    content: public bool NRFOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NRFOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.NRFOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.NRFLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.NRFLevel
+  id: NRFLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: NRFLevel
+  nameWithType: Slice.NRFLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRFLevel
+  type: Property
+  source:
+    id: NRFLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1417
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets Noise Reduction w/ filter (NRF) level from 0 to 100 for the slice.
+  example: []
+  syntax:
+    content: public int NRFLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NRFLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.NRFLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.AGCMode
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.AGCMode
+  id: AGCMode
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: AGCMode
+  nameWithType: Slice.AGCMode
+  fullName: Flex.Smoothlake.FlexLib.Slice.AGCMode
+  type: Property
+  source:
+    id: AGCMode
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1473
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the current AGC mode for the Slice.
+  example: []
+  syntax:
+    content: public AGCMode AGCMode { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.AGCMode
+    content.vb: Public Property AGCMode As AGCMode
+  overload: Flex.Smoothlake.FlexLib.Slice.AGCMode*
+- uid: Flex.Smoothlake.FlexLib.Slice.AGCThreshold
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.AGCThreshold
+  id: AGCThreshold
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: AGCThreshold
+  nameWithType: Slice.AGCThreshold
+  fullName: Flex.Smoothlake.FlexLib.Slice.AGCThreshold
+  type: Property
+  source:
+    id: AGCThreshold
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1488
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int AGCThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AGCThreshold As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.AGCThreshold*
+- uid: Flex.Smoothlake.FlexLib.Slice.AGCOffLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.AGCOffLevel
+  id: AGCOffLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: AGCOffLevel
+  nameWithType: Slice.AGCOffLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.AGCOffLevel
+  type: Property
+  source:
+    id: AGCOffLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1510
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int AGCOffLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AGCOffLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.AGCOffLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice
+  id: IsTransmitSlice
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsTransmitSlice
+  nameWithType: Slice.IsTransmitSlice
+  fullName: Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice
+  type: Property
+  source:
+    id: IsTransmitSlice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1531
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsTransmitSlice { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTransmitSlice As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice*
+- uid: Flex.Smoothlake.FlexLib.Slice.EqCompBypass
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.EqCompBypass
+  id: EqCompBypass
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: EqCompBypass
+  nameWithType: Slice.EqCompBypass
+  fullName: Flex.Smoothlake.FlexLib.Slice.EqCompBypass
+  type: Property
+  source:
+    id: EqCompBypass
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1559
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool EqCompBypass { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EqCompBypass As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.EqCompBypass*
+- uid: Flex.Smoothlake.FlexLib.Slice.LoopA
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.LoopA
+  id: LoopA
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: LoopA
+  nameWithType: Slice.LoopA
+  fullName: Flex.Smoothlake.FlexLib.Slice.LoopA
+  type: Property
+  source:
+    id: LoopA
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1573
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool LoopA { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LoopA As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.LoopA*
+- uid: Flex.Smoothlake.FlexLib.Slice.LoopB
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.LoopB
+  id: LoopB
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: LoopB
+  nameWithType: Slice.LoopB
+  fullName: Flex.Smoothlake.FlexLib.Slice.LoopB
+  type: Property
+  source:
+    id: LoopB
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1588
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool LoopB { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LoopB As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.LoopB*
+- uid: Flex.Smoothlake.FlexLib.Slice.QSK
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.QSK
+  id: QSK
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: QSK
+  nameWithType: Slice.QSK
+  fullName: Flex.Smoothlake.FlexLib.Slice.QSK
+  type: Property
+  source:
+    id: QSK
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1603
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool QSK { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property QSK As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.QSK*
+- uid: Flex.Smoothlake.FlexLib.Slice.RITOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RITOn
+  id: RITOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RITOn
+  nameWithType: Slice.RITOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.RITOn
+  type: Property
+  source:
+    id: RITOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1609
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool RITOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RITOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.RITOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.RITFreq
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RITFreq
+  id: RITFreq
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RITFreq
+  nameWithType: Slice.RITFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.RITFreq
+  type: Property
+  source:
+    id: RITFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1624
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int RITFreq { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RITFreq As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.RITFreq*
+- uid: Flex.Smoothlake.FlexLib.Slice.XITOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.XITOn
+  id: XITOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: XITOn
+  nameWithType: Slice.XITOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.XITOn
+  type: Property
+  source:
+    id: XITOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1646
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool XITOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property XITOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.XITOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.XITFreq
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.XITFreq
+  id: XITFreq
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: XITFreq
+  nameWithType: Slice.XITFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.XITFreq
+  type: Property
+  source:
+    id: XITFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1661
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int XITFreq { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property XITFreq As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.XITFreq*
+- uid: Flex.Smoothlake.FlexLib.Slice.TuneStep
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.TuneStep
+  id: TuneStep
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: TuneStep
+  nameWithType: Slice.TuneStep
+  fullName: Flex.Smoothlake.FlexLib.Slice.TuneStep
+  type: Property
+  source:
+    id: TuneStep
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1683
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int TuneStep { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TuneStep As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.TuneStep*
+- uid: Flex.Smoothlake.FlexLib.Slice.TuneStepList
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.TuneStepList
+  id: TuneStepList
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: TuneStepList
+  nameWithType: Slice.TuneStepList
+  fullName: Flex.Smoothlake.FlexLib.Slice.TuneStepList
+  type: Property
+  source:
+    id: TuneStepList
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1706
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int[] TuneStepList { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property TuneStepList As Integer()
+  overload: Flex.Smoothlake.FlexLib.Slice.TuneStepList*
+- uid: Flex.Smoothlake.FlexLib.Slice.RecordOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RecordOn
+  id: RecordOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RecordOn
+  nameWithType: Slice.RecordOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.RecordOn
+  type: Property
+  source:
+    id: RecordOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1734
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables audio recording for the Slice.
+  example: []
+  syntax:
+    content: public bool RecordOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RecordOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.RecordOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.PlayOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.PlayOn
+  id: PlayOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: PlayOn
+  nameWithType: Slice.PlayOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.PlayOn
+  type: Property
+  source:
+    id: PlayOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1752
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables audio recording playback for the Slice.
+  example: []
+  syntax:
+    content: public bool PlayOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PlayOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.PlayOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.PlayEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.PlayEnabled
+  id: PlayEnabled
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: PlayEnabled
+  nameWithType: Slice.PlayEnabled
+  fullName: Flex.Smoothlake.FlexLib.Slice.PlayEnabled
+  type: Property
+  source:
+    id: PlayEnabled
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1770
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the play button for the Slice
+  example: []
+  syntax:
+    content: public bool PlayEnabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PlayEnabled As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.PlayEnabled*
+- uid: Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts
+  id: MaxInternalPaPowerWatts
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: MaxInternalPaPowerWatts
+  nameWithType: Slice.MaxInternalPaPowerWatts
+  fullName: Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts
+  type: Property
+  source:
+    id: MaxInternalPaPowerWatts
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1776
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int MaxInternalPaPowerWatts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxInternalPaPowerWatts As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts*
+- uid: Flex.Smoothlake.FlexLib.Slice.ToneMode
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ToneMode
+  id: ToneMode
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ToneMode
+  nameWithType: Slice.ToneMode
+  fullName: Flex.Smoothlake.FlexLib.Slice.ToneMode
+  type: Property
+  source:
+    id: ToneMode
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1838
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public FMToneMode ToneMode { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.FMToneMode
+    content.vb: Public Property ToneMode As FMToneMode
+  overload: Flex.Smoothlake.FlexLib.Slice.ToneMode*
+- uid: Flex.Smoothlake.FlexLib.Slice.FMToneValue
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.FMToneValue
+  id: FMToneValue
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FMToneValue
+  nameWithType: Slice.FMToneValue
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMToneValue
+  type: Property
+  source:
+    id: FMToneValue
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1856
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Used to set the value of the FM Tone. In most cases this is the repeater tone.S
+  example: []
+  syntax:
+    content: public string FMToneValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FMToneValue As String
+  overload: Flex.Smoothlake.FlexLib.Slice.FMToneValue*
+- uid: Flex.Smoothlake.FlexLib.Slice.FMDeviation
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.FMDeviation
+  id: FMDeviation
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FMDeviation
+  nameWithType: Slice.FMDeviation
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMDeviation
+  type: Property
+  source:
+    id: FMDeviation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1874
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Controls the FM deviation for a given slice. If the slice is also the transmitter it updates the transmit FM deviation as well.
+  example: []
+  syntax:
+    content: public int FMDeviation { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FMDeviation As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.FMDeviation*
+- uid: Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis
+  id: DFMPreDeEmphasis
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: DFMPreDeEmphasis
+  nameWithType: Slice.DFMPreDeEmphasis
+  fullName: Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis
+  type: Property
+  source:
+    id: DFMPreDeEmphasis
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1892
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets whether de-emphasis is enabled on RX and if the slice is the transmitter then it also controls pre-emphasis.
+  example: []
+  syntax:
+    content: public bool DFMPreDeEmphasis { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DFMPreDeEmphasis As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis*
+- uid: Flex.Smoothlake.FlexLib.Slice.SquelchOn
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.SquelchOn
+  id: SquelchOn
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: SquelchOn
+  nameWithType: Slice.SquelchOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.SquelchOn
+  type: Property
+  source:
+    id: SquelchOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1910
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets whether the squelch algorithm is on for a given slice.
+  example: []
+  syntax:
+    content: public bool SquelchOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SquelchOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.SquelchOn*
+- uid: Flex.Smoothlake.FlexLib.Slice.SquelchLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.SquelchLevel
+  id: SquelchLevel
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: SquelchLevel
+  nameWithType: Slice.SquelchLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.SquelchLevel
+  type: Property
+  source:
+    id: SquelchLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1928
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the squelch level for modes with squelch. 0 - 100 is valid.
+  example: []
+  syntax:
+    content: public int SquelchLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SquelchLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Slice.SquelchLevel*
+- uid: Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq
+  id: TXOffsetFreq
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: TXOffsetFreq
+  nameWithType: Slice.TXOffsetFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq
+  type: Property
+  source:
+    id: TXOffsetFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1956
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the offset frequency of the transmitter.
+  example: []
+  syntax:
+    content: public double TXOffsetFreq { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TXOffsetFreq As Double
+  overload: Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq*
+- uid: Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq
+  id: FMRepeaterOffsetFreq
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FMRepeaterOffsetFreq
+  nameWithType: Slice.FMRepeaterOffsetFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq
+  type: Property
+  source:
+    id: FMRepeaterOffsetFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1976
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the OffsetFrequency used for transmitting a wide split in FM.
+  example: []
+  syntax:
+    content: public double FMRepeaterOffsetFreq { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property FMRepeaterOffsetFreq As Double
+  overload: Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq*
+- uid: Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection
+  id: RepeaterOffsetDirection
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: RepeaterOffsetDirection
+  nameWithType: Slice.RepeaterOffsetDirection
+  fullName: Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection
+  type: Property
+  source:
+    id: RepeaterOffsetDirection
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 1994
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the direction that the TX Offset will be applied in.
+  example: []
+  syntax:
+    content: public FMTXOffsetDirection RepeaterOffsetDirection { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.FMTXOffsetDirection
+    content.vb: Public Property RepeaterOffsetDirection As FMTXOffsetDirection
+  overload: Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection*
+- uid: Flex.Smoothlake.FlexLib.Slice.FMTX1750
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.FMTX1750
+  id: FMTX1750
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FMTX1750
+  nameWithType: Slice.FMTX1750
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMTX1750
+  type: Property
+  source:
+    id: FMTX1750
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2012
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets whether the FM 1750 Hz PL tone is enabled (EU only)
+  example: []
+  syntax:
+    content: public bool FMTX1750 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property FMTX1750 As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.FMTX1750*
+- uid: Flex.Smoothlake.FlexLib.Slice.Remove
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.Remove
+  id: Remove
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Remove()
+  nameWithType: Slice.Remove()
+  fullName: Flex.Smoothlake.FlexLib.Slice.Remove()
+  type: Method
+  source:
+    id: Remove
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2028
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public void Remove()
+    content.vb: >-
+      <Obsolete>
+
+      Public Sub Remove()
+  overload: Flex.Smoothlake.FlexLib.Slice.Remove*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: Flex.Smoothlake.FlexLib.Slice.Close
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.Close
+  id: Close
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: Slice.Close()
+  fullName: Flex.Smoothlake.FlexLib.Slice.Close()
+  type: Method
+  source:
+    id: Close
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2035
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close()
+  overload: Flex.Smoothlake.FlexLib.Slice.Close*
+- uid: Flex.Smoothlake.FlexLib.Slice.MeterAdded
+  commentId: E:Flex.Smoothlake.FlexLib.Slice.MeterAdded
+  id: MeterAdded
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: MeterAdded
+  nameWithType: Slice.MeterAdded
+  fullName: Flex.Smoothlake.FlexLib.Slice.MeterAdded
+  type: Event
+  source:
+    id: MeterAdded
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2083
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event Slice.MeterAddedEventHandler MeterAdded
+    return:
+      type: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+    content.vb: Public Event MeterAdded As Slice.MeterAddedEventHandler
+- uid: Flex.Smoothlake.FlexLib.Slice.MeterRemoved
+  commentId: E:Flex.Smoothlake.FlexLib.Slice.MeterRemoved
+  id: MeterRemoved
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: MeterRemoved
+  nameWithType: Slice.MeterRemoved
+  fullName: Flex.Smoothlake.FlexLib.Slice.MeterRemoved
+  type: Event
+  source:
+    id: MeterRemoved
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2091
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event Slice.MeterRemovedEventHandler MeterRemoved
+    return:
+      type: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+    content.vb: Public Event MeterRemoved As Slice.MeterRemovedEventHandler
+- uid: Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex(System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex(System.Int32)
+  id: FindMeterByIndex(System.Int32)
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FindMeterByIndex(int)
+  nameWithType: Slice.FindMeterByIndex(int)
+  fullName: Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex(int)
+  type: Method
+  source:
+    id: FindMeterByIndex
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2098
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Meter FindMeterByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Flex.Smoothlake.FlexLib.Meter
+    content.vb: Public Function FindMeterByIndex(index As Integer) As Meter
+  overload: Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex*
+  nameWithType.vb: Slice.FindMeterByIndex(Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex(Integer)
+  name.vb: FindMeterByIndex(Integer)
+- uid: Flex.Smoothlake.FlexLib.Slice.FindMeterByName(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.FindMeterByName(System.String)
+  id: FindMeterByName(System.String)
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: FindMeterByName(string)
+  nameWithType: Slice.FindMeterByName(string)
+  fullName: Flex.Smoothlake.FlexLib.Slice.FindMeterByName(string)
+  type: Method
+  source:
+    id: FindMeterByName
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2109
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Meter FindMeterByName(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: Flex.Smoothlake.FlexLib.Meter
+    content.vb: Public Function FindMeterByName(s As String) As Meter
+  overload: Flex.Smoothlake.FlexLib.Slice.FindMeterByName*
+  nameWithType.vb: Slice.FindMeterByName(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.Slice.FindMeterByName(String)
+  name.vb: FindMeterByName(String)
+- uid: Flex.Smoothlake.FlexLib.Slice.StatusUpdate(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.StatusUpdate(System.String)
+  id: StatusUpdate(System.String)
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: StatusUpdate(string)
+  nameWithType: Slice.StatusUpdate(string)
+  fullName: Flex.Smoothlake.FlexLib.Slice.StatusUpdate(string)
+  type: Method
+  source:
+    id: StatusUpdate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 2123
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void StatusUpdate(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub StatusUpdate(s As String)
+  overload: Flex.Smoothlake.FlexLib.Slice.StatusUpdate*
+  nameWithType.vb: Slice.StatusUpdate(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.Slice.StatusUpdate(String)
+  name.vb: StatusUpdate(String)
+- uid: Flex.Smoothlake.FlexLib.Slice.CheckReady
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.CheckReady
+  id: CheckReady
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: CheckReady()
+  nameWithType: Slice.CheckReady()
+  fullName: Flex.Smoothlake.FlexLib.Slice.CheckReady()
+  type: Method
+  source:
+    id: CheckReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3444
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void CheckReady()
+    content.vb: Public Sub CheckReady()
+  overload: Flex.Smoothlake.FlexLib.Slice.CheckReady*
+- uid: Flex.Smoothlake.FlexLib.Slice.SMeterDataReady
+  commentId: E:Flex.Smoothlake.FlexLib.Slice.SMeterDataReady
+  id: SMeterDataReady
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: SMeterDataReady
+  nameWithType: Slice.SMeterDataReady
+  fullName: Flex.Smoothlake.FlexLib.Slice.SMeterDataReady
+  type: Event
+  source:
+    id: SMeterDataReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3460
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event Slice.SMeterDataReadyEventHandler SMeterDataReady
+    return:
+      type: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+    content.vb: Public Event SMeterDataReady As Slice.SMeterDataReadyEventHandler
+- uid: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceived
+  commentId: E:Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceived
+  id: WaveformStatusReceived
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: WaveformStatusReceived
+  nameWithType: Slice.WaveformStatusReceived
+  fullName: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceived
+  type: Event
+  source:
+    id: WaveformStatusReceived
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3468
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event Slice.WaveformStatusReceivedEventHandler WaveformStatusReceived
+    return:
+      type: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+    content.vb: Public Event WaveformStatusReceived As Slice.WaveformStatusReceivedEventHandler
+- uid: Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand(System.String)
+  id: SendWaveformCommand(System.String)
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: SendWaveformCommand(string)
+  nameWithType: Slice.SendWaveformCommand(string)
+  fullName: Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand(string)
+  type: Method
+  source:
+    id: SendWaveformCommand
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3475
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendWaveformCommand(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub SendWaveformCommand(s As String)
+  overload: Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand*
+  nameWithType.vb: Slice.SendWaveformCommand(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand(String)
+  name.vb: SendWaveformCommand(String)
+- uid: Flex.Smoothlake.FlexLib.Slice.ToString
+  commentId: M:Flex.Smoothlake.FlexLib.Slice.ToString
+  id: ToString
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Slice.ToString()
+  fullName: Flex.Smoothlake.FlexLib.Slice.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3481
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Flex.Smoothlake.FlexLib.Slice.ToString*
+- uid: Flex.Smoothlake.FlexLib.Slice.ESCEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ESCEnabled
+  id: ESCEnabled
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ESCEnabled
+  nameWithType: Slice.ESCEnabled
+  fullName: Flex.Smoothlake.FlexLib.Slice.ESCEnabled
+  type: Property
+  source:
+    id: ESCEnabled
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3487
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool ESCEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ESCEnabled As Boolean
+  overload: Flex.Smoothlake.FlexLib.Slice.ESCEnabled*
+- uid: Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift
+  id: ESCPhaseShift
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ESCPhaseShift
+  nameWithType: Slice.ESCPhaseShift
+  fullName: Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift
+  type: Property
+  source:
+    id: ESCPhaseShift
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3507
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double ESCPhaseShift { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ESCPhaseShift As Double
+  overload: Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift*
+- uid: Flex.Smoothlake.FlexLib.Slice.ESCGain
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.ESCGain
+  id: ESCGain
+  parent: Flex.Smoothlake.FlexLib.Slice
+  langs:
+  - csharp
+  - vb
+  name: ESCGain
+  nameWithType: Slice.ESCGain
+  fullName: Flex.Smoothlake.FlexLib.Slice.ESCGain
+  type: Property
+  source:
+    id: ESCGain
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Slice.cs
+    startLine: 3521
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double ESCGain { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ESCGain As Double
+  overload: Flex.Smoothlake.FlexLib.Slice.ESCGain*
+references:
+- uid: Flex.Smoothlake.FlexLib.Radio.RemoveSlice(Flex.Smoothlake.FlexLib.Slice)
+  commentId: M:Flex.Smoothlake.FlexLib.Radio.RemoveSlice(Flex.Smoothlake.FlexLib.Slice)
+  href: Flex.Smoothlake.FlexLib.Slice.html
+  name: RemoveSlice(Slice)
+  nameWithType: Radio.RemoveSlice(Slice)
+  fullName: Flex.Smoothlake.FlexLib.Radio.RemoveSlice(Flex.Smoothlake.FlexLib.Slice)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Radio.RemoveSlice(Flex.Smoothlake.FlexLib.Slice)
+    name: RemoveSlice
+  - name: (
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Radio.RemoveSlice(Flex.Smoothlake.FlexLib.Slice)
+    name: RemoveSlice
+  - name: (
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: )
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Slice.Radio*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Radio
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Radio
+  name: Radio
+  nameWithType: Slice.Radio
+  fullName: Flex.Smoothlake.FlexLib.Slice.Radio
+- uid: Flex.Smoothlake.FlexLib.Radio
+  commentId: T:Flex.Smoothlake.FlexLib.Radio
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio
+  nameWithType: Radio
+  fullName: Flex.Smoothlake.FlexLib.Radio
+- uid: Flex.Smoothlake.FlexLib.Slice.Index*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Index
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Index
+  name: Index
+  nameWithType: Slice.Index
+  fullName: Flex.Smoothlake.FlexLib.Slice.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.Slice.Letter*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Letter
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Letter
+  name: Letter
+  nameWithType: Slice.Letter
+  fullName: Flex.Smoothlake.FlexLib.Slice.Letter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.Slice.ClientHandle*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ClientHandle
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ClientHandle
+  name: ClientHandle
+  nameWithType: Slice.ClientHandle
+  fullName: Flex.Smoothlake.FlexLib.Slice.ClientHandle
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Flex.Smoothlake.FlexLib.Slice.ModeList*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ModeList
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ModeList
+  name: ModeList
+  nameWithType: Slice.ModeList
+  fullName: Flex.Smoothlake.FlexLib.Slice.ModeList
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Flex.Smoothlake.FlexLib.Slice.Active*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Active
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Active
+  name: Active
+  nameWithType: Slice.Active
+  fullName: Flex.Smoothlake.FlexLib.Slice.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.Slice.Panadapter*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Panadapter
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Panadapter
+  name: Panadapter
+  nameWithType: Slice.Panadapter
+  fullName: Flex.Smoothlake.FlexLib.Slice.Panadapter
+- uid: Flex.Smoothlake.FlexLib.Panadapter
+  commentId: T:Flex.Smoothlake.FlexLib.Panadapter
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Panadapter.html
+  name: Panadapter
+  nameWithType: Panadapter
+  fullName: Flex.Smoothlake.FlexLib.Panadapter
+- uid: Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_PanadapterStreamID
+  name: PanadapterStreamID
+  nameWithType: Slice.PanadapterStreamID
+  fullName: Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID
+- uid: Flex.Smoothlake.FlexLib.Slice.Owner*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Owner
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Owner
+  name: Owner
+  nameWithType: Slice.Owner
+  fullName: Flex.Smoothlake.FlexLib.Slice.Owner
+- uid: Flex.Smoothlake.FlexLib.Slice.RXAntList*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RXAntList
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RXAntList
+  name: RXAntList
+  nameWithType: Slice.RXAntList
+  fullName: Flex.Smoothlake.FlexLib.Slice.RXAntList
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Slice.RXAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RXAnt
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RXAnt
+  name: RXAnt
+  nameWithType: Slice.RXAnt
+  fullName: Flex.Smoothlake.FlexLib.Slice.RXAnt
+- uid: Flex.Smoothlake.FlexLib.Slice.RFGain*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RFGain
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RFGain
+  name: RFGain
+  nameWithType: Slice.RFGain
+  fullName: Flex.Smoothlake.FlexLib.Slice.RFGain
+- uid: Flex.Smoothlake.FlexLib.Slice.TXAntList*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.TXAntList
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_TXAntList
+  name: TXAntList
+  nameWithType: Slice.TXAntList
+  fullName: Flex.Smoothlake.FlexLib.Slice.TXAntList
+- uid: Flex.Smoothlake.FlexLib.Slice.TXAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.TXAnt
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_TXAnt
+  name: TXAnt
+  nameWithType: Slice.TXAnt
+  fullName: Flex.Smoothlake.FlexLib.Slice.TXAnt
+- uid: Flex.Smoothlake.FlexLib.Slice.Wide*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Wide
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Wide
+  name: Wide
+  nameWithType: Slice.Wide
+  fullName: Flex.Smoothlake.FlexLib.Slice.Wide
+- uid: Flex.Smoothlake.FlexLib.Slice.DemodMode*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DemodMode
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DemodMode
+  name: DemodMode
+  nameWithType: Slice.DemodMode
+  fullName: Flex.Smoothlake.FlexLib.Slice.DemodMode
+- uid: Flex.Smoothlake.FlexLib.Slice.Lock*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Lock
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Lock
+  name: Lock
+  nameWithType: Slice.Lock
+  fullName: Flex.Smoothlake.FlexLib.Slice.Lock
+- uid: Flex.Smoothlake.FlexLib.Slice.AutoPan*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.AutoPan
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_AutoPan
+  name: AutoPan
+  nameWithType: Slice.AutoPan
+  fullName: Flex.Smoothlake.FlexLib.Slice.AutoPan
+- uid: Flex.Smoothlake.FlexLib.Slice.DAXChannel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DAXChannel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DAXChannel
+  name: DAXChannel
+  nameWithType: Slice.DAXChannel
+  fullName: Flex.Smoothlake.FlexLib.Slice.DAXChannel
+- uid: Flex.Smoothlake.FlexLib.Slice.Lock
+  commentId: P:Flex.Smoothlake.FlexLib.Slice.Lock
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Lock
+  name: Lock
+  nameWithType: Slice.Lock
+  fullName: Flex.Smoothlake.FlexLib.Slice.Lock
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: Flex.Smoothlake.FlexLib.Slice.Freq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Freq
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Freq
+  name: Freq
+  nameWithType: Slice.Freq
+  fullName: Flex.Smoothlake.FlexLib.Slice.Freq
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.Slice.RTTYMark*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RTTYMark
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RTTYMark
+  name: RTTYMark
+  nameWithType: Slice.RTTYMark
+  fullName: Flex.Smoothlake.FlexLib.Slice.RTTYMark
+- uid: Flex.Smoothlake.FlexLib.Slice.RTTYShift*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RTTYShift
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RTTYShift
+  name: RTTYShift
+  nameWithType: Slice.RTTYShift
+  fullName: Flex.Smoothlake.FlexLib.Slice.RTTYShift
+- uid: Flex.Smoothlake.FlexLib.Slice.DIGLOffset*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DIGLOffset
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DIGLOffset
+  name: DIGLOffset
+  nameWithType: Slice.DIGLOffset
+  fullName: Flex.Smoothlake.FlexLib.Slice.DIGLOffset
+- uid: Flex.Smoothlake.FlexLib.Slice.DIGUOffset*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DIGUOffset
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DIGUOffset
+  name: DIGUOffset
+  nameWithType: Slice.DIGUOffset
+  fullName: Flex.Smoothlake.FlexLib.Slice.DIGUOffset
+- uid: Flex.Smoothlake.FlexLib.Slice.FilterLow*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FilterLow
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FilterLow
+  name: FilterLow
+  nameWithType: Slice.FilterLow
+  fullName: Flex.Smoothlake.FlexLib.Slice.FilterLow
+- uid: Flex.Smoothlake.FlexLib.Slice.FilterHigh*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FilterHigh
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FilterHigh
+  name: FilterHigh
+  nameWithType: Slice.FilterHigh
+  fullName: Flex.Smoothlake.FlexLib.Slice.FilterHigh
+- uid: Flex.Smoothlake.FlexLib.Slice.UpdateFilter*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.UpdateFilter
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_UpdateFilter_System_Int32_System_Int32_
+  name: UpdateFilter
+  nameWithType: Slice.UpdateFilter
+  fullName: Flex.Smoothlake.FlexLib.Slice.UpdateFilter
+- uid: Flex.Smoothlake.FlexLib.Slice.AudioPan*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.AudioPan
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_AudioPan
+  name: AudioPan
+  nameWithType: Slice.AudioPan
+  fullName: Flex.Smoothlake.FlexLib.Slice.AudioPan
+- uid: Flex.Smoothlake.FlexLib.Slice.AudioGain*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.AudioGain
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_AudioGain
+  name: AudioGain
+  nameWithType: Slice.AudioGain
+  fullName: Flex.Smoothlake.FlexLib.Slice.AudioGain
+- uid: Flex.Smoothlake.FlexLib.Slice.Mute*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Mute
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Mute
+  name: Mute
+  nameWithType: Slice.Mute
+  fullName: Flex.Smoothlake.FlexLib.Slice.Mute
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ANFOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ANFOn
+  name: ANFOn
+  nameWithType: Slice.ANFOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFOn
+- uid: Flex.Smoothlake.FlexLib.Slice.APFOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.APFOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_APFOn
+  name: APFOn
+  nameWithType: Slice.APFOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.APFOn
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ANFLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ANFLevel
+  name: ANFLevel
+  nameWithType: Slice.ANFLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.APFLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.APFLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_APFLevel
+  name: APFLevel
+  nameWithType: Slice.APFLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.APFLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversityOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DiversityOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DiversityOn
+  name: DiversityOn
+  nameWithType: Slice.DiversityOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversityOn
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversityChild*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DiversityChild
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DiversityChild
+  name: DiversityChild
+  nameWithType: Slice.DiversityChild
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversityChild
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversityIndex*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DiversityIndex
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DiversityIndex
+  name: DiversityIndex
+  nameWithType: Slice.DiversityIndex
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversityIndex
+- uid: Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DiversitySlicePartner
+  name: DiversitySlicePartner
+  nameWithType: Slice.DiversitySlicePartner
+  fullName: Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner
+- uid: Flex.Smoothlake.FlexLib.Slice
+  commentId: T:Flex.Smoothlake.FlexLib.Slice
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Slice.html
+  name: Slice
+  nameWithType: Slice
+  fullName: Flex.Smoothlake.FlexLib.Slice
+- uid: Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_SendCWAutotuneCommand_System_Nullable_System_Boolean__
+  name: SendCWAutotuneCommand
+  nameWithType: Slice.SendCWAutotuneCommand
+  fullName: Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Slice.WNBOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.WNBOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_WNBOn
+  name: WNBOn
+  nameWithType: Slice.WNBOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.WNBOn
+- uid: Flex.Smoothlake.FlexLib.Slice.NBOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NBOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NBOn
+  name: NBOn
+  nameWithType: Slice.NBOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NBOn
+- uid: Flex.Smoothlake.FlexLib.Slice.WNBLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.WNBLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_WNBLevel
+  name: WNBLevel
+  nameWithType: Slice.WNBLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.WNBLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.NBLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NBLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NBLevel
+  name: NBLevel
+  nameWithType: Slice.NBLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NBLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.NROn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NROn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NROn
+  name: NROn
+  nameWithType: Slice.NROn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NROn
+- uid: Flex.Smoothlake.FlexLib.Slice.NRLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRLevel
+  name: NRLevel
+  nameWithType: Slice.NRLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.NRLOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRLOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRLOn
+  name: NRLOn
+  nameWithType: Slice.NRLOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRLOn
+- uid: Flex.Smoothlake.FlexLib.Slice.NRL_Level*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRL_Level
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRL_Level
+  name: NRL_Level
+  nameWithType: Slice.NRL_Level
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRL_Level
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFLOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ANFLOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ANFLOn
+  name: ANFLOn
+  nameWithType: Slice.ANFLOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFLOn
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFL_Level*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ANFL_Level
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ANFL_Level
+  name: ANFL_Level
+  nameWithType: Slice.ANFL_Level
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFL_Level
+- uid: Flex.Smoothlake.FlexLib.Slice.NRSOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRSOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRSOn
+  name: NRSOn
+  nameWithType: Slice.NRSOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRSOn
+- uid: Flex.Smoothlake.FlexLib.Slice.NRSLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRSLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRSLevel
+  name: NRSLevel
+  nameWithType: Slice.NRSLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRSLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.RNNOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RNNOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RNNOn
+  name: RNNOn
+  nameWithType: Slice.RNNOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.RNNOn
+- uid: Flex.Smoothlake.FlexLib.Slice.ANFTOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ANFTOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ANFTOn
+  name: ANFTOn
+  nameWithType: Slice.ANFTOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.ANFTOn
+- uid: Flex.Smoothlake.FlexLib.Slice.NRFOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRFOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRFOn
+  name: NRFOn
+  nameWithType: Slice.NRFOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRFOn
+- uid: Flex.Smoothlake.FlexLib.Slice.NRFLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.NRFLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_NRFLevel
+  name: NRFLevel
+  nameWithType: Slice.NRFLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.NRFLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.AGCMode*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.AGCMode
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_AGCMode
+  name: AGCMode
+  nameWithType: Slice.AGCMode
+  fullName: Flex.Smoothlake.FlexLib.Slice.AGCMode
+- uid: Flex.Smoothlake.FlexLib.AGCMode
+  commentId: T:Flex.Smoothlake.FlexLib.AGCMode
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.AGCMode.html
+  name: AGCMode
+  nameWithType: AGCMode
+  fullName: Flex.Smoothlake.FlexLib.AGCMode
+- uid: Flex.Smoothlake.FlexLib.Slice.AGCThreshold*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.AGCThreshold
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_AGCThreshold
+  name: AGCThreshold
+  nameWithType: Slice.AGCThreshold
+  fullName: Flex.Smoothlake.FlexLib.Slice.AGCThreshold
+- uid: Flex.Smoothlake.FlexLib.Slice.AGCOffLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.AGCOffLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_AGCOffLevel
+  name: AGCOffLevel
+  nameWithType: Slice.AGCOffLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.AGCOffLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_IsTransmitSlice
+  name: IsTransmitSlice
+  nameWithType: Slice.IsTransmitSlice
+  fullName: Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice
+- uid: Flex.Smoothlake.FlexLib.Slice.EqCompBypass*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.EqCompBypass
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_EqCompBypass
+  name: EqCompBypass
+  nameWithType: Slice.EqCompBypass
+  fullName: Flex.Smoothlake.FlexLib.Slice.EqCompBypass
+- uid: Flex.Smoothlake.FlexLib.Slice.LoopA*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.LoopA
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_LoopA
+  name: LoopA
+  nameWithType: Slice.LoopA
+  fullName: Flex.Smoothlake.FlexLib.Slice.LoopA
+- uid: Flex.Smoothlake.FlexLib.Slice.LoopB*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.LoopB
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_LoopB
+  name: LoopB
+  nameWithType: Slice.LoopB
+  fullName: Flex.Smoothlake.FlexLib.Slice.LoopB
+- uid: Flex.Smoothlake.FlexLib.Slice.QSK*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.QSK
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_QSK
+  name: QSK
+  nameWithType: Slice.QSK
+  fullName: Flex.Smoothlake.FlexLib.Slice.QSK
+- uid: Flex.Smoothlake.FlexLib.Slice.RITOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RITOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RITOn
+  name: RITOn
+  nameWithType: Slice.RITOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.RITOn
+- uid: Flex.Smoothlake.FlexLib.Slice.RITFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RITFreq
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RITFreq
+  name: RITFreq
+  nameWithType: Slice.RITFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.RITFreq
+- uid: Flex.Smoothlake.FlexLib.Slice.XITOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.XITOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_XITOn
+  name: XITOn
+  nameWithType: Slice.XITOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.XITOn
+- uid: Flex.Smoothlake.FlexLib.Slice.XITFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.XITFreq
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_XITFreq
+  name: XITFreq
+  nameWithType: Slice.XITFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.XITFreq
+- uid: Flex.Smoothlake.FlexLib.Slice.TuneStep*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.TuneStep
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_TuneStep
+  name: TuneStep
+  nameWithType: Slice.TuneStep
+  fullName: Flex.Smoothlake.FlexLib.Slice.TuneStep
+- uid: Flex.Smoothlake.FlexLib.Slice.TuneStepList*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.TuneStepList
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_TuneStepList
+  name: TuneStepList
+  nameWithType: Slice.TuneStepList
+  fullName: Flex.Smoothlake.FlexLib.Slice.TuneStepList
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Slice.RecordOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RecordOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RecordOn
+  name: RecordOn
+  nameWithType: Slice.RecordOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.RecordOn
+- uid: Flex.Smoothlake.FlexLib.Slice.PlayOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.PlayOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_PlayOn
+  name: PlayOn
+  nameWithType: Slice.PlayOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.PlayOn
+- uid: Flex.Smoothlake.FlexLib.Slice.PlayEnabled*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.PlayEnabled
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_PlayEnabled
+  name: PlayEnabled
+  nameWithType: Slice.PlayEnabled
+  fullName: Flex.Smoothlake.FlexLib.Slice.PlayEnabled
+- uid: Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_MaxInternalPaPowerWatts
+  name: MaxInternalPaPowerWatts
+  nameWithType: Slice.MaxInternalPaPowerWatts
+  fullName: Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts
+- uid: Flex.Smoothlake.FlexLib.Slice.ToneMode*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ToneMode
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ToneMode
+  name: ToneMode
+  nameWithType: Slice.ToneMode
+  fullName: Flex.Smoothlake.FlexLib.Slice.ToneMode
+- uid: Flex.Smoothlake.FlexLib.FMToneMode
+  commentId: T:Flex.Smoothlake.FlexLib.FMToneMode
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.FMToneMode.html
+  name: FMToneMode
+  nameWithType: FMToneMode
+  fullName: Flex.Smoothlake.FlexLib.FMToneMode
+- uid: Flex.Smoothlake.FlexLib.Slice.FMToneValue*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FMToneValue
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FMToneValue
+  name: FMToneValue
+  nameWithType: Slice.FMToneValue
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMToneValue
+- uid: Flex.Smoothlake.FlexLib.Slice.FMDeviation*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FMDeviation
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FMDeviation
+  name: FMDeviation
+  nameWithType: Slice.FMDeviation
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMDeviation
+- uid: Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_DFMPreDeEmphasis
+  name: DFMPreDeEmphasis
+  nameWithType: Slice.DFMPreDeEmphasis
+  fullName: Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis
+- uid: Flex.Smoothlake.FlexLib.Slice.SquelchOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.SquelchOn
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_SquelchOn
+  name: SquelchOn
+  nameWithType: Slice.SquelchOn
+  fullName: Flex.Smoothlake.FlexLib.Slice.SquelchOn
+- uid: Flex.Smoothlake.FlexLib.Slice.SquelchLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.SquelchLevel
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_SquelchLevel
+  name: SquelchLevel
+  nameWithType: Slice.SquelchLevel
+  fullName: Flex.Smoothlake.FlexLib.Slice.SquelchLevel
+- uid: Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_TXOffsetFreq
+  name: TXOffsetFreq
+  nameWithType: Slice.TXOffsetFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq
+- uid: Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FMRepeaterOffsetFreq
+  name: FMRepeaterOffsetFreq
+  nameWithType: Slice.FMRepeaterOffsetFreq
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq
+- uid: Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_RepeaterOffsetDirection
+  name: RepeaterOffsetDirection
+  nameWithType: Slice.RepeaterOffsetDirection
+  fullName: Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection
+- uid: Flex.Smoothlake.FlexLib.FMTXOffsetDirection
+  commentId: T:Flex.Smoothlake.FlexLib.FMTXOffsetDirection
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.FMTXOffsetDirection.html
+  name: FMTXOffsetDirection
+  nameWithType: FMTXOffsetDirection
+  fullName: Flex.Smoothlake.FlexLib.FMTXOffsetDirection
+- uid: Flex.Smoothlake.FlexLib.Slice.FMTX1750*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FMTX1750
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FMTX1750
+  name: FMTX1750
+  nameWithType: Slice.FMTX1750
+  fullName: Flex.Smoothlake.FlexLib.Slice.FMTX1750
+- uid: Flex.Smoothlake.FlexLib.Slice.Remove*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Remove
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Remove
+  name: Remove
+  nameWithType: Slice.Remove
+  fullName: Flex.Smoothlake.FlexLib.Slice.Remove
+- uid: Flex.Smoothlake.FlexLib.Slice.Close*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.Close
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Close
+  name: Close
+  nameWithType: Slice.Close
+  fullName: Flex.Smoothlake.FlexLib.Slice.Close
+- uid: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Slice.html
+  name: Slice.MeterAddedEventHandler
+  nameWithType: Slice.MeterAddedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+    name: MeterAddedEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+    name: MeterAddedEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Slice.html
+  name: Slice.MeterRemovedEventHandler
+  nameWithType: Slice.MeterRemovedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+    name: MeterRemovedEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+    name: MeterRemovedEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FindMeterByIndex_System_Int32_
+  name: FindMeterByIndex
+  nameWithType: Slice.FindMeterByIndex
+  fullName: Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex
+- uid: Flex.Smoothlake.FlexLib.Meter
+  commentId: T:Flex.Smoothlake.FlexLib.Meter
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Meter.html
+  name: Meter
+  nameWithType: Meter
+  fullName: Flex.Smoothlake.FlexLib.Meter
+- uid: Flex.Smoothlake.FlexLib.Slice.FindMeterByName*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.FindMeterByName
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_FindMeterByName_System_String_
+  name: FindMeterByName
+  nameWithType: Slice.FindMeterByName
+  fullName: Flex.Smoothlake.FlexLib.Slice.FindMeterByName
+- uid: Flex.Smoothlake.FlexLib.Slice.StatusUpdate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.StatusUpdate
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_StatusUpdate_System_String_
+  name: StatusUpdate
+  nameWithType: Slice.StatusUpdate
+  fullName: Flex.Smoothlake.FlexLib.Slice.StatusUpdate
+- uid: Flex.Smoothlake.FlexLib.Slice.CheckReady*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.CheckReady
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_CheckReady
+  name: CheckReady
+  nameWithType: Slice.CheckReady
+  fullName: Flex.Smoothlake.FlexLib.Slice.CheckReady
+- uid: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Slice.html
+  name: Slice.SMeterDataReadyEventHandler
+  nameWithType: Slice.SMeterDataReadyEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+    name: SMeterDataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+    name: SMeterDataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Slice.html
+  name: Slice.WaveformStatusReceivedEventHandler
+  nameWithType: Slice.WaveformStatusReceivedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+    name: WaveformStatusReceivedEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    href: Flex.Smoothlake.FlexLib.Slice.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+    name: WaveformStatusReceivedEventHandler
+    href: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_SendWaveformCommand_System_String_
+  name: SendWaveformCommand
+  nameWithType: Slice.SendWaveformCommand
+  fullName: Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Slice.ToString*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ToString
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ToString
+  name: ToString
+  nameWithType: Slice.ToString
+  fullName: Flex.Smoothlake.FlexLib.Slice.ToString
+- uid: Flex.Smoothlake.FlexLib.Slice.ESCEnabled*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ESCEnabled
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ESCEnabled
+  name: ESCEnabled
+  nameWithType: Slice.ESCEnabled
+  fullName: Flex.Smoothlake.FlexLib.Slice.ESCEnabled
+- uid: Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ESCPhaseShift
+  name: ESCPhaseShift
+  nameWithType: Slice.ESCPhaseShift
+  fullName: Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift
+- uid: Flex.Smoothlake.FlexLib.Slice.ESCGain*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Slice.ESCGain
+  href: Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_ESCGain
+  name: ESCGain
+  nameWithType: Slice.ESCGain
+  fullName: Flex.Smoothlake.FlexLib.Slice.ESCGain

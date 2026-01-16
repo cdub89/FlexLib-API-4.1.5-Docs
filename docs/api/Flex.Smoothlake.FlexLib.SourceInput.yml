@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.SourceInput
+  commentId: T:Flex.Smoothlake.FlexLib.SourceInput
+  id: SourceInput
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.SourceInput.ACC
+  - Flex.Smoothlake.FlexLib.SourceInput.Balanced
+  - Flex.Smoothlake.FlexLib.SourceInput.DAX
+  - Flex.Smoothlake.FlexLib.SourceInput.LineIn
+  - Flex.Smoothlake.FlexLib.SourceInput.Microphone
+  - Flex.Smoothlake.FlexLib.SourceInput.None
+  - Flex.Smoothlake.FlexLib.SourceInput.SignalGenerator
+  langs:
+  - csharp
+  - vb
+  name: SourceInput
+  nameWithType: SourceInput
+  fullName: Flex.Smoothlake.FlexLib.SourceInput
+  type: Enum
+  source:
+    id: SourceInput
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 114
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum SourceInput
+    content.vb: Public Enum SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.None
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SourceInput.None
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 116
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = -1
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.SignalGenerator
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.SignalGenerator
+  id: SignalGenerator
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: SignalGenerator
+  nameWithType: SourceInput.SignalGenerator
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.SignalGenerator
+  type: Field
+  source:
+    id: SignalGenerator
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 117
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SignalGenerator = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.Microphone
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.Microphone
+  id: Microphone
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: Microphone
+  nameWithType: SourceInput.Microphone
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.Microphone
+  type: Field
+  source:
+    id: Microphone
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 118
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Microphone = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.Balanced
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.Balanced
+  id: Balanced
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: Balanced
+  nameWithType: SourceInput.Balanced
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.Balanced
+  type: Field
+  source:
+    id: Balanced
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 119
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Balanced = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.LineIn
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.LineIn
+  id: LineIn
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: LineIn
+  nameWithType: SourceInput.LineIn
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.LineIn
+  type: Field
+  source:
+    id: LineIn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 120
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: LineIn = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.ACC
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.ACC
+  id: ACC
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: ACC
+  nameWithType: SourceInput.ACC
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.ACC
+  type: Field
+  source:
+    id: ACC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 121
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: ACC = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+- uid: Flex.Smoothlake.FlexLib.SourceInput.DAX
+  commentId: F:Flex.Smoothlake.FlexLib.SourceInput.DAX
+  id: DAX
+  parent: Flex.Smoothlake.FlexLib.SourceInput
+  langs:
+  - csharp
+  - vb
+  name: DAX
+  nameWithType: SourceInput.DAX
+  fullName: Flex.Smoothlake.FlexLib.SourceInput.DAX
+  type: Field
+  source:
+    id: DAX
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 122
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: DAX = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.SourceInput
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.SourceInput
+  commentId: T:Flex.Smoothlake.FlexLib.SourceInput
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SourceInput.html
+  name: SourceInput
+  nameWithType: SourceInput
+  fullName: Flex.Smoothlake.FlexLib.SourceInput

@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler
+  id: Radio.DAXRXAudioStreamRemovedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Radio.DAXRXAudioStreamRemovedEventHandler
+  nameWithType: Radio.DAXRXAudioStreamRemovedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler
+  type: Delegate
+  source:
+    id: DAXRXAudioStreamRemovedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 5533
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The delegate event handler for the AudioStreamRemoved event
+  example: []
+  syntax:
+    content: public delegate void Radio.DAXRXAudioStreamRemovedEventHandler(DAXRXAudioStream audio_stream)
+    parameters:
+    - id: audio_stream
+      type: Flex.Smoothlake.FlexLib.DAXRXAudioStream
+      description: The DAX AudioStream object
+    content.vb: Public Delegate Sub Radio.DAXRXAudioStreamRemovedEventHandler(audio_stream As DAXRXAudioStream)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.DAXRXAudioStream
+  commentId: T:Flex.Smoothlake.FlexLib.DAXRXAudioStream
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.DAXRXAudioStream.html
+  name: DAXRXAudioStream
+  nameWithType: DAXRXAudioStream
+  fullName: Flex.Smoothlake.FlexLib.DAXRXAudioStream

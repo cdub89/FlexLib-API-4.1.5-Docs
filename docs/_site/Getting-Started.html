@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Getting Started with FlexLib | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Getting Started with FlexLib | FlexLib API Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="getting-started-with-flexlib">Getting Started with FlexLib</h1>
+
+<p>This guide will walk you through creating your first FlexLib application, from setup to basic radio control.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#setting-up-your-project">Setting Up Your Project</a></li>
+<li><a href="#initializing-flexlib">Initializing FlexLib</a></li>
+<li><a href="#discovering-radios">Discovering Radios</a></li>
+<li><a href="#connecting-to-a-radio">Connecting to a Radio</a></li>
+<li><a href="#working-with-slices">Working with Slices</a></li>
+<li><a href="#monitoring-meters">Monitoring Meters</a></li>
+<li><a href="#audio-streaming">Audio Streaming</a></li>
+<li><a href="#ptt-control">PTT Control</a></li>
+<li><a href="#cleanup-and-disposal">Cleanup and Disposal</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+</ol>
+<hr>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have:</p>
+<h3 id="software-requirements">Software Requirements</h3>
+<ul>
+<li><strong>Visual Studio 2022</strong> or later</li>
+<li><strong>.NET 8.0 SDK</strong> or <strong>.NET Framework 4.6.2</strong> Developer Pack</li>
+<li><strong>FlexLib source code</strong> or compiled DLL</li>
+</ul>
+<h3 id="hardware-requirements">Hardware Requirements</h3>
+<ul>
+<li><strong>FlexRadio device</strong> (6000 series or compatible)</li>
+<li><strong>Network connection</strong> to the radio (same subnet recommended)</li>
+<li><strong>Windows PC</strong> (Windows 10/11)</li>
+</ul>
+<h3 id="knowledge-prerequisites">Knowledge Prerequisites</h3>
+<ul>
+<li>Basic C# programming</li>
+<li>Understanding of async/await patterns</li>
+<li>Familiarity with event-driven programming</li>
+</ul>
+<hr>
+<h2 id="setting-up-your-project">Setting Up Your Project</h2>
+<h3 id="option-1-create-a-console-application">Option 1: Create a Console Application</h3>
+<pre><code class="lang-bash"># Create a new console app
+dotnet new console -n MyFlexRadioApp
+cd MyFlexRadioApp
+
+# Add reference to FlexLib project
+dotnet add reference ../FlexLib_API_v4.1.5.39794/FlexLib/FlexLib.csproj
+</code></pre>
+<h3 id="option-2-create-a-wpf-application">Option 2: Create a WPF Application</h3>
+<pre><code class="lang-bash"># Create a new WPF app
+dotnet new wpf -n MyFlexRadioWpfApp
+cd MyFlexRadioWpfApp
+
+# Add reference to FlexLib project
+dotnet add reference ../FlexLib_API_v4.1.5.39794/FlexLib/FlexLib.csproj
+</code></pre>
+<h3 id="project-configuration">Project Configuration</h3>
+<p>Update your <code>.csproj</code> file to target the correct framework:</p>
+<pre><code class="lang-xml">&lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&gt;
+  &lt;PropertyGroup&gt;
+    &lt;OutputType&gt;Exe&lt;/OutputType&gt;
+    &lt;TargetFramework&gt;net8.0-windows&lt;/TargetFramework&gt;
+    &lt;Nullable&gt;enable&lt;/Nullable&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;ItemGroup&gt;
+    &lt;ProjectReference Include=&quot;..\FlexLib_API_v4.1.5.39794\FlexLib\FlexLib.csproj&quot; /&gt;
+  &lt;/ItemGroup&gt;
+&lt;/Project&gt;
+</code></pre>
+<hr>
+<h2 id="initializing-flexlib">Initializing FlexLib</h2>
+<p>The first step in any FlexLib application is initialization. This starts the radio discovery process.</p>
+<h3 id="basic-initialization">Basic Initialization</h3>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
+{
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            // Set your application name (required)
+            API.ProgramName = &quot;MyFlexRadioApp&quot;;
+            
+            // Set whether this is a GUI application
+            API.IsGUI = false; // true for WPF/WinForms apps
+            
+            // Initialize the API (starts UDP discovery)
+            API.Init();
+            
+            Console.WriteLine(&quot;FlexLib initialized. Searching for radios...&quot;);
+            
+            // Keep application running
+            await Task.Delay(-1);
+        }
+    }
+}
+</code></pre>
+<h3 id="understanding-initialization">Understanding Initialization</h3>
+<p>When you call <code>API.Init()</code>:</p>
+<ol>
+<li>UDP discovery socket is opened on port 4992</li>
+<li>Discovery packets are sent on the network</li>
+<li>A cleanup timer starts to remove stale radios</li>
+<li>Event handlers are registered for radio discovery</li>
+</ol>
+<p><strong>Important</strong>: Call <code>API.Init()</code> only once in your application lifecycle.</p>
+<hr>
+<h2 id="discovering-radios">Discovering Radios</h2>
+<p>FlexLib automatically discovers radios on your network. Use events to be notified when radios are found.</p>
+<h3 id="listening-for-radio-discovery">Listening for Radio Discovery</h3>
+<pre><code class="lang-csharp">static async Task Main(string[] args)
+{
+    API.ProgramName = &quot;MyFlexRadioApp&quot;;
+    API.IsGUI = false;
+    
+    // Subscribe to radio events BEFORE calling Init()
+    API.RadioAdded += OnRadioAdded;
+    API.RadioRemoved += OnRadioRemoved;
+    
+    API.Init();
+    
+    Console.WriteLine(&quot;Waiting for radios...&quot;);
+    await Task.Delay(5000); // Wait 5 seconds for discovery
+    
+    // List all discovered radios
+    Console.WriteLine($&quot;\nFound {API.RadioList.Count} radio(s):&quot;);
+    foreach (var radio in API.RadioList)
+    {
+        Console.WriteLine($&quot;  - {radio.Nickname} ({radio.Model}) - {radio.IP}&quot;);
+    }
+    
+    await Task.Delay(-1);
+}
+
+static void OnRadioAdded(Radio radio)
+{
+    Console.WriteLine($&quot;✓ Radio discovered: {radio.Nickname}&quot;);
+    Console.WriteLine($&quot;  Model: {radio.Model}&quot;);
+    Console.WriteLine($&quot;  Serial: {radio.Serial}&quot;);
+    Console.WriteLine($&quot;  IP: {radio.IP}&quot;);
+    Console.WriteLine($&quot;  Version: {radio.Version}&quot;);
+}
+
+static void OnRadioRemoved(Radio radio)
+{
+    Console.WriteLine($&quot;✗ Radio removed: {radio.Nickname}&quot;);
+}
+</code></pre>
+<h3 id="getting-radio-information">Getting Radio Information</h3>
+<pre><code class="lang-csharp">Radio radio = API.RadioList.FirstOrDefault();
+if (radio != null)
+{
+    // Radio properties (available before connection)
+    string nickname = radio.Nickname;      // User-defined name
+    string model = radio.Model;            // e.g., &quot;FLEX-6600&quot;
+    string serial = radio.Serial;          // Serial number
+    IPAddress ip = radio.IP;               // IP address
+    string version = radio.Version;        // Firmware version
+    bool isAvailable = radio.Available;    // Can connect?
+    string status = radio.Status;          // Current status
+}
+</code></pre>
+<hr>
+<h2 id="connecting-to-a-radio">Connecting to a Radio</h2>
+<p>Once a radio is discovered, you can connect to it to gain full control.</p>
+<h3 id="basic-connection">Basic Connection</h3>
+<pre><code class="lang-csharp">static async Task ConnectToFirstRadio()
+{
+    // Wait for radios to be discovered
+    await Task.Delay(2000);
+    
+    Radio? radio = API.RadioList.FirstOrDefault();
+    if (radio == null)
+    {
+        Console.WriteLine(&quot;No radios found!&quot;);
+        return;
+    }
+    
+    Console.WriteLine($&quot;Connecting to {radio.Nickname}...&quot;);
+    
+    // Subscribe to connection events
+    radio.PropertyChanged += (sender, e) =&gt;
+    {
+        if (e.PropertyName == &quot;Connected&quot;)
+        {
+            var r = sender as Radio;
+            if (r?.Connected == true)
+            {
+                Console.WriteLine(&quot;✓ Connected successfully!&quot;);
+            }
+        }
+    };
+    
+    // Connect to the radio
+    radio.Connect();
+    
+    // Wait for connection to complete
+    int timeout = 0;
+    while (!radio.Connected &amp;&amp; timeout &lt; 100)
+    {
+        await Task.Delay(100);
+        timeout++;
+    }
+    
+    if (radio.Connected)
+    {
+        Console.WriteLine($&quot;Radio ready! Version: {radio.Version}&quot;);
+    }
+    else
+    {
+        Console.WriteLine(&quot;Connection timeout!&quot;);
+    }
+}
+</code></pre>
+<h3 id="connection-with-error-handling">Connection with Error Handling</h3>
+<pre><code class="lang-csharp">public static async Task&lt;bool&gt; ConnectWithRetry(Radio radio, int maxRetries = 3)
+{
+    for (int attempt = 1; attempt &lt;= maxRetries; attempt++)
+    {
+        Console.WriteLine($&quot;Connection attempt {attempt}/{maxRetries}...&quot;);
+        
+        try
+        {
+            radio.Connect();
+            
+            // Wait for connection with timeout
+            for (int i = 0; i &lt; 50; i++) // 5 second timeout
+            {
+                if (radio.Connected)
+                    return true;
+                    
+                await Task.Delay(100);
+            }
+            
+            Console.WriteLine(&quot;Connection timeout&quot;);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($&quot;Connection error: {ex.Message}&quot;);
+        }
+        
+        if (attempt &lt; maxRetries)
+        {
+            Console.WriteLine(&quot;Retrying...&quot;);
+            await Task.Delay(2000);
+        }
+    }
+    
+    return false;
+}
+</code></pre>
+<h3 id="understanding-radio-states">Understanding Radio States</h3>
+<p>A Radio can be in several states:</p>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discovered</td>
+<td><code>Available = true</code></td>
+<td>Radio found on network</td>
+</tr>
+<tr>
+<td>Connecting</td>
+<td><code>Connected = false</code></td>
+<td>Connection in progress</td>
+</tr>
+<tr>
+<td>Connected</td>
+<td><code>Connected = true</code></td>
+<td>Full control available</td>
+</tr>
+<tr>
+<td>In Use</td>
+<td><code>Available = false</code></td>
+<td>Connected by another client</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="working-with-slices">Working with Slices</h2>
+<p>A <strong>Slice</strong> represents a receiver or transmitter channel. You can have multiple slices to monitor different frequencies simultaneously.</p>
+<h3 id="creating-a-slice">Creating a Slice</h3>
+<pre><code class="lang-csharp">static async Task CreateAndConfigureSlice(Radio radio)
+{
+    if (!radio.Connected)
+    {
+        Console.WriteLine(&quot;Radio not connected!&quot;);
+        return;
+    }
+    
+    // Subscribe to slice events
+    radio.SliceAdded += (slice) =&gt;
+    {
+        Console.WriteLine($&quot;Slice created: Index {slice.Index}&quot;);
+    };
+    
+    // Request a new slice
+    radio.RequestSliceFromRadio();
+    
+    // Wait for slice to be created
+    await Task.Delay(500);
+    
+    // Get the slice
+    Slice? slice = radio.SliceList.FirstOrDefault();
+    if (slice == null)
+    {
+        Console.WriteLine(&quot;Failed to create slice!&quot;);
+        return;
+    }
+    
+    Console.WriteLine($&quot;Slice {slice.Index} created successfully&quot;);
+}
+</code></pre>
+<h3 id="tuning-a-slice">Tuning a Slice</h3>
+<pre><code class="lang-csharp">static void TuneSlice(Slice slice)
+{
+    // Set frequency (in MHz)
+    slice.Freq = 14.200;  // 14.200 MHz (20m band)
+    
+    // Set operating mode
+    slice.Mode = &quot;USB&quot;;   // Options: &quot;LSB&quot;, &quot;USB&quot;, &quot;AM&quot;, &quot;CW&quot;, &quot;DIGL&quot;, &quot;DIGU&quot;, &quot;FM&quot;, &quot;NFM&quot;
+    
+    // Set filter bandwidth
+    slice.FilterLow = 200;    // Low cut (Hz)
+    slice.FilterHigh = 2800;  // High cut (Hz)
+    
+    // Set antennas
+    slice.RXAnt = &quot;ANT1&quot;;     // Receive antenna
+    slice.TXAnt = &quot;ANT1&quot;;     // Transmit antenna
+    
+    // Set other properties
+    slice.Active = true;      // Activate the slice
+    slice.AudioGain = 50;     // Audio gain (0-100)
+    slice.AGCMode = &quot;med&quot;;    // AGC: &quot;off&quot;, &quot;slow&quot;, &quot;med&quot;, &quot;fast&quot;
+    
+    Console.WriteLine($&quot;Tuned to {slice.Freq:F3} MHz, Mode: {slice.Mode}&quot;);
+}
+</code></pre>
+<h3 id="monitoring-slice-changes">Monitoring Slice Changes</h3>
+<pre><code class="lang-csharp">static void MonitorSlice(Slice slice)
+{
+    slice.PropertyChanged += (sender, e) =&gt;
+    {
+        var s = sender as Slice;
+        
+        switch (e.PropertyName)
+        {
+            case &quot;Freq&quot;:
+                Console.WriteLine($&quot;Frequency changed: {s.Freq:F6} MHz&quot;);
+                break;
+                
+            case &quot;Mode&quot;:
+                Console.WriteLine($&quot;Mode changed: {s.Mode}&quot;);
+                break;
+                
+            case &quot;Active&quot;:
+                Console.WriteLine($&quot;Slice {(s.Active ? &quot;activated&quot; : &quot;deactivated&quot;)}&quot;);
+                break;
+                
+            case &quot;Transmit&quot;:
+                Console.WriteLine($&quot;PTT: {(s.Transmit ? &quot;TX&quot; : &quot;RX&quot;)}&quot;);
+                break;
+        }
+    };
+}
+</code></pre>
+<h3 id="complete-slice-example">Complete Slice Example</h3>
+<pre><code class="lang-csharp">static async Task SliceDemo(Radio radio)
+{
+    Console.WriteLine(&quot;\n=== Slice Demo ===\n&quot;);
+    
+    // Create a slice
+    radio.RequestSliceFromRadio();
+    await Task.Delay(500);
+    
+    var slice = radio.SliceList.FirstOrDefault();
+    if (slice == null) return;
+    
+    // Monitor changes
+    MonitorSlice(slice);
+    
+    // Tune to 20m band, USB
+    Console.WriteLine(&quot;Tuning to 20m USB...&quot;);
+    slice.Freq = 14.200;
+    slice.Mode = &quot;USB&quot;;
+    slice.FilterLow = 200;
+    slice.FilterHigh = 2800;
+    
+    await Task.Delay(2000);
+    
+    // Tune to 40m band, LSB
+    Console.WriteLine(&quot;Tuning to 40m LSB...&quot;);
+    slice.Freq = 7.200;
+    slice.Mode = &quot;LSB&quot;;
+    
+    await Task.Delay(2000);
+    
+    // Tune to 2m band, FM
+    Console.WriteLine(&quot;Tuning to 2m FM...&quot;);
+    slice.Freq = 146.520;
+    slice.Mode = &quot;FM&quot;;
+    
+    await Task.Delay(2000);
+}
+</code></pre>
+<hr>
+<h2 id="monitoring-meters">Monitoring Meters</h2>
+<p>Meters provide real-time telemetry data like signal strength, power output, SWR, and more.</p>
+<h3 id="basic-meter-monitoring">Basic Meter Monitoring</h3>
+<pre><code class="lang-csharp">static void SetupMeters(Radio radio)
+{
+    radio.MeterAdded += (meter) =&gt;
+    {
+        Console.WriteLine($&quot;Meter available: {meter.Name}&quot;);
+        
+        // Subscribe to meter data updates
+        meter.DataReady += (data) =&gt;
+        {
+            HandleMeterData(meter.Name, data.Value);
+        };
+    };
+}
+
+static void HandleMeterData(string meterName, float value)
+{
+    switch (meterName)
+    {
+        case &quot;MICPEAK&quot;:
+            // Microphone audio level (dB)
+            Console.WriteLine($&quot;Mic Level: {value:F1} dB&quot;);
+            break;
+            
+        case &quot;SWR&quot;:
+            // Standing Wave Ratio
+            Console.WriteLine($&quot;SWR: {value:F2}:1&quot;);
+            break;
+            
+        case &quot;FWD&quot;:
+            // Forward power (watts)
+            Console.WriteLine($&quot;Forward Power: {value:F0} W&quot;);
+            break;
+            
+        case &quot;VOLTAGE&quot;:
+            // Power supply voltage
+            Console.WriteLine($&quot;Voltage: {value:F1} V&quot;);
+            break;
+            
+        case &quot;TEMP&quot;:
+            // PA temperature
+            Console.WriteLine($&quot;PA Temp: {value:F0} °C&quot;);
+            break;
+    }
+}
+</code></pre>
+<h3 id="monitoring-specific-meters">Monitoring Specific Meters</h3>
+<pre><code class="lang-csharp">static void MonitorTransmitMeters(Radio radio)
+{
+    foreach (var meter in radio.MeterList)
+    {
+        if (meter.Name == &quot;SWR&quot; || meter.Name == &quot;FWD&quot; || meter.Name == &quot;TEMP&quot;)
+        {
+            meter.DataReady += (data) =&gt;
+            {
+                Console.WriteLine($&quot;{meter.Name}: {data.Value:F2}&quot;);
+            };
+        }
+    }
+}
+</code></pre>
+<h3 id="common-meter-names">Common Meter Names</h3>
+<table>
+<thead>
+<tr>
+<th>Meter Name</th>
+<th>Description</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MICPEAK</code></td>
+<td>Mic audio peak level</td>
+<td>dB</td>
+</tr>
+<tr>
+<td><code>SWR</code></td>
+<td>Standing wave ratio</td>
+<td>ratio</td>
+</tr>
+<tr>
+<td><code>FWD</code></td>
+<td>Forward power</td>
+<td>watts</td>
+</tr>
+<tr>
+<td><code>REF</code></td>
+<td>Reflected power</td>
+<td>watts</td>
+</tr>
+<tr>
+<td><code>VOLTAGE</code></td>
+<td>Power supply voltage</td>
+<td>volts</td>
+</tr>
+<tr>
+<td><code>TEMP</code></td>
+<td>PA temperature</td>
+<td>°C</td>
+</tr>
+<tr>
+<td><code>SIGNAL</code></td>
+<td>Signal strength</td>
+<td>dBm</td>
+</tr>
+<tr>
+<td><code>COMPPEAK</code></td>
+<td>Compressor peak</td>
+<td>dB</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="audio-streaming">Audio Streaming</h2>
+<p>FlexLib supports multiple types of audio streams for receiving and transmitting audio data.</p>
+<h3 id="dax-rx-audio-stream">DAX RX Audio Stream</h3>
+<pre><code class="lang-csharp">static void SetupRxAudioStream(Radio radio)
+{
+    // Create DAX RX audio stream
+    DAXRXAudioStream daxStream = radio.CreateDAXRXAudioStream(1); // DAX channel 1
+    
+    if (daxStream != null)
+    {
+        Console.WriteLine(&quot;DAX RX audio stream created&quot;);
+        
+        // Subscribe to audio data
+        daxStream.DataReady += (data) =&gt;
+        {
+            // Process audio samples
+            // data contains float[] audio samples
+            ProcessAudioSamples(data);
+        };
+        
+        // Start streaming
+        daxStream.Start();
+    }
+}
+
+static void ProcessAudioSamples(float[] samples)
+{
+    // Your audio processing code here
+    // - Write to file
+    // - Play to audio device
+    // - Process for digital modes
+    // - etc.
+}
+</code></pre>
+<h3 id="remote-rx-audio">Remote RX Audio</h3>
+<pre><code class="lang-csharp">static void SetupRemoteAudio(Radio radio)
+{
+    // Enable remote RX audio
+    var remoteStream = radio.CreateRXRemoteAudioStream();
+    
+    if (remoteStream != null)
+    {
+        Console.WriteLine(&quot;Remote RX audio stream created&quot;);
+        
+        remoteStream.DataReady += (audioData) =&gt;
+        {
+            // Process remote audio samples
+            // Compressed audio over network
+        };
+    }
+}
+</code></pre>
+<hr>
+<h2 id="ptt-control">PTT Control</h2>
+<p>Control transmit/receive switching programmatically.</p>
+<h3 id="software-ptt">Software PTT</h3>
+<pre><code class="lang-csharp">static void TransmitExample(Slice slice)
+{
+    Console.WriteLine(&quot;Starting transmission...&quot;);
+    
+    // Key the transmitter
+    slice.Transmit = true;
+    
+    // Wait for transmit to start
+    Thread.Sleep(500);
+    
+    Console.WriteLine(&quot;Transmitting...&quot;);
+    
+    // Transmit for 3 seconds
+    Thread.Sleep(3000);
+    
+    // Unkey the transmitter
+    slice.Transmit = false;
+    
+    Console.WriteLine(&quot;Transmission complete&quot;);
+}
+</code></pre>
+<h3 id="monitoring-interlock-state">Monitoring Interlock State</h3>
+<pre><code class="lang-csharp">static void MonitorInterlock(Radio radio)
+{
+    radio.PropertyChanged += (sender, e) =&gt;
+    {
+        if (e.PropertyName == &quot;InterlockState&quot;)
+        {
+            Console.WriteLine($&quot;Interlock State: {radio.InterlockState}&quot;);
+            
+            switch (radio.InterlockState)
+            {
+                case InterlockState.Receive:
+                    Console.WriteLine(&quot;In receive mode&quot;);
+                    break;
+                    
+                case InterlockState.Ready:
+                    Console.WriteLine(&quot;Ready to transmit&quot;);
+                    break;
+                    
+                case InterlockState.Transmitting:
+                    Console.WriteLine(&quot;Transmitting!&quot;);
+                    break;
+                    
+                case InterlockState.NotReady:
+                    Console.WriteLine($&quot;Not ready: {radio.InterlockReason}&quot;);
+                    break;
+                    
+                case InterlockState.TXFault:
+                    Console.WriteLine(&quot;TX FAULT!&quot;);
+                    break;
+            }
+        }
+    };
+}
+</code></pre>
+<hr>
+<h2 id="cleanup-and-disposal">Cleanup and Disposal</h2>
+<p>Always clean up resources when your application exits.</p>
+<h3 id="proper-cleanup">Proper Cleanup</h3>
+<pre><code class="lang-csharp">static async Task Main(string[] args)
+{
+    try
+    {
+        API.ProgramName = &quot;MyFlexRadioApp&quot;;
+        API.Init();
+        
+        // Your application code here
+        
+        // Wait for Ctrl+C
+        var exitEvent = new ManualResetEvent(false);
+        Console.CancelKeyPress += (sender, e) =&gt;
+        {
+            e.Cancel = true;
+            exitEvent.Set();
+        };
+        
+        Console.WriteLine(&quot;Press Ctrl+C to exit...&quot;);
+        exitEvent.WaitOne();
+    }
+    finally
+    {
+        // Cleanup
+        Cleanup();
+    }
+}
+
+static void Cleanup()
+{
+    Console.WriteLine(&quot;\nCleaning up...&quot;);
+    
+    // Disconnect all radios
+    foreach (var radio in API.RadioList)
+    {
+        if (radio.Connected)
+        {
+            Console.WriteLine($&quot;Disconnecting from {radio.Nickname}...&quot;);
+            radio.Disconnect();
+        }
+    }
+    
+    // Close API session
+    API.CloseSession();
+    
+    Console.WriteLine(&quot;Cleanup complete&quot;);
+}
+</code></pre>
+<hr>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="no-radios-discovered">No Radios Discovered</h3>
+<p><strong>Problem</strong>: <code>API.RadioList</code> is empty after calling <code>API.Init()</code>.</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify radio is powered on and connected to network</li>
+<li>Check PC and radio are on same subnet</li>
+<li>Disable VPN if active</li>
+<li>Check Windows Firewall allows UDP port 4992</li>
+<li>Wait longer (try 5-10 seconds)</li>
+<li>Check radio IP with FlexRadio SmartSDR</li>
+</ol>
+<h3 id="connection-fails">Connection Fails</h3>
+<p><strong>Problem</strong>: <code>radio.Connect()</code> doesn't result in <code>Connected = true</code>.</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify radio is available (<code>radio.Available = true</code>)</li>
+<li>Close other applications connected to the radio</li>
+<li>Check network connectivity with ping</li>
+<li>Verify firewall allows TCP port 4992</li>
+<li>Try rebooting the radio</li>
+</ol>
+<h3 id="slice-not-created">Slice Not Created</h3>
+<p><strong>Problem</strong>: <code>radio.RequestSliceFromRadio()</code> doesn't create a slice.</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify radio is connected</li>
+<li>Check if maximum slices already created</li>
+<li>Wait longer (500-1000ms)</li>
+<li>Check radio firmware version compatibility</li>
+</ol>
+<h3 id="no-meter-data">No Meter Data</h3>
+<p><strong>Problem</strong>: Meter events not firing.</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Subscribe to <code>MeterAdded</code> before connecting</li>
+<li>Verify meters exist in <code>radio.MeterList</code></li>
+<li>Check meter subscription settings</li>
+<li>Ensure radio is transmitting (for TX meters)</li>
+</ol>
+<h3 id="audio-stream-issues">Audio Stream Issues</h3>
+<p><strong>Problem</strong>: No audio data received.</p>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify DAX channel is configured in SmartSDR</li>
+<li>Check audio stream is started</li>
+<li>Verify slice has audio source</li>
+<li>Check DAX audio settings in radio</li>
+</ol>
+<hr>
+<h2 id="next-steps">Next Steps</h2>
+<p>Now that you've mastered the basics:</p>
+<ol>
+<li><strong>Explore the <a href="api/index.md">API Reference</a></strong> - Deep dive into all classes and methods</li>
+<li><strong>Study <a href="Examples.html">Examples</a></strong> - See real-world application patterns</li>
+<li><strong>Read <a href="Architecture.html">Architecture</a></strong> - Understand FlexLib's design</li>
+<li><strong>Build something!</strong> - Start your own FlexRadio application</li>
+</ol>
+<hr>
+<p><strong>Need more help?</strong> Visit the <a href="https://community.flexradio.com">FlexRadio Community Forum</a> or contact technical support.</p>
+<p>Happy coding! 📻</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

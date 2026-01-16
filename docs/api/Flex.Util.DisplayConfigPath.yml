@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayConfigPath
+  commentId: T:Flex.Util.DisplayConfigPath
+  id: DisplayConfigPath
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayConfigPath.OutputTechnology
+  - Flex.Util.DisplayConfigPath.TargetRotation
+  - Flex.Util.DisplayConfigPath.TargetScaling
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfigPath
+  nameWithType: DisplayConfigPath
+  fullName: Flex.Util.DisplayConfigPath
+  type: Class
+  source:
+    id: DisplayConfigPath
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 369
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public class DisplayConfigPath
+    content.vb: Public Class DisplayConfigPath
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Util.DisplayConfigPath.TargetRotation
+  commentId: P:Flex.Util.DisplayConfigPath.TargetRotation
+  id: TargetRotation
+  parent: Flex.Util.DisplayConfigPath
+  langs:
+  - csharp
+  - vb
+  name: TargetRotation
+  nameWithType: DisplayConfigPath.TargetRotation
+  fullName: Flex.Util.DisplayConfigPath.TargetRotation
+  type: Property
+  source:
+    id: TargetRotation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 492
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public DisplayConfigPath.Rotation TargetRotation { get; set; }
+    parameters: []
+    return:
+      type: Flex.Util.DisplayConfigPath.Rotation
+    content.vb: Public Property TargetRotation As DisplayConfigPath.Rotation
+  overload: Flex.Util.DisplayConfigPath.TargetRotation*
+- uid: Flex.Util.DisplayConfigPath.TargetScaling
+  commentId: P:Flex.Util.DisplayConfigPath.TargetScaling
+  id: TargetScaling
+  parent: Flex.Util.DisplayConfigPath
+  langs:
+  - csharp
+  - vb
+  name: TargetScaling
+  nameWithType: DisplayConfigPath.TargetScaling
+  fullName: Flex.Util.DisplayConfigPath.TargetScaling
+  type: Property
+  source:
+    id: TargetScaling
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 498
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public DisplayConfigPath.Scaling TargetScaling { get; set; }
+    parameters: []
+    return:
+      type: Flex.Util.DisplayConfigPath.Scaling
+    content.vb: Public Property TargetScaling As DisplayConfigPath.Scaling
+  overload: Flex.Util.DisplayConfigPath.TargetScaling*
+- uid: Flex.Util.DisplayConfigPath.OutputTechnology
+  commentId: P:Flex.Util.DisplayConfigPath.OutputTechnology
+  id: OutputTechnology
+  parent: Flex.Util.DisplayConfigPath
+  langs:
+  - csharp
+  - vb
+  name: OutputTechnology
+  nameWithType: DisplayConfigPath.OutputTechnology
+  fullName: Flex.Util.DisplayConfigPath.OutputTechnology
+  type: Property
+  source:
+    id: OutputTechnology
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 504
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public DisplayConfigPath.VideoOutputTechnology OutputTechnology { get; }
+    parameters: []
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    content.vb: Public ReadOnly Property OutputTechnology As DisplayConfigPath.VideoOutputTechnology
+  overload: Flex.Util.DisplayConfigPath.OutputTechnology*
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Util.DisplayConfigPath.TargetRotation*
+  commentId: Overload:Flex.Util.DisplayConfigPath.TargetRotation
+  href: Flex.Util.DisplayConfigPath.html#Flex_Util_DisplayConfigPath_TargetRotation
+  name: TargetRotation
+  nameWithType: DisplayConfigPath.TargetRotation
+  fullName: Flex.Util.DisplayConfigPath.TargetRotation
+- uid: Flex.Util.DisplayConfigPath.Rotation
+  commentId: T:Flex.Util.DisplayConfigPath.Rotation
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.Rotation
+  nameWithType: DisplayConfigPath.Rotation
+  fullName: Flex.Util.DisplayConfigPath.Rotation
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: Rotation
+    href: Flex.Util.DisplayConfigPath.Rotation.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: Rotation
+    href: Flex.Util.DisplayConfigPath.Rotation.html
+- uid: Flex.Util.DisplayConfigPath.TargetScaling*
+  commentId: Overload:Flex.Util.DisplayConfigPath.TargetScaling
+  href: Flex.Util.DisplayConfigPath.html#Flex_Util_DisplayConfigPath_TargetScaling
+  name: TargetScaling
+  nameWithType: DisplayConfigPath.TargetScaling
+  fullName: Flex.Util.DisplayConfigPath.TargetScaling
+- uid: Flex.Util.DisplayConfigPath.Scaling
+  commentId: T:Flex.Util.DisplayConfigPath.Scaling
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.Scaling
+  nameWithType: DisplayConfigPath.Scaling
+  fullName: Flex.Util.DisplayConfigPath.Scaling
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: Scaling
+    href: Flex.Util.DisplayConfigPath.Scaling.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: Scaling
+    href: Flex.Util.DisplayConfigPath.Scaling.html
+- uid: Flex.Util.DisplayConfigPath.OutputTechnology*
+  commentId: Overload:Flex.Util.DisplayConfigPath.OutputTechnology
+  href: Flex.Util.DisplayConfigPath.html#Flex_Util_DisplayConfigPath_OutputTechnology
+  name: OutputTechnology
+  nameWithType: DisplayConfigPath.OutputTechnology
+  fullName: Flex.Util.DisplayConfigPath.OutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  commentId: T:Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.VideoOutputTechnology
+  nameWithType: DisplayConfigPath.VideoOutputTechnology
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: VideoOutputTechnology
+    href: Flex.Util.DisplayConfigPath.VideoOutputTechnology.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: VideoOutputTechnology
+    href: Flex.Util.DisplayConfigPath.VideoOutputTechnology.html

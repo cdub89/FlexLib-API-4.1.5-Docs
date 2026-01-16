@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl
+  commentId: T:Flex.Smoothlake.FlexLib.SerialFlowControl
+  id: SerialFlowControl
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.SerialFlowControl.dtr_dsr
+  - Flex.Smoothlake.FlexLib.SerialFlowControl.none
+  - Flex.Smoothlake.FlexLib.SerialFlowControl.rts_cts
+  - Flex.Smoothlake.FlexLib.SerialFlowControl.xon_xoff
+  langs:
+  - csharp
+  - vb
+  name: SerialFlowControl
+  nameWithType: SerialFlowControl
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl
+  type: Enum
+  source:
+    id: SerialFlowControl
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 465
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: >-
+      [TypeConverter(typeof(EnumDescriptionTypeConverter))]
+
+      public enum SerialFlowControl
+    content.vb: >-
+      <TypeConverter(GetType(EnumDescriptionTypeConverter))>
+
+      Public Enum SerialFlowControl
+  attributes:
+  - type: System.ComponentModel.TypeConverterAttribute
+    ctor: System.ComponentModel.TypeConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl.none
+  commentId: F:Flex.Smoothlake.FlexLib.SerialFlowControl.none
+  id: none
+  parent: Flex.Smoothlake.FlexLib.SerialFlowControl
+  langs:
+  - csharp
+  - vb
+  name: none
+  nameWithType: SerialFlowControl.none
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl.none
+  type: Field
+  source:
+    id: none
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 468
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: none = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialFlowControl
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl.rts_cts
+  commentId: F:Flex.Smoothlake.FlexLib.SerialFlowControl.rts_cts
+  id: rts_cts
+  parent: Flex.Smoothlake.FlexLib.SerialFlowControl
+  langs:
+  - csharp
+  - vb
+  name: rts_cts
+  nameWithType: SerialFlowControl.rts_cts
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl.rts_cts
+  type: Field
+  source:
+    id: rts_cts
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 470
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: rts_cts = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialFlowControl
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl.dtr_dsr
+  commentId: F:Flex.Smoothlake.FlexLib.SerialFlowControl.dtr_dsr
+  id: dtr_dsr
+  parent: Flex.Smoothlake.FlexLib.SerialFlowControl
+  langs:
+  - csharp
+  - vb
+  name: dtr_dsr
+  nameWithType: SerialFlowControl.dtr_dsr
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl.dtr_dsr
+  type: Field
+  source:
+    id: dtr_dsr
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 472
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: dtr_dsr = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialFlowControl
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl.xon_xoff
+  commentId: F:Flex.Smoothlake.FlexLib.SerialFlowControl.xon_xoff
+  id: xon_xoff
+  parent: Flex.Smoothlake.FlexLib.SerialFlowControl
+  langs:
+  - csharp
+  - vb
+  name: xon_xoff
+  nameWithType: SerialFlowControl.xon_xoff
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl.xon_xoff
+  type: Field
+  source:
+    id: xon_xoff
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 474
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: xon_xoff = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialFlowControl
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl
+  commentId: T:Flex.Smoothlake.FlexLib.SerialFlowControl
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialFlowControl.html
+  name: SerialFlowControl
+  nameWithType: SerialFlowControl
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl

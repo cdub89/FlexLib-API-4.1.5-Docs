@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ScreensaverMode
+  commentId: T:Flex.Smoothlake.FlexLib.ScreensaverMode
+  id: ScreensaverMode
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ScreensaverMode.Callsign
+  - Flex.Smoothlake.FlexLib.ScreensaverMode.Model
+  - Flex.Smoothlake.FlexLib.ScreensaverMode.Name
+  - Flex.Smoothlake.FlexLib.ScreensaverMode.None
+  langs:
+  - csharp
+  - vb
+  name: ScreensaverMode
+  nameWithType: ScreensaverMode
+  fullName: Flex.Smoothlake.FlexLib.ScreensaverMode
+  type: Enum
+  source:
+    id: ScreensaverMode
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 106
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Display options for the front panel of the radio
+  example: []
+  syntax:
+    content: public enum ScreensaverMode
+    content.vb: Public Enum ScreensaverMode
+- uid: Flex.Smoothlake.FlexLib.ScreensaverMode.None
+  commentId: F:Flex.Smoothlake.FlexLib.ScreensaverMode.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.ScreensaverMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ScreensaverMode.None
+  fullName: Flex.Smoothlake.FlexLib.ScreensaverMode.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 108
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.ScreensaverMode
+- uid: Flex.Smoothlake.FlexLib.ScreensaverMode.Model
+  commentId: F:Flex.Smoothlake.FlexLib.ScreensaverMode.Model
+  id: Model
+  parent: Flex.Smoothlake.FlexLib.ScreensaverMode
+  langs:
+  - csharp
+  - vb
+  name: Model
+  nameWithType: ScreensaverMode.Model
+  fullName: Flex.Smoothlake.FlexLib.ScreensaverMode.Model
+  type: Field
+  source:
+    id: Model
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 109
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Model = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.ScreensaverMode
+- uid: Flex.Smoothlake.FlexLib.ScreensaverMode.Name
+  commentId: F:Flex.Smoothlake.FlexLib.ScreensaverMode.Name
+  id: Name
+  parent: Flex.Smoothlake.FlexLib.ScreensaverMode
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ScreensaverMode.Name
+  fullName: Flex.Smoothlake.FlexLib.ScreensaverMode.Name
+  type: Field
+  source:
+    id: Name
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 110
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Name = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.ScreensaverMode
+- uid: Flex.Smoothlake.FlexLib.ScreensaverMode.Callsign
+  commentId: F:Flex.Smoothlake.FlexLib.ScreensaverMode.Callsign
+  id: Callsign
+  parent: Flex.Smoothlake.FlexLib.ScreensaverMode
+  langs:
+  - csharp
+  - vb
+  name: Callsign
+  nameWithType: ScreensaverMode.Callsign
+  fullName: Flex.Smoothlake.FlexLib.ScreensaverMode.Callsign
+  type: Field
+  source:
+    id: Callsign
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 111
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Callsign = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.ScreensaverMode
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.ScreensaverMode
+  commentId: T:Flex.Smoothlake.FlexLib.ScreensaverMode
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ScreensaverMode.html
+  name: ScreensaverMode
+  nameWithType: ScreensaverMode
+  fullName: Flex.Smoothlake.FlexLib.ScreensaverMode

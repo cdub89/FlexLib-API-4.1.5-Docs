@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  commentId: T:Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  id: VitaTimeStampFractionalType
+  parent: Flex.Smoothlake.Vita
+  children:
+  - Flex.Smoothlake.Vita.VitaTimeStampFractionalType.FreeRunning
+  - Flex.Smoothlake.Vita.VitaTimeStampFractionalType.None
+  - Flex.Smoothlake.Vita.VitaTimeStampFractionalType.RealTime
+  - Flex.Smoothlake.Vita.VitaTimeStampFractionalType.SampleCount
+  langs:
+  - csharp
+  - vb
+  name: VitaTimeStampFractionalType
+  nameWithType: VitaTimeStampFractionalType
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  type: Enum
+  source:
+    id: VitaTimeStampFractionalType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 52
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  summary: From Vita 49 Standard Table 6.1.1-3
+  example: []
+  syntax:
+    content: public enum VitaTimeStampFractionalType
+    content.vb: Public Enum VitaTimeStampFractionalType
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.None
+  commentId: F:Flex.Smoothlake.Vita.VitaTimeStampFractionalType.None
+  id: None
+  parent: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VitaTimeStampFractionalType.None
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 54
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.SampleCount
+  commentId: F:Flex.Smoothlake.Vita.VitaTimeStampFractionalType.SampleCount
+  id: SampleCount
+  parent: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  langs:
+  - csharp
+  - vb
+  name: SampleCount
+  nameWithType: VitaTimeStampFractionalType.SampleCount
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.SampleCount
+  type: Field
+  source:
+    id: SampleCount
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 55
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: SampleCount = 1
+    return:
+      type: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.RealTime
+  commentId: F:Flex.Smoothlake.Vita.VitaTimeStampFractionalType.RealTime
+  id: RealTime
+  parent: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  langs:
+  - csharp
+  - vb
+  name: RealTime
+  nameWithType: VitaTimeStampFractionalType.RealTime
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.RealTime
+  type: Field
+  source:
+    id: RealTime
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 56
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: RealTime = 2
+    return:
+      type: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.FreeRunning
+  commentId: F:Flex.Smoothlake.Vita.VitaTimeStampFractionalType.FreeRunning
+  id: FreeRunning
+  parent: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  langs:
+  - csharp
+  - vb
+  name: FreeRunning
+  nameWithType: VitaTimeStampFractionalType.FreeRunning
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.FreeRunning
+  type: Field
+  source:
+    id: FreeRunning
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 57
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: FreeRunning = 3
+    return:
+      type: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+references:
+- uid: Flex.Smoothlake.Vita
+  commentId: N:Flex.Smoothlake.Vita
+  href: Flex.html
+  name: Flex.Smoothlake.Vita
+  nameWithType: Flex.Smoothlake.Vita
+  fullName: Flex.Smoothlake.Vita
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  commentId: T:Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.html
+  name: VitaTimeStampFractionalType
+  nameWithType: VitaTimeStampFractionalType
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType

@@ -1,0 +1,2308 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Panadapter
+  commentId: T:Flex.Smoothlake.FlexLib.Panadapter
+  id: Panadapter
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.Panadapter.AutoCenter
+  - Flex.Smoothlake.FlexLib.Panadapter.Average
+  - Flex.Smoothlake.FlexLib.Panadapter.Band
+  - Flex.Smoothlake.FlexLib.Panadapter.Bandwidth
+  - Flex.Smoothlake.FlexLib.Panadapter.CenterFreq
+  - Flex.Smoothlake.FlexLib.Panadapter.CheckReady
+  - Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID
+  - Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest(System.Double)
+  - Flex.Smoothlake.FlexLib.Panadapter.ClientHandle
+  - Flex.Smoothlake.FlexLib.Panadapter.Close
+  - Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel
+  - Flex.Smoothlake.FlexLib.Panadapter.DataReady
+  - Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount
+  - Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount
+  - Flex.Smoothlake.FlexLib.Panadapter.FPS
+  - Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo
+  - Flex.Smoothlake.FlexLib.Panadapter.Height
+  - Flex.Smoothlake.FlexLib.Panadapter.HighDbm
+  - Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn
+  - Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn
+  - Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled
+  - Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress
+  - Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort
+  - Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum
+  - Flex.Smoothlake.FlexLib.Panadapter.LoopA
+  - Flex.Smoothlake.FlexLib.Panadapter.LoopB
+  - Flex.Smoothlake.FlexLib.Panadapter.LowDbm
+  - Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth
+  - Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth
+  - Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition
+  - Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable
+  - Flex.Smoothlake.FlexLib.Panadapter.Preamp
+  - Flex.Smoothlake.FlexLib.Panadapter.RFGain
+  - Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh
+  - Flex.Smoothlake.FlexLib.Panadapter.RFGainLow
+  - Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers
+  - Flex.Smoothlake.FlexLib.Panadapter.RFGainStep
+  - Flex.Smoothlake.FlexLib.Panadapter.RXAnt
+  - Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList
+  - Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate(System.String)
+  - Flex.Smoothlake.FlexLib.Panadapter.StreamID
+  - Flex.Smoothlake.FlexLib.Panadapter.WNBLevel
+  - Flex.Smoothlake.FlexLib.Panadapter.WNBOn
+  - Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating
+  - Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage
+  - Flex.Smoothlake.FlexLib.Panadapter.Wide
+  - Flex.Smoothlake.FlexLib.Panadapter.Width
+  - Flex.Smoothlake.FlexLib.Panadapter.XVTR
+  langs:
+  - csharp
+  - vb
+  name: Panadapter
+  nameWithType: Panadapter
+  fullName: Flex.Smoothlake.FlexLib.Panadapter
+  type: Class
+  source:
+    id: Panadapter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 22
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class Panadapter : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class Panadapter Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo
+  commentId: M:Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo
+  id: GetRFGainInfo
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: GetRFGainInfo()
+  nameWithType: Panadapter.GetRFGainInfo()
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo()
+  type: Method
+  source:
+    id: GetRFGainInfo
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 38
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void GetRFGainInfo()
+    content.vb: Public Sub GetRFGainInfo()
+  overload: Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.ClientHandle
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.ClientHandle
+  id: ClientHandle
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: ClientHandle
+  nameWithType: Panadapter.ClientHandle
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.ClientHandle
+  type: Property
+  source:
+    id: ClientHandle
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 68
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint ClientHandle { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ClientHandle As UInteger
+  overload: Flex.Smoothlake.FlexLib.Panadapter.ClientHandle*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.StreamID
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.StreamID
+  id: StreamID
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: StreamID
+  nameWithType: Panadapter.StreamID
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.StreamID
+  type: Property
+  source:
+    id: StreamID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 75
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint StreamID { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property StreamID As UInteger
+  overload: Flex.Smoothlake.FlexLib.Panadapter.StreamID*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID
+  id: ChildWaterfallStreamID
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: ChildWaterfallStreamID
+  nameWithType: Panadapter.ChildWaterfallStreamID
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID
+  type: Property
+  source:
+    id: ChildWaterfallStreamID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 82
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint ChildWaterfallStreamID { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ChildWaterfallStreamID As UInteger
+  overload: Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn
+  id: IsBandZoomOn
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: IsBandZoomOn
+  nameWithType: Panadapter.IsBandZoomOn
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn
+  type: Property
+  source:
+    id: IsBandZoomOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 89
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsBandZoomOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsBandZoomOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn
+  id: IsSegmentZoomOn
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: IsSegmentZoomOn
+  nameWithType: Panadapter.IsSegmentZoomOn
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn
+  type: Property
+  source:
+    id: IsSegmentZoomOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 101
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsSegmentZoomOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSegmentZoomOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WNBOn
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.WNBOn
+  id: WNBOn
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: WNBOn
+  nameWithType: Panadapter.WNBOn
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WNBOn
+  type: Property
+  source:
+    id: WNBOn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 116
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Enables or disables the Wideband Noise Blanker (WNB) for the Panadapter.
+  example: []
+  syntax:
+    content: public bool WNBOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WNBOn As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.WNBOn*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WNBLevel
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.WNBLevel
+  id: WNBLevel
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: WNBLevel
+  nameWithType: Panadapter.WNBLevel
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WNBLevel
+  type: Property
+  source:
+    id: WNBLevel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 134
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets or sets the Wideband Noise Blanker (WNB) level from 0 to 100.
+  example: []
+  syntax:
+    content: public int WNBLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WNBLevel As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.WNBLevel*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating
+  id: WNBUpdating
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: WNBUpdating
+  nameWithType: Panadapter.WNBUpdating
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating
+  type: Property
+  source:
+    id: WNBUpdating
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 161
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Gets whether the Noise Blanker is currently updating
+  example: []
+  syntax:
+    content: public bool WNBUpdating { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property WNBUpdating As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RXAnt
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RXAnt
+  id: RXAnt
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RXAnt
+  nameWithType: Panadapter.RXAnt
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RXAnt
+  type: Property
+  source:
+    id: RXAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 167
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string RXAnt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RXAnt As String
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RXAnt*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGain
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RFGain
+  id: RFGain
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RFGain
+  nameWithType: Panadapter.RFGain
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGain
+  type: Property
+  source:
+    id: RFGain
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 182
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int RFGain { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RFGain As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RFGain*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainLow
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RFGainLow
+  id: RFGainLow
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RFGainLow
+  nameWithType: Panadapter.RFGainLow
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainLow
+  type: Property
+  source:
+    id: RFGainLow
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 197
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int RFGainLow { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RFGainLow As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RFGainLow*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh
+  id: RFGainHigh
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RFGainHigh
+  nameWithType: Panadapter.RFGainHigh
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh
+  type: Property
+  source:
+    id: RFGainHigh
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 211
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int RFGainHigh { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RFGainHigh As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainStep
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RFGainStep
+  id: RFGainStep
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RFGainStep
+  nameWithType: Panadapter.RFGainStep
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainStep
+  type: Property
+  source:
+    id: RFGainStep
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 225
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int RFGainStep { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RFGainStep As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RFGainStep*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers
+  id: RFGainMarkers
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RFGainMarkers
+  nameWithType: Panadapter.RFGainMarkers
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers
+  type: Property
+  source:
+    id: RFGainMarkers
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 239
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int[] RFGainMarkers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property RFGainMarkers As Integer()
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel
+  id: DAXIQChannel
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: DAXIQChannel
+  nameWithType: Panadapter.DAXIQChannel
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel
+  type: Property
+  source:
+    id: DAXIQChannel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 250
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int DAXIQChannel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DAXIQChannel As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Width
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Width
+  id: Width
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Panadapter.Width
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Width
+  type: Property
+  source:
+    id: Width
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 290
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Width*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Height
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Height
+  id: Height
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Panadapter.Height
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Height
+  type: Property
+  source:
+    id: Height
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 310
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Height As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Height*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Band
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Band
+  id: Band
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Band
+  nameWithType: Panadapter.Band
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Band
+  type: Property
+  source:
+    id: Band
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 326
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Band { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Band As String
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Band*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.CenterFreq
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.CenterFreq
+  id: CenterFreq
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: CenterFreq
+  nameWithType: Panadapter.CenterFreq
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.CenterFreq
+  type: Property
+  source:
+    id: CenterFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 338
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double CenterFreq { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property CenterFreq As Double
+  overload: Flex.Smoothlake.FlexLib.Panadapter.CenterFreq*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth
+  id: MaxBandwidth
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: MaxBandwidth
+  nameWithType: Panadapter.MaxBandwidth
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth
+  type: Property
+  source:
+    id: MaxBandwidth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 374
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double MaxBandwidth { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property MaxBandwidth As Double
+  overload: Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth
+  id: MinBandwidth
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: MinBandwidth
+  nameWithType: Panadapter.MinBandwidth
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth
+  type: Property
+  source:
+    id: MinBandwidth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 380
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double MinBandwidth { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property MinBandwidth As Double
+  overload: Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Bandwidth
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Bandwidth
+  id: Bandwidth
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Bandwidth
+  nameWithType: Panadapter.Bandwidth
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Bandwidth
+  type: Property
+  source:
+    id: Bandwidth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 386
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double Bandwidth { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Bandwidth As Double
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Bandwidth*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.AutoCenter
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.AutoCenter
+  id: AutoCenter
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: AutoCenter
+  nameWithType: Panadapter.AutoCenter
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.AutoCenter
+  type: Property
+  source:
+    id: AutoCenter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 414
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool AutoCenter { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoCenter As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.AutoCenter*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LowDbm
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LowDbm
+  id: LowDbm
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LowDbm
+  nameWithType: Panadapter.LowDbm
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LowDbm
+  type: Property
+  source:
+    id: LowDbm
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 442
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double LowDbm { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property LowDbm As Double
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LowDbm*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.HighDbm
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.HighDbm
+  id: HighDbm
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: HighDbm
+  nameWithType: Panadapter.HighDbm
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.HighDbm
+  type: Property
+  source:
+    id: HighDbm
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 474
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double HighDbm { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property HighDbm As Double
+  overload: Flex.Smoothlake.FlexLib.Panadapter.HighDbm*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.FPS
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.FPS
+  id: FPS
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: FPS
+  nameWithType: Panadapter.FPS
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.FPS
+  type: Property
+  source:
+    id: FPS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 506
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int FPS { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FPS As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.FPS*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition
+  id: NoiseFloorPosition
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: NoiseFloorPosition
+  nameWithType: Panadapter.NoiseFloorPosition
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition
+  type: Property
+  source:
+    id: NoiseFloorPosition
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 521
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int NoiseFloorPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NoiseFloorPosition As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable
+  id: NoiseFloorPositionEnable
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: NoiseFloorPositionEnable
+  nameWithType: Panadapter.NoiseFloorPositionEnable
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable
+  type: Property
+  source:
+    id: NoiseFloorPositionEnable
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 535
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool NoiseFloorPositionEnable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NoiseFloorPositionEnable As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Average
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Average
+  id: Average
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Average
+  nameWithType: Panadapter.Average
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Average
+  type: Property
+  source:
+    id: Average
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 550
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Average { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Average As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Average*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList
+  id: RXAntennaList
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: RXAntennaList
+  nameWithType: Panadapter.RXAntennaList
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList
+  type: Property
+  source:
+    id: RXAntennaList
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 570
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    A list of the available RX Antenna ports on 
+
+    the radio, i.e. "ANT1", "ANT2", "RX_A", 
+
+    "RX_B", "XVTR"
+  example: []
+  syntax:
+    content: public string[] RXAntennaList { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property RXAntennaList As String()
+  overload: Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage
+  id: WeightedAverage
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: WeightedAverage
+  nameWithType: Panadapter.WeightedAverage
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage
+  type: Property
+  source:
+    id: WeightedAverage
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 576
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool WeightedAverage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WeightedAverage As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Wide
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Wide
+  id: Wide
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Wide
+  nameWithType: Panadapter.Wide
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Wide
+  type: Property
+  source:
+    id: Wide
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 591
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Wide { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Wide As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Wide*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled
+  id: LoggerDisplayEnabled
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LoggerDisplayEnabled
+  nameWithType: Panadapter.LoggerDisplayEnabled
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled
+  type: Property
+  source:
+    id: LoggerDisplayEnabled
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 605
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool LoggerDisplayEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LoggerDisplayEnabled As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress
+  id: LoggerDisplayIPAddress
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LoggerDisplayIPAddress
+  nameWithType: Panadapter.LoggerDisplayIPAddress
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress
+  type: Property
+  source:
+    id: LoggerDisplayIPAddress
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 620
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public IPAddress LoggerDisplayIPAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Property LoggerDisplayIPAddress As IPAddress
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort
+  id: LoggerDisplayPort
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LoggerDisplayPort
+  nameWithType: Panadapter.LoggerDisplayPort
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort
+  type: Property
+  source:
+    id: LoggerDisplayPort
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 635
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public ushort LoggerDisplayPort { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property LoggerDisplayPort As UShort
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum
+  id: LoggerDisplayRadioNum
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LoggerDisplayRadioNum
+  nameWithType: Panadapter.LoggerDisplayRadioNum
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum
+  type: Property
+  source:
+    id: LoggerDisplayRadioNum
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 650
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public byte LoggerDisplayRadioNum { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property LoggerDisplayRadioNum As Byte
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.XVTR
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.XVTR
+  id: XVTR
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: XVTR
+  nameWithType: Panadapter.XVTR
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.XVTR
+  type: Property
+  source:
+    id: XVTR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 665
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string XVTR { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property XVTR As String
+  overload: Flex.Smoothlake.FlexLib.Panadapter.XVTR*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Preamp
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.Preamp
+  id: Preamp
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Preamp
+  nameWithType: Panadapter.Preamp
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Preamp
+  type: Property
+  source:
+    id: Preamp
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 679
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Preamp { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Preamp As String
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Preamp*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoopA
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LoopA
+  id: LoopA
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LoopA
+  nameWithType: Panadapter.LoopA
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoopA
+  type: Property
+  source:
+    id: LoopA
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 685
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool LoopA { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LoopA As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LoopA*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoopB
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.LoopB
+  id: LoopB
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: LoopB
+  nameWithType: Panadapter.LoopB
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoopB
+  type: Property
+  source:
+    id: LoopB
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 700
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool LoopB { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LoopB As Boolean
+  overload: Flex.Smoothlake.FlexLib.Panadapter.LoopB*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount
+  id: FFTPacketTotalCount
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: FFTPacketTotalCount
+  nameWithType: Panadapter.FFTPacketTotalCount
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount
+  type: Property
+  source:
+    id: FFTPacketTotalCount
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 715
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int FFTPacketTotalCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FFTPacketTotalCount As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount
+  commentId: P:Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount
+  id: FFTPacketErrorCount
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: FFTPacketErrorCount
+  nameWithType: Panadapter.FFTPacketErrorCount
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount
+  type: Property
+  source:
+    id: FFTPacketErrorCount
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 730
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int FFTPacketErrorCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FFTPacketErrorCount As Integer
+  overload: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Close
+  commentId: M:Flex.Smoothlake.FlexLib.Panadapter.Close
+  id: Close
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: Panadapter.Close()
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Close()
+  type: Method
+  source:
+    id: Close
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 744
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close()
+  overload: Flex.Smoothlake.FlexLib.Panadapter.Close*
+- uid: Flex.Smoothlake.FlexLib.Panadapter.DataReady
+  commentId: E:Flex.Smoothlake.FlexLib.Panadapter.DataReady
+  id: DataReady
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: DataReady
+  nameWithType: Panadapter.DataReady
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.DataReady
+  type: Event
+  source:
+    id: DataReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 848
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event Panadapter.DataReadyEventHandler DataReady
+    return:
+      type: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+    content.vb: Public Event DataReady As Panadapter.DataReadyEventHandler
+- uid: Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest(System.Double)
+  commentId: M:Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest(System.Double)
+  id: ClickTuneRequest(System.Double)
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: ClickTuneRequest(double)
+  nameWithType: Panadapter.ClickTuneRequest(double)
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest(double)
+  type: Method
+  source:
+    id: ClickTuneRequest
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 855
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void ClickTuneRequest(double clicked_freq_MHz)
+    parameters:
+    - id: clicked_freq_MHz
+      type: System.Double
+    content.vb: Public Sub ClickTuneRequest(clicked_freq_MHz As Double)
+  overload: Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest*
+  nameWithType.vb: Panadapter.ClickTuneRequest(Double)
+  fullName.vb: Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest(Double)
+  name.vb: ClickTuneRequest(Double)
+- uid: Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate(System.String)
+  id: StatusUpdate(System.String)
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: StatusUpdate(string)
+  nameWithType: Panadapter.StatusUpdate(string)
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate(string)
+  type: Method
+  source:
+    id: StatusUpdate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 861
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void StatusUpdate(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub StatusUpdate(s As String)
+  overload: Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate*
+  nameWithType.vb: Panadapter.StatusUpdate(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate(String)
+  name.vb: StatusUpdate(String)
+- uid: Flex.Smoothlake.FlexLib.Panadapter.CheckReady
+  commentId: M:Flex.Smoothlake.FlexLib.Panadapter.CheckReady
+  id: CheckReady
+  parent: Flex.Smoothlake.FlexLib.Panadapter
+  langs:
+  - csharp
+  - vb
+  name: CheckReady()
+  nameWithType: Panadapter.CheckReady()
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.CheckReady()
+  type: Method
+  source:
+    id: CheckReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Panadapter.cs
+    startLine: 1350
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void CheckReady()
+    content.vb: Public Sub CheckReady()
+  overload: Flex.Smoothlake.FlexLib.Panadapter.CheckReady*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_GetRFGainInfo
+  name: GetRFGainInfo
+  nameWithType: Panadapter.GetRFGainInfo
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.GetRFGainInfo
+- uid: Flex.Smoothlake.FlexLib.Panadapter.ClientHandle*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.ClientHandle
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_ClientHandle
+  name: ClientHandle
+  nameWithType: Panadapter.ClientHandle
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.ClientHandle
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Flex.Smoothlake.FlexLib.Panadapter.StreamID*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.StreamID
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_StreamID
+  name: StreamID
+  nameWithType: Panadapter.StreamID
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.StreamID
+- uid: Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_ChildWaterfallStreamID
+  name: ChildWaterfallStreamID
+  nameWithType: Panadapter.ChildWaterfallStreamID
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.ChildWaterfallStreamID
+- uid: Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_IsBandZoomOn
+  name: IsBandZoomOn
+  nameWithType: Panadapter.IsBandZoomOn
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.IsBandZoomOn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_IsSegmentZoomOn
+  name: IsSegmentZoomOn
+  nameWithType: Panadapter.IsSegmentZoomOn
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.IsSegmentZoomOn
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WNBOn*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.WNBOn
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_WNBOn
+  name: WNBOn
+  nameWithType: Panadapter.WNBOn
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WNBOn
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WNBLevel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.WNBLevel
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_WNBLevel
+  name: WNBLevel
+  nameWithType: Panadapter.WNBLevel
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WNBLevel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_WNBUpdating
+  name: WNBUpdating
+  nameWithType: Panadapter.WNBUpdating
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WNBUpdating
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RXAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RXAnt
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RXAnt
+  name: RXAnt
+  nameWithType: Panadapter.RXAnt
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RXAnt
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGain*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RFGain
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RFGain
+  name: RFGain
+  nameWithType: Panadapter.RFGain
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGain
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainLow*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RFGainLow
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RFGainLow
+  name: RFGainLow
+  nameWithType: Panadapter.RFGainLow
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainLow
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RFGainHigh
+  name: RFGainHigh
+  nameWithType: Panadapter.RFGainHigh
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainHigh
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainStep*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RFGainStep
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RFGainStep
+  name: RFGainStep
+  nameWithType: Panadapter.RFGainStep
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainStep
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RFGainMarkers
+  name: RFGainMarkers
+  nameWithType: Panadapter.RFGainMarkers
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RFGainMarkers
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_DAXIQChannel
+  name: DAXIQChannel
+  nameWithType: Panadapter.DAXIQChannel
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.DAXIQChannel
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Width*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Width
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Width
+  name: Width
+  nameWithType: Panadapter.Width
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Width
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Height*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Height
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Height
+  name: Height
+  nameWithType: Panadapter.Height
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Height
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Band*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Band
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Band
+  name: Band
+  nameWithType: Panadapter.Band
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Band
+- uid: Flex.Smoothlake.FlexLib.Panadapter.CenterFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.CenterFreq
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_CenterFreq
+  name: CenterFreq
+  nameWithType: Panadapter.CenterFreq
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.CenterFreq
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_MaxBandwidth
+  name: MaxBandwidth
+  nameWithType: Panadapter.MaxBandwidth
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.MaxBandwidth
+- uid: Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_MinBandwidth
+  name: MinBandwidth
+  nameWithType: Panadapter.MinBandwidth
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.MinBandwidth
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Bandwidth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Bandwidth
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Bandwidth
+  name: Bandwidth
+  nameWithType: Panadapter.Bandwidth
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Bandwidth
+- uid: Flex.Smoothlake.FlexLib.Panadapter.AutoCenter*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.AutoCenter
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_AutoCenter
+  name: AutoCenter
+  nameWithType: Panadapter.AutoCenter
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.AutoCenter
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LowDbm*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LowDbm
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LowDbm
+  name: LowDbm
+  nameWithType: Panadapter.LowDbm
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LowDbm
+- uid: Flex.Smoothlake.FlexLib.Panadapter.HighDbm*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.HighDbm
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_HighDbm
+  name: HighDbm
+  nameWithType: Panadapter.HighDbm
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.HighDbm
+- uid: Flex.Smoothlake.FlexLib.Panadapter.FPS*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.FPS
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_FPS
+  name: FPS
+  nameWithType: Panadapter.FPS
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.FPS
+- uid: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_NoiseFloorPosition
+  name: NoiseFloorPosition
+  nameWithType: Panadapter.NoiseFloorPosition
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPosition
+- uid: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_NoiseFloorPositionEnable
+  name: NoiseFloorPositionEnable
+  nameWithType: Panadapter.NoiseFloorPositionEnable
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.NoiseFloorPositionEnable
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Average*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Average
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Average
+  name: Average
+  nameWithType: Panadapter.Average
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Average
+- uid: Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_RXAntennaList
+  name: RXAntennaList
+  nameWithType: Panadapter.RXAntennaList
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.RXAntennaList
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_WeightedAverage
+  name: WeightedAverage
+  nameWithType: Panadapter.WeightedAverage
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.WeightedAverage
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Wide*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Wide
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Wide
+  name: Wide
+  nameWithType: Panadapter.Wide
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Wide
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LoggerDisplayEnabled
+  name: LoggerDisplayEnabled
+  nameWithType: Panadapter.LoggerDisplayEnabled
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayEnabled
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LoggerDisplayIPAddress
+  name: LoggerDisplayIPAddress
+  nameWithType: Panadapter.LoggerDisplayIPAddress
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayIPAddress
+- uid: System.Net.IPAddress
+  commentId: T:System.Net.IPAddress
+  parent: System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.ipaddress
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: System.Net.IPAddress
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LoggerDisplayPort
+  name: LoggerDisplayPort
+  nameWithType: Panadapter.LoggerDisplayPort
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayPort
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LoggerDisplayRadioNum
+  name: LoggerDisplayRadioNum
+  nameWithType: Panadapter.LoggerDisplayRadioNum
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoggerDisplayRadioNum
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Flex.Smoothlake.FlexLib.Panadapter.XVTR*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.XVTR
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_XVTR
+  name: XVTR
+  nameWithType: Panadapter.XVTR
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.XVTR
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Preamp*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Preamp
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Preamp
+  name: Preamp
+  nameWithType: Panadapter.Preamp
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Preamp
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoopA*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LoopA
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LoopA
+  name: LoopA
+  nameWithType: Panadapter.LoopA
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoopA
+- uid: Flex.Smoothlake.FlexLib.Panadapter.LoopB*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.LoopB
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_LoopB
+  name: LoopB
+  nameWithType: Panadapter.LoopB
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.LoopB
+- uid: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_FFTPacketTotalCount
+  name: FFTPacketTotalCount
+  nameWithType: Panadapter.FFTPacketTotalCount
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketTotalCount
+- uid: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_FFTPacketErrorCount
+  name: FFTPacketErrorCount
+  nameWithType: Panadapter.FFTPacketErrorCount
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.FFTPacketErrorCount
+- uid: Flex.Smoothlake.FlexLib.Panadapter.Close*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.Close
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_Close
+  name: Close
+  nameWithType: Panadapter.Close
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.Close
+- uid: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Panadapter.html
+  name: Panadapter.DataReadyEventHandler
+  nameWithType: Panadapter.DataReadyEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Panadapter
+    name: Panadapter
+    href: Flex.Smoothlake.FlexLib.Panadapter.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+    name: DataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Panadapter
+    name: Panadapter
+    href: Flex.Smoothlake.FlexLib.Panadapter.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+    name: DataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_ClickTuneRequest_System_Double_
+  name: ClickTuneRequest
+  nameWithType: Panadapter.ClickTuneRequest
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.ClickTuneRequest
+- uid: Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_StatusUpdate_System_String_
+  name: StatusUpdate
+  nameWithType: Panadapter.StatusUpdate
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.StatusUpdate
+- uid: Flex.Smoothlake.FlexLib.Panadapter.CheckReady*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Panadapter.CheckReady
+  href: Flex.Smoothlake.FlexLib.Panadapter.html#Flex_Smoothlake_FlexLib_Panadapter_CheckReady
+  name: CheckReady
+  nameWithType: Panadapter.CheckReady
+  fullName: Flex.Smoothlake.FlexLib.Panadapter.CheckReady

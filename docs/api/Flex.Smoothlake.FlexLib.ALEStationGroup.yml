@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup
+  commentId: T:Flex.Smoothlake.FlexLib.ALEStationGroup
+  id: ALEStationGroup
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ALEStationGroup.#ctor
+  - Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid
+  - Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G
+  - Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G
+  - Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G
+  langs:
+  - csharp
+  - vb
+  name: ALEStationGroup
+  nameWithType: ALEStationGroup
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup
+  type: Class
+  source:
+    id: ALEStationGroup
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 1453
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class ALEStationGroup : ALECallee'
+    content.vb: Public Class ALEStationGroup Inherits ALECallee
+  inheritance:
+  - System.Object
+  - Flex.Smoothlake.FlexLib.ALECallee
+  inheritedMembers:
+  - Flex.Smoothlake.FlexLib.ALECallee.Name
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.#ctor
+  commentId: M:Flex.Smoothlake.FlexLib.ALEStationGroup.#ctor
+  id: '#ctor'
+  parent: Flex.Smoothlake.FlexLib.ALEStationGroup
+  langs:
+  - csharp
+  - vb
+  name: ALEStationGroup()
+  nameWithType: ALEStationGroup.ALEStationGroup()
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.ALEStationGroup()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 1455
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public ALEStationGroup()
+    content.vb: Public Sub New()
+  overload: Flex.Smoothlake.FlexLib.ALEStationGroup.#ctor*
+  nameWithType.vb: ALEStationGroup.New()
+  fullName.vb: Flex.Smoothlake.FlexLib.ALEStationGroup.New()
+  name.vb: New()
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid
+  commentId: P:Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid
+  id: IsValid
+  parent: Flex.Smoothlake.FlexLib.ALEStationGroup
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: ALEStationGroup.IsValid
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid
+  type: Property
+  source:
+    id: IsValid
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 1461
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsValid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsValid As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid*
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G
+  commentId: P:Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G
+  id: Stations2G
+  parent: Flex.Smoothlake.FlexLib.ALEStationGroup
+  langs:
+  - csharp
+  - vb
+  name: Stations2G
+  nameWithType: ALEStationGroup.Stations2G
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G
+  type: Property
+  source:
+    id: Stations2G
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 1464
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public List<ALE2GStation> Stations2G { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE2GStation}
+    content.vb: Public Property Stations2G As List(Of ALE2GStation)
+  overload: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G*
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G
+  commentId: P:Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G
+  id: Stations3G
+  parent: Flex.Smoothlake.FlexLib.ALEStationGroup
+  langs:
+  - csharp
+  - vb
+  name: Stations3G
+  nameWithType: ALEStationGroup.Stations3G
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G
+  type: Property
+  source:
+    id: Stations3G
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 1465
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public List<ALE3GStation> Stations3G { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE3GStation}
+    content.vb: Public Property Stations3G As List(Of ALE3GStation)
+  overload: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G*
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G
+  commentId: P:Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G
+  id: Stations4G
+  parent: Flex.Smoothlake.FlexLib.ALEStationGroup
+  langs:
+  - csharp
+  - vb
+  name: Stations4G
+  nameWithType: ALEStationGroup.Stations4G
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G
+  type: Property
+  source:
+    id: Stations4G
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 1466
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public List<ALE4GStation> Stations4G { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE4GStation}
+    content.vb: Public Property Stations4G As List(Of ALE4GStation)
+  overload: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.Smoothlake.FlexLib.ALECallee
+  commentId: T:Flex.Smoothlake.FlexLib.ALECallee
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ALECallee.html
+  name: ALECallee
+  nameWithType: ALECallee
+  fullName: Flex.Smoothlake.FlexLib.ALECallee
+- uid: Flex.Smoothlake.FlexLib.ALECallee.Name
+  commentId: P:Flex.Smoothlake.FlexLib.ALECallee.Name
+  parent: Flex.Smoothlake.FlexLib.ALECallee
+  href: Flex.Smoothlake.FlexLib.ALECallee.html#Flex_Smoothlake_FlexLib_ALECallee_Name
+  name: Name
+  nameWithType: ALECallee.Name
+  fullName: Flex.Smoothlake.FlexLib.ALECallee.Name
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALEStationGroup.#ctor
+  href: Flex.Smoothlake.FlexLib.ALEStationGroup.html#Flex_Smoothlake_FlexLib_ALEStationGroup__ctor
+  name: ALEStationGroup
+  nameWithType: ALEStationGroup.ALEStationGroup
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.ALEStationGroup
+  nameWithType.vb: ALEStationGroup.New
+  fullName.vb: Flex.Smoothlake.FlexLib.ALEStationGroup.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid
+  href: Flex.Smoothlake.FlexLib.ALEStationGroup.html#Flex_Smoothlake_FlexLib_ALEStationGroup_IsValid
+  name: IsValid
+  nameWithType: ALEStationGroup.IsValid
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G
+  href: Flex.Smoothlake.FlexLib.ALEStationGroup.html#Flex_Smoothlake_FlexLib_ALEStationGroup_Stations2G
+  name: Stations2G
+  nameWithType: ALEStationGroup.Stations2G
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations2G
+- uid: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE2GStation}
+  commentId: T:System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE2GStation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ALE2GStation>
+  nameWithType: List<ALE2GStation>
+  fullName: System.Collections.Generic.List<Flex.Smoothlake.FlexLib.ALE2GStation>
+  nameWithType.vb: List(Of ALE2GStation)
+  fullName.vb: System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.ALE2GStation)
+  name.vb: List(Of ALE2GStation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.ALE2GStation
+    name: ALE2GStation
+    href: Flex.Smoothlake.FlexLib.ALE2GStation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.ALE2GStation
+    name: ALE2GStation
+    href: Flex.Smoothlake.FlexLib.ALE2GStation.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G
+  href: Flex.Smoothlake.FlexLib.ALEStationGroup.html#Flex_Smoothlake_FlexLib_ALEStationGroup_Stations3G
+  name: Stations3G
+  nameWithType: ALEStationGroup.Stations3G
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations3G
+- uid: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE3GStation}
+  commentId: T:System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE3GStation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ALE3GStation>
+  nameWithType: List<ALE3GStation>
+  fullName: System.Collections.Generic.List<Flex.Smoothlake.FlexLib.ALE3GStation>
+  nameWithType.vb: List(Of ALE3GStation)
+  fullName.vb: System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.ALE3GStation)
+  name.vb: List(Of ALE3GStation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.ALE3GStation
+    name: ALE3GStation
+    href: Flex.Smoothlake.FlexLib.ALE3GStation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.ALE3GStation
+    name: ALE3GStation
+    href: Flex.Smoothlake.FlexLib.ALE3GStation.html
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G
+  href: Flex.Smoothlake.FlexLib.ALEStationGroup.html#Flex_Smoothlake_FlexLib_ALEStationGroup_Stations4G
+  name: Stations4G
+  nameWithType: ALEStationGroup.Stations4G
+  fullName: Flex.Smoothlake.FlexLib.ALEStationGroup.Stations4G
+- uid: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE4GStation}
+  commentId: T:System.Collections.Generic.List{Flex.Smoothlake.FlexLib.ALE4GStation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ALE4GStation>
+  nameWithType: List<ALE4GStation>
+  fullName: System.Collections.Generic.List<Flex.Smoothlake.FlexLib.ALE4GStation>
+  nameWithType.vb: List(Of ALE4GStation)
+  fullName.vb: System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.ALE4GStation)
+  name.vb: List(Of ALE4GStation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.ALE4GStation
+    name: ALE4GStation
+    href: Flex.Smoothlake.FlexLib.ALE4GStation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.ALE4GStation
+    name: ALE4GStation
+    href: Flex.Smoothlake.FlexLib.ALE4GStation.html
+  - name: )

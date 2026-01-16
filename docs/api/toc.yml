@@ -1,0 +1,1060 @@
+### YamlMime:TableOfContent
+items:
+- uid: Flex.Smoothlake.FlexLib
+  name: Flex.Smoothlake.FlexLib
+  type: Namespace
+  items:
+  - uid: Flex.Smoothlake.FlexLib.AGCMode
+    name: AGCMode
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.ALE2G
+    name: ALE2G
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GAmdEventHandler
+    name: ALE2G.ALE2GAmdEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkAddedEventHandler
+    name: ALE2G.ALE2GNetworkAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkRemovedEventHandler
+    name: ALE2G.ALE2GNetworkRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathAddedEventHandler
+    name: ALE2G.ALE2GPathAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathRemovedEventHandler
+    name: ALE2G.ALE2GPathRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationAddedEventHandler
+    name: ALE2G.ALE2GStationAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationRemovedEventHandler
+    name: ALE2G.ALE2GStationRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE2GConfig
+    name: ALE2GConfig
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2GLQARecord
+    name: ALE2GLQARecord
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2GMessage
+    name: ALE2GMessage
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2GNetwork
+    name: ALE2GNetwork
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2GPath
+    name: ALE2GPath
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2GStation
+    name: ALE2GStation
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE2GStatus
+    name: ALE2GStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE3G
+    name: ALE3G
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE3G.ALE3GAmdEventHandler
+    name: ALE3G.ALE3GAmdEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathAddedEventHandler
+    name: ALE3G.ALE3GPathAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathRemovedEventHandler
+    name: ALE3G.ALE3GPathRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationAddedEventHandler
+    name: ALE3G.ALE3GStationAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationRemovedEventHandler
+    name: ALE3G.ALE3GStationRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE3GConfig
+    name: ALE3GConfig
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE3GLQARecord
+    name: ALE3GLQARecord
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE3GPath
+    name: ALE3GPath
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE3GStation
+    name: ALE3GStation
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE3GStatus
+    name: ALE3GStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4G
+    name: ALE4G
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4G.ALE4GMsgEventHandler
+    name: ALE4G.ALE4GMsgEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathAddedEventHandler
+    name: ALE4G.ALE4GPathAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathRemovedEventHandler
+    name: ALE4G.ALE4GPathRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler
+    name: ALE4G.ALE4GStationAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationRemovedEventHandler
+    name: ALE4G.ALE4GStationRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALE4GConfig
+    name: ALE4GConfig
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+    name: ALE4GLQARecord
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4GMessage
+    name: ALE4GMessage
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4GPath
+    name: ALE4GPath
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4GStation
+    name: ALE4GStation
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALE4GStatus
+    name: ALE4GStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALECallee
+    name: ALECallee
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite
+    name: ALEComposite
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathAddedEventHandler
+    name: ALEComposite.ALECompositePathAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathRemovedEventHandler
+    name: ALEComposite.ALECompositePathRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationAddedEventHandler
+    name: ALEComposite.ALEConfigurationAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationRemovedEventHandler
+    name: ALEComposite.ALEConfigurationRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListAddedEventHandler
+    name: ALEComposite.ALEScanListAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListRemovedEventHandler
+    name: ALEComposite.ALEScanListRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ALECompositeCurrentStatus
+    name: ALECompositeCurrentStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALECompositePath
+    name: ALECompositePath
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALEConfiguration
+    name: ALEConfiguration
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALEGen
+    name: ALEGen
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.ALELinkType
+    name: ALELinkType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.ALEMultipoint
+    name: ALEMultipoint
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALEScanList
+    name: ALEScanList
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ALEStationGroup
+    name: ALEStationGroup
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.APD
+    name: APD
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.API
+    name: API
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.API.RadioAddedEventHandler
+    name: API.RadioAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.API.RadioChangedIpEventHandler
+    name: API.RadioChangedIpEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.API.RadioRemovedEventHandler
+    name: API.RadioRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.API.WanListReceivedEventHandler
+    name: API.WanListReceivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ATUTuneStatus
+    name: ATUTuneStatus
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Amplifier
+    name: Amplifier
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Amplifier.MeterAddedEventHandler
+    name: Amplifier.MeterAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Amplifier.MeterRemovedEventHandler
+    name: Amplifier.MeterRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.AmplifierMode
+    name: AmplifierMode
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.AmplifierState
+    name: AmplifierState
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.BcdCableType
+    name: BcdCableType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+    name: CWX.CharSentEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+    name: CWX.EraseSentEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+    name: CWX.InsertQueuedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+    name: CWX.MessageQueuedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.DAXIQStream
+    name: DAXIQStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DAXMICAudioStream
+    name: DAXMICAudioStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DAXRXAudioStream
+    name: DAXRXAudioStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DAXTXAudioStream
+    name: DAXTXAudioStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVK
+    name: DVK
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVKCommand
+    name: DVKCommand
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVKCommandType
+    name: DVKCommandType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.DVKRecording
+    name: DVKRecording
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVKRecordingComparer
+    name: DVKRecordingComparer
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVKRecordingStatus
+    name: DVKRecordingStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVKStatus
+    name: DVKStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.DVKStatusType
+    name: DVKStatusType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Equalizer
+    name: Equalizer
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.EqualizerSelect
+    name: EqualizerSelect
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.EqualizerStatus
+    name: EqualizerStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.FMTXOffsetDirection
+    name: FMTXOffsetDirection
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.FMToneMode
+    name: FMToneMode
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Feature
+    name: Feature
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.FeatureLicense
+    name: FeatureLicense
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.FeatureStatusReason
+    name: FeatureStatusReason
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.FirmwareRequiredVersion
+    name: FirmwareRequiredVersion
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.GUIClient
+    name: GUIClient
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.HAAPI
+    name: HAAPI
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.HAAPI.AmplifierFaultEventHandler
+    name: HAAPI.AmplifierFaultEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ICommandCommunication
+    name: ICommandCommunication
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.IUsbBcdCable
+    name: IUsbBcdCable
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable
+    name: IUsbBitCable
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.IUsbCable
+    name: IUsbCable
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.IUsbCatCable
+    name: IUsbCatCable
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.IUsbLdpaCable
+    name: IUsbLdpaCable
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+    name: IUsbPassthroughCable
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.InterlockReason
+    name: InterlockReason
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.InterlockState
+    name: InterlockState
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.LdpaBand
+    name: LdpaBand
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.LogMessageEventArgs
+    name: LogMessageEventArgs
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.LogModule
+    name: LogModule
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Memory
+    name: Memory
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.MessageResponse
+    name: MessageResponse
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.MessageSeverity
+    name: MessageSeverity
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Meter
+    name: Meter
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+    name: Meter.DataReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.MeterUnits
+    name: MeterUnits
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.ModelInfo
+    name: ModelInfo
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ModemConfigurationType
+    name: ModemConfigurationType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.ModemSupport
+    name: ModemSupport
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.NetCWStream
+    name: NetCWStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.NetworkQuality
+    name: NetworkQuality
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Oscillator
+    name: Oscillator
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.PTTSource
+    name: PTTSource
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Panadapter
+    name: Panadapter
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler
+    name: Panadapter.DataReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.PushNotificationData
+    name: PushNotificationData
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream
+    name: RXAudioStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+    name: RXAudioStream.DataReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream.OpusPacketReceivedEventHandler
+    name: RXAudioStream.OpusPacketReceivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.RXRemoteAudioStream
+    name: RXRemoteAudioStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Radio
+    name: Radio
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Radio.AmplifierAddedEventHandler
+    name: Radio.AmplifierAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.AmplifierRemovedEventHandler
+    name: Radio.AmplifierRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXIQStreamAddedEventHandler
+    name: Radio.DAXIQStreamAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXIQStreamRemovedEventHandler
+    name: Radio.DAXIQStreamRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamAddedEventHandler
+    name: Radio.DAXMICAudioStreamAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamRemovedEventHandler
+    name: Radio.DAXMICAudioStreamRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamAddedEventHandler
+    name: Radio.DAXRXAudioStreamAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler
+    name: Radio.DAXRXAudioStreamRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler
+    name: Radio.DAXTXAudioStreamAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamRemovedEventHandler
+    name: Radio.DAXTXAudioStreamRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler
+    name: Radio.EqualizerAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.EqualizerRemovedEventHandler
+    name: Radio.EqualizerRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.GUIClientAddedEventHandler
+    name: Radio.GUIClientAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.GUIClientRemovedEventHandler
+    name: Radio.GUIClientRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.GUIClientUpdatedEventHandler
+    name: Radio.GUIClientUpdatedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.MemoryAddedEventHandler
+    name: Radio.MemoryAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.MemoryRemovedEventHandler
+    name: Radio.MemoryRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.MessageReceivedEventHandler
+    name: Radio.MessageReceivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.MeterDataReadyEventHandler
+    name: Radio.MeterDataReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.PanadapterAddedEventHandler
+    name: Radio.PanadapterAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.PanadapterRemovedEventHandler
+    name: Radio.PanadapterRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamAddedEventHandler
+    name: Radio.RXRemoteAudioStreamAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamRemovedEventHandler
+    name: Radio.RXRemoteAudioStreamRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SliceAddedEventHandler
+    name: Radio.SliceAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SlicePanReferenceChangeEventHandler
+    name: Radio.SlicePanReferenceChangeEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SliceRemovedEventHandler
+    name: Radio.SliceRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SpotAddedEventHandler
+    name: Radio.SpotAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SpotRemovedEventHandler
+    name: Radio.SpotRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SpotTriggeredEventHandler
+    name: Radio.SpotTriggeredEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.SpotTriggeredWithPanEventHandler
+    name: Radio.SpotTriggeredWithPanEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TNFAddedEventHandler
+    name: Radio.TNFAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler
+    name: Radio.TNFRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler
+    name: Radio.TXRemoteAudioStreamAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamRemovedEventHandler
+    name: Radio.TXRemoteAudioStreamRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TunerAddedEventHandler
+    name: Radio.TunerAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TunerRemovedEventHandler
+    name: Radio.TunerRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TxBandSettingsAddedEventHandler
+    name: Radio.TxBandSettingsAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.TxBandSettingsRemovedEventHandler
+    name: Radio.TxBandSettingsRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+    name: Radio.UDPVitaPacket
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Radio.UsbCableAddedEventHandler
+    name: Radio.UsbCableAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.UsbCableRemovedEventHandler
+    name: Radio.UsbCableRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+    name: Radio.WanRadioRegistrationState
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Radio.WaterfallAddedEventHandler
+    name: Radio.WaterfallAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.WaterfallRemovedEventHandler
+    name: Radio.WaterfallRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler
+    name: Radio.XvtrAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Radio.XvtrRemovedEventHandler
+    name: Radio.XvtrRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler
+    name: RadioDiscoveredEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.RadioPlatform
+    name: RadioPlatform
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.RapidM
+    name: RapidM
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+    name: RapidM.MessageReceivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.RapidMHelper
+    name: RapidMHelper
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.RapidMMessage
+    name: RapidMMessage
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.RapidMOptionStatus
+    name: RapidMOptionStatus
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+    name: RapidMPerModemConfig
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.ReplyHandler
+    name: ReplyHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.ScreensaverMode
+    name: ScreensaverMode
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.SerialDataBits
+    name: SerialDataBits
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.SerialFlowControl
+    name: SerialFlowControl
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.SerialParity
+    name: SerialParity
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.SerialSpeed
+    name: SerialSpeed
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.SerialStopBits
+    name: SerialStopBits
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Slice
+    name: Slice
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler
+    name: Slice.MeterAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler
+    name: Slice.MeterRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler
+    name: Slice.SMeterDataReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler
+    name: Slice.WaveformStatusReceivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.SmartSdrCommandErrorException
+    name: SmartSdrCommandErrorException
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.SourceInput
+    name: SourceInput
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.Spot
+    name: Spot
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.SslClient
+    name: SslClient
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.SslClient.MessageReceived
+    name: SslClient.MessageReceived
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.TNF
+    name: TNF
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.TXRemoteAudioStream
+    name: TXRemoteAudioStream
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.TcpCommandCommunication
+    name: TcpCommandCommunication
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.TcpCommandCommunication.IsConnectedChangedEventHandler
+    name: TcpCommandCommunication.IsConnectedChangedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.TcpCommandCommunication.TCPDataReceivedReadyEventHandler
+    name: TcpCommandCommunication.TCPDataReceivedReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.TlsCommandCommunication
+    name: TlsCommandCommunication
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler
+    name: TlsCommandCommunication.IsConnectedChangedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.TlsCommandCommunication.TCPDataReceivedReadyEventHandler
+    name: TlsCommandCommunication.TCPDataReceivedReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Tuner
+    name: Tuner
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Tuner.MeterAddedEventHandler
+    name: Tuner.MeterAddedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Tuner.MeterRemovedEventHandler
+    name: Tuner.MeterRemovedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.TunerState
+    name: TunerState
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.TxBandSettings
+    name: TxBandSettings
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbBcdCable
+    name: UsbBcdCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbBitCable
+    name: UsbBitCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+    name: UsbBitCableOutputType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.UsbCable
+    name: UsbCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.UsbCableType
+    name: UsbCableType
+    type: Enum
+  - uid: Flex.Smoothlake.FlexLib.UsbCatCable
+    name: UsbCatCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbLdpaCable
+    name: UsbLdpaCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbOtherCable
+    name: UsbOtherCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbPassthroughCable
+    name: UsbPassthroughCable
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.UsbPassthroughCable.DataRecivedEventHandler
+    name: UsbPassthroughCable.DataRecivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+    name: WanServer.TestConnectionResultsReceivedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+    name: WanServer.WanApplicationRegistrationInvalidEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+    name: WanServer.WanRadioConnectReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+    name: WanServer.WanRadioRadioListRecievedEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.WanTestConnectionResults
+    name: WanTestConnectionResults
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.WanUserSettings
+    name: WanUserSettings
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Waterfall
+    name: Waterfall
+    type: Class
+  - uid: Flex.Smoothlake.FlexLib.Waterfall.DataReadyEventHandler
+    name: Waterfall.DataReadyEventHandler
+    type: Delegate
+  - uid: Flex.Smoothlake.FlexLib.Xvtr
+    name: Xvtr
+    type: Class
+- uid: Flex.Smoothlake.FlexLib.Interface
+  name: Flex.Smoothlake.FlexLib.Interface
+  type: Namespace
+  items:
+  - uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+    name: IDaxRxStream
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.Interface.IDaxStream
+    name: IDaxStream
+    type: Interface
+  - uid: Flex.Smoothlake.FlexLib.Interface.IDaxTxStream
+    name: IDaxTxStream
+    type: Interface
+- uid: Flex.Smoothlake.Vita
+  name: Flex.Smoothlake.Vita
+  type: Namespace
+  items:
+  - uid: Flex.Smoothlake.Vita.Header
+    name: Header
+    type: Struct
+  - uid: Flex.Smoothlake.Vita.Trailer
+    name: Trailer
+    type: Struct
+  - uid: Flex.Smoothlake.Vita.VitaClassID
+    name: VitaClassID
+    type: Struct
+  - uid: Flex.Smoothlake.Vita.VitaCommon
+    name: VitaCommon
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaDataReceivedCallback
+    name: VitaDataReceivedCallback
+    type: Delegate
+  - uid: Flex.Smoothlake.Vita.VitaDiscoveryPacket
+    name: VitaDiscoveryPacket
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaFFTPacket
+    name: VitaFFTPacket
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaFlex
+    name: VitaFlex
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaIFDataPacket
+    name: VitaIFDataPacket
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaMeterPacket
+    name: VitaMeterPacket
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaOpusDataPacket
+    name: VitaOpusDataPacket
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaPacketPreamble
+    name: VitaPacketPreamble
+    type: Struct
+  - uid: Flex.Smoothlake.Vita.VitaPacketType
+    name: VitaPacketType
+    type: Enum
+  - uid: Flex.Smoothlake.Vita.VitaSocket
+    name: VitaSocket
+    type: Class
+  - uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+    name: VitaTimeStampFractionalType
+    type: Enum
+  - uid: Flex.Smoothlake.Vita.VitaTimeStampIntegerType
+    name: VitaTimeStampIntegerType
+    type: Enum
+  - uid: Flex.Smoothlake.Vita.VitaWaterfallPacket
+    name: VitaWaterfallPacket
+    type: Class
+- uid: Flex.UiWpfFramework.Mvvm
+  name: Flex.UiWpfFramework.Mvvm
+  type: Namespace
+  items:
+  - uid: Flex.UiWpfFramework.Mvvm.DialogService
+    name: DialogService
+    type: Class
+  - uid: Flex.UiWpfFramework.Mvvm.IDialogService
+    name: IDialogService
+    type: Interface
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+    name: ObservableObject
+    type: Class
+  - uid: Flex.UiWpfFramework.Mvvm.PropertySupport
+    name: PropertySupport
+    type: Class
+  - uid: Flex.UiWpfFramework.Mvvm.RelayCommand`1
+    name: RelayCommand<T>
+    type: Class
+  - uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    name: SafeObservableCollection<T>
+    type: Class
+  - uid: Flex.UiWpfFramework.Mvvm.SortedObservableCollection`1
+    name: SortedObservableCollection<T>
+    type: Class
+- uid: Flex.UiWpfFramework.Utils
+  name: Flex.UiWpfFramework.Utils
+  type: Namespace
+  items:
+  - uid: Flex.UiWpfFramework.Utils.BoolAndToStringConverter
+    name: BoolAndToStringConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolAndToValueConverter`1
+    name: BoolAndToValueConverter<T>
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolOrToMarginConverter
+    name: BoolOrToMarginConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolOrToStringConverter
+    name: BoolOrToStringConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolOrToValueConverter`1
+    name: BoolOrToValueConverter<T>
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToBrushConverter
+    name: BoolToBrushConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter
+    name: BoolToCustomVisibilityConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToFloatConverter
+    name: BoolToFloatConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter
+    name: BoolToScrollBarVisibilityConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToStringConverter
+    name: BoolToStringConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToThicknessConverter
+    name: BoolToThicknessConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BoolToValueConverter`1
+    name: BoolToValueConverter<T>
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanAndMultiConverter
+    name: BooleanAndMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter
+    name: BooleanAndToInverseVisibilityMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanOrMultiConverter
+    name: BooleanOrMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter
+    name: BooleanOrToGridLengthMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter
+    name: BooleanOrToVisibilityMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter
+    name: BooleanToOpacityMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter
+    name: BooleanToVisCollapsedConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter
+    name: BooleanToVisHiddenConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter
+    name: BooleanToVisibilityMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.ClientPersistence
+    name: ClientPersistence
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter
+    name: ContentBlocksToFlowDocumentConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+    name: EnumDescriptionTypeConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.EnumToStringConverter
+    name: EnumToStringConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.IPAddressValidator
+    name: IPAddressValidator
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.IntStringConverter
+    name: IntStringConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.InverseBooleanConverter
+    name: InverseBooleanConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.MHzToHzConverter
+    name: MHzToHzConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter
+    name: MillisecondsToRoundedSecondsConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter
+    name: NullOrEmptyStringToVisibilityConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter
+    name: NullToInverseVisibilityConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.NullToVisibilityConverter
+    name: NullToVisibilityConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.POINT
+    name: POINT
+    type: Struct
+  - uid: Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter
+    name: PercentToMeterWidthConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.RECT
+    name: RECT
+    type: Struct
+  - uid: Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter
+    name: TwoArgsToTupleValueMultiConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.UrlToQrConverter
+    name: UrlToQrConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.VisibilityToHeightConverter
+    name: VisibilityToHeightConverter
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.VisualStudio
+    name: VisualStudio
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+    name: WINDOWPLACEMENT
+    type: Struct
+  - uid: Flex.UiWpfFramework.Utils.WindowPlacement
+    name: WindowPlacement
+    type: Class
+  - uid: Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter
+    name: ZeroWidthSpaceStringConverter
+    type: Class
+- uid: Flex.Util
+  name: Flex.Util
+  type: Namespace
+  items:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    type: Class
+  - uid: Flex.Util.AudioMixerHelper.MIXERCAPS
+    name: AudioMixerHelper.MIXERCAPS
+    type: Struct
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROL
+    name: AudioMixerHelper.MIXERCONTROL
+    type: Struct
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+    name: AudioMixerHelper.MIXERCONTROLDETAILS
+    type: Struct
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+    name: AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+    type: Struct
+  - uid: Flex.Util.AudioMixerHelper.MIXERLINE
+    name: AudioMixerHelper.MIXERLINE
+    type: Struct
+  - uid: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+    name: AudioMixerHelper.MIXERLINECONTROLS
+    type: Struct
+  - uid: Flex.Util.ByteOrder
+    name: ByteOrder
+    type: Class
+  - uid: Flex.Util.DateTimeExtension
+    name: DateTimeExtension
+    type: Class
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    type: Class
+  - uid: Flex.Util.DisplayConfig.PathFlags
+    name: DisplayConfig.PathFlags
+    type: Enum
+  - uid: Flex.Util.DisplayConfig.Rational
+    name: DisplayConfig.Rational
+    type: Struct
+  - uid: Flex.Util.DisplayConfig.ScanlineOrdering
+    name: DisplayConfig.ScanlineOrdering
+    type: Enum
+  - uid: Flex.Util.DisplayConfigMode
+    name: DisplayConfigMode
+    type: Class
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    type: Class
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: DisplayConfigPath.Rotation
+    type: Enum
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: DisplayConfigPath.Scaling
+    type: Enum
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: DisplayConfigPath.VideoOutputTechnology
+    type: Enum
+  - uid: Flex.Util.DisplayDevice
+    name: DisplayDevice
+    type: Class
+  - uid: Flex.Util.DisplayHelper
+    name: DisplayHelper
+    type: Class
+  - uid: Flex.Util.DisplayMode
+    name: DisplayMode
+    type: Class
+  - uid: Flex.Util.DisplayMode.Orientations
+    name: DisplayMode.Orientations
+    type: Enum
+  - uid: Flex.Util.FlexVersion
+    name: FlexVersion
+    type: Class
+  - uid: Flex.Util.HiPerfTimer
+    name: HiPerfTimer
+    type: Class
+  - uid: Flex.Util.LargePartitionedList`1
+    name: LargePartitionedList<T>
+    type: Class
+  - uid: Flex.Util.RingBufferByte
+    name: RingBufferByte
+    type: Class
+  - uid: Flex.Util.RingBufferFloat
+    name: RingBufferFloat
+    type: Class
+  - uid: Flex.Util.StringCipher
+    name: StringCipher
+    type: Class
+  - uid: Flex.Util.StringHelper
+    name: StringHelper
+    type: Class
+  - uid: Flex.Util.VitaFrequency
+    name: VitaFrequency
+    type: Class
+  - uid: Flex.Util.WaterfallTile
+    name: WaterfallTile
+    type: Class
+  - uid: Flex.Util.Win32
+    name: Win32
+    type: Class
+  - uid: Flex.Util.WindowHelper
+    name: WindowHelper
+    type: Class
+  - uid: Flex.Util.WindowHelper.SearchData
+    name: WindowHelper.SearchData
+    type: Class
+- uid: Util
+  name: Util
+  type: Namespace
+  items:
+  - uid: Util.BigCommerce
+    name: BigCommerce
+    type: Class
+  - uid: Util.MathHelper
+    name: MathHelper
+    type: Class
+  - uid: Util.PortHelper
+    name: PortHelper
+    type: Class
+  - uid: Util.SmartSDRNetwork
+    name: SmartSDRNetwork
+    type: Class
+memberLayout: SamePage

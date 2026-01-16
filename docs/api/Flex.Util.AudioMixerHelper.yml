@@ -1,0 +1,960 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.AudioMixerHelper
+  commentId: T:Flex.Util.AudioMixerHelper
+  id: AudioMixerHelper
+  parent: Flex.Util
+  children:
+  - Flex.Util.AudioMixerHelper.GetVolume
+  - Flex.Util.AudioMixerHelper.MAXPNAMELEN
+  - Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_FADER
+  - Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_VOLUME
+  - Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_CLASS_FADER
+  - Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_UNITS_UNSIGNED
+  - Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_FIRST
+  - Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  - Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  - Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  - Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_LINE
+  - Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  - Flex.Util.AudioMixerHelper.MIXER_GETCONTROLDETAILSF_VALUE
+  - Flex.Util.AudioMixerHelper.MIXER_GETLINECONTROLSF_ONEBYTYPE
+  - Flex.Util.AudioMixerHelper.MIXER_GETLINEINFOF_COMPONENTTYPE
+  - Flex.Util.AudioMixerHelper.MIXER_LONG_NAME_CHARS
+  - Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HANDLE
+  - Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HWAVEIN
+  - Flex.Util.AudioMixerHelper.MIXER_OBJECTF_WAVEIN
+  - Flex.Util.AudioMixerHelper.MIXER_SETCONTROLDETAILSF_VALUE
+  - Flex.Util.AudioMixerHelper.MIXER_SHORT_NAME_CHARS
+  - Flex.Util.AudioMixerHelper.MMSYSERR_NOERROR
+  - Flex.Util.AudioMixerHelper.SetVolume(System.Int32)
+  - Flex.Util.AudioMixerHelper.mixerdisabled
+  - Flex.Util.AudioMixerHelper.setMicVolume(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AudioMixerHelper
+  nameWithType: AudioMixerHelper
+  fullName: Flex.Util.AudioMixerHelper
+  type: Class
+  source:
+    id: AudioMixerHelper
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 8
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public class AudioMixerHelper
+    content.vb: Public Class AudioMixerHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Util.AudioMixerHelper.MMSYSERR_NOERROR
+  commentId: F:Flex.Util.AudioMixerHelper.MMSYSERR_NOERROR
+  id: MMSYSERR_NOERROR
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MMSYSERR_NOERROR
+  nameWithType: AudioMixerHelper.MMSYSERR_NOERROR
+  fullName: Flex.Util.AudioMixerHelper.MMSYSERR_NOERROR
+  type: Field
+  source:
+    id: MMSYSERR_NOERROR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 11
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MMSYSERR_NOERROR = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const MMSYSERR_NOERROR As Integer = 0
+- uid: Flex.Util.AudioMixerHelper.MAXPNAMELEN
+  commentId: F:Flex.Util.AudioMixerHelper.MAXPNAMELEN
+  id: MAXPNAMELEN
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MAXPNAMELEN
+  nameWithType: AudioMixerHelper.MAXPNAMELEN
+  fullName: Flex.Util.AudioMixerHelper.MAXPNAMELEN
+  type: Field
+  source:
+    id: MAXPNAMELEN
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 12
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MAXPNAMELEN = 32
+    return:
+      type: System.Int32
+    content.vb: Public Const MAXPNAMELEN As Integer = 32
+- uid: Flex.Util.AudioMixerHelper.MIXER_LONG_NAME_CHARS
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_LONG_NAME_CHARS
+  id: MIXER_LONG_NAME_CHARS
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_LONG_NAME_CHARS
+  nameWithType: AudioMixerHelper.MIXER_LONG_NAME_CHARS
+  fullName: Flex.Util.AudioMixerHelper.MIXER_LONG_NAME_CHARS
+  type: Field
+  source:
+    id: MIXER_LONG_NAME_CHARS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 13
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXER_LONG_NAME_CHARS = 64
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXER_LONG_NAME_CHARS As Integer = 64
+- uid: Flex.Util.AudioMixerHelper.MIXER_SHORT_NAME_CHARS
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_SHORT_NAME_CHARS
+  id: MIXER_SHORT_NAME_CHARS
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_SHORT_NAME_CHARS
+  nameWithType: AudioMixerHelper.MIXER_SHORT_NAME_CHARS
+  fullName: Flex.Util.AudioMixerHelper.MIXER_SHORT_NAME_CHARS
+  type: Field
+  source:
+    id: MIXER_SHORT_NAME_CHARS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 14
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXER_SHORT_NAME_CHARS = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXER_SHORT_NAME_CHARS As Integer = 16
+- uid: Flex.Util.AudioMixerHelper.MIXER_GETLINEINFOF_COMPONENTTYPE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_GETLINEINFOF_COMPONENTTYPE
+  id: MIXER_GETLINEINFOF_COMPONENTTYPE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_GETLINEINFOF_COMPONENTTYPE
+  nameWithType: AudioMixerHelper.MIXER_GETLINEINFOF_COMPONENTTYPE
+  fullName: Flex.Util.AudioMixerHelper.MIXER_GETLINEINFOF_COMPONENTTYPE
+  type: Field
+  source:
+    id: MIXER_GETLINEINFOF_COMPONENTTYPE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 15
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXER_GETLINEINFOF_COMPONENTTYPE = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXER_GETLINEINFOF_COMPONENTTYPE As Integer = 3
+- uid: Flex.Util.AudioMixerHelper.MIXER_GETCONTROLDETAILSF_VALUE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_GETCONTROLDETAILSF_VALUE
+  id: MIXER_GETCONTROLDETAILSF_VALUE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_GETCONTROLDETAILSF_VALUE
+  nameWithType: AudioMixerHelper.MIXER_GETCONTROLDETAILSF_VALUE
+  fullName: Flex.Util.AudioMixerHelper.MIXER_GETCONTROLDETAILSF_VALUE
+  type: Field
+  source:
+    id: MIXER_GETCONTROLDETAILSF_VALUE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 16
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXER_GETCONTROLDETAILSF_VALUE = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXER_GETCONTROLDETAILSF_VALUE As Integer = 0
+- uid: Flex.Util.AudioMixerHelper.MIXER_GETLINECONTROLSF_ONEBYTYPE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_GETLINECONTROLSF_ONEBYTYPE
+  id: MIXER_GETLINECONTROLSF_ONEBYTYPE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_GETLINECONTROLSF_ONEBYTYPE
+  nameWithType: AudioMixerHelper.MIXER_GETLINECONTROLSF_ONEBYTYPE
+  fullName: Flex.Util.AudioMixerHelper.MIXER_GETLINECONTROLSF_ONEBYTYPE
+  type: Field
+  source:
+    id: MIXER_GETLINECONTROLSF_ONEBYTYPE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 17
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXER_GETLINECONTROLSF_ONEBYTYPE = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXER_GETLINECONTROLSF_ONEBYTYPE As Integer = 2
+- uid: Flex.Util.AudioMixerHelper.MIXER_SETCONTROLDETAILSF_VALUE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_SETCONTROLDETAILSF_VALUE
+  id: MIXER_SETCONTROLDETAILSF_VALUE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_SETCONTROLDETAILSF_VALUE
+  nameWithType: AudioMixerHelper.MIXER_SETCONTROLDETAILSF_VALUE
+  fullName: Flex.Util.AudioMixerHelper.MIXER_SETCONTROLDETAILSF_VALUE
+  type: Field
+  source:
+    id: MIXER_SETCONTROLDETAILSF_VALUE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 18
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXER_SETCONTROLDETAILSF_VALUE = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXER_SETCONTROLDETAILSF_VALUE As Integer = 0
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_FIRST
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_FIRST
+  id: MIXERLINE_COMPONENTTYPE_DST_FIRST
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERLINE_COMPONENTTYPE_DST_FIRST
+  nameWithType: AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_FIRST
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_FIRST
+  type: Field
+  source:
+    id: MIXERLINE_COMPONENTTYPE_DST_FIRST
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 19
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERLINE_COMPONENTTYPE_DST_FIRST = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERLINE_COMPONENTTYPE_DST_FIRST As Integer = 0
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  id: MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  nameWithType: AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_FIRST
+  type: Field
+  source:
+    id: MIXERLINE_COMPONENTTYPE_SRC_FIRST
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 20
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERLINE_COMPONENTTYPE_SRC_FIRST = 4096
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERLINE_COMPONENTTYPE_SRC_FIRST As Integer = 4096
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  id: MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  nameWithType: AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+  type: Field
+  source:
+    id: MIXERLINE_COMPONENTTYPE_DST_SPEAKERS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 21
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERLINE_COMPONENTTYPE_DST_SPEAKERS = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERLINE_COMPONENTTYPE_DST_SPEAKERS As Integer = 4
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  id: MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  nameWithType: AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+  type: Field
+  source:
+    id: MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 23
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE = 4099
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE As Integer = 4099
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_LINE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_LINE
+  id: MIXERLINE_COMPONENTTYPE_SRC_LINE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERLINE_COMPONENTTYPE_SRC_LINE
+  nameWithType: AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_LINE
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_SRC_LINE
+  type: Field
+  source:
+    id: MIXERLINE_COMPONENTTYPE_SRC_LINE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 25
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERLINE_COMPONENTTYPE_SRC_LINE = 4098
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERLINE_COMPONENTTYPE_SRC_LINE As Integer = 4098
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_CLASS_FADER
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_CLASS_FADER
+  id: MIXERCONTROL_CT_CLASS_FADER
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERCONTROL_CT_CLASS_FADER
+  nameWithType: AudioMixerHelper.MIXERCONTROL_CT_CLASS_FADER
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_CLASS_FADER
+  type: Field
+  source:
+    id: MIXERCONTROL_CT_CLASS_FADER
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 27
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERCONTROL_CT_CLASS_FADER = 1342177280
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERCONTROL_CT_CLASS_FADER As Integer = 1342177280
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_UNITS_UNSIGNED
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_UNITS_UNSIGNED
+  id: MIXERCONTROL_CT_UNITS_UNSIGNED
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERCONTROL_CT_UNITS_UNSIGNED
+  nameWithType: AudioMixerHelper.MIXERCONTROL_CT_UNITS_UNSIGNED
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROL_CT_UNITS_UNSIGNED
+  type: Field
+  source:
+    id: MIXERCONTROL_CT_UNITS_UNSIGNED
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 28
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERCONTROL_CT_UNITS_UNSIGNED = 196608
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERCONTROL_CT_UNITS_UNSIGNED As Integer = 196608
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_FADER
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_FADER
+  id: MIXERCONTROL_CONTROLTYPE_FADER
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERCONTROL_CONTROLTYPE_FADER
+  nameWithType: AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_FADER
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_FADER
+  type: Field
+  source:
+    id: MIXERCONTROL_CONTROLTYPE_FADER
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 29
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERCONTROL_CONTROLTYPE_FADER = 1342373888
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERCONTROL_CONTROLTYPE_FADER As Integer = 1342373888
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_VOLUME
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_VOLUME
+  id: MIXERCONTROL_CONTROLTYPE_VOLUME
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERCONTROL_CONTROLTYPE_VOLUME
+  nameWithType: AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_VOLUME
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROL_CONTROLTYPE_VOLUME
+  type: Field
+  source:
+    id: MIXERCONTROL_CONTROLTYPE_VOLUME
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 31
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERCONTROL_CONTROLTYPE_VOLUME = 1342373889
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERCONTROL_CONTROLTYPE_VOLUME As Integer = 1342373889
+- uid: Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HANDLE
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HANDLE
+  id: MIXER_OBJECTF_HANDLE
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_OBJECTF_HANDLE
+  nameWithType: AudioMixerHelper.MIXER_OBJECTF_HANDLE
+  fullName: Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HANDLE
+  type: Field
+  source:
+    id: MIXER_OBJECTF_HANDLE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 34
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const uint MIXER_OBJECTF_HANDLE = 2147483648
+    return:
+      type: System.UInt32
+    content.vb: Public Const MIXER_OBJECTF_HANDLE As UInteger = 2147483648
+- uid: Flex.Util.AudioMixerHelper.MIXER_OBJECTF_WAVEIN
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_OBJECTF_WAVEIN
+  id: MIXER_OBJECTF_WAVEIN
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_OBJECTF_WAVEIN
+  nameWithType: AudioMixerHelper.MIXER_OBJECTF_WAVEIN
+  fullName: Flex.Util.AudioMixerHelper.MIXER_OBJECTF_WAVEIN
+  type: Field
+  source:
+    id: MIXER_OBJECTF_WAVEIN
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 35
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const uint MIXER_OBJECTF_WAVEIN = 536870912
+    return:
+      type: System.UInt32
+    content.vb: Public Const MIXER_OBJECTF_WAVEIN As UInteger = 536870912
+- uid: Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HWAVEIN
+  commentId: F:Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HWAVEIN
+  id: MIXER_OBJECTF_HWAVEIN
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXER_OBJECTF_HWAVEIN
+  nameWithType: AudioMixerHelper.MIXER_OBJECTF_HWAVEIN
+  fullName: Flex.Util.AudioMixerHelper.MIXER_OBJECTF_HWAVEIN
+  type: Field
+  source:
+    id: MIXER_OBJECTF_HWAVEIN
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 36
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const uint MIXER_OBJECTF_HWAVEIN = 2684354560
+    return:
+      type: System.UInt32
+    content.vb: Public Const MIXER_OBJECTF_HWAVEIN As UInteger = 2684354560
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  id: MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  nameWithType: AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+  type: Field
+  source:
+    id: MIXERLINE_COMPONENTTYPE_DST_WAVEIN
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 37
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public const int MIXERLINE_COMPONENTTYPE_DST_WAVEIN = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const MIXERLINE_COMPONENTTYPE_DST_WAVEIN As Integer = 7
+- uid: Flex.Util.AudioMixerHelper.GetVolume
+  commentId: M:Flex.Util.AudioMixerHelper.GetVolume
+  id: GetVolume
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVolume()
+  nameWithType: AudioMixerHelper.GetVolume()
+  fullName: Flex.Util.AudioMixerHelper.GetVolume()
+  type: Method
+  source:
+    id: GetVolume
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 467
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public static int GetVolume()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetVolume() As Integer
+  overload: Flex.Util.AudioMixerHelper.GetVolume*
+- uid: Flex.Util.AudioMixerHelper.SetVolume(System.Int32)
+  commentId: M:Flex.Util.AudioMixerHelper.SetVolume(System.Int32)
+  id: SetVolume(System.Int32)
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVolume(int)
+  nameWithType: AudioMixerHelper.SetVolume(int)
+  fullName: Flex.Util.AudioMixerHelper.SetVolume(int)
+  type: Method
+  source:
+    id: SetVolume
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 496
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public static void SetVolume(int vVolume)
+    parameters:
+    - id: vVolume
+      type: System.Int32
+    content.vb: Public Shared Sub SetVolume(vVolume As Integer)
+  overload: Flex.Util.AudioMixerHelper.SetVolume*
+  nameWithType.vb: AudioMixerHelper.SetVolume(Integer)
+  fullName.vb: Flex.Util.AudioMixerHelper.SetVolume(Integer)
+  name.vb: SetVolume(Integer)
+- uid: Flex.Util.AudioMixerHelper.mixerdisabled
+  commentId: F:Flex.Util.AudioMixerHelper.mixerdisabled
+  id: mixerdisabled
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: mixerdisabled
+  nameWithType: AudioMixerHelper.mixerdisabled
+  fullName: Flex.Util.AudioMixerHelper.mixerdisabled
+  type: Field
+  source:
+    id: mixerdisabled
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 538
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public static bool mixerdisabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared mixerdisabled As Boolean
+- uid: Flex.Util.AudioMixerHelper.setMicVolume(System.Int32,System.Int32)
+  commentId: M:Flex.Util.AudioMixerHelper.setMicVolume(System.Int32,System.Int32)
+  id: setMicVolume(System.Int32,System.Int32)
+  parent: Flex.Util.AudioMixerHelper
+  langs:
+  - csharp
+  - vb
+  name: setMicVolume(int, int)
+  nameWithType: AudioMixerHelper.setMicVolume(int, int)
+  fullName: Flex.Util.AudioMixerHelper.setMicVolume(int, int)
+  type: Method
+  source:
+    id: setMicVolume
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 539
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public static bool setMicVolume(int mxid, int percentage)
+    parameters:
+    - id: mxid
+      type: System.Int32
+    - id: percentage
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function setMicVolume(mxid As Integer, percentage As Integer) As Boolean
+  overload: Flex.Util.AudioMixerHelper.setMicVolume*
+  nameWithType.vb: AudioMixerHelper.setMicVolume(Integer, Integer)
+  fullName.vb: Flex.Util.AudioMixerHelper.setMicVolume(Integer, Integer)
+  name.vb: setMicVolume(Integer, Integer)
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Flex.Util.AudioMixerHelper.GetVolume*
+  commentId: Overload:Flex.Util.AudioMixerHelper.GetVolume
+  href: Flex.Util.AudioMixerHelper.html#Flex_Util_AudioMixerHelper_GetVolume
+  name: GetVolume
+  nameWithType: AudioMixerHelper.GetVolume
+  fullName: Flex.Util.AudioMixerHelper.GetVolume
+- uid: Flex.Util.AudioMixerHelper.SetVolume*
+  commentId: Overload:Flex.Util.AudioMixerHelper.SetVolume
+  href: Flex.Util.AudioMixerHelper.html#Flex_Util_AudioMixerHelper_SetVolume_System_Int32_
+  name: SetVolume
+  nameWithType: AudioMixerHelper.SetVolume
+  fullName: Flex.Util.AudioMixerHelper.SetVolume
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Util.AudioMixerHelper.setMicVolume*
+  commentId: Overload:Flex.Util.AudioMixerHelper.setMicVolume
+  href: Flex.Util.AudioMixerHelper.html#Flex_Util_AudioMixerHelper_setMicVolume_System_Int32_System_Int32_
+  name: setMicVolume
+  nameWithType: AudioMixerHelper.setMicVolume
+  fullName: Flex.Util.AudioMixerHelper.setMicVolume

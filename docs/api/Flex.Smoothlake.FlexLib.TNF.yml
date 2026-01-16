@@ -1,0 +1,930 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.TNF
+  commentId: T:Flex.Smoothlake.FlexLib.TNF
+  id: TNF
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.TNF.Bandwidth
+  - Flex.Smoothlake.FlexLib.TNF.Close
+  - Flex.Smoothlake.FlexLib.TNF.Depth
+  - Flex.Smoothlake.FlexLib.TNF.Frequency
+  - Flex.Smoothlake.FlexLib.TNF.ID
+  - Flex.Smoothlake.FlexLib.TNF.Permanent
+  - Flex.Smoothlake.FlexLib.TNF.Remove
+  - Flex.Smoothlake.FlexLib.TNF.StatusUpdate(System.String)
+  - Flex.Smoothlake.FlexLib.TNF.ToString
+  langs:
+  - csharp
+  - vb
+  name: TNF
+  nameWithType: TNF
+  fullName: Flex.Smoothlake.FlexLib.TNF
+  type: Class
+  source:
+    id: TNF
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class TNF : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class TNF Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Flex.Smoothlake.FlexLib.TNF.ID
+  commentId: P:Flex.Smoothlake.FlexLib.TNF.ID
+  id: ID
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: TNF.ID
+  fullName: Flex.Smoothlake.FlexLib.TNF.ID
+  type: Property
+  source:
+    id: ID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 39
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint ID { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property ID As UInteger
+  overload: Flex.Smoothlake.FlexLib.TNF.ID*
+- uid: Flex.Smoothlake.FlexLib.TNF.Frequency
+  commentId: P:Flex.Smoothlake.FlexLib.TNF.Frequency
+  id: Frequency
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: Frequency
+  nameWithType: TNF.Frequency
+  fullName: Flex.Smoothlake.FlexLib.TNF.Frequency
+  type: Property
+  source:
+    id: Frequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 45
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double Frequency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Frequency As Double
+  overload: Flex.Smoothlake.FlexLib.TNF.Frequency*
+- uid: Flex.Smoothlake.FlexLib.TNF.Depth
+  commentId: P:Flex.Smoothlake.FlexLib.TNF.Depth
+  id: Depth
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: TNF.Depth
+  fullName: Flex.Smoothlake.FlexLib.TNF.Depth
+  type: Property
+  source:
+    id: Depth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 60
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public uint Depth { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Depth As UInteger
+  overload: Flex.Smoothlake.FlexLib.TNF.Depth*
+- uid: Flex.Smoothlake.FlexLib.TNF.Permanent
+  commentId: P:Flex.Smoothlake.FlexLib.TNF.Permanent
+  id: Permanent
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: Permanent
+  nameWithType: TNF.Permanent
+  fullName: Flex.Smoothlake.FlexLib.TNF.Permanent
+  type: Property
+  source:
+    id: Permanent
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 82
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Permanent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Permanent As Boolean
+  overload: Flex.Smoothlake.FlexLib.TNF.Permanent*
+- uid: Flex.Smoothlake.FlexLib.TNF.Bandwidth
+  commentId: P:Flex.Smoothlake.FlexLib.TNF.Bandwidth
+  id: Bandwidth
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: Bandwidth
+  nameWithType: TNF.Bandwidth
+  fullName: Flex.Smoothlake.FlexLib.TNF.Bandwidth
+  type: Property
+  source:
+    id: Bandwidth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 98
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double Bandwidth { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Bandwidth As Double
+  overload: Flex.Smoothlake.FlexLib.TNF.Bandwidth*
+- uid: Flex.Smoothlake.FlexLib.TNF.ToString
+  commentId: M:Flex.Smoothlake.FlexLib.TNF.ToString
+  id: ToString
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TNF.ToString()
+  fullName: Flex.Smoothlake.FlexLib.TNF.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 116
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Flex.Smoothlake.FlexLib.TNF.ToString*
+- uid: Flex.Smoothlake.FlexLib.TNF.StatusUpdate(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.TNF.StatusUpdate(System.String)
+  id: StatusUpdate(System.String)
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: StatusUpdate(string)
+  nameWithType: TNF.StatusUpdate(string)
+  fullName: Flex.Smoothlake.FlexLib.TNF.StatusUpdate(string)
+  type: Method
+  source:
+    id: StatusUpdate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 121
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void StatusUpdate(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub StatusUpdate(s As String)
+  overload: Flex.Smoothlake.FlexLib.TNF.StatusUpdate*
+  nameWithType.vb: TNF.StatusUpdate(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.TNF.StatusUpdate(String)
+  name.vb: StatusUpdate(String)
+- uid: Flex.Smoothlake.FlexLib.TNF.Close
+  commentId: M:Flex.Smoothlake.FlexLib.TNF.Close
+  id: Close
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: TNF.Close()
+  fullName: Flex.Smoothlake.FlexLib.TNF.Close()
+  type: Method
+  source:
+    id: Close
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 203
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close()
+  overload: Flex.Smoothlake.FlexLib.TNF.Close*
+- uid: Flex.Smoothlake.FlexLib.TNF.Remove
+  commentId: M:Flex.Smoothlake.FlexLib.TNF.Remove
+  id: Remove
+  parent: Flex.Smoothlake.FlexLib.TNF
+  langs:
+  - csharp
+  - vb
+  name: Remove()
+  nameWithType: TNF.Remove()
+  fullName: Flex.Smoothlake.FlexLib.TNF.Remove()
+  type: Method
+  source:
+    id: Remove
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TNF.cs
+    startLine: 215
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public void Remove()
+    content.vb: >-
+      <Obsolete>
+
+      Public Sub Remove()
+  overload: Flex.Smoothlake.FlexLib.TNF.Remove*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.TNF.ID*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.ID
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_ID
+  name: ID
+  nameWithType: TNF.ID
+  fullName: Flex.Smoothlake.FlexLib.TNF.ID
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Flex.Smoothlake.FlexLib.TNF.Frequency*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.Frequency
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_Frequency
+  name: Frequency
+  nameWithType: TNF.Frequency
+  fullName: Flex.Smoothlake.FlexLib.TNF.Frequency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.TNF.Depth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.Depth
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_Depth
+  name: Depth
+  nameWithType: TNF.Depth
+  fullName: Flex.Smoothlake.FlexLib.TNF.Depth
+- uid: Flex.Smoothlake.FlexLib.TNF.Permanent*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.Permanent
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_Permanent
+  name: Permanent
+  nameWithType: TNF.Permanent
+  fullName: Flex.Smoothlake.FlexLib.TNF.Permanent
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.TNF.Bandwidth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.Bandwidth
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_Bandwidth
+  name: Bandwidth
+  nameWithType: TNF.Bandwidth
+  fullName: Flex.Smoothlake.FlexLib.TNF.Bandwidth
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.TNF.ToString*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.ToString
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_ToString
+  name: ToString
+  nameWithType: TNF.ToString
+  fullName: Flex.Smoothlake.FlexLib.TNF.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.TNF.StatusUpdate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.StatusUpdate
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_StatusUpdate_System_String_
+  name: StatusUpdate
+  nameWithType: TNF.StatusUpdate
+  fullName: Flex.Smoothlake.FlexLib.TNF.StatusUpdate
+- uid: Flex.Smoothlake.FlexLib.TNF.Close*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.Close
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_Close
+  name: Close
+  nameWithType: TNF.Close
+  fullName: Flex.Smoothlake.FlexLib.TNF.Close
+- uid: Flex.Smoothlake.FlexLib.TNF.Remove*
+  commentId: Overload:Flex.Smoothlake.FlexLib.TNF.Remove
+  href: Flex.Smoothlake.FlexLib.TNF.html#Flex_Smoothlake_FlexLib_TNF_Remove
+  name: Remove
+  nameWithType: TNF.Remove
+  fullName: Flex.Smoothlake.FlexLib.TNF.Remove

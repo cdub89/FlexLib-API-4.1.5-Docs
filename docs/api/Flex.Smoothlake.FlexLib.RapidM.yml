@@ -1,0 +1,2187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.RapidM
+  commentId: T:Flex.Smoothlake.FlexLib.RapidM
+  id: RapidM
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.RapidM.#ctor(Flex.Smoothlake.FlexLib.Radio)
+  - Flex.Smoothlake.FlexLib.RapidM.BER
+  - Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c
+  - Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate
+  - Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform
+  - Flex.Smoothlake.FlexLib.RapidM.Linked
+  - Flex.Smoothlake.FlexLib.RapidM.MessageReceived
+  - Flex.Smoothlake.FlexLib.RapidM.Modem1Id
+  - Flex.Smoothlake.FlexLib.RapidM.Modem2Id
+  - Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType
+  - Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected
+  - Flex.Smoothlake.FlexLib.RapidM.Modulation
+  - Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel
+  - Flex.Smoothlake.FlexLib.RapidM.SNR
+  - Flex.Smoothlake.FlexLib.RapidM.SampleRate
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform
+  - Flex.Smoothlake.FlexLib.RapidM.SelectedRate
+  - Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand(System.String)
+  - Flex.Smoothlake.FlexLib.RapidM.SendMessage(Flex.Smoothlake.FlexLib.RapidMMessage)
+  - Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion
+  - Flex.Smoothlake.FlexLib.RapidM.Zeroize
+  langs:
+  - csharp
+  - vb
+  name: RapidM
+  nameWithType: RapidM
+  fullName: Flex.Smoothlake.FlexLib.RapidM
+  type: Class
+  source:
+    id: RapidM
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 76
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class RapidM : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class RapidM Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.RapidM.#ctor(Flex.Smoothlake.FlexLib.Radio)
+  commentId: M:Flex.Smoothlake.FlexLib.RapidM.#ctor(Flex.Smoothlake.FlexLib.Radio)
+  id: '#ctor(Flex.Smoothlake.FlexLib.Radio)'
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: RapidM(Radio)
+  nameWithType: RapidM.RapidM(Radio)
+  fullName: Flex.Smoothlake.FlexLib.RapidM.RapidM(Flex.Smoothlake.FlexLib.Radio)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 80
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public RapidM(Radio radio)
+    parameters:
+    - id: radio
+      type: Flex.Smoothlake.FlexLib.Radio
+    content.vb: Public Sub New(radio As Radio)
+  overload: Flex.Smoothlake.FlexLib.RapidM.#ctor*
+  nameWithType.vb: RapidM.New(Radio)
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidM.New(Flex.Smoothlake.FlexLib.Radio)
+  name.vb: New(Radio)
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform
+  id: SelectedPskWaveform
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedPskWaveform
+  nameWithType: RapidM.SelectedPskWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform
+  type: Property
+  source:
+    id: SelectedPskWaveform
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 91
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM PSK Waveform Mode selected in the drop down
+  example: []
+  syntax:
+    content: public string SelectedPskWaveform { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedPskWaveform As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform
+  id: SelectedMs110cWaveform
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedMs110cWaveform
+  nameWithType: RapidM.SelectedMs110cWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform
+  type: Property
+  source:
+    id: SelectedMs110cWaveform
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 109
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM MS110C Waveform Mode selected in the drop down
+  example: []
+  syntax:
+    content: public string SelectedMs110cWaveform { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedMs110cWaveform As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedRate
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedRate
+  id: SelectedRate
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedRate
+  nameWithType: RapidM.SelectedRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedRate
+  type: Property
+  source:
+    id: SelectedRate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 126
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM baud rate selected in the drop down
+  example: []
+  syntax:
+    content: public string SelectedRate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedRate As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedRate*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth
+  id: SelectedBandwidth
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedBandwidth
+  nameWithType: RapidM.SelectedBandwidth
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth
+  type: Property
+  source:
+    id: SelectedBandwidth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 144
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM bandwidth selected in the drop down
+  example: []
+  syntax:
+    content: public string SelectedBandwidth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedBandwidth As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver
+  id: SelectedInterleaver
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedInterleaver
+  nameWithType: RapidM.SelectedInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver
+  type: Property
+  source:
+    id: SelectedInterleaver
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 162
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM Interleaver selected in the drop down
+  example: []
+  syntax:
+    content: public string SelectedInterleaver { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedInterleaver As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC
+  id: SelectedPSKENC
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedPSKENC
+  nameWithType: RapidM.SelectedPSKENC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC
+  type: Property
+  source:
+    id: SelectedPSKENC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 180
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The PSK ENC selected in the drop down
+  example: []
+  syntax:
+    content: public bool SelectedPSKENC { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SelectedPSKENC As Boolean
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB
+  id: SelectedPSKISB
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedPSKISB
+  nameWithType: RapidM.SelectedPSKISB
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB
+  type: Property
+  source:
+    id: SelectedPSKISB
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 197
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The PSK ISB selected in the drop down
+  example: []
+  syntax:
+    content: public bool SelectedPSKISB { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SelectedPSKISB As Boolean
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver
+  id: SelectedMS110CInterleaver
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedMS110CInterleaver
+  nameWithType: RapidM.SelectedMS110CInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver
+  type: Property
+  source:
+    id: SelectedMS110CInterleaver
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 214
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM Interleaver for MS110C in the drop down
+  example: []
+  syntax:
+    content: public string SelectedMS110CInterleaver { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedMS110CInterleaver As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint
+  id: SelectedMS110CConstraint
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedMS110CConstraint
+  nameWithType: RapidM.SelectedMS110CConstraint
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint
+  type: Property
+  source:
+    id: SelectedMS110CConstraint
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 231
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM Constraint for MS110C in the drop down
+  example: []
+  syntax:
+    content: public string SelectedMS110CConstraint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedMS110CConstraint As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC
+  id: SelectedMS110CTLC
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedMS110CTLC
+  nameWithType: RapidM.SelectedMS110CTLC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC
+  type: Property
+  source:
+    id: SelectedMS110CTLC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 248
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The MS110C TLC value (0-255) selected in the UI
+  example: []
+  syntax:
+    content: public string SelectedMS110CTLC { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedMS110CTLC As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble
+  id: SelectedMS110CPreamble
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SelectedMS110CPreamble
+  nameWithType: RapidM.SelectedMS110CPreamble
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble
+  type: Property
+  source:
+    id: SelectedMS110CPreamble
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 265
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The MS110C preamble value (0-32) selected in the UI
+  example: []
+  syntax:
+    content: public string SelectedMS110CPreamble { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedMS110CPreamble As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SNR
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SNR
+  id: SNR
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SNR
+  nameWithType: RapidM.SNR
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SNR
+  type: Property
+  source:
+    id: SNR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 282
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM SNR
+  example: []
+  syntax:
+    content: public string SNR { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SNR As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SNR*
+- uid: Flex.Smoothlake.FlexLib.RapidM.BER
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.BER
+  id: BER
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: BER
+  nameWithType: RapidM.BER
+  fullName: Flex.Smoothlake.FlexLib.RapidM.BER
+  type: Property
+  source:
+    id: BER
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 291
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM bit error rate
+  example: []
+  syntax:
+    content: public string BER { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BER As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.BER*
+- uid: Flex.Smoothlake.FlexLib.RapidM.Modulation
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.Modulation
+  id: Modulation
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: Modulation
+  nameWithType: RapidM.Modulation
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Modulation
+  type: Property
+  source:
+    id: Modulation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 300
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM current waveform mode active in the radio (psk/ms110c/etc)
+  example: []
+  syntax:
+    content: public string Modulation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Modulation As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.Modulation*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform
+  id: CurrentPSKWaveform
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentPSKWaveform
+  nameWithType: RapidM.CurrentPSKWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform
+  type: Property
+  source:
+    id: CurrentPSKWaveform
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 317
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM PSK Waveform Mode that is currently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentPSKWaveform { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentPSKWaveform As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate
+  id: CurrentPSKRate
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentPSKRate
+  nameWithType: RapidM.CurrentPSKRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate
+  type: Property
+  source:
+    id: CurrentPSKRate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 334
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM PSK baud rate that is currently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentPSKRate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentPSKRate As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver
+  id: CurrentPSKInterleaver
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentPSKInterleaver
+  nameWithType: RapidM.CurrentPSKInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver
+  type: Property
+  source:
+    id: CurrentPSKInterleaver
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 351
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM Interleaver that is currently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentPSKInterleaver { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentPSKInterleaver As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform
+  id: CurrentMS110CWaveform
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CWaveform
+  nameWithType: RapidM.CurrentMS110CWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform
+  type: Property
+  source:
+    id: CurrentMS110CWaveform
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 368
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM MS110C Waveform Mode that is currently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentMS110CWaveform { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CWaveform As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth
+  id: CurrentMS110CBandwidth
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CBandwidth
+  nameWithType: RapidM.CurrentMS110CBandwidth
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth
+  type: Property
+  source:
+    id: CurrentMS110CBandwidth
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 385
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The RapidM MS110c bandwidth that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentMS110CBandwidth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CBandwidth As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC
+  id: CurrentPSKENC
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentPSKENC
+  nameWithType: RapidM.CurrentPSKENC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC
+  type: Property
+  source:
+    id: CurrentPSKENC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 402
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The PSK ENC value that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentPSKENC { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentPSKENC As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB
+  id: CurrentPSKISB
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentPSKISB
+  nameWithType: RapidM.CurrentPSKISB
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB
+  type: Property
+  source:
+    id: CurrentPSKISB
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 419
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The PSK ISB value that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentPSKISB { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentPSKISB As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver
+  id: CurrentMS110CInterleaver
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CInterleaver
+  nameWithType: RapidM.CurrentMS110CInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver
+  type: Property
+  source:
+    id: CurrentMS110CInterleaver
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 436
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The MS110C interleaver value that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentMS110CInterleaver { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CInterleaver As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint
+  id: CurrentMS110CConstraint
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CConstraint
+  nameWithType: RapidM.CurrentMS110CConstraint
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint
+  type: Property
+  source:
+    id: CurrentMS110CConstraint
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 453
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The MS110C Constraint value that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentMS110CConstraint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CConstraint As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC
+  id: CurrentMS110CTLC
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CTLC
+  nameWithType: RapidM.CurrentMS110CTLC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC
+  type: Property
+  source:
+    id: CurrentMS110CTLC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 470
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The MS110C TLC value (0-255) that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentMS110CTLC { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CTLC As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble
+  id: CurrentMS110CPreamble
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CPreamble
+  nameWithType: RapidM.CurrentMS110CPreamble
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble
+  type: Property
+  source:
+    id: CurrentMS110CPreamble
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 487
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The MS110C preamble value (0-32) that is curently active in the radio
+  example: []
+  syntax:
+    content: public string CurrentMS110CPreamble { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CPreamble As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble*
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate
+  id: CurrentMS110CDataRate
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: CurrentMS110CDataRate
+  nameWithType: RapidM.CurrentMS110CDataRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate
+  type: Property
+  source:
+    id: CurrentMS110CDataRate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 506
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The MS110C data rate value that is curently active in the radio
+
+    There is not a matching property for setting from the UI because
+
+    that feature is not currently available
+  example: []
+  syntax:
+    content: public string CurrentMS110CDataRate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentMS110CDataRate As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion
+  id: SoftwareVersion
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SoftwareVersion
+  nameWithType: RapidM.SoftwareVersion
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion
+  type: Property
+  source:
+    id: SoftwareVersion
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 520
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string SoftwareVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SoftwareVersion As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SampleRate
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.SampleRate
+  id: SampleRate
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SampleRate
+  nameWithType: RapidM.SampleRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SampleRate
+  type: Property
+  source:
+    id: SampleRate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 532
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int SampleRate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SampleRate As Integer
+  overload: Flex.Smoothlake.FlexLib.RapidM.SampleRate*
+- uid: Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected
+  id: ModemsTcpConnected
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: ModemsTcpConnected
+  nameWithType: RapidM.ModemsTcpConnected
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected
+  type: Property
+  source:
+    id: ModemsTcpConnected
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 544
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public List<bool> ModemsTcpConnected { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Boolean}
+    content.vb: Public Property ModemsTcpConnected As List(Of Boolean)
+  overload: Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected*
+- uid: Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel
+  id: OperationalStateLabel
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: OperationalStateLabel
+  nameWithType: RapidM.OperationalStateLabel
+  fullName: Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel
+  type: Property
+  source:
+    id: OperationalStateLabel
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 556
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string OperationalStateLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OperationalStateLabel As String
+  overload: Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel*
+- uid: Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType
+  id: ModemGlobalConfigType
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: ModemGlobalConfigType
+  nameWithType: RapidM.ModemGlobalConfigType
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType
+  type: Property
+  source:
+    id: ModemGlobalConfigType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 568
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public ModemConfigurationType ModemGlobalConfigType { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.ModemConfigurationType
+    content.vb: Public Property ModemGlobalConfigType As ModemConfigurationType
+  overload: Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType*
+- uid: Flex.Smoothlake.FlexLib.RapidM.Modem1Id
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.Modem1Id
+  id: Modem1Id
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: Modem1Id
+  nameWithType: RapidM.Modem1Id
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Modem1Id
+  type: Property
+  source:
+    id: Modem1Id
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 580
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public RapidMPerModemConfig Modem1Id { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+    content.vb: Public Property Modem1Id As RapidMPerModemConfig
+  overload: Flex.Smoothlake.FlexLib.RapidM.Modem1Id*
+- uid: Flex.Smoothlake.FlexLib.RapidM.Modem2Id
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.Modem2Id
+  id: Modem2Id
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: Modem2Id
+  nameWithType: RapidM.Modem2Id
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Modem2Id
+  type: Property
+  source:
+    id: Modem2Id
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 592
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public RapidMPerModemConfig Modem2Id { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+    content.vb: Public Property Modem2Id As RapidMPerModemConfig
+  overload: Flex.Smoothlake.FlexLib.RapidM.Modem2Id*
+- uid: Flex.Smoothlake.FlexLib.RapidM.Linked
+  commentId: P:Flex.Smoothlake.FlexLib.RapidM.Linked
+  id: Linked
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: Linked
+  nameWithType: RapidM.Linked
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Linked
+  type: Property
+  source:
+    id: Linked
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 604
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Linked { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Linked As Boolean
+  overload: Flex.Smoothlake.FlexLib.RapidM.Linked*
+- uid: Flex.Smoothlake.FlexLib.RapidM.MessageReceived
+  commentId: E:Flex.Smoothlake.FlexLib.RapidM.MessageReceived
+  id: MessageReceived
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: MessageReceived
+  nameWithType: RapidM.MessageReceived
+  fullName: Flex.Smoothlake.FlexLib.RapidM.MessageReceived
+  type: Event
+  source:
+    id: MessageReceived
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 626
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: This event is raised when a RapidM message is received
+  example: []
+  syntax:
+    content: public event RapidM.MessageReceivedEventHandler MessageReceived
+    return:
+      type: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+    content.vb: Public Event MessageReceived As RapidM.MessageReceivedEventHandler
+- uid: Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk
+  commentId: M:Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk
+  id: ConfigurePsk
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: ConfigurePsk()
+  nameWithType: RapidM.ConfigurePsk()
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk()
+  type: Method
+  source:
+    id: ConfigurePsk
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 637
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Sets up the RapidM waveform, rate and interleaver
+  example: []
+  syntax:
+    content: public void ConfigurePsk()
+    content.vb: Public Sub ConfigurePsk()
+  overload: Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk*
+- uid: Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c
+  commentId: M:Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c
+  id: ConfigureMs110c
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: ConfigureMs110c()
+  nameWithType: RapidM.ConfigureMs110c()
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c()
+  type: Method
+  source:
+    id: ConfigureMs110c
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 645
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void ConfigureMs110c()
+    content.vb: Public Sub ConfigureMs110c()
+  overload: Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c*
+- uid: Flex.Smoothlake.FlexLib.RapidM.Zeroize
+  commentId: M:Flex.Smoothlake.FlexLib.RapidM.Zeroize
+  id: Zeroize
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: Zeroize()
+  nameWithType: RapidM.Zeroize()
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Zeroize()
+  type: Method
+  source:
+    id: Zeroize
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 653
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Task Zeroize()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Zeroize() As Task
+  overload: Flex.Smoothlake.FlexLib.RapidM.Zeroize*
+- uid: Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand(System.String)
+  id: SendConfigCommand(System.String)
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SendConfigCommand(string)
+  nameWithType: RapidM.SendConfigCommand(string)
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand(string)
+  type: Method
+  source:
+    id: SendConfigCommand
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 660
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Task SendConfigCommand(string configCommand)
+    parameters:
+    - id: configCommand
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendConfigCommand(configCommand As String) As Task
+  overload: Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand*
+  nameWithType.vb: RapidM.SendConfigCommand(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand(String)
+  name.vb: SendConfigCommand(String)
+- uid: Flex.Smoothlake.FlexLib.RapidM.SendMessage(Flex.Smoothlake.FlexLib.RapidMMessage)
+  commentId: M:Flex.Smoothlake.FlexLib.RapidM.SendMessage(Flex.Smoothlake.FlexLib.RapidMMessage)
+  id: SendMessage(Flex.Smoothlake.FlexLib.RapidMMessage)
+  parent: Flex.Smoothlake.FlexLib.RapidM
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(RapidMMessage)
+  nameWithType: RapidM.SendMessage(RapidMMessage)
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SendMessage(Flex.Smoothlake.FlexLib.RapidMMessage)
+  type: Method
+  source:
+    id: SendMessage
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 666
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendMessage(RapidMMessage msg)
+    parameters:
+    - id: msg
+      type: Flex.Smoothlake.FlexLib.RapidMMessage
+    content.vb: Public Sub SendMessage(msg As RapidMMessage)
+  overload: Flex.Smoothlake.FlexLib.RapidM.SendMessage*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.RapidM.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.#ctor
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM__ctor_Flex_Smoothlake_FlexLib_Radio_
+  name: RapidM
+  nameWithType: RapidM.RapidM
+  fullName: Flex.Smoothlake.FlexLib.RapidM.RapidM
+  nameWithType.vb: RapidM.New
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidM.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.Radio
+  commentId: T:Flex.Smoothlake.FlexLib.Radio
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio
+  nameWithType: Radio
+  fullName: Flex.Smoothlake.FlexLib.Radio
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedPskWaveform
+  name: SelectedPskWaveform
+  nameWithType: RapidM.SelectedPskWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedPskWaveform
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedMs110cWaveform
+  name: SelectedMs110cWaveform
+  nameWithType: RapidM.SelectedMs110cWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMs110cWaveform
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedRate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedRate
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedRate
+  name: SelectedRate
+  nameWithType: RapidM.SelectedRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedRate
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedBandwidth
+  name: SelectedBandwidth
+  nameWithType: RapidM.SelectedBandwidth
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedBandwidth
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedInterleaver
+  name: SelectedInterleaver
+  nameWithType: RapidM.SelectedInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedInterleaver
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedPSKENC
+  name: SelectedPSKENC
+  nameWithType: RapidM.SelectedPSKENC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKENC
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedPSKISB
+  name: SelectedPSKISB
+  nameWithType: RapidM.SelectedPSKISB
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedPSKISB
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedMS110CInterleaver
+  name: SelectedMS110CInterleaver
+  nameWithType: RapidM.SelectedMS110CInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CInterleaver
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedMS110CConstraint
+  name: SelectedMS110CConstraint
+  nameWithType: RapidM.SelectedMS110CConstraint
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CConstraint
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedMS110CTLC
+  name: SelectedMS110CTLC
+  nameWithType: RapidM.SelectedMS110CTLC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CTLC
+- uid: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SelectedMS110CPreamble
+  name: SelectedMS110CPreamble
+  nameWithType: RapidM.SelectedMS110CPreamble
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SelectedMS110CPreamble
+- uid: Flex.Smoothlake.FlexLib.RapidM.SNR*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SNR
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SNR
+  name: SNR
+  nameWithType: RapidM.SNR
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SNR
+- uid: Flex.Smoothlake.FlexLib.RapidM.BER*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.BER
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_BER
+  name: BER
+  nameWithType: RapidM.BER
+  fullName: Flex.Smoothlake.FlexLib.RapidM.BER
+- uid: Flex.Smoothlake.FlexLib.RapidM.Modulation*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.Modulation
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_Modulation
+  name: Modulation
+  nameWithType: RapidM.Modulation
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Modulation
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentPSKWaveform
+  name: CurrentPSKWaveform
+  nameWithType: RapidM.CurrentPSKWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKWaveform
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentPSKRate
+  name: CurrentPSKRate
+  nameWithType: RapidM.CurrentPSKRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKRate
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentPSKInterleaver
+  name: CurrentPSKInterleaver
+  nameWithType: RapidM.CurrentPSKInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKInterleaver
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CWaveform
+  name: CurrentMS110CWaveform
+  nameWithType: RapidM.CurrentMS110CWaveform
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CWaveform
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CBandwidth
+  name: CurrentMS110CBandwidth
+  nameWithType: RapidM.CurrentMS110CBandwidth
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CBandwidth
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentPSKENC
+  name: CurrentPSKENC
+  nameWithType: RapidM.CurrentPSKENC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKENC
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentPSKISB
+  name: CurrentPSKISB
+  nameWithType: RapidM.CurrentPSKISB
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentPSKISB
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CInterleaver
+  name: CurrentMS110CInterleaver
+  nameWithType: RapidM.CurrentMS110CInterleaver
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CInterleaver
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CConstraint
+  name: CurrentMS110CConstraint
+  nameWithType: RapidM.CurrentMS110CConstraint
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CConstraint
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CTLC
+  name: CurrentMS110CTLC
+  nameWithType: RapidM.CurrentMS110CTLC
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CTLC
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CPreamble
+  name: CurrentMS110CPreamble
+  nameWithType: RapidM.CurrentMS110CPreamble
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CPreamble
+- uid: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_CurrentMS110CDataRate
+  name: CurrentMS110CDataRate
+  nameWithType: RapidM.CurrentMS110CDataRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.CurrentMS110CDataRate
+- uid: Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SoftwareVersion
+  name: SoftwareVersion
+  nameWithType: RapidM.SoftwareVersion
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SoftwareVersion
+- uid: Flex.Smoothlake.FlexLib.RapidM.SampleRate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SampleRate
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SampleRate
+  name: SampleRate
+  nameWithType: RapidM.SampleRate
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SampleRate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_ModemsTcpConnected
+  name: ModemsTcpConnected
+  nameWithType: RapidM.ModemsTcpConnected
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ModemsTcpConnected
+- uid: System.Collections.Generic.List{System.Boolean}
+  commentId: T:System.Collections.Generic.List{System.Boolean}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<bool>
+  nameWithType: List<bool>
+  fullName: System.Collections.Generic.List<bool>
+  nameWithType.vb: List(Of Boolean)
+  fullName.vb: System.Collections.Generic.List(Of Boolean)
+  name.vb: List(Of Boolean)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_OperationalStateLabel
+  name: OperationalStateLabel
+  nameWithType: RapidM.OperationalStateLabel
+  fullName: Flex.Smoothlake.FlexLib.RapidM.OperationalStateLabel
+- uid: Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_ModemGlobalConfigType
+  name: ModemGlobalConfigType
+  nameWithType: RapidM.ModemGlobalConfigType
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ModemGlobalConfigType
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  commentId: T:Flex.Smoothlake.FlexLib.ModemConfigurationType
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ModemConfigurationType.html
+  name: ModemConfigurationType
+  nameWithType: ModemConfigurationType
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType
+- uid: Flex.Smoothlake.FlexLib.RapidM.Modem1Id*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.Modem1Id
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_Modem1Id
+  name: Modem1Id
+  nameWithType: RapidM.Modem1Id
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Modem1Id
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  commentId: T:Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html
+  name: RapidMPerModemConfig
+  nameWithType: RapidMPerModemConfig
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+- uid: Flex.Smoothlake.FlexLib.RapidM.Modem2Id*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.Modem2Id
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_Modem2Id
+  name: Modem2Id
+  nameWithType: RapidM.Modem2Id
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Modem2Id
+- uid: Flex.Smoothlake.FlexLib.RapidM.Linked*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.Linked
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_Linked
+  name: Linked
+  nameWithType: RapidM.Linked
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Linked
+- uid: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.RapidM.html
+  name: RapidM.MessageReceivedEventHandler
+  nameWithType: RapidM.MessageReceivedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.RapidM
+    name: RapidM
+    href: Flex.Smoothlake.FlexLib.RapidM.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+    name: MessageReceivedEventHandler
+    href: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.RapidM
+    name: RapidM
+    href: Flex.Smoothlake.FlexLib.RapidM.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler
+    name: MessageReceivedEventHandler
+    href: Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_ConfigurePsk
+  name: ConfigurePsk
+  nameWithType: RapidM.ConfigurePsk
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ConfigurePsk
+- uid: Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_ConfigureMs110c
+  name: ConfigureMs110c
+  nameWithType: RapidM.ConfigureMs110c
+  fullName: Flex.Smoothlake.FlexLib.RapidM.ConfigureMs110c
+- uid: Flex.Smoothlake.FlexLib.RapidM.Zeroize*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.Zeroize
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_Zeroize
+  name: Zeroize
+  nameWithType: RapidM.Zeroize
+  fullName: Flex.Smoothlake.FlexLib.RapidM.Zeroize
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SendConfigCommand_System_String_
+  name: SendConfigCommand
+  nameWithType: RapidM.SendConfigCommand
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SendConfigCommand
+- uid: Flex.Smoothlake.FlexLib.RapidM.SendMessage*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidM.SendMessage
+  href: Flex.Smoothlake.FlexLib.RapidM.html#Flex_Smoothlake_FlexLib_RapidM_SendMessage_Flex_Smoothlake_FlexLib_RapidMMessage_
+  name: SendMessage
+  nameWithType: RapidM.SendMessage
+  fullName: Flex.Smoothlake.FlexLib.RapidM.SendMessage
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage
+  commentId: T:Flex.Smoothlake.FlexLib.RapidMMessage
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html
+  name: RapidMMessage
+  nameWithType: RapidMMessage
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage

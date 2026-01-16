@@ -1,0 +1,5015 @@
+{
+  "source_base_path": "C:/Users/chris/OneDrive/Documents/github/FlexLib_API_v4.1.5.39794/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "API-Reference.md",
+      "output": {
+        ".html": {
+          "relative_path": "API-Reference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "Architecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Examples.md",
+      "output": {
+        ".html": {
+          "relative_path": "Examples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Getting-Started.md",
+      "output": {
+        ".html": {
+          "relative_path": "Getting-Started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Migration-Guide.md",
+      "output": {
+        ".html": {
+          "relative_path": "Migration-Guide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.AGCMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.AGCMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.AGCMode",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.AGCMode.yml\" sourcestartlinenumber=\"1\">Specifies the Automatic Gain Control (AGC) mode for a slice.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GAmdEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GAmdEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GAmdEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GNetworkRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GPathRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G.ALE2GStationRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2G.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2G",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GLQARecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GLQARecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GLQARecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GNetwork.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GNetwork",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GPath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GPath",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GStation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GStation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE2GStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE2GStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GAmdEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GAmdEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3G.ALE3GAmdEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3G.ALE3GPathRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3G.ALE3GStationRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3G.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3G",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3GConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GLQARecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GLQARecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3GLQARecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GPath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3GPath",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GStation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3GStation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE3GStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE3GStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GMsgEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GMsgEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4G.ALE4GMsgEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4G.ALE4GPathRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4G.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4G",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4GConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GLQARecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GLQARecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4GLQARecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4GMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GPath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4GPath",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GStation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4GStation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALE4GStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALE4GStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALECallee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALECallee.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALECallee",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite.ALECompositePathRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite.ALEConfigurationRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite.ALEScanListRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEComposite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEComposite",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALECompositeCurrentStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALECompositeCurrentStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALECompositeCurrentStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALECompositePath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALECompositePath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALECompositePath",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEGen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEGen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEGen",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALELinkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALELinkType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALELinkType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEMultipoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEMultipoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEMultipoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEScanList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEScanList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEScanList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ALEStationGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ALEStationGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ALEStationGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.APD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.APD.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.APD",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.API.RadioAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.API.RadioAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.API.RadioAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.API.RadioAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Represents the method that will handle the radio added event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.API.RadioChangedIpEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.API.RadioChangedIpEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.API.RadioChangedIpEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.API.RadioChangedIpEventHandler.yml\" sourcestartlinenumber=\"1\">Represents the method that will handle the radio IP address changed event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.API.RadioRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.API.RadioRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.API.RadioRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.API.RadioRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Represents the method that will handle the radio removed event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.API.WanListReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.API.WanListReceivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.API.WanListReceivedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.API.WanListReceivedEventHandler.yml\" sourcestartlinenumber=\"1\">Represents the method that will handle the WAN radio list received event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.API.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.API",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ATUTuneStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ATUTuneStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ATUTuneStatus",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.ATUTuneStatus.yml\" sourcestartlinenumber=\"1\">The state of the automatic antenna tuning unit (ATU)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Amplifier.MeterAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Amplifier.MeterAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Amplifier.MeterAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Amplifier.MeterRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Amplifier.MeterRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Amplifier.MeterRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Amplifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Amplifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Amplifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.AmplifierMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.AmplifierMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.AmplifierMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.AmplifierState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.AmplifierState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.AmplifierState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.BcdCableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.BcdCableType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.BcdCableType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.CWX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.CWX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.CWX",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DAXIQStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DAXIQStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DAXIQStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DAXMICAudioStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DAXMICAudioStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DAXMICAudioStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DAXRXAudioStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DAXRXAudioStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DAXRXAudioStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DAXTXAudioStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DAXTXAudioStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DAXTXAudioStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVK.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVK",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKCommandType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKCommandType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKRecording.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKRecording.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKRecording",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKRecordingComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKRecordingComparer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKRecordingComparer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKRecordingStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKRecordingStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKRecordingStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.DVKStatusType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.DVKStatusType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.DVKStatusType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Equalizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Equalizer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Equalizer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.EqualizerSelect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.EqualizerSelect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.EqualizerSelect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.EqualizerStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.EqualizerStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.EqualizerStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.FMTXOffsetDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.FMTXOffsetDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.FMTXOffsetDirection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.FMToneMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.FMToneMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.FMToneMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Feature.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Feature",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.FeatureLicense.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.FeatureLicense.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.FeatureLicense",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.FeatureStatusReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.FeatureStatusReason.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.FeatureStatusReason",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.FirmwareRequiredVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.FirmwareRequiredVersion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.FirmwareRequiredVersion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.GUIClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.GUIClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.GUIClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.HAAPI.AmplifierFaultEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.HAAPI.AmplifierFaultEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.HAAPI.AmplifierFaultEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.HAAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.HAAPI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.HAAPI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ICommandCommunication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ICommandCommunication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ICommandCommunication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.IUsbBcdCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.IUsbBcdCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.IUsbBcdCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.IUsbBitCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.IUsbBitCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.IUsbBitCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.IUsbCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.IUsbCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.IUsbCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.IUsbCatCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.IUsbCatCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.IUsbCatCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.IUsbLdpaCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.IUsbLdpaCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.IUsbLdpaCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.IUsbPassthroughCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.IUsbPassthroughCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.IUsbPassthroughCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Interface.IDaxRxStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Interface.IDaxStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Interface.IDaxStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Interface.IDaxStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Interface.IDaxTxStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Interface.IDaxTxStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Interface.IDaxTxStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Interface.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Interface",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.InterlockReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.InterlockReason.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.InterlockReason",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.InterlockReason.yml\" sourcestartlinenumber=\"1\">The reason that the InterlockState is\nin the state that it is in</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.InterlockState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.InterlockState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.InterlockState",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.InterlockState.yml\" sourcestartlinenumber=\"1\">The interlock state of transmitter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.LdpaBand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.LdpaBand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.LdpaBand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.LogMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.LogMessageEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.LogMessageEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.LogModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.LogModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.LogModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Memory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Memory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Memory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.MessageResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.MessageResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.MessageResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.MessageSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.MessageSeverity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.MessageSeverity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Meter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Meter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Meter",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Meter.yml\" sourcestartlinenumber=\"1\">Represents a telemetry meter that provides real-time monitoring data from the radio.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.MeterUnits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.MeterUnits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.MeterUnits",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.MeterUnits.yml\" sourcestartlinenumber=\"1\">Specifies the units of measurement for meter values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ModelInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ModelInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ModelInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ModemConfigurationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ModemConfigurationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ModemConfigurationType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ModemSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ModemSupport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ModemSupport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.NetCWStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.NetCWStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.NetCWStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.NetworkQuality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.NetworkQuality.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.NetworkQuality",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Oscillator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Oscillator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Oscillator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.PTTSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.PTTSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.PTTSource",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.PTTSource.yml\" sourcestartlinenumber=\"1\">The push-to-talk input source</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Panadapter.DataReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Panadapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Panadapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Panadapter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.PushNotificationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.PushNotificationData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.PushNotificationData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RXAudioStream.OpusPacketReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RXAudioStream.OpusPacketReceivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RXAudioStream.OpusPacketReceivedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RXAudioStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RXAudioStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RXAudioStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RXRemoteAudioStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RXRemoteAudioStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RXRemoteAudioStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.AmplifierAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.AmplifierAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.AmplifierAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.AmplifierAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the AmplifierAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.AmplifierRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.AmplifierRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.AmplifierRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.AmplifierRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the AmplifierRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXIQStreamAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXIQStreamAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXIQStreamAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.DAXIQStreamAddedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the IQStreamAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXIQStreamRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXIQStreamRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXIQStreamRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.DAXIQStreamRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the IQStreamRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXMICAudioStreamRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamAddedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the DAXRXAudioStreamAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.DAXRXAudioStreamRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the AudioStreamRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.EqualizerRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.EqualizerRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.EqualizerRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.GUIClientAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.GUIClientAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.GUIClientAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.GUIClientAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the GUIClientAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.GUIClientRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.GUIClientRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.GUIClientRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.GUIClientRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the GUIClientRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.GUIClientUpdatedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.GUIClientUpdatedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.GUIClientUpdatedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.GUIClientUpdatedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the GUIClientUpdated event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MemoryAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MemoryAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.MemoryAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.MemoryAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the MemoryAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MemoryRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MemoryRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.MemoryRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.MemoryRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the MemoryRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MessageReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MessageReceivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.MessageReceivedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.MessageReceivedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the MessageReceived event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MeterDataReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.MeterDataReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.MeterDataReadyEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.MeterDataReadyEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for meter data events.\nUsed with the events: ForwardPowerDataReady, ReflectedPowerDataReady,\nSWRDataReady, PATempDataReady, VoltsDataReady, MicDataReady, MicPeakDataReady,\nCompPeakDataReady, HWAlcDataReady, PAEffDataReady, etc.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.PanadapterAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.PanadapterAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.PanadapterAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.PanadapterRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.PanadapterRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.PanadapterRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.PanadapterRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the PanadapterRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamAddedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the RXRemoteAudioStreamStreamAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.RXRemoteAudioStreamRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the RXRemoteAudioStreamStreamRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SliceAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SliceAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SliceAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SliceAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SliceAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SlicePanReferenceChangeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SlicePanReferenceChangeEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SlicePanReferenceChangeEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SlicePanReferenceChangeEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SlicePanReferenceChange event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SliceRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SliceRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SliceRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SliceRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SliceRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SpotAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SpotAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SpotAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SpotRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SpotRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SpotRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotTriggeredEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotTriggeredEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SpotTriggeredEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SpotTriggeredEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SpotTriggered event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotTriggeredWithPanEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.SpotTriggeredWithPanEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.SpotTriggeredWithPanEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.SpotTriggeredWithPanEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the SpotTriggered event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TNFAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TNFAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TNFAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the TXRemoteAudioStream event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the TXRemoteAudioStream event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TunerAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TunerAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TunerAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.TunerAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the TunerAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TunerRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TunerRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TunerRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.TunerRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the TunerRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TxBandSettingsAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TxBandSettingsAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TxBandSettingsAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.TxBandSettingsAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the TxBandSettingsAddedEventHandler event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TxBandSettingsRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.TxBandSettingsRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.TxBandSettingsRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.TxBandSettingsRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the TxBandSettingsRemovedEventHandler event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.UsbCableAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.UsbCableAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.UsbCableAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.UsbCableRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.UsbCableRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.UsbCableRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.WaterfallAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.WaterfallAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.WaterfallAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.WaterfallRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.WaterfallRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.WaterfallRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the XVTRAdded event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.XvtrRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.XvtrRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio.XvtrRemovedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Radio.XvtrRemovedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the XvtrRemoved event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Radio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Radio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Radio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RadioPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RadioPlatform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RadioPlatform",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.RapidM.MessageReceivedEventHandler.yml\" sourcestartlinenumber=\"1\">The delegate event handler for the RapidmMessageReceived event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RapidM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RapidM.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RapidM",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RapidMHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RapidMHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RapidMHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RapidMMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RapidMMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RapidMMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RapidMOptionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RapidMOptionStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RapidMOptionStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.RapidMPerModemConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.RapidMPerModemConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ReplyHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ReplyHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ReplyHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.ScreensaverMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.ScreensaverMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.ScreensaverMode",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.ScreensaverMode.yml\" sourcestartlinenumber=\"1\">Display options for the front panel of the radio</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SerialDataBits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SerialDataBits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SerialDataBits",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SerialFlowControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SerialFlowControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SerialFlowControl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SerialParity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SerialParity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SerialParity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SerialSpeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SerialSpeed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SerialSpeed",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SerialStopBits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SerialStopBits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SerialStopBits",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Slice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Slice",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.Slice.yml\" sourcestartlinenumber=\"1\">Represents a receiver/transmitter channel (slice) in a FlexRadio device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SmartSdrCommandErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SmartSdrCommandErrorException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SmartSdrCommandErrorException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SourceInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SourceInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SourceInput",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Spot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Spot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Spot",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SslClient.MessageReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SslClient.MessageReceived.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SslClient.MessageReceived",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.SslClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.SslClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.SslClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TNF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TNF.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TNF",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TXRemoteAudioStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TXRemoteAudioStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TXRemoteAudioStream",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.IsConnectedChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.IsConnectedChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TcpCommandCommunication.IsConnectedChangedEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.IsConnectedChangedEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the IsConnectedChanged event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.TCPDataReceivedReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.TCPDataReceivedReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TcpCommandCommunication.TCPDataReceivedReadyEventHandler",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.TCPDataReceivedReadyEventHandler.yml\" sourcestartlinenumber=\"1\">Delegate event handler for the DataReceivedReady event</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TcpCommandCommunication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TcpCommandCommunication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TlsCommandCommunication.TCPDataReceivedReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TlsCommandCommunication.TCPDataReceivedReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TlsCommandCommunication.TCPDataReceivedReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TlsCommandCommunication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TlsCommandCommunication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TlsCommandCommunication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Tuner.MeterAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Tuner.MeterAddedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Tuner.MeterAddedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Tuner.MeterRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Tuner.MeterRemovedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Tuner.MeterRemovedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Tuner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Tuner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Tuner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TunerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TunerState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TunerState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.TxBandSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.TxBandSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.TxBandSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbBcdCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbBcdCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbBcdCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbBitCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbBitCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbBitCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbBitCableOutputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbBitCableOutputType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbCableFreqSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbCableFreqSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbCableFreqSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbCableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbCableType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbCableType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbCatCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbCatCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbCatCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbLdpaCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbLdpaCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbLdpaCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbOtherCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbOtherCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbOtherCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbPassthroughCable.DataRecivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbPassthroughCable.DataRecivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbPassthroughCable.DataRecivedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.UsbPassthroughCable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.UsbPassthroughCable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.UsbPassthroughCable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanServer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanTestConnectionResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanTestConnectionResults.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanTestConnectionResults",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.WanUserSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.WanUserSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.WanUserSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Waterfall.DataReadyEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Waterfall.DataReadyEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Waterfall.DataReadyEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Waterfall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Waterfall.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Waterfall",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.Xvtr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.Xvtr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib.Xvtr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.FlexLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.FlexLib.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.FlexLib",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.Header.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.Header",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.Header.yml\" sourcestartlinenumber=\"1\">Represents a Packet Header as defined in the Vita 49 Standard Section 6.1.1</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.Trailer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.Trailer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.Trailer",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.Trailer.yml\" sourcestartlinenumber=\"1\">Represents an IF Data Packet Trailer as defined in the Vita 49 Standard Section 6.1.7</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaClassID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaClassID.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaClassID",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaClassID.yml\" sourcestartlinenumber=\"1\">From Vita 49 Standard 7.1.3</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaCommon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaCommon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaDataReceivedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaDataReceivedCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaDataReceivedCallback",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaDiscoveryPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaDiscoveryPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaDiscoveryPacket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaFFTPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaFFTPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaFFTPacket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaFlex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaFlex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaFlex",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaIFDataPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaIFDataPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaIFDataPacket",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaIFDataPacket.yml\" sourcestartlinenumber=\"1\">Represents a single Vita IF Data Packet as defined in the Vita 49 Standard Section 6.1.\nCan also represent an Extended Data Packet as seen in Section 6.2.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaMeterPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaMeterPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaMeterPacket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaOpusDataPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaOpusDataPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaOpusDataPacket",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaOpusDataPacket.yml\" sourcestartlinenumber=\"1\">Represents a single Vita IF Data Packet as defined in the Vita 49 Standard Section 6.1.\nCan also represent an Extended Data Packet as seen in Section 6.2.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaPacketPreamble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaPacketPreamble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaPacketPreamble",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaPacketPreamble.yml\" sourcestartlinenumber=\"1\">Represents a single Vita IF Data Packet as defined in the Vita 49 Standard Section 6.1.\nCan also represent an Extended Data Packet as seen in Section 6.2.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaPacketType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaPacketType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaPacketType",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaPacketType.yml\" sourcestartlinenumber=\"1\">From Vita 49 Standard Table 6.1.1-1</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaSocket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaSocket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaTimeStampFractionalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaTimeStampFractionalType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaTimeStampFractionalType",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaTimeStampFractionalType.yml\" sourcestartlinenumber=\"1\">From Vita 49 Standard Table 6.1.1-3</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaTimeStampIntegerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaTimeStampIntegerType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaTimeStampIntegerType",
+      "Summary": "<p sourcefile=\"api/Flex.Smoothlake.Vita.VitaTimeStampIntegerType.yml\" sourcestartlinenumber=\"1\">From Vita 49 Standard Table 6.1.1-2</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.VitaWaterfallPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.VitaWaterfallPacket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita.VitaWaterfallPacket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Smoothlake.Vita.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Smoothlake.Vita.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Smoothlake.Vita",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.DialogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.DialogService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.DialogService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.IDialogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.IDialogService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.IDialogService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.ObservableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.ObservableObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.ObservableObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.PropertySupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.PropertySupport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.PropertySupport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.RelayCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.RelayCommand-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.RelayCommand<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.SortedObservableCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.SortedObservableCollection-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm.SortedObservableCollection<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Mvvm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Mvvm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Mvvm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolAndToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolAndToStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolAndToStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolAndToValueConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolAndToValueConverter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolAndToValueConverter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolOrToMarginConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolOrToMarginConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolOrToMarginConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolOrToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolOrToStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolOrToStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolOrToValueConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolOrToValueConverter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolOrToValueConverter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToBrushConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToBrushConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToBrushConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToFloatConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToFloatConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToFloatConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToThicknessConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToThicknessConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToThicknessConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BoolToValueConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BoolToValueConverter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BoolToValueConverter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanAndMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanAndMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanAndMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanOrMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanOrMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanOrMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.ClientPersistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.ClientPersistence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.ClientPersistence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.EnumToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.EnumToStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.EnumToStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.IPAddressValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.IPAddressValidator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.IPAddressValidator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.IntStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.IntStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.IntStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.InverseBooleanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.InverseBooleanConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.InverseBooleanConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.MHzToHzConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.MHzToHzConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.MHzToHzConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.NullToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.NullToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.NullToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.POINT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.POINT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.POINT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.RECT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.RECT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.RECT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.UrlToQrConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.UrlToQrConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.UrlToQrConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.VisibilityToHeightConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.VisibilityToHeightConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.VisibilityToHeightConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.VisualStudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.VisualStudio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.VisualStudio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.WINDOWPLACEMENT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.WindowPlacement_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.WindowPlacement_1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.WindowPlacement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.UiWpfFramework.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.UiWpfFramework.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.UiWpfFramework.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCAPS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCAPS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper.MIXERCAPS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCONTROL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCONTROL.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper.MIXERCONTROL",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.MIXERLINE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.MIXERLINE.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper.MIXERLINE",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.MIXERLINECONTROLS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.MIXERLINECONTROLS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper.MIXERLINECONTROLS",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.AudioMixerHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.AudioMixerHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.AudioMixerHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.ByteOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.ByteOrder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.ByteOrder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DateTimeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DateTimeExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DateTimeExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfig.PathFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfig.PathFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfig.PathFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfig.Rational.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfig.Rational.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfig.Rational",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfig.ScanlineOrdering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfig.ScanlineOrdering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfig.ScanlineOrdering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfigMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfigMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfigMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfigPath.Rotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfigPath.Rotation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfigPath.Rotation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfigPath.Scaling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfigPath.Scaling.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfigPath.Scaling",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfigPath.VideoOutputTechnology.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfigPath.VideoOutputTechnology.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfigPath.VideoOutputTechnology",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayConfigPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayConfigPath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayConfigPath",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayDevice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayDevice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayMode.Orientations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayMode.Orientations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayMode.Orientations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.DisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.DisplayMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.DisplayMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.FlexVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.FlexVersion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.FlexVersion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.HiPerfTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.HiPerfTimer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.HiPerfTimer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.LargePartitionedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.LargePartitionedList-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.LargePartitionedList<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.RingBufferByte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.RingBufferByte.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.RingBufferByte",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.RingBufferFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.RingBufferFloat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.RingBufferFloat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.StringCipher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.StringCipher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.StringCipher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.StringHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.StringHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.StringHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.VitaFrequency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.VitaFrequency.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.VitaFrequency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.WaterfallTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.WaterfallTile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.WaterfallTile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.Win32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.Win32.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.Win32",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.WindowHelper.SearchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.WindowHelper.SearchData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.WindowHelper.SearchData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.WindowHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.WindowHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util.WindowHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Flex.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Flex.Util.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Flex.Util",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Util.BigCommerce.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Util.BigCommerce.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Util.BigCommerce",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Util.MathHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Util.MathHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Util.MathHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Util.PortHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Util.PortHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Util.PortHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Util.SmartSDRNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Util.SmartSDRNetwork.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Util.SmartSDRNetwork",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Util.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Util",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

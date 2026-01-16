@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.PTTSource
+  commentId: T:Flex.Smoothlake.FlexLib.PTTSource
+  id: PTTSource
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.PTTSource.ACC
+  - Flex.Smoothlake.FlexLib.PTTSource.Mic
+  - Flex.Smoothlake.FlexLib.PTTSource.None
+  - Flex.Smoothlake.FlexLib.PTTSource.RCA
+  - Flex.Smoothlake.FlexLib.PTTSource.SW
+  - Flex.Smoothlake.FlexLib.PTTSource.TUNE
+  langs:
+  - csharp
+  - vb
+  name: PTTSource
+  nameWithType: PTTSource
+  fullName: Flex.Smoothlake.FlexLib.PTTSource
+  type: Enum
+  source:
+    id: PTTSource
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 74
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The push-to-talk input source
+  example: []
+  syntax:
+    content: public enum PTTSource
+    content.vb: Public Enum PTTSource
+- uid: Flex.Smoothlake.FlexLib.PTTSource.None
+  commentId: F:Flex.Smoothlake.FlexLib.PTTSource.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.PTTSource
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PTTSource.None
+  fullName: Flex.Smoothlake.FlexLib.PTTSource.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 76
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.PTTSource
+- uid: Flex.Smoothlake.FlexLib.PTTSource.SW
+  commentId: F:Flex.Smoothlake.FlexLib.PTTSource.SW
+  id: SW
+  parent: Flex.Smoothlake.FlexLib.PTTSource
+  langs:
+  - csharp
+  - vb
+  name: SW
+  nameWithType: PTTSource.SW
+  fullName: Flex.Smoothlake.FlexLib.PTTSource.SW
+  type: Field
+  source:
+    id: SW
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 77
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SW = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.PTTSource
+- uid: Flex.Smoothlake.FlexLib.PTTSource.Mic
+  commentId: F:Flex.Smoothlake.FlexLib.PTTSource.Mic
+  id: Mic
+  parent: Flex.Smoothlake.FlexLib.PTTSource
+  langs:
+  - csharp
+  - vb
+  name: Mic
+  nameWithType: PTTSource.Mic
+  fullName: Flex.Smoothlake.FlexLib.PTTSource.Mic
+  type: Field
+  source:
+    id: Mic
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 78
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Mic = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.PTTSource
+- uid: Flex.Smoothlake.FlexLib.PTTSource.ACC
+  commentId: F:Flex.Smoothlake.FlexLib.PTTSource.ACC
+  id: ACC
+  parent: Flex.Smoothlake.FlexLib.PTTSource
+  langs:
+  - csharp
+  - vb
+  name: ACC
+  nameWithType: PTTSource.ACC
+  fullName: Flex.Smoothlake.FlexLib.PTTSource.ACC
+  type: Field
+  source:
+    id: ACC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 79
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: ACC = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.PTTSource
+- uid: Flex.Smoothlake.FlexLib.PTTSource.RCA
+  commentId: F:Flex.Smoothlake.FlexLib.PTTSource.RCA
+  id: RCA
+  parent: Flex.Smoothlake.FlexLib.PTTSource
+  langs:
+  - csharp
+  - vb
+  name: RCA
+  nameWithType: PTTSource.RCA
+  fullName: Flex.Smoothlake.FlexLib.PTTSource.RCA
+  type: Field
+  source:
+    id: RCA
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 80
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: RCA = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.PTTSource
+- uid: Flex.Smoothlake.FlexLib.PTTSource.TUNE
+  commentId: F:Flex.Smoothlake.FlexLib.PTTSource.TUNE
+  id: TUNE
+  parent: Flex.Smoothlake.FlexLib.PTTSource
+  langs:
+  - csharp
+  - vb
+  name: TUNE
+  nameWithType: PTTSource.TUNE
+  fullName: Flex.Smoothlake.FlexLib.PTTSource.TUNE
+  type: Field
+  source:
+    id: TUNE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 81
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TUNE = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.PTTSource
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.PTTSource
+  commentId: T:Flex.Smoothlake.FlexLib.PTTSource
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.PTTSource.html
+  name: PTTSource
+  nameWithType: PTTSource
+  fullName: Flex.Smoothlake.FlexLib.PTTSource

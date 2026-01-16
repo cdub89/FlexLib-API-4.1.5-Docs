@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  id: Flex.Util
+  children:
+  - Flex.Util.AudioMixerHelper
+  - Flex.Util.AudioMixerHelper.MIXERCAPS
+  - Flex.Util.AudioMixerHelper.MIXERCONTROL
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+  - Flex.Util.AudioMixerHelper.MIXERLINE
+  - Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+  - Flex.Util.ByteOrder
+  - Flex.Util.DateTimeExtension
+  - Flex.Util.DisplayConfig
+  - Flex.Util.DisplayConfig.PathFlags
+  - Flex.Util.DisplayConfig.Rational
+  - Flex.Util.DisplayConfig.ScanlineOrdering
+  - Flex.Util.DisplayConfigMode
+  - Flex.Util.DisplayConfigPath
+  - Flex.Util.DisplayConfigPath.Rotation
+  - Flex.Util.DisplayConfigPath.Scaling
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  - Flex.Util.DisplayDevice
+  - Flex.Util.DisplayHelper
+  - Flex.Util.DisplayMode
+  - Flex.Util.DisplayMode.Orientations
+  - Flex.Util.FlexVersion
+  - Flex.Util.HiPerfTimer
+  - Flex.Util.LargePartitionedList`1
+  - Flex.Util.RingBufferByte
+  - Flex.Util.RingBufferFloat
+  - Flex.Util.StringCipher
+  - Flex.Util.StringHelper
+  - Flex.Util.VitaFrequency
+  - Flex.Util.WaterfallTile
+  - Flex.Util.Win32
+  - Flex.Util.WindowHelper
+  - Flex.Util.WindowHelper.SearchData
+  langs:
+  - csharp
+  - vb
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  type: Namespace
+  assemblies:
+  - Util
+references:
+- uid: Flex.Util.AudioMixerHelper
+  commentId: T:Flex.Util.AudioMixerHelper
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper
+  nameWithType: AudioMixerHelper
+  fullName: Flex.Util.AudioMixerHelper
+- uid: Flex.Util.AudioMixerHelper.MIXERCAPS
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERCAPS
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper.MIXERCAPS
+  nameWithType: AudioMixerHelper.MIXERCAPS
+  fullName: Flex.Util.AudioMixerHelper.MIXERCAPS
+  spec.csharp:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCAPS
+    name: MIXERCAPS
+    href: Flex.Util.AudioMixerHelper.MIXERCAPS.html
+  spec.vb:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCAPS
+    name: MIXERCAPS
+    href: Flex.Util.AudioMixerHelper.MIXERCAPS.html
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROL
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERCONTROL
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper.MIXERCONTROL
+  nameWithType: AudioMixerHelper.MIXERCONTROL
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROL
+  spec.csharp:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROL
+    name: MIXERCONTROL
+    href: Flex.Util.AudioMixerHelper.MIXERCONTROL.html
+  spec.vb:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROL
+    name: MIXERCONTROL
+    href: Flex.Util.AudioMixerHelper.MIXERCONTROL.html
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper.MIXERCONTROLDETAILS
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  spec.csharp:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+    name: MIXERCONTROLDETAILS
+    href: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.html
+  spec.vb:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+    name: MIXERCONTROLDETAILS
+    href: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.html
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+  spec.csharp:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+    name: MIXERCONTROLDETAILS_UNSIGNED
+    href: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED.html
+  spec.vb:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED
+    name: MIXERCONTROLDETAILS_UNSIGNED
+    href: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS_UNSIGNED.html
+- uid: Flex.Util.AudioMixerHelper.MIXERLINE
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERLINE
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper.MIXERLINE
+  nameWithType: AudioMixerHelper.MIXERLINE
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINE
+  spec.csharp:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERLINE
+    name: MIXERLINE
+    href: Flex.Util.AudioMixerHelper.MIXERLINE.html
+  spec.vb:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERLINE
+    name: MIXERLINE
+    href: Flex.Util.AudioMixerHelper.MIXERLINE.html
+- uid: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+  href: Flex.Util.AudioMixerHelper.html
+  name: AudioMixerHelper.MIXERLINECONTROLS
+  nameWithType: AudioMixerHelper.MIXERLINECONTROLS
+  fullName: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+  spec.csharp:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+    name: MIXERLINECONTROLS
+    href: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS.html
+  spec.vb:
+  - uid: Flex.Util.AudioMixerHelper
+    name: AudioMixerHelper
+    href: Flex.Util.AudioMixerHelper.html
+  - name: .
+  - uid: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS
+    name: MIXERLINECONTROLS
+    href: Flex.Util.AudioMixerHelper.MIXERLINECONTROLS.html
+- uid: Flex.Util.ByteOrder
+  commentId: T:Flex.Util.ByteOrder
+  href: Flex.Util.ByteOrder.html
+  name: ByteOrder
+  nameWithType: ByteOrder
+  fullName: Flex.Util.ByteOrder
+- uid: Flex.Util.DateTimeExtension
+  commentId: T:Flex.Util.DateTimeExtension
+  href: Flex.Util.DateTimeExtension.html
+  name: DateTimeExtension
+  nameWithType: DateTimeExtension
+  fullName: Flex.Util.DateTimeExtension
+- uid: Flex.Util.DisplayMode
+  commentId: T:Flex.Util.DisplayMode
+  parent: Flex.Util
+  href: Flex.Util.DisplayMode.html
+  name: DisplayMode
+  nameWithType: DisplayMode
+  fullName: Flex.Util.DisplayMode
+- uid: Flex.Util.DisplayMode.Orientations
+  commentId: T:Flex.Util.DisplayMode.Orientations
+  parent: Flex.Util
+  href: Flex.Util.DisplayMode.html
+  name: DisplayMode.Orientations
+  nameWithType: DisplayMode.Orientations
+  fullName: Flex.Util.DisplayMode.Orientations
+  spec.csharp:
+  - uid: Flex.Util.DisplayMode
+    name: DisplayMode
+    href: Flex.Util.DisplayMode.html
+  - name: .
+  - uid: Flex.Util.DisplayMode.Orientations
+    name: Orientations
+    href: Flex.Util.DisplayMode.Orientations.html
+  spec.vb:
+  - uid: Flex.Util.DisplayMode
+    name: DisplayMode
+    href: Flex.Util.DisplayMode.html
+  - name: .
+  - uid: Flex.Util.DisplayMode.Orientations
+    name: Orientations
+    href: Flex.Util.DisplayMode.Orientations.html
+- uid: Flex.Util.DisplayDevice
+  commentId: T:Flex.Util.DisplayDevice
+  href: Flex.Util.DisplayDevice.html
+  name: DisplayDevice
+  nameWithType: DisplayDevice
+  fullName: Flex.Util.DisplayDevice
+- uid: Flex.Util.DisplayConfigPath
+  commentId: T:Flex.Util.DisplayConfigPath
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath
+  nameWithType: DisplayConfigPath
+  fullName: Flex.Util.DisplayConfigPath
+- uid: Flex.Util.DisplayConfigPath.Rotation
+  commentId: T:Flex.Util.DisplayConfigPath.Rotation
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.Rotation
+  nameWithType: DisplayConfigPath.Rotation
+  fullName: Flex.Util.DisplayConfigPath.Rotation
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: Rotation
+    href: Flex.Util.DisplayConfigPath.Rotation.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Rotation
+    name: Rotation
+    href: Flex.Util.DisplayConfigPath.Rotation.html
+- uid: Flex.Util.DisplayConfigPath.Scaling
+  commentId: T:Flex.Util.DisplayConfigPath.Scaling
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.Scaling
+  nameWithType: DisplayConfigPath.Scaling
+  fullName: Flex.Util.DisplayConfigPath.Scaling
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: Scaling
+    href: Flex.Util.DisplayConfigPath.Scaling.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.Scaling
+    name: Scaling
+    href: Flex.Util.DisplayConfigPath.Scaling.html
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  commentId: T:Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.VideoOutputTechnology
+  nameWithType: DisplayConfigPath.VideoOutputTechnology
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: VideoOutputTechnology
+    href: Flex.Util.DisplayConfigPath.VideoOutputTechnology.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: VideoOutputTechnology
+    href: Flex.Util.DisplayConfigPath.VideoOutputTechnology.html
+- uid: Flex.Util.DisplayConfigMode
+  commentId: T:Flex.Util.DisplayConfigMode
+  href: Flex.Util.DisplayConfigMode.html
+  name: DisplayConfigMode
+  nameWithType: DisplayConfigMode
+  fullName: Flex.Util.DisplayConfigMode
+- uid: Flex.Util.DisplayConfig
+  commentId: T:Flex.Util.DisplayConfig
+  href: Flex.Util.DisplayConfig.html
+  name: DisplayConfig
+  nameWithType: DisplayConfig
+  fullName: Flex.Util.DisplayConfig
+- uid: Flex.Util.DisplayConfig.Rational
+  commentId: T:Flex.Util.DisplayConfig.Rational
+  href: Flex.Util.DisplayConfig.html
+  name: DisplayConfig.Rational
+  nameWithType: DisplayConfig.Rational
+  fullName: Flex.Util.DisplayConfig.Rational
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.Rational
+    name: Rational
+    href: Flex.Util.DisplayConfig.Rational.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.Rational
+    name: Rational
+    href: Flex.Util.DisplayConfig.Rational.html
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering
+  commentId: T:Flex.Util.DisplayConfig.ScanlineOrdering
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfig.html
+  name: DisplayConfig.ScanlineOrdering
+  nameWithType: DisplayConfig.ScanlineOrdering
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.ScanlineOrdering
+    name: ScanlineOrdering
+    href: Flex.Util.DisplayConfig.ScanlineOrdering.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.ScanlineOrdering
+    name: ScanlineOrdering
+    href: Flex.Util.DisplayConfig.ScanlineOrdering.html
+- uid: Flex.Util.DisplayConfig.PathFlags
+  commentId: T:Flex.Util.DisplayConfig.PathFlags
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfig.html
+  name: DisplayConfig.PathFlags
+  nameWithType: DisplayConfig.PathFlags
+  fullName: Flex.Util.DisplayConfig.PathFlags
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.PathFlags
+    name: PathFlags
+    href: Flex.Util.DisplayConfig.PathFlags.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.PathFlags
+    name: PathFlags
+    href: Flex.Util.DisplayConfig.PathFlags.html
+- uid: Flex.Util.DisplayHelper
+  commentId: T:Flex.Util.DisplayHelper
+  href: Flex.Util.DisplayHelper.html
+  name: DisplayHelper
+  nameWithType: DisplayHelper
+  fullName: Flex.Util.DisplayHelper
+- uid: Flex.Util.FlexVersion
+  commentId: T:Flex.Util.FlexVersion
+  href: Flex.Util.FlexVersion.html
+  name: FlexVersion
+  nameWithType: FlexVersion
+  fullName: Flex.Util.FlexVersion
+- uid: Flex.Util.HiPerfTimer
+  commentId: T:Flex.Util.HiPerfTimer
+  href: Flex.Util.HiPerfTimer.html
+  name: HiPerfTimer
+  nameWithType: HiPerfTimer
+  fullName: Flex.Util.HiPerfTimer
+- uid: Flex.Util.LargePartitionedList`1
+  commentId: T:Flex.Util.LargePartitionedList`1
+  href: Flex.Util.LargePartitionedList-1.html
+  name: LargePartitionedList<T>
+  nameWithType: LargePartitionedList<T>
+  fullName: Flex.Util.LargePartitionedList<T>
+  nameWithType.vb: LargePartitionedList(Of T)
+  fullName.vb: Flex.Util.LargePartitionedList(Of T)
+  name.vb: LargePartitionedList(Of T)
+  spec.csharp:
+  - uid: Flex.Util.LargePartitionedList`1
+    name: LargePartitionedList
+    href: Flex.Util.LargePartitionedList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.Util.LargePartitionedList`1
+    name: LargePartitionedList
+    href: Flex.Util.LargePartitionedList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.Util.RingBufferFloat
+  commentId: T:Flex.Util.RingBufferFloat
+  href: Flex.Util.RingBufferFloat.html
+  name: RingBufferFloat
+  nameWithType: RingBufferFloat
+  fullName: Flex.Util.RingBufferFloat
+- uid: Flex.Util.RingBufferByte
+  commentId: T:Flex.Util.RingBufferByte
+  href: Flex.Util.RingBufferByte.html
+  name: RingBufferByte
+  nameWithType: RingBufferByte
+  fullName: Flex.Util.RingBufferByte
+- uid: Flex.Util.StringCipher
+  commentId: T:Flex.Util.StringCipher
+  href: Flex.Util.StringCipher.html
+  name: StringCipher
+  nameWithType: StringCipher
+  fullName: Flex.Util.StringCipher
+- uid: Flex.Util.StringHelper
+  commentId: T:Flex.Util.StringHelper
+  href: Flex.Util.StringHelper.html
+  name: StringHelper
+  nameWithType: StringHelper
+  fullName: Flex.Util.StringHelper
+- uid: Flex.Util.VitaFrequency
+  commentId: T:Flex.Util.VitaFrequency
+  parent: Flex.Util
+  href: Flex.Util.VitaFrequency.html
+  name: VitaFrequency
+  nameWithType: VitaFrequency
+  fullName: Flex.Util.VitaFrequency
+- uid: Flex.Util.WaterfallTile
+  commentId: T:Flex.Util.WaterfallTile
+  parent: Flex.Util
+  href: Flex.Util.WaterfallTile.html
+  name: WaterfallTile
+  nameWithType: WaterfallTile
+  fullName: Flex.Util.WaterfallTile
+- uid: Flex.Util.Win32
+  commentId: T:Flex.Util.Win32
+  href: Flex.Util.Win32.html
+  name: Win32
+  nameWithType: Win32
+  fullName: Flex.Util.Win32
+- uid: Flex.Util.WindowHelper
+  commentId: T:Flex.Util.WindowHelper
+  href: Flex.Util.WindowHelper.html
+  name: WindowHelper
+  nameWithType: WindowHelper
+  fullName: Flex.Util.WindowHelper
+- uid: Flex.Util.WindowHelper.SearchData
+  commentId: T:Flex.Util.WindowHelper.SearchData
+  href: Flex.Util.WindowHelper.html
+  name: WindowHelper.SearchData
+  nameWithType: WindowHelper.SearchData
+  fullName: Flex.Util.WindowHelper.SearchData
+  spec.csharp:
+  - uid: Flex.Util.WindowHelper
+    name: WindowHelper
+    href: Flex.Util.WindowHelper.html
+  - name: .
+  - uid: Flex.Util.WindowHelper.SearchData
+    name: SearchData
+    href: Flex.Util.WindowHelper.SearchData.html
+  spec.vb:
+  - uid: Flex.Util.WindowHelper
+    name: WindowHelper
+    href: Flex.Util.WindowHelper.html
+  - name: .
+  - uid: Flex.Util.WindowHelper.SearchData
+    name: SearchData
+    href: Flex.Util.WindowHelper.SearchData.html
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html

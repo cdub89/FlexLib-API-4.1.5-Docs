@@ -1,0 +1,1561 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.WanServer
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer
+  id: WanServer
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.WanServer.#ctor
+  - Flex.Smoothlake.FlexLib.WanServer.Connect
+  - Flex.Smoothlake.FlexLib.WanServer.Disconnect
+  - Flex.Smoothlake.FlexLib.WanServer.HostName
+  - Flex.Smoothlake.FlexLib.WanServer.HostPort
+  - Flex.Smoothlake.FlexLib.WanServer.IsConnected
+  - Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived(Flex.Smoothlake.FlexLib.WanTestConnectionResults)
+  - Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived(System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio})
+  - Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress
+  - Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort
+  - Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio(System.String,System.Int32)
+  - Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer(System.String,System.String)
+  - Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer(System.String)
+  - Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer(System.String)
+  - Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer(System.String,System.String,System.String)
+  - Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer(System.String,Flex.Smoothlake.FlexLib.WanUserSettings)
+  - Flex.Smoothlake.FlexLib.WanServer.SendTestConnection(System.String)
+  - Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp
+  - Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceived
+  - Flex.Smoothlake.FlexLib.WanServer.UserSettings
+  - Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalid
+  - Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReady
+  - Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecieved
+  langs:
+  - csharp
+  - vb
+  name: WanServer
+  nameWithType: WanServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer
+  type: Class
+  source:
+    id: WanServer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 27
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class WanServer : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class WanServer Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.WanServer.#ctor
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.#ctor
+  id: '#ctor'
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: WanServer()
+  nameWithType: WanServer.WanServer()
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanServer()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 29
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public WanServer()
+    content.vb: Public Sub New()
+  overload: Flex.Smoothlake.FlexLib.WanServer.#ctor*
+  nameWithType.vb: WanServer.New()
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.New()
+  name.vb: New()
+- uid: Flex.Smoothlake.FlexLib.WanServer.HostName
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.HostName
+  id: HostName
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: HostName
+  nameWithType: WanServer.HostName
+  fullName: Flex.Smoothlake.FlexLib.WanServer.HostName
+  type: Property
+  source:
+    id: HostName
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 35
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string HostName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HostName As String
+  overload: Flex.Smoothlake.FlexLib.WanServer.HostName*
+- uid: Flex.Smoothlake.FlexLib.WanServer.HostPort
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.HostPort
+  id: HostPort
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: HostPort
+  nameWithType: WanServer.HostPort
+  fullName: Flex.Smoothlake.FlexLib.WanServer.HostPort
+  type: Property
+  source:
+    id: HostPort
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 36
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string HostPort { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HostPort As String
+  overload: Flex.Smoothlake.FlexLib.WanServer.HostPort*
+- uid: Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp
+  id: SslClientPublicIp
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SslClientPublicIp
+  nameWithType: WanServer.SslClientPublicIp
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp
+  type: Property
+  source:
+    id: SslClientPublicIp
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 41
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string SslClientPublicIp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SslClientPublicIp As String
+  overload: Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp*
+- uid: Flex.Smoothlake.FlexLib.WanServer.IsConnected
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.IsConnected
+  id: IsConnected
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: IsConnected
+  nameWithType: WanServer.IsConnected
+  fullName: Flex.Smoothlake.FlexLib.WanServer.IsConnected
+  type: Property
+  source:
+    id: IsConnected
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 51
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsConnected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsConnected As Boolean
+  overload: Flex.Smoothlake.FlexLib.WanServer.IsConnected*
+- uid: Flex.Smoothlake.FlexLib.WanServer.Connect
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.Connect
+  id: Connect
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: Connect()
+  nameWithType: WanServer.Connect()
+  fullName: Flex.Smoothlake.FlexLib.WanServer.Connect()
+  type: Method
+  source:
+    id: Connect
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 61
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Connect()
+    content.vb: Public Sub Connect()
+  overload: Flex.Smoothlake.FlexLib.WanServer.Connect*
+- uid: Flex.Smoothlake.FlexLib.WanServer.Disconnect
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.Disconnect
+  id: Disconnect
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: WanServer.Disconnect()
+  fullName: Flex.Smoothlake.FlexLib.WanServer.Disconnect()
+  type: Method
+  source:
+    id: Disconnect
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 80
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Disconnect()
+    content.vb: Public Sub Disconnect()
+  overload: Flex.Smoothlake.FlexLib.WanServer.Disconnect*
+- uid: Flex.Smoothlake.FlexLib.WanServer.UserSettings
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.UserSettings
+  id: UserSettings
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: UserSettings
+  nameWithType: WanServer.UserSettings
+  fullName: Flex.Smoothlake.FlexLib.WanServer.UserSettings
+  type: Property
+  source:
+    id: UserSettings
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 445
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public WanUserSettings UserSettings { get; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.WanUserSettings
+    content.vb: Public Property UserSettings As WanUserSettings
+  overload: Flex.Smoothlake.FlexLib.WanServer.UserSettings*
+- uid: Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort
+  id: RadioPublicUdpPort
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: RadioPublicUdpPort
+  nameWithType: WanServer.RadioPublicUdpPort
+  fullName: Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort
+  type: Property
+  source:
+    id: RadioPublicUdpPort
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 457
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int RadioPublicUdpPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RadioPublicUdpPort As Integer
+  overload: Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort*
+- uid: Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress
+  commentId: P:Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress
+  id: RadioPublicIpAddress
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: RadioPublicIpAddress
+  nameWithType: WanServer.RadioPublicIpAddress
+  fullName: Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress
+  type: Property
+  source:
+    id: RadioPublicIpAddress
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 465
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string RadioPublicIpAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RadioPublicIpAddress As String
+  overload: Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress*
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer(System.String,System.String,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer(System.String,System.String,System.String)
+  id: SendRegisterApplicationMessageToServer(System.String,System.String,System.String)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendRegisterApplicationMessageToServer(string, string, string)
+  nameWithType: WanServer.SendRegisterApplicationMessageToServer(string, string, string)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer(string, string, string)
+  type: Method
+  source:
+    id: SendRegisterApplicationMessageToServer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 471
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendRegisterApplicationMessageToServer(string appName, string platform, string token)
+    parameters:
+    - id: appName
+      type: System.String
+    - id: platform
+      type: System.String
+    - id: token
+      type: System.String
+    content.vb: Public Sub SendRegisterApplicationMessageToServer(appName As String, platform As String, token As String)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer*
+  nameWithType.vb: WanServer.SendRegisterApplicationMessageToServer(String, String, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer(String, String, String)
+  name.vb: SendRegisterApplicationMessageToServer(String, String, String)
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio(System.String,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio(System.String,System.Int32)
+  id: SendConnectMessageToRadio(System.String,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendConnectMessageToRadio(string, int)
+  nameWithType: WanServer.SendConnectMessageToRadio(string, int)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio(string, int)
+  type: Method
+  source:
+    id: SendConnectMessageToRadio
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 483
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendConnectMessageToRadio(string radioSerial, int HolePunchPort = 0)
+    parameters:
+    - id: radioSerial
+      type: System.String
+    - id: HolePunchPort
+      type: System.Int32
+    content.vb: Public Sub SendConnectMessageToRadio(radioSerial As String, HolePunchPort As Integer = 0)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio*
+  nameWithType.vb: WanServer.SendConnectMessageToRadio(String, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio(String, Integer)
+  name.vb: SendConnectMessageToRadio(String, Integer)
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer(System.String)
+  id: SendDisconnectUsersMessageToServer(System.String)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendDisconnectUsersMessageToServer(string)
+  nameWithType: WanServer.SendDisconnectUsersMessageToServer(string)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer(string)
+  type: Method
+  source:
+    id: SendDisconnectUsersMessageToServer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 496
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendDisconnectUsersMessageToServer(string radioSerial)
+    parameters:
+    - id: radioSerial
+      type: System.String
+    content.vb: Public Sub SendDisconnectUsersMessageToServer(radioSerial As String)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer*
+  nameWithType.vb: WanServer.SendDisconnectUsersMessageToServer(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer(String)
+  name.vb: SendDisconnectUsersMessageToServer(String)
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer(System.String,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer(System.String,System.String)
+  id: SendDisconnectSingleUserMessageToServer(System.String,System.String)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendDisconnectSingleUserMessageToServer(string, string)
+  nameWithType: WanServer.SendDisconnectSingleUserMessageToServer(string, string)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer(string, string)
+  type: Method
+  source:
+    id: SendDisconnectSingleUserMessageToServer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 508
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendDisconnectSingleUserMessageToServer(string radioSerial, string handle)
+    parameters:
+    - id: radioSerial
+      type: System.String
+    - id: handle
+      type: System.String
+    content.vb: Public Sub SendDisconnectSingleUserMessageToServer(radioSerial As String, handle As String)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer*
+  nameWithType.vb: WanServer.SendDisconnectSingleUserMessageToServer(String, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer(String, String)
+  name.vb: SendDisconnectSingleUserMessageToServer(String, String)
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer(System.String)
+  id: SendRefreshLicenseMessageToServer(System.String)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendRefreshLicenseMessageToServer(string)
+  nameWithType: WanServer.SendRefreshLicenseMessageToServer(string)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer(string)
+  type: Method
+  source:
+    id: SendRefreshLicenseMessageToServer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 520
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendRefreshLicenseMessageToServer(string radioSerial)
+    parameters:
+    - id: radioSerial
+      type: System.String
+    content.vb: Public Sub SendRefreshLicenseMessageToServer(radioSerial As String)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer*
+  nameWithType.vb: WanServer.SendRefreshLicenseMessageToServer(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer(String)
+  name.vb: SendRefreshLicenseMessageToServer(String)
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer(System.String,Flex.Smoothlake.FlexLib.WanUserSettings)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer(System.String,Flex.Smoothlake.FlexLib.WanUserSettings)
+  id: SendSetUserInfoToServer(System.String,Flex.Smoothlake.FlexLib.WanUserSettings)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendSetUserInfoToServer(string, WanUserSettings)
+  nameWithType: WanServer.SendSetUserInfoToServer(string, WanUserSettings)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer(string, Flex.Smoothlake.FlexLib.WanUserSettings)
+  type: Method
+  source:
+    id: SendSetUserInfoToServer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 525
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendSetUserInfoToServer(string token, WanUserSettings userSettings)
+    parameters:
+    - id: token
+      type: System.String
+    - id: userSettings
+      type: Flex.Smoothlake.FlexLib.WanUserSettings
+    content.vb: Public Sub SendSetUserInfoToServer(token As String, userSettings As WanUserSettings)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer*
+  nameWithType.vb: WanServer.SendSetUserInfoToServer(String, WanUserSettings)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer(String, Flex.Smoothlake.FlexLib.WanUserSettings)
+  name.vb: SendSetUserInfoToServer(String, WanUserSettings)
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReady
+  commentId: E:Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReady
+  id: WanRadioConnectReady
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: WanRadioConnectReady
+  nameWithType: WanServer.WanRadioConnectReady
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReady
+  type: Event
+  source:
+    id: WanRadioConnectReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 542
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event WanServer.WanRadioConnectReadyEventHandler WanRadioConnectReady
+    return:
+      type: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+    content.vb: Public Event WanRadioConnectReady As WanServer.WanRadioConnectReadyEventHandler
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalid
+  commentId: E:Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalid
+  id: WanApplicationRegistrationInvalid
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: WanApplicationRegistrationInvalid
+  nameWithType: WanServer.WanApplicationRegistrationInvalid
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalid
+  type: Event
+  source:
+    id: WanApplicationRegistrationInvalid
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 551
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event WanServer.WanApplicationRegistrationInvalidEventHandler WanApplicationRegistrationInvalid
+    return:
+      type: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+    content.vb: Public Event WanApplicationRegistrationInvalid As WanServer.WanApplicationRegistrationInvalidEventHandler
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecieved
+  commentId: E:Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecieved
+  id: WanRadioRadioListRecieved
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: WanRadioRadioListRecieved
+  nameWithType: WanServer.WanRadioRadioListRecieved
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecieved
+  type: Event
+  source:
+    id: WanRadioRadioListRecieved
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 561
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public static event WanServer.WanRadioRadioListRecievedEventHandler WanRadioRadioListRecieved
+    return:
+      type: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+    content.vb: Public Shared Event WanRadioRadioListRecieved As WanServer.WanRadioRadioListRecievedEventHandler
+- uid: Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived(System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio})
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived(System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio})
+  id: OnWanRadioListReceived(System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio})
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: OnWanRadioListReceived(List<Radio>)
+  nameWithType: WanServer.OnWanRadioListReceived(List<Radio>)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived(System.Collections.Generic.List<Flex.Smoothlake.FlexLib.Radio>)
+  type: Method
+  source:
+    id: OnWanRadioListReceived
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 563
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public static void OnWanRadioListReceived(List<Radio> radios)
+    parameters:
+    - id: radios
+      type: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio}
+    content.vb: Public Shared Sub OnWanRadioListReceived(radios As List(Of Radio))
+  overload: Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived*
+  nameWithType.vb: WanServer.OnWanRadioListReceived(List(Of Radio))
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived(System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.Radio))
+  name.vb: OnWanRadioListReceived(List(Of Radio))
+- uid: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceived
+  commentId: E:Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceived
+  id: TestConnectionResultsReceived
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: TestConnectionResultsReceived
+  nameWithType: WanServer.TestConnectionResultsReceived
+  fullName: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceived
+  type: Event
+  source:
+    id: TestConnectionResultsReceived
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 570
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event WanServer.TestConnectionResultsReceivedEventHandler TestConnectionResultsReceived
+    return:
+      type: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+    content.vb: Public Event TestConnectionResultsReceived As WanServer.TestConnectionResultsReceivedEventHandler
+- uid: Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived(Flex.Smoothlake.FlexLib.WanTestConnectionResults)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived(Flex.Smoothlake.FlexLib.WanTestConnectionResults)
+  id: OnTestConnectionResultsReceived(Flex.Smoothlake.FlexLib.WanTestConnectionResults)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: OnTestConnectionResultsReceived(WanTestConnectionResults)
+  nameWithType: WanServer.OnTestConnectionResultsReceived(WanTestConnectionResults)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived(Flex.Smoothlake.FlexLib.WanTestConnectionResults)
+  type: Method
+  source:
+    id: OnTestConnectionResultsReceived
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 571
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void OnTestConnectionResultsReceived(WanTestConnectionResults results)
+    parameters:
+    - id: results
+      type: Flex.Smoothlake.FlexLib.WanTestConnectionResults
+    content.vb: Public Sub OnTestConnectionResultsReceived(results As WanTestConnectionResults)
+  overload: Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived*
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendTestConnection(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.WanServer.SendTestConnection(System.String)
+  id: SendTestConnection(System.String)
+  parent: Flex.Smoothlake.FlexLib.WanServer
+  langs:
+  - csharp
+  - vb
+  name: SendTestConnection(string)
+  nameWithType: WanServer.SendTestConnection(string)
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendTestConnection(string)
+  type: Method
+  source:
+    id: SendTestConnection
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 577
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendTestConnection(string serial)
+    parameters:
+    - id: serial
+      type: System.String
+    content.vb: Public Sub SendTestConnection(serial As String)
+  overload: Flex.Smoothlake.FlexLib.WanServer.SendTestConnection*
+  nameWithType.vb: WanServer.SendTestConnection(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.SendTestConnection(String)
+  name.vb: SendTestConnection(String)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.WanServer.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.#ctor
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer__ctor
+  name: WanServer
+  nameWithType: WanServer.WanServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanServer
+  nameWithType.vb: WanServer.New
+  fullName.vb: Flex.Smoothlake.FlexLib.WanServer.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.WanServer.HostName*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.HostName
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_HostName
+  name: HostName
+  nameWithType: WanServer.HostName
+  fullName: Flex.Smoothlake.FlexLib.WanServer.HostName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.WanServer.HostPort*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.HostPort
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_HostPort
+  name: HostPort
+  nameWithType: WanServer.HostPort
+  fullName: Flex.Smoothlake.FlexLib.WanServer.HostPort
+- uid: Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SslClientPublicIp
+  name: SslClientPublicIp
+  nameWithType: WanServer.SslClientPublicIp
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp
+- uid: Flex.Smoothlake.FlexLib.WanServer.IsConnected*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.IsConnected
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_IsConnected
+  name: IsConnected
+  nameWithType: WanServer.IsConnected
+  fullName: Flex.Smoothlake.FlexLib.WanServer.IsConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.WanServer.Connect*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.Connect
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_Connect
+  name: Connect
+  nameWithType: WanServer.Connect
+  fullName: Flex.Smoothlake.FlexLib.WanServer.Connect
+- uid: Flex.Smoothlake.FlexLib.WanServer.Disconnect*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.Disconnect
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_Disconnect
+  name: Disconnect
+  nameWithType: WanServer.Disconnect
+  fullName: Flex.Smoothlake.FlexLib.WanServer.Disconnect
+- uid: Flex.Smoothlake.FlexLib.WanServer.UserSettings*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.UserSettings
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_UserSettings
+  name: UserSettings
+  nameWithType: WanServer.UserSettings
+  fullName: Flex.Smoothlake.FlexLib.WanServer.UserSettings
+- uid: Flex.Smoothlake.FlexLib.WanUserSettings
+  commentId: T:Flex.Smoothlake.FlexLib.WanUserSettings
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanUserSettings.html
+  name: WanUserSettings
+  nameWithType: WanUserSettings
+  fullName: Flex.Smoothlake.FlexLib.WanUserSettings
+- uid: Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_RadioPublicUdpPort
+  name: RadioPublicUdpPort
+  nameWithType: WanServer.RadioPublicUdpPort
+  fullName: Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_RadioPublicIpAddress
+  name: RadioPublicIpAddress
+  nameWithType: WanServer.RadioPublicIpAddress
+  fullName: Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendRegisterApplicationMessageToServer_System_String_System_String_System_String_
+  name: SendRegisterApplicationMessageToServer
+  nameWithType: WanServer.SendRegisterApplicationMessageToServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendConnectMessageToRadio_System_String_System_Int32_
+  name: SendConnectMessageToRadio
+  nameWithType: WanServer.SendConnectMessageToRadio
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendDisconnectUsersMessageToServer_System_String_
+  name: SendDisconnectUsersMessageToServer
+  nameWithType: WanServer.SendDisconnectUsersMessageToServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendDisconnectSingleUserMessageToServer_System_String_System_String_
+  name: SendDisconnectSingleUserMessageToServer
+  nameWithType: WanServer.SendDisconnectSingleUserMessageToServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendRefreshLicenseMessageToServer_System_String_
+  name: SendRefreshLicenseMessageToServer
+  nameWithType: WanServer.SendRefreshLicenseMessageToServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendSetUserInfoToServer_System_String_Flex_Smoothlake_FlexLib_WanUserSettings_
+  name: SendSetUserInfoToServer
+  nameWithType: WanServer.SendSetUserInfoToServer
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanServer.html
+  name: WanServer.WanRadioConnectReadyEventHandler
+  nameWithType: WanServer.WanRadioConnectReadyEventHandler
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+    name: WanRadioConnectReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler
+    name: WanRadioConnectReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanServer.html
+  name: WanServer.WanApplicationRegistrationInvalidEventHandler
+  nameWithType: WanServer.WanApplicationRegistrationInvalidEventHandler
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+    name: WanApplicationRegistrationInvalidEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+    name: WanApplicationRegistrationInvalidEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanServer.html
+  name: WanServer.WanRadioRadioListRecievedEventHandler
+  nameWithType: WanServer.WanRadioRadioListRecievedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+    name: WanRadioRadioListRecievedEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler
+    name: WanRadioRadioListRecievedEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_OnWanRadioListReceived_System_Collections_Generic_List_Flex_Smoothlake_FlexLib_Radio__
+  name: OnWanRadioListReceived
+  nameWithType: WanServer.OnWanRadioListReceived
+  fullName: Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived
+- uid: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio}
+  commentId: T:System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Radio>
+  nameWithType: List<Radio>
+  fullName: System.Collections.Generic.List<Flex.Smoothlake.FlexLib.Radio>
+  nameWithType.vb: List(Of Radio)
+  fullName.vb: System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.Radio)
+  name.vb: List(Of Radio)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.Radio
+    name: Radio
+    href: Flex.Smoothlake.FlexLib.Radio.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.Radio
+    name: Radio
+    href: Flex.Smoothlake.FlexLib.Radio.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanServer.html
+  name: WanServer.TestConnectionResultsReceivedEventHandler
+  nameWithType: WanServer.TestConnectionResultsReceivedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+    name: TestConnectionResultsReceivedEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.WanServer
+    name: WanServer
+    href: Flex.Smoothlake.FlexLib.WanServer.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+    name: TestConnectionResultsReceivedEventHandler
+    href: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_OnTestConnectionResultsReceived_Flex_Smoothlake_FlexLib_WanTestConnectionResults_
+  name: OnTestConnectionResultsReceived
+  nameWithType: WanServer.OnTestConnectionResultsReceived
+  fullName: Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived
+- uid: Flex.Smoothlake.FlexLib.WanTestConnectionResults
+  commentId: T:Flex.Smoothlake.FlexLib.WanTestConnectionResults
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanTestConnectionResults.html
+  name: WanTestConnectionResults
+  nameWithType: WanTestConnectionResults
+  fullName: Flex.Smoothlake.FlexLib.WanTestConnectionResults
+- uid: Flex.Smoothlake.FlexLib.WanServer.SendTestConnection*
+  commentId: Overload:Flex.Smoothlake.FlexLib.WanServer.SendTestConnection
+  href: Flex.Smoothlake.FlexLib.WanServer.html#Flex_Smoothlake_FlexLib_WanServer_SendTestConnection_System_String_
+  name: SendTestConnection
+  nameWithType: WanServer.SendTestConnection
+  fullName: Flex.Smoothlake.FlexLib.WanServer.SendTestConnection

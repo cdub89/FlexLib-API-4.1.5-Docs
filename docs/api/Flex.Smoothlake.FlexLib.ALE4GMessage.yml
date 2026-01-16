@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage
+  commentId: T:Flex.Smoothlake.FlexLib.ALE4GMessage
+  id: ALE4GMessage
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.ID
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Message
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Queued
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Reason
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Received
+  - Flex.Smoothlake.FlexLib.ALE4GMessage.Sender
+  langs:
+  - csharp
+  - vb
+  name: ALE4GMessage
+  nameWithType: ALE4GMessage
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage
+  type: Class
+  source:
+    id: ALE4GMessage
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 789
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public class ALE4GMessage
+    content.vb: Public Class ALE4GMessage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Message
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Message
+  id: Message
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ALE4GMessage.Message
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Message
+  type: Property
+  source:
+    id: Message
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 791
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Message*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Received
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Received
+  id: Received
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Received
+  nameWithType: ALE4GMessage.Received
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Received
+  type: Property
+  source:
+    id: Received
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 792
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Received { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Received As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Received*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Queued
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Queued
+  id: Queued
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Queued
+  nameWithType: ALE4GMessage.Queued
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Queued
+  type: Property
+  source:
+    id: Queued
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 793
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Queued { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Queued As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Queued*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued
+  id: Dequeued
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Dequeued
+  nameWithType: ALE4GMessage.Dequeued
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued
+  type: Property
+  source:
+    id: Dequeued
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 794
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Dequeued { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Dequeued As Boolean
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Sender
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Sender
+  id: Sender
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Sender
+  nameWithType: ALE4GMessage.Sender
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Sender
+  type: Property
+  source:
+    id: Sender
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 795
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Sender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sender As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Sender*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose
+  id: Purpose
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Purpose
+  nameWithType: ALE4GMessage.Purpose
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose
+  type: Property
+  source:
+    id: Purpose
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 796
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Purpose { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Purpose As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.ID
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.ID
+  id: ID
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: ALE4GMessage.ID
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.ID
+  type: Property
+  source:
+    id: ID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 797
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string ID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ID As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.ID*
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Reason
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GMessage.Reason
+  id: Reason
+  parent: Flex.Smoothlake.FlexLib.ALE4GMessage
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: ALE4GMessage.Reason
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Reason
+  type: Property
+  source:
+    id: Reason
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 798
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Reason As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GMessage.Reason*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Message*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Message
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Message
+  name: Message
+  nameWithType: ALE4GMessage.Message
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Received*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Received
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Received
+  name: Received
+  nameWithType: ALE4GMessage.Received
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Received
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Queued*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Queued
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Queued
+  name: Queued
+  nameWithType: ALE4GMessage.Queued
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Queued
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Dequeued
+  name: Dequeued
+  nameWithType: ALE4GMessage.Dequeued
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Dequeued
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Sender*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Sender
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Sender
+  name: Sender
+  nameWithType: ALE4GMessage.Sender
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Sender
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Purpose
+  name: Purpose
+  nameWithType: ALE4GMessage.Purpose
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Purpose
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.ID*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.ID
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_ID
+  name: ID
+  nameWithType: ALE4GMessage.ID
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.ID
+- uid: Flex.Smoothlake.FlexLib.ALE4GMessage.Reason*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GMessage.Reason
+  href: Flex.Smoothlake.FlexLib.ALE4GMessage.html#Flex_Smoothlake_FlexLib_ALE4GMessage_Reason
+  name: Reason
+  nameWithType: ALE4GMessage.Reason
+  fullName: Flex.Smoothlake.FlexLib.ALE4GMessage.Reason

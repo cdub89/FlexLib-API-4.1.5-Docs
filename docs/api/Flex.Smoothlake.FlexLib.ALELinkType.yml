@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALELinkType
+  commentId: T:Flex.Smoothlake.FlexLib.ALELinkType
+  id: ALELinkType
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ALELinkType.Allcall
+  - Flex.Smoothlake.FlexLib.ALELinkType.Anycall
+  - Flex.Smoothlake.FlexLib.ALELinkType.AutoAddress
+  - Flex.Smoothlake.FlexLib.ALELinkType.Group
+  - Flex.Smoothlake.FlexLib.ALELinkType.Multipoint
+  - Flex.Smoothlake.FlexLib.ALELinkType.Network
+  - Flex.Smoothlake.FlexLib.ALELinkType.StationToStation
+  langs:
+  - csharp
+  - vb
+  name: ALELinkType
+  nameWithType: ALELinkType
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType
+  type: Enum
+  source:
+    id: ALELinkType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 27
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum ALELinkType
+    content.vb: Public Enum ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.StationToStation
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.StationToStation
+  id: StationToStation
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: StationToStation
+  nameWithType: ALELinkType.StationToStation
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.StationToStation
+  type: Field
+  source:
+    id: StationToStation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 29
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StationToStation = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.Network
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.Network
+  id: Network
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: Network
+  nameWithType: ALELinkType.Network
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.Network
+  type: Field
+  source:
+    id: Network
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 30
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Network = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.Group
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.Group
+  id: Group
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: ALELinkType.Group
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.Group
+  type: Field
+  source:
+    id: Group
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 31
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Group = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.AutoAddress
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.AutoAddress
+  id: AutoAddress
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: AutoAddress
+  nameWithType: ALELinkType.AutoAddress
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.AutoAddress
+  type: Field
+  source:
+    id: AutoAddress
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 32
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: AutoAddress = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.Multipoint
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.Multipoint
+  id: Multipoint
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: Multipoint
+  nameWithType: ALELinkType.Multipoint
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.Multipoint
+  type: Field
+  source:
+    id: Multipoint
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 33
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Multipoint = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.Allcall
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.Allcall
+  id: Allcall
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: Allcall
+  nameWithType: ALELinkType.Allcall
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.Allcall
+  type: Field
+  source:
+    id: Allcall
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 34
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Allcall = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+- uid: Flex.Smoothlake.FlexLib.ALELinkType.Anycall
+  commentId: F:Flex.Smoothlake.FlexLib.ALELinkType.Anycall
+  id: Anycall
+  parent: Flex.Smoothlake.FlexLib.ALELinkType
+  langs:
+  - csharp
+  - vb
+  name: Anycall
+  nameWithType: ALELinkType.Anycall
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType.Anycall
+  type: Field
+  source:
+    id: Anycall
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 35
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Anycall = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.ALELinkType
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.ALELinkType
+  commentId: T:Flex.Smoothlake.FlexLib.ALELinkType
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ALELinkType.html
+  name: ALELinkType
+  nameWithType: ALELinkType
+  fullName: Flex.Smoothlake.FlexLib.ALELinkType

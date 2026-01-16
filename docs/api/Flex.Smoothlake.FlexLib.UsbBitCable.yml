@@ -1,0 +1,2594 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable
+  commentId: T:Flex.Smoothlake.FlexLib.UsbBitCable
+  id: UsbBitCable
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.UsbBitCable.#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitBand
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitSource
+  - Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand(System.Int32,System.String)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+  - Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: UsbBitCable
+  nameWithType: UsbBitCable
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable
+  type: Class
+  source:
+    id: UsbBitCable
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class UsbBitCable : UsbCable, INotifyPropertyChanged, IUsbBitCable, IUsbCable'
+    content.vb: Public Class UsbBitCable Inherits UsbCable Implements INotifyPropertyChanged, IUsbBitCable, IUsbCable
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  - Flex.Smoothlake.FlexLib.UsbCable
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Flex.Smoothlake.FlexLib.IUsbBitCable
+  - Flex.Smoothlake.FlexLib.IUsbCable
+  inheritedMembers:
+  - Flex.Smoothlake.FlexLib.UsbCable._radio
+  - Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+  - Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+  - Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+  - Flex.Smoothlake.FlexLib.UsbCable._cableType
+  - Flex.Smoothlake.FlexLib.UsbCable.CableType
+  - Flex.Smoothlake.FlexLib.UsbCable._enabled
+  - Flex.Smoothlake.FlexLib.UsbCable.Enabled
+  - Flex.Smoothlake.FlexLib.UsbCable._present
+  - Flex.Smoothlake.FlexLib.UsbCable.Present
+  - Flex.Smoothlake.FlexLib.UsbCable._name
+  - Flex.Smoothlake.FlexLib.UsbCable.Name
+  - Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+  - Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+  - Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  - Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+  - Flex.Smoothlake.FlexLib.UsbCable.Remove
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)
+  id: '#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)'
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: UsbBitCable(Radio, string)
+  nameWithType: UsbBitCable.UsbBitCable(Radio, string)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.UsbBitCable(Flex.Smoothlake.FlexLib.Radio, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 30
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public UsbBitCable(Radio radio, string serial_number)
+    parameters:
+    - id: radio
+      type: Flex.Smoothlake.FlexLib.Radio
+    - id: serial_number
+      type: System.String
+    content.vb: Public Sub New(radio As Radio, serial_number As String)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.#ctor*
+  nameWithType.vb: UsbBitCable.New(Radio, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.New(Flex.Smoothlake.FlexLib.Radio, String)
+  name.vb: New(Radio, String)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitSource
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitSource
+  id: BitSource
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitSource
+  nameWithType: UsbBitCable.BitSource
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitSource
+  type: Property
+  source:
+    id: BitSource
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 37
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public UsbCableFreqSource[] BitSource { get; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource[]
+    content.vb: Public ReadOnly Property BitSource As UsbCableFreqSource()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitSource*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitSource
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  id: SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitSource(int, UsbCableFreqSource)
+  nameWithType: UsbBitCable.SetBitSource(int, UsbCableFreqSource)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource(int, Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  type: Method
+  source:
+    id: SetBitSource
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 42
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitSource(int bit, UsbCableFreqSource source)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: source
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    content.vb: Public Sub SetBitSource(bit As Integer, source As UsbCableFreqSource)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  nameWithType.vb: UsbBitCable.SetBitSource(Integer, UsbCableFreqSource)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource(Integer, Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  name.vb: SetBitSource(Integer, UsbCableFreqSource)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput
+  id: BitOutput
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitOutput
+  nameWithType: UsbBitCable.BitOutput
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput
+  type: Property
+  source:
+    id: BitOutput
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 56
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public UsbBitCableOutputType[] BitOutput { get; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbBitCableOutputType[]
+    content.vb: Public ReadOnly Property BitOutput As UsbBitCableOutputType()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitOutput
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  id: SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitOutput(int, UsbBitCableOutputType)
+  nameWithType: UsbBitCable.SetBitOutput(int, UsbBitCableOutputType)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput(int, Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  type: Method
+  source:
+    id: SetBitOutput
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 61
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitOutput(int bit, UsbBitCableOutputType output)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: output
+      type: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+    content.vb: Public Sub SetBitOutput(bit As Integer, output As UsbBitCableOutputType)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  nameWithType.vb: UsbBitCable.SetBitOutput(Integer, UsbBitCableOutputType)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput(Integer, Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  name.vb: SetBitOutput(Integer, UsbBitCableOutputType)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh
+  id: BitActiveHigh
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitActiveHigh
+  nameWithType: UsbBitCable.BitActiveHigh
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh
+  type: Property
+  source:
+    id: BitActiveHigh
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 75
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public bool[] BitActiveHigh { get; }
+    parameters: []
+    return:
+      type: System.Boolean[]
+    content.vb: Public ReadOnly Property BitActiveHigh As Boolean()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitActiveHigh
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+  id: SetBitActiveHigh(System.Int32,System.Boolean)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitActiveHigh(int, bool)
+  nameWithType: UsbBitCable.SetBitActiveHigh(int, bool)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh(int, bool)
+  type: Method
+  source:
+    id: SetBitActiveHigh
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 80
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitActiveHigh(int bit, bool polarity)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: polarity
+      type: System.Boolean
+    content.vb: Public Sub SetBitActiveHigh(bit As Integer, polarity As Boolean)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+  nameWithType.vb: UsbBitCable.SetBitActiveHigh(Integer, Boolean)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh(Integer, Boolean)
+  name.vb: SetBitActiveHigh(Integer, Boolean)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable
+  id: BitEnable
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitEnable
+  nameWithType: UsbBitCable.BitEnable
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable
+  type: Property
+  source:
+    id: BitEnable
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 94
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public bool[] BitEnable { get; }
+    parameters: []
+    return:
+      type: System.Boolean[]
+    content.vb: Public ReadOnly Property BitEnable As Boolean()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitEnable
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt
+  id: BitPtt
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitPtt
+  nameWithType: UsbBitCable.BitPtt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt
+  type: Property
+  source:
+    id: BitPtt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 100
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public bool[] BitPtt { get; }
+    parameters: []
+    return:
+      type: System.Boolean[]
+    content.vb: Public ReadOnly Property BitPtt As Boolean()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitPtt
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+  id: SetBitEnable(System.Int32,System.Boolean)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitEnable(int, bool)
+  nameWithType: UsbBitCable.SetBitEnable(int, bool)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable(int, bool)
+  type: Method
+  source:
+    id: SetBitEnable
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 105
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitEnable(int bit, bool enabled)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetBitEnable(bit As Integer, enabled As Boolean)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+  nameWithType.vb: UsbBitCable.SetBitEnable(Integer, Boolean)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable(Integer, Boolean)
+  name.vb: SetBitEnable(Integer, Boolean)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+  id: SetBitPtt(System.Int32,System.Boolean)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitPtt(int, bool)
+  nameWithType: UsbBitCable.SetBitPtt(int, bool)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt(int, bool)
+  type: Method
+  source:
+    id: SetBitPtt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 118
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitPtt(int bit, bool enabled)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetBitPtt(bit As Integer, enabled As Boolean)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+  nameWithType.vb: UsbBitCable.SetBitPtt(Integer, Boolean)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt(Integer, Boolean)
+  name.vb: SetBitPtt(Integer, Boolean)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs
+  id: BitPttDelayMs
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitPttDelayMs
+  nameWithType: UsbBitCable.BitPttDelayMs
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs
+  type: Property
+  source:
+    id: BitPttDelayMs
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 132
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public int[] BitPttDelayMs { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly Property BitPttDelayMs As Integer()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitPttDelayMs
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+  id: SetBitPttDelayMs(System.Int32,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitPttDelayMs(int, int)
+  nameWithType: UsbBitCable.SetBitPttDelayMs(int, int)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs(int, int)
+  type: Method
+  source:
+    id: SetBitPttDelayMs
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 140
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitPttDelayMs(int bit, int delay)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: delay
+      type: System.Int32
+    content.vb: Public Sub SetBitPttDelayMs(bit As Integer, delay As Integer)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+  nameWithType.vb: UsbBitCable.SetBitPttDelayMs(Integer, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs(Integer, Integer)
+  name.vb: SetBitPttDelayMs(Integer, Integer)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs
+  id: BitTxDelayMs
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitTxDelayMs
+  nameWithType: UsbBitCable.BitTxDelayMs
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs
+  type: Property
+  source:
+    id: BitTxDelayMs
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 154
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public int[] BitTxDelayMs { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly Property BitTxDelayMs As Integer()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitTxDelayMs
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+  id: SetBitTxDelayMs(System.Int32,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitTxDelayMs(int, int)
+  nameWithType: UsbBitCable.SetBitTxDelayMs(int, int)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs(int, int)
+  type: Method
+  source:
+    id: SetBitTxDelayMs
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 162
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitTxDelayMs(int bit, int delay)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: delay
+      type: System.Int32
+    content.vb: Public Sub SetBitTxDelayMs(bit As Integer, delay As Integer)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+  nameWithType.vb: UsbBitCable.SetBitTxDelayMs(Integer, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs(Integer, Integer)
+  name.vb: SetBitTxDelayMs(Integer, Integer)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt
+  id: BitOrdinalRxAnt
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitOrdinalRxAnt
+  nameWithType: UsbBitCable.BitOrdinalRxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt
+  type: Property
+  source:
+    id: BitOrdinalRxAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 178
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string[] BitOrdinalRxAnt { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property BitOrdinalRxAnt As String()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalRxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt
+  id: BitOrdinalTxAnt
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitOrdinalTxAnt
+  nameWithType: UsbBitCable.BitOrdinalTxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt
+  type: Property
+  source:
+    id: BitOrdinalTxAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 184
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string[] BitOrdinalTxAnt { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property BitOrdinalTxAnt As String()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalTxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice
+  id: BitOrdinalSlice
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitOrdinalSlice
+  nameWithType: UsbBitCable.BitOrdinalSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice
+  type: Property
+  source:
+    id: BitOrdinalSlice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 190
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string[] BitOrdinalSlice { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property BitOrdinalSlice As String()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalSlice
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+  id: SetBitSourceRxAnt(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitSourceRxAnt(int, string)
+  nameWithType: UsbBitCable.SetBitSourceRxAnt(int, string)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt(int, string)
+  type: Method
+  source:
+    id: SetBitSourceRxAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 195
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitSourceRxAnt(int bit, string ant)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: ant
+      type: System.String
+    content.vb: Public Sub SetBitSourceRxAnt(bit As Integer, ant As String)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+  nameWithType.vb: UsbBitCable.SetBitSourceRxAnt(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt(Integer, String)
+  name.vb: SetBitSourceRxAnt(Integer, String)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+  id: SetBitSourceTxAnt(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitSourceTxAnt(int, string)
+  nameWithType: UsbBitCable.SetBitSourceTxAnt(int, string)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt(int, string)
+  type: Method
+  source:
+    id: SetBitSourceTxAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 209
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitSourceTxAnt(int bit, string ant)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: ant
+      type: System.String
+    content.vb: Public Sub SetBitSourceTxAnt(bit As Integer, ant As String)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+  nameWithType.vb: UsbBitCable.SetBitSourceTxAnt(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt(Integer, String)
+  name.vb: SetBitSourceTxAnt(Integer, String)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+  id: SetBitSourceSlice(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitSourceSlice(int, string)
+  nameWithType: UsbBitCable.SetBitSourceSlice(int, string)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice(int, string)
+  type: Method
+  source:
+    id: SetBitSourceSlice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 223
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitSourceSlice(int bit, string sliceIndex)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: sliceIndex
+      type: System.String
+    content.vb: Public Sub SetBitSourceSlice(bit As Integer, sliceIndex As String)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+  nameWithType.vb: UsbBitCable.SetBitSourceSlice(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice(Integer, String)
+  name.vb: SetBitSourceSlice(Integer, String)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq
+  id: BitLowFreq
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitLowFreq
+  nameWithType: UsbBitCable.BitLowFreq
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq
+  type: Property
+  source:
+    id: BitLowFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 238
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public double[] BitLowFreq { get; }
+    parameters: []
+    return:
+      type: System.Double[]
+    content.vb: Public ReadOnly Property BitLowFreq As Double()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitLowFreq
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq
+  id: BitHighFreq
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitHighFreq
+  nameWithType: UsbBitCable.BitHighFreq
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq
+  type: Property
+  source:
+    id: BitHighFreq
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 244
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public double[] BitHighFreq { get; }
+    parameters: []
+    return:
+      type: System.Double[]
+    content.vb: Public ReadOnly Property BitHighFreq As Double()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitHighFreq
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+  id: SetBitFreqRange(System.Int32,System.Double,System.Double)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitFreqRange(int, double, double)
+  nameWithType: UsbBitCable.SetBitFreqRange(int, double, double)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange(int, double, double)
+  type: Method
+  source:
+    id: SetBitFreqRange
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 249
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitFreqRange(int bit, double freqLowMHz, double freqHighMHz)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: freqLowMHz
+      type: System.Double
+    - id: freqHighMHz
+      type: System.Double
+    content.vb: Public Sub SetBitFreqRange(bit As Integer, freqLowMHz As Double, freqHighMHz As Double)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+  nameWithType.vb: UsbBitCable.SetBitFreqRange(Integer, Double, Double)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange(Integer, Double, Double)
+  name.vb: SetBitFreqRange(Integer, Double, Double)
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitBand
+  commentId: P:Flex.Smoothlake.FlexLib.UsbBitCable.BitBand
+  id: BitBand
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: BitBand
+  nameWithType: UsbBitCable.BitBand
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitBand
+  type: Property
+  source:
+    id: BitBand
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 265
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string[] BitBand { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property BitBand As String()
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.BitBand*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.BitBand
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand(System.Int32,System.String)
+  id: SetBitBand(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.UsbBitCable
+  langs:
+  - csharp
+  - vb
+  name: SetBitBand(int, string)
+  nameWithType: UsbBitCable.SetBitBand(int, string)
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand(int, string)
+  type: Method
+  source:
+    id: SetBitBand
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbBitCable.cs
+    startLine: 270
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public void SetBitBand(int bit, string band)
+    parameters:
+    - id: bit
+      type: System.Int32
+    - id: band
+      type: System.String
+    content.vb: Public Sub SetBitBand(bit As Integer, band As String)
+  overload: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(System.Int32,System.String)
+  nameWithType.vb: UsbBitCable.SetBitBand(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand(Integer, String)
+  name.vb: SetBitBand(Integer, String)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: Flex.Smoothlake.FlexLib.UsbCable
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.UsbCable.html
+  name: UsbCable
+  nameWithType: UsbCable
+  fullName: Flex.Smoothlake.FlexLib.UsbCable
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable
+  commentId: T:Flex.Smoothlake.FlexLib.IUsbBitCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html
+  name: IUsbBitCable
+  nameWithType: IUsbBitCable
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable
+- uid: Flex.Smoothlake.FlexLib.IUsbCable
+  commentId: T:Flex.Smoothlake.FlexLib.IUsbCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html
+  name: IUsbCable
+  nameWithType: IUsbCable
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable
+- uid: Flex.Smoothlake.FlexLib.UsbCable._radio
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._radio
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__radio
+  name: _radio
+  nameWithType: UsbCable._radio
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._radio
+- uid: Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+  commentId: E:Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_LogTextReceived
+  name: LogTextReceived
+  nameWithType: UsbCable.LogTextReceived
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+- uid: Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__serialNumber
+  name: _serialNumber
+  nameWithType: UsbCable._serialNumber
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+- uid: Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_SerialNumber
+  name: SerialNumber
+  nameWithType: UsbCable.SerialNumber
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+- uid: Flex.Smoothlake.FlexLib.UsbCable._cableType
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._cableType
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__cableType
+  name: _cableType
+  nameWithType: UsbCable._cableType
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._cableType
+- uid: Flex.Smoothlake.FlexLib.UsbCable.CableType
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.CableType
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_CableType
+  name: CableType
+  nameWithType: UsbCable.CableType
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.CableType
+- uid: Flex.Smoothlake.FlexLib.UsbCable._enabled
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._enabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__enabled
+  name: _enabled
+  nameWithType: UsbCable._enabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._enabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Enabled
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.Enabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Enabled
+  name: Enabled
+  nameWithType: UsbCable.Enabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Enabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable._present
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._present
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__present
+  name: _present
+  nameWithType: UsbCable._present
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._present
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Present
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.Present
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Present
+  name: Present
+  nameWithType: UsbCable.Present
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Present
+- uid: Flex.Smoothlake.FlexLib.UsbCable._name
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._name
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__name
+  name: _name
+  nameWithType: UsbCable._name
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._name
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Name
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.Name
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Name
+  name: Name
+  nameWithType: UsbCable.Name
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Name
+- uid: Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__loggingEnabled
+  name: _loggingEnabled
+  nameWithType: UsbCable._loggingEnabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_LoggingEnabled
+  name: LoggingEnabled
+  nameWithType: UsbCable.LoggingEnabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_UsbCableFreqSourceToString_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  name: UsbCableFreqSourceToString(UsbCableFreqSource)
+  nameWithType: UsbCable.UsbCableFreqSourceToString(UsbCableFreqSource)
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+    name: UsbCableFreqSourceToString
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_UsbCableFreqSourceToString_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  - name: (
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+    name: UsbCableFreqSourceToString
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_UsbCableFreqSourceToString_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  - name: (
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_StringToUsbCableFreqSource_System_String_
+  name: StringToUsbCableFreqSource(string)
+  nameWithType: UsbCable.StringToUsbCableFreqSource(string)
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(string)
+  nameWithType.vb: UsbCable.StringToUsbCableFreqSource(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(String)
+  name.vb: StringToUsbCableFreqSource(String)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+    name: StringToUsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_StringToUsbCableFreqSource_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+    name: StringToUsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_StringToUsbCableFreqSource_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Remove
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCable.Remove
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Remove
+  name: Remove()
+  nameWithType: UsbCable.Remove()
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Remove()
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.Remove
+    name: Remove
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Remove
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.Remove
+    name: Remove
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Remove
+  - name: (
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.#ctor
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable__ctor_Flex_Smoothlake_FlexLib_Radio_System_String_
+  name: UsbBitCable
+  nameWithType: UsbBitCable.UsbBitCable
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.UsbBitCable
+  nameWithType.vb: UsbBitCable.New
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCable.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.Radio
+  commentId: T:Flex.Smoothlake.FlexLib.Radio
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio
+  nameWithType: Radio
+  fullName: Flex.Smoothlake.FlexLib.Radio
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitSource*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitSource
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitSource
+  name: BitSource
+  nameWithType: UsbBitCable.BitSource
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitSource
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitSource
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitSource
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitSource
+  name: BitSource
+  nameWithType: IUsbBitCable.BitSource
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource[]
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  name: UsbCableFreqSource[]
+  nameWithType: UsbCableFreqSource[]
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource[]
+  nameWithType.vb: UsbCableFreqSource()
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbCableFreqSource()
+  name.vb: UsbCableFreqSource()
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitSource_System_Int32_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  name: SetBitSource
+  nameWithType: UsbBitCable.SetBitSource
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSource
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSource_System_Int32_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  name: SetBitSource(int, UsbCableFreqSource)
+  nameWithType: IUsbBitCable.SetBitSource(int, UsbCableFreqSource)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(int, Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  nameWithType.vb: IUsbBitCable.SetBitSource(Integer, UsbCableFreqSource)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(Integer, Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  name.vb: SetBitSource(Integer, UsbCableFreqSource)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+    name: SetBitSource
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSource_System_Int32_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSource(System.Int32,Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+    name: SetBitSource
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSource_System_Int32_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  name: UsbCableFreqSource
+  nameWithType: UsbCableFreqSource
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitOutput
+  name: BitOutput
+  nameWithType: UsbBitCable.BitOutput
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOutput
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOutput
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitOutput
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitOutput
+  name: BitOutput
+  nameWithType: IUsbBitCable.BitOutput
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOutput
+- uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType[]
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html
+  name: UsbBitCableOutputType[]
+  nameWithType: UsbBitCableOutputType[]
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCableOutputType[]
+  nameWithType.vb: UsbBitCableOutputType()
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbBitCableOutputType()
+  name.vb: UsbBitCableOutputType()
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+    name: UsbBitCableOutputType
+    href: Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+    name: UsbBitCableOutputType
+    href: Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitOutput_System_Int32_Flex_Smoothlake_FlexLib_UsbBitCableOutputType_
+  name: SetBitOutput
+  nameWithType: UsbBitCable.SetBitOutput
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitOutput
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitOutput_System_Int32_Flex_Smoothlake_FlexLib_UsbBitCableOutputType_
+  name: SetBitOutput(int, UsbBitCableOutputType)
+  nameWithType: IUsbBitCable.SetBitOutput(int, UsbBitCableOutputType)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(int, Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  nameWithType.vb: IUsbBitCable.SetBitOutput(Integer, UsbBitCableOutputType)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(Integer, Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+  name.vb: SetBitOutput(Integer, UsbBitCableOutputType)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+    name: SetBitOutput
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitOutput_System_Int32_Flex_Smoothlake_FlexLib_UsbBitCableOutputType_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+    name: UsbBitCableOutputType
+    href: Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitOutput(System.Int32,Flex.Smoothlake.FlexLib.UsbBitCableOutputType)
+    name: SetBitOutput
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitOutput_System_Int32_Flex_Smoothlake_FlexLib_UsbBitCableOutputType_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+    name: UsbBitCableOutputType
+    href: Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+  commentId: T:Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.UsbBitCableOutputType.html
+  name: UsbBitCableOutputType
+  nameWithType: UsbBitCableOutputType
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCableOutputType
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitActiveHigh
+  name: BitActiveHigh
+  nameWithType: UsbBitCable.BitActiveHigh
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitActiveHigh
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitActiveHigh
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitActiveHigh
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitActiveHigh
+  name: BitActiveHigh
+  nameWithType: IUsbBitCable.BitActiveHigh
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitActiveHigh
+- uid: System.Boolean[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool[]
+  nameWithType: bool[]
+  fullName: bool[]
+  nameWithType.vb: Boolean()
+  fullName.vb: Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitActiveHigh_System_Int32_System_Boolean_
+  name: SetBitActiveHigh
+  nameWithType: UsbBitCable.SetBitActiveHigh
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitActiveHigh
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitActiveHigh_System_Int32_System_Boolean_
+  name: SetBitActiveHigh(int, bool)
+  nameWithType: IUsbBitCable.SetBitActiveHigh(int, bool)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(int, bool)
+  nameWithType.vb: IUsbBitCable.SetBitActiveHigh(Integer, Boolean)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(Integer, Boolean)
+  name.vb: SetBitActiveHigh(Integer, Boolean)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+    name: SetBitActiveHigh
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitActiveHigh_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitActiveHigh(System.Int32,System.Boolean)
+    name: SetBitActiveHigh
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitActiveHigh_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitEnable
+  name: BitEnable
+  nameWithType: UsbBitCable.BitEnable
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitEnable
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitEnable
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitEnable
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitEnable
+  name: BitEnable
+  nameWithType: IUsbBitCable.BitEnable
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitEnable
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitPtt
+  name: BitPtt
+  nameWithType: UsbBitCable.BitPtt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitPtt
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitPtt
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitPtt
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitPtt
+  name: BitPtt
+  nameWithType: IUsbBitCable.BitPtt
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitPtt
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitEnable_System_Int32_System_Boolean_
+  name: SetBitEnable
+  nameWithType: UsbBitCable.SetBitEnable
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitEnable
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitEnable_System_Int32_System_Boolean_
+  name: SetBitEnable(int, bool)
+  nameWithType: IUsbBitCable.SetBitEnable(int, bool)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(int, bool)
+  nameWithType.vb: IUsbBitCable.SetBitEnable(Integer, Boolean)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(Integer, Boolean)
+  name.vb: SetBitEnable(Integer, Boolean)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+    name: SetBitEnable
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitEnable_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitEnable(System.Int32,System.Boolean)
+    name: SetBitEnable
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitEnable_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitPtt_System_Int32_System_Boolean_
+  name: SetBitPtt
+  nameWithType: UsbBitCable.SetBitPtt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPtt
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitPtt_System_Int32_System_Boolean_
+  name: SetBitPtt(int, bool)
+  nameWithType: IUsbBitCable.SetBitPtt(int, bool)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(int, bool)
+  nameWithType.vb: IUsbBitCable.SetBitPtt(Integer, Boolean)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(Integer, Boolean)
+  name.vb: SetBitPtt(Integer, Boolean)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+    name: SetBitPtt
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitPtt_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPtt(System.Int32,System.Boolean)
+    name: SetBitPtt
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitPtt_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitPttDelayMs
+  name: BitPttDelayMs
+  nameWithType: UsbBitCable.BitPttDelayMs
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitPttDelayMs
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitPttDelayMs
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitPttDelayMs
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitPttDelayMs
+  name: BitPttDelayMs
+  nameWithType: IUsbBitCable.BitPttDelayMs
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitPttDelayMs
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitPttDelayMs_System_Int32_System_Int32_
+  name: SetBitPttDelayMs
+  nameWithType: UsbBitCable.SetBitPttDelayMs
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitPttDelayMs
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitPttDelayMs_System_Int32_System_Int32_
+  name: SetBitPttDelayMs(int, int)
+  nameWithType: IUsbBitCable.SetBitPttDelayMs(int, int)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(int, int)
+  nameWithType.vb: IUsbBitCable.SetBitPttDelayMs(Integer, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(Integer, Integer)
+  name.vb: SetBitPttDelayMs(Integer, Integer)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+    name: SetBitPttDelayMs
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitPttDelayMs_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitPttDelayMs(System.Int32,System.Int32)
+    name: SetBitPttDelayMs
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitPttDelayMs_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitTxDelayMs
+  name: BitTxDelayMs
+  nameWithType: UsbBitCable.BitTxDelayMs
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitTxDelayMs
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitTxDelayMs
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitTxDelayMs
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitTxDelayMs
+  name: BitTxDelayMs
+  nameWithType: IUsbBitCable.BitTxDelayMs
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitTxDelayMs
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitTxDelayMs_System_Int32_System_Int32_
+  name: SetBitTxDelayMs
+  nameWithType: UsbBitCable.SetBitTxDelayMs
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitTxDelayMs
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitTxDelayMs_System_Int32_System_Int32_
+  name: SetBitTxDelayMs(int, int)
+  nameWithType: IUsbBitCable.SetBitTxDelayMs(int, int)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(int, int)
+  nameWithType.vb: IUsbBitCable.SetBitTxDelayMs(Integer, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(Integer, Integer)
+  name.vb: SetBitTxDelayMs(Integer, Integer)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+    name: SetBitTxDelayMs
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitTxDelayMs_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitTxDelayMs(System.Int32,System.Int32)
+    name: SetBitTxDelayMs
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitTxDelayMs_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitOrdinalRxAnt
+  name: BitOrdinalRxAnt
+  nameWithType: UsbBitCable.BitOrdinalRxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalRxAnt
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalRxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalRxAnt
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitOrdinalRxAnt
+  name: BitOrdinalRxAnt
+  nameWithType: IUsbBitCable.BitOrdinalRxAnt
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalRxAnt
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitOrdinalTxAnt
+  name: BitOrdinalTxAnt
+  nameWithType: UsbBitCable.BitOrdinalTxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalTxAnt
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalTxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalTxAnt
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitOrdinalTxAnt
+  name: BitOrdinalTxAnt
+  nameWithType: IUsbBitCable.BitOrdinalTxAnt
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalTxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitOrdinalSlice
+  name: BitOrdinalSlice
+  nameWithType: UsbBitCable.BitOrdinalSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitOrdinalSlice
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalSlice
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalSlice
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitOrdinalSlice
+  name: BitOrdinalSlice
+  nameWithType: IUsbBitCable.BitOrdinalSlice
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitOrdinalSlice
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitSourceRxAnt_System_Int32_System_String_
+  name: SetBitSourceRxAnt
+  nameWithType: UsbBitCable.SetBitSourceRxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceRxAnt
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceRxAnt_System_Int32_System_String_
+  name: SetBitSourceRxAnt(int, string)
+  nameWithType: IUsbBitCable.SetBitSourceRxAnt(int, string)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(int, string)
+  nameWithType.vb: IUsbBitCable.SetBitSourceRxAnt(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(Integer, String)
+  name.vb: SetBitSourceRxAnt(Integer, String)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+    name: SetBitSourceRxAnt
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceRxAnt_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceRxAnt(System.Int32,System.String)
+    name: SetBitSourceRxAnt
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceRxAnt_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitSourceTxAnt_System_Int32_System_String_
+  name: SetBitSourceTxAnt
+  nameWithType: UsbBitCable.SetBitSourceTxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceTxAnt
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceTxAnt_System_Int32_System_String_
+  name: SetBitSourceTxAnt(int, string)
+  nameWithType: IUsbBitCable.SetBitSourceTxAnt(int, string)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(int, string)
+  nameWithType.vb: IUsbBitCable.SetBitSourceTxAnt(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(Integer, String)
+  name.vb: SetBitSourceTxAnt(Integer, String)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+    name: SetBitSourceTxAnt
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceTxAnt_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceTxAnt(System.Int32,System.String)
+    name: SetBitSourceTxAnt
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceTxAnt_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitSourceSlice_System_Int32_System_String_
+  name: SetBitSourceSlice
+  nameWithType: UsbBitCable.SetBitSourceSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitSourceSlice
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceSlice_System_Int32_System_String_
+  name: SetBitSourceSlice(int, string)
+  nameWithType: IUsbBitCable.SetBitSourceSlice(int, string)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(int, string)
+  nameWithType.vb: IUsbBitCable.SetBitSourceSlice(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(Integer, String)
+  name.vb: SetBitSourceSlice(Integer, String)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+    name: SetBitSourceSlice
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceSlice_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitSourceSlice(System.Int32,System.String)
+    name: SetBitSourceSlice
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitSourceSlice_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitLowFreq
+  name: BitLowFreq
+  nameWithType: UsbBitCable.BitLowFreq
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitLowFreq
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitLowFreq
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitLowFreq
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitLowFreq
+  name: BitLowFreq
+  nameWithType: IUsbBitCable.BitLowFreq
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitLowFreq
+- uid: System.Double[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double[]
+  nameWithType: double[]
+  fullName: double[]
+  nameWithType.vb: Double()
+  fullName.vb: Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitHighFreq
+  name: BitHighFreq
+  nameWithType: UsbBitCable.BitHighFreq
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitHighFreq
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitHighFreq
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitHighFreq
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitHighFreq
+  name: BitHighFreq
+  nameWithType: IUsbBitCable.BitHighFreq
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitHighFreq
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitFreqRange_System_Int32_System_Double_System_Double_
+  name: SetBitFreqRange
+  nameWithType: UsbBitCable.SetBitFreqRange
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitFreqRange
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitFreqRange_System_Int32_System_Double_System_Double_
+  name: SetBitFreqRange(int, double, double)
+  nameWithType: IUsbBitCable.SetBitFreqRange(int, double, double)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(int, double, double)
+  nameWithType.vb: IUsbBitCable.SetBitFreqRange(Integer, Double, Double)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(Integer, Double, Double)
+  name.vb: SetBitFreqRange(Integer, Double, Double)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+    name: SetBitFreqRange
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitFreqRange_System_Int32_System_Double_System_Double_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitFreqRange(System.Int32,System.Double,System.Double)
+    name: SetBitFreqRange
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitFreqRange_System_Int32_System_Double_System_Double_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.BitBand*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.BitBand
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_BitBand
+  name: BitBand
+  nameWithType: UsbBitCable.BitBand
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.BitBand
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.BitBand
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbBitCable.BitBand
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_BitBand
+  name: BitBand
+  nameWithType: IUsbBitCable.BitBand
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.BitBand
+- uid: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand
+  href: Flex.Smoothlake.FlexLib.UsbBitCable.html#Flex_Smoothlake_FlexLib_UsbBitCable_SetBitBand_System_Int32_System_String_
+  name: SetBitBand
+  nameWithType: UsbBitCable.SetBitBand
+  fullName: Flex.Smoothlake.FlexLib.UsbBitCable.SetBitBand
+- uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.IUsbBitCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitBand_System_Int32_System_String_
+  name: SetBitBand(int, string)
+  nameWithType: IUsbBitCable.SetBitBand(int, string)
+  fullName: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(int, string)
+  nameWithType.vb: IUsbBitCable.SetBitBand(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(Integer, String)
+  name.vb: SetBitBand(Integer, String)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(System.Int32,System.String)
+    name: SetBitBand
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitBand_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbBitCable.SetBitBand(System.Int32,System.String)
+    name: SetBitBand
+    href: Flex.Smoothlake.FlexLib.IUsbBitCable.html#Flex_Smoothlake_FlexLib_IUsbBitCable_SetBitBand_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

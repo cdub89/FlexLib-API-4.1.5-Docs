@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FlexLib Documentation | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FlexLib Documentation | FlexLib API Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="flexlib-documentation">FlexLib Documentation</h1>
+
+<p>Welcome to the FlexLib API documentation!</p>
+<h2 id="-available-documentation">📚 Available Documentation</h2>
+<h3 id="user-guides">User Guides</h3>
+<ul>
+<li><p><strong><a href="Getting-Started.html">Getting Started</a></strong> - Complete tutorial for new users</p>
+<ul>
+<li>Setup instructions</li>
+<li>Your first FlexLib application</li>
+<li>Basic concepts and patterns</li>
+</ul>
+</li>
+<li><p><strong><a href="API-Reference.html">API Reference</a></strong> - Quick reference for all major classes</p>
+<ul>
+<li>Core classes and methods</li>
+<li>Properties and events</li>
+<li>Usage examples</li>
+</ul>
+</li>
+<li><p><strong><a href="Examples.html">Examples</a></strong> - Real-world code examples</p>
+<ul>
+<li>Basic radio control</li>
+<li>Audio streaming</li>
+<li>Advanced features</li>
+<li>Complete applications</li>
+</ul>
+</li>
+<li><p><strong><a href="Architecture.html">Architecture</a></strong> - System design documentation</p>
+<ul>
+<li>Component overview</li>
+<li>Design patterns</li>
+<li>Threading model</li>
+<li>Network protocol details</li>
+</ul>
+</li>
+<li><p><strong><a href="Migration-Guide.html">Migration Guide</a></strong> - Version upgrade instructions</p>
+<ul>
+<li>Breaking changes</li>
+<li>New features</li>
+<li>Migration strategies</li>
+</ul>
+</li>
+</ul>
+<h2 id="-quick-start">🚀 Quick Start</h2>
+<h3 id="for-new-users">For New Users</h3>
+<ol>
+<li>Start with <strong><a href="Getting-Started.html">Getting Started</a></strong></li>
+<li>Try the examples in <strong><a href="Examples.html">Examples</a></strong></li>
+<li>Reference <strong><a href="API-Reference.html">API Reference</a></strong> as needed</li>
+</ol>
+<h3 id="for-experienced-developers">For Experienced Developers</h3>
+<ol>
+<li>Check <strong><a href="API-Reference.html">API Reference</a></strong> for quick lookups</li>
+<li>Browse <strong><a href="Examples.html">Examples</a></strong> for specific patterns</li>
+<li>Read <strong><a href="Architecture.html">Architecture</a></strong> for deep understanding</li>
+</ol>
+<h3 id="for-upgraders">For Upgraders</h3>
+<ol>
+<li>Read <strong><a href="Migration-Guide.html">Migration Guide</a></strong> first</li>
+<li>Check <strong><a href="../CHANGELOG.md">CHANGELOG</a></strong> for version changes</li>
+<li>Update code following migration steps</li>
+</ol>
+<h2 id="-generating-full-api-documentation">📖 Generating Full API Documentation</h2>
+<p>FlexLib includes XML documentation comments throughout the codebase. Generate complete HTML documentation using DocFX:</p>
+<h3 id="install-docfx">Install DocFX</h3>
+<pre><code class="lang-bash"># Install as global tool
+dotnet tool install -g docfx
+
+# Or install locally
+dotnet tool install docfx
+</code></pre>
+<h3 id="generate-documentation">Generate Documentation</h3>
+<pre><code class="lang-bash"># Navigate to docs folder
+cd docs
+
+# Generate documentation
+docfx docfx.json
+
+# Serve documentation locally
+docfx serve _site
+</code></pre>
+<p>Then open your browser to <code>http://localhost:8080</code> to view the complete API documentation.</p>
+<h3 id="build-output">Build Output</h3>
+<p>The generated documentation will be in <code>docs/_site/</code>:</p>
+<ul>
+<li>Full API reference for all classes</li>
+<li>Method signatures and parameters</li>
+<li>Property documentation</li>
+<li>Code examples from XML comments</li>
+<li>Searchable interface</li>
+</ul>
+<h2 id="-documentation-structure">📂 Documentation Structure</h2>
+<pre><code>docs/
+├── README.md                 # This file
+├── Getting-Started.md        # Tutorial for beginners
+├── API-Reference.md          # Quick API reference
+├── Examples.md               # Code examples
+├── Architecture.md           # System design
+├── Migration-Guide.md        # Version upgrade guide
+├── docfx.json               # DocFX configuration
+├── index.md                 # DocFX home page
+├── toc.yml                  # Table of contents
+└── _site/                   # Generated HTML (after build)
+</code></pre>
+<h2 id="-finding-information">🔍 Finding Information</h2>
+<h3 id="by-topic">By Topic</h3>
+<table>
+<thead>
+<tr>
+<th>What You Want</th>
+<th>Where to Look</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Getting started</td>
+<td><a href="Getting-Started.html">Getting Started Guide</a></td>
+</tr>
+<tr>
+<td>Code examples</td>
+<td><a href="Examples.html">Examples</a></td>
+</tr>
+<tr>
+<td>Class reference</td>
+<td><a href="API-Reference.html">API Reference</a> or generated docs</td>
+</tr>
+<tr>
+<td>System design</td>
+<td><a href="Architecture.html">Architecture</a></td>
+</tr>
+<tr>
+<td>Upgrading versions</td>
+<td><a href="Migration-Guide.html">Migration Guide</a></td>
+</tr>
+<tr>
+<td>Contributing</td>
+<td><a href="../CONTRIBUTING.md">CONTRIBUTING.md</a></td>
+</tr>
+<tr>
+<td>Version history</td>
+<td><a href="../CHANGELOG.md">CHANGELOG.md</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="by-feature">By Feature</h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radio discovery</td>
+<td><a href="Getting-Started.html#discovering-radios">Getting Started - Discovery</a></td>
+</tr>
+<tr>
+<td>Connection</td>
+<td><a href="Getting-Started.html#connecting-to-a-radio">Getting Started - Connection</a></td>
+</tr>
+<tr>
+<td>Frequency control</td>
+<td><a href="Getting-Started.html#working-with-slices">Getting Started - Slices</a></td>
+</tr>
+<tr>
+<td>Audio streaming</td>
+<td><a href="Getting-Started.html#audio-streaming">Getting Started - Audio</a>, <a href="Examples.html#audio-streaming">Examples - Audio</a></td>
+</tr>
+<tr>
+<td>PTT control</td>
+<td><a href="Getting-Started.html#ptt-control">Getting Started - PTT</a></td>
+</tr>
+<tr>
+<td>Meters</td>
+<td><a href="Getting-Started.html#monitoring-meters">Getting Started - Meters</a></td>
+</tr>
+<tr>
+<td>Multi-radio</td>
+<td><a href="Examples.html#multi-radio-manager">Examples - Multi-Radio</a></td>
+</tr>
+<tr>
+<td>Digital modes</td>
+<td><a href="Examples.html#digital-mode-interface">Examples - Digital Mode</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="-documentation-tips">💡 Documentation Tips</h2>
+<h3 id="for-beginners">For Beginners</h3>
+<ol>
+<li><strong>Read sequentially</strong>: Start with Getting Started, work through examples</li>
+<li><strong>Try the code</strong>: Copy examples and run them</li>
+<li><strong>Experiment</strong>: Modify examples to understand behavior</li>
+<li><strong>Ask questions</strong>: Use community forum or GitHub issues</li>
+</ol>
+<h3 id="for-advanced-users">For Advanced Users</h3>
+<ol>
+<li><strong>Use the search</strong>: Generated docs have full-text search</li>
+<li><strong>Check XML comments</strong>: IntelliSense shows documentation in Visual Studio</li>
+<li><strong>Read source</strong>: FlexLib source code is well-commented</li>
+<li><strong>Contribute</strong>: Improve docs via pull requests</li>
+</ol>
+<h3 id="for-contributors">For Contributors</h3>
+<ol>
+<li><strong>Update XML comments</strong>: All public APIs need documentation</li>
+<li><strong>Add examples</strong>: Include code examples in XML <code>&lt;example&gt;</code> tags</li>
+<li><strong>Update guides</strong>: Keep markdown docs synchronized</li>
+<li><strong>Test DocFX</strong>: Regenerate docs to verify changes</li>
+</ol>
+<h2 id="-documentation-standards">🛠️ Documentation Standards</h2>
+<h3 id="xml-documentation">XML Documentation</h3>
+<p>All public classes, methods, properties, and events must have:</p>
+<pre><code class="lang-csharp">/// &lt;summary&gt;
+/// Brief one-line description.
+/// &lt;/summary&gt;
+/// &lt;remarks&gt;
+/// Detailed description with multiple paragraphs if needed.
+/// Explain behavior, constraints, and important notes.
+/// &lt;/remarks&gt;
+/// &lt;param name=&quot;paramName&quot;&gt;Parameter description&lt;/param&gt;
+/// &lt;returns&gt;Return value description&lt;/returns&gt;
+/// &lt;exception cref=&quot;ExceptionType&quot;&gt;When this is thrown&lt;/exception&gt;
+/// &lt;example&gt;
+/// &lt;code&gt;
+/// // Example usage
+/// var result = SomeMethod(param);
+/// &lt;/code&gt;
+/// &lt;/example&gt;
+/// &lt;seealso cref=&quot;RelatedClass&quot;/&gt;
+public ReturnType SomeMethod(ParamType paramName)
+{
+    // Implementation
+}
+</code></pre>
+<h3 id="markdown-style">Markdown Style</h3>
+<ul>
+<li>Use ATX headers (<code>#</code>, <code>##</code>, <code>###</code>)</li>
+<li>Include code blocks with language tags</li>
+<li>Add examples for complex topics</li>
+<li>Link between documents with relative paths</li>
+<li>Use tables for structured information</li>
+</ul>
+<h2 id="-keeping-documentation-updated">🔄 Keeping Documentation Updated</h2>
+<h3 id="when-to-update">When to Update</h3>
+<p>Update documentation when:</p>
+<ul>
+<li>Adding new public APIs</li>
+<li>Changing existing behavior</li>
+<li>Fixing bugs that affect usage</li>
+<li>Adding new features</li>
+<li>Deprecating functionality</li>
+</ul>
+<h3 id="what-to-update">What to Update</h3>
+<ol>
+<li><strong>XML Comments</strong>: Update in source code</li>
+<li><strong>API Reference</strong>: If major API changes</li>
+<li><strong>Examples</strong>: Add examples for new features</li>
+<li><strong>Getting Started</strong>: For workflow changes</li>
+<li><strong>Migration Guide</strong>: For breaking changes</li>
+<li><strong>CHANGELOG</strong>: For all notable changes</li>
+</ol>
+<h2 id="-getting-help">🆘 Getting Help</h2>
+<h3 id="documentation-issues">Documentation Issues</h3>
+<p>If you find documentation problems:</p>
+<ol>
+<li><strong>Typos/errors</strong>: Submit a pull request with fix</li>
+<li><strong>Unclear sections</strong>: Open an issue with suggestions</li>
+<li><strong>Missing topics</strong>: Request in GitHub issues</li>
+<li><strong>Outdated content</strong>: Report with version information</li>
+</ol>
+<h3 id="using-flexlib">Using FlexLib</h3>
+<p>For help using FlexLib:</p>
+<ol>
+<li><strong>Search documentation</strong>: Use search in generated docs</li>
+<li><strong>Check examples</strong>: Most questions answered with examples</li>
+<li><strong>Community forum</strong>: <a href="https://community.flexradio.com">https://community.flexradio.com</a></li>
+<li><strong>GitHub issues</strong>: For bug reports</li>
+<li><strong>Technical support</strong>: support@flexradio.com</li>
+</ol>
+<h2 id="-license">📝 License</h2>
+<p>Documentation is part of the FlexLib project and follows the same license.</p>
+<p>Copyright © 2018-2024 FlexRadio Systems. All rights reserved.</p>
+<h2 id="-contributing">🤝 Contributing</h2>
+<p>We welcome documentation improvements! See <a href="../CONTRIBUTING.md">CONTRIBUTING.md</a> for:</p>
+<ul>
+<li>Documentation standards</li>
+<li>Submission process</li>
+<li>Code of conduct</li>
+</ul>
+<hr>
+<p><strong>Ready to get started?</strong> Head to the <a href="Getting-Started.html">Getting Started Guide</a>!</p>
+<p><strong>Need something specific?</strong> Check the <a href="API-Reference.html">API Reference</a>!</p>
+<p><strong>Want to see it in action?</strong> Browse the <a href="Examples.html">Examples</a>!</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

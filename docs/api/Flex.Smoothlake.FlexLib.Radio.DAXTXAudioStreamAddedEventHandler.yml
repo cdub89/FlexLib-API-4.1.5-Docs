@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler
+  id: Radio.DAXTXAudioStreamAddedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Radio.DAXTXAudioStreamAddedEventHandler
+  nameWithType: Radio.DAXTXAudioStreamAddedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Radio.DAXTXAudioStreamAddedEventHandler
+  type: Delegate
+  source:
+    id: DAXTXAudioStreamAddedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 5446
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void Radio.DAXTXAudioStreamAddedEventHandler(DAXTXAudioStream tx_audio_stream)
+    parameters:
+    - id: tx_audio_stream
+      type: Flex.Smoothlake.FlexLib.DAXTXAudioStream
+    content.vb: Public Delegate Sub Radio.DAXTXAudioStreamAddedEventHandler(tx_audio_stream As DAXTXAudioStream)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.DAXTXAudioStream
+  commentId: T:Flex.Smoothlake.FlexLib.DAXTXAudioStream
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.DAXTXAudioStream.html
+  name: DAXTXAudioStream
+  nameWithType: DAXTXAudioStream
+  fullName: Flex.Smoothlake.FlexLib.DAXTXAudioStream

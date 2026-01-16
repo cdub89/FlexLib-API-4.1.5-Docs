@@ -1,0 +1,320 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.InterlockReason
+  commentId: T:Flex.Smoothlake.FlexLib.InterlockReason
+  id: InterlockReason
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.InterlockReason.ACC_TXREQ
+  - Flex.Smoothlake.FlexLib.InterlockReason.BAD_MODE
+  - Flex.Smoothlake.FlexLib.InterlockReason.CLIENT_TX_INHIBIT
+  - Flex.Smoothlake.FlexLib.InterlockReason.NO_TX_ASSIGNED
+  - Flex.Smoothlake.FlexLib.InterlockReason.None
+  - Flex.Smoothlake.FlexLib.InterlockReason.OUT_OF_BAND
+  - Flex.Smoothlake.FlexLib.InterlockReason.PA_RANGE
+  - Flex.Smoothlake.FlexLib.InterlockReason.RCA_TXREQ
+  - Flex.Smoothlake.FlexLib.InterlockReason.TGXL
+  - Flex.Smoothlake.FlexLib.InterlockReason.TUNED_TOO_FAR
+  - Flex.Smoothlake.FlexLib.InterlockReason.XVTR_RX_ONLY
+  langs:
+  - csharp
+  - vb
+  name: InterlockReason
+  nameWithType: InterlockReason
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason
+  type: Enum
+  source:
+    id: InterlockReason
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 88
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The reason that the InterlockState is
+
+    in the state that it is in
+  example: []
+  syntax:
+    content: public enum InterlockReason
+    content.vb: Public Enum InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.None
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: InterlockReason.None
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 90
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.RCA_TXREQ
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.RCA_TXREQ
+  id: RCA_TXREQ
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: RCA_TXREQ
+  nameWithType: InterlockReason.RCA_TXREQ
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.RCA_TXREQ
+  type: Field
+  source:
+    id: RCA_TXREQ
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 91
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: RCA_TXREQ = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.ACC_TXREQ
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.ACC_TXREQ
+  id: ACC_TXREQ
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: ACC_TXREQ
+  nameWithType: InterlockReason.ACC_TXREQ
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.ACC_TXREQ
+  type: Field
+  source:
+    id: ACC_TXREQ
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 92
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: ACC_TXREQ = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.BAD_MODE
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.BAD_MODE
+  id: BAD_MODE
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: BAD_MODE
+  nameWithType: InterlockReason.BAD_MODE
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.BAD_MODE
+  type: Field
+  source:
+    id: BAD_MODE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 93
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAD_MODE = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.TUNED_TOO_FAR
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.TUNED_TOO_FAR
+  id: TUNED_TOO_FAR
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: TUNED_TOO_FAR
+  nameWithType: InterlockReason.TUNED_TOO_FAR
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.TUNED_TOO_FAR
+  type: Field
+  source:
+    id: TUNED_TOO_FAR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 94
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TUNED_TOO_FAR = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.OUT_OF_BAND
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.OUT_OF_BAND
+  id: OUT_OF_BAND
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: OUT_OF_BAND
+  nameWithType: InterlockReason.OUT_OF_BAND
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.OUT_OF_BAND
+  type: Field
+  source:
+    id: OUT_OF_BAND
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 95
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: OUT_OF_BAND = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.PA_RANGE
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.PA_RANGE
+  id: PA_RANGE
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: PA_RANGE
+  nameWithType: InterlockReason.PA_RANGE
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.PA_RANGE
+  type: Field
+  source:
+    id: PA_RANGE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 96
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: PA_RANGE = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.CLIENT_TX_INHIBIT
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.CLIENT_TX_INHIBIT
+  id: CLIENT_TX_INHIBIT
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: CLIENT_TX_INHIBIT
+  nameWithType: InterlockReason.CLIENT_TX_INHIBIT
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.CLIENT_TX_INHIBIT
+  type: Field
+  source:
+    id: CLIENT_TX_INHIBIT
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 97
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: CLIENT_TX_INHIBIT = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.XVTR_RX_ONLY
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.XVTR_RX_ONLY
+  id: XVTR_RX_ONLY
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: XVTR_RX_ONLY
+  nameWithType: InterlockReason.XVTR_RX_ONLY
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.XVTR_RX_ONLY
+  type: Field
+  source:
+    id: XVTR_RX_ONLY
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 98
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: XVTR_RX_ONLY = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.NO_TX_ASSIGNED
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.NO_TX_ASSIGNED
+  id: NO_TX_ASSIGNED
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: NO_TX_ASSIGNED
+  nameWithType: InterlockReason.NO_TX_ASSIGNED
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.NO_TX_ASSIGNED
+  type: Field
+  source:
+    id: NO_TX_ASSIGNED
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 99
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: NO_TX_ASSIGNED = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+- uid: Flex.Smoothlake.FlexLib.InterlockReason.TGXL
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockReason.TGXL
+  id: TGXL
+  parent: Flex.Smoothlake.FlexLib.InterlockReason
+  langs:
+  - csharp
+  - vb
+  name: TGXL
+  nameWithType: InterlockReason.TGXL
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason.TGXL
+  type: Field
+  source:
+    id: TGXL
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 100
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TGXL = 10
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockReason
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.InterlockReason
+  commentId: T:Flex.Smoothlake.FlexLib.InterlockReason
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.InterlockReason.html
+  name: InterlockReason
+  nameWithType: InterlockReason
+  fullName: Flex.Smoothlake.FlexLib.InterlockReason

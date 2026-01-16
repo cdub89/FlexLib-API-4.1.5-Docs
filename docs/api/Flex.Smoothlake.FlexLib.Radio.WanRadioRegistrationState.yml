@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  id: Radio.WanRadioRegistrationState
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedNotLicensed
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedPTT
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConfirmation
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConnection
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedUnknown
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.RegisterSuccess
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.Undefined
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.UnregisterSuccess
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingForPTT
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnServerConfirmation
+  - Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnSmartLinkConnection
+  langs:
+  - csharp
+  - vb
+  name: Radio.WanRadioRegistrationState
+  nameWithType: Radio.WanRadioRegistrationState
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  type: Enum
+  source:
+    id: WanRadioRegistrationState
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 747
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum Radio.WanRadioRegistrationState
+    content.vb: Public Enum Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.Undefined
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.Undefined
+  id: Undefined
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: Radio.WanRadioRegistrationState.Undefined
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.Undefined
+  type: Field
+  source:
+    id: Undefined
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 749
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Undefined = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnSmartLinkConnection
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnSmartLinkConnection
+  id: WaitingOnSmartLinkConnection
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: WaitingOnSmartLinkConnection
+  nameWithType: Radio.WanRadioRegistrationState.WaitingOnSmartLinkConnection
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnSmartLinkConnection
+  type: Field
+  source:
+    id: WaitingOnSmartLinkConnection
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 750
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: WaitingOnSmartLinkConnection = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingForPTT
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingForPTT
+  id: WaitingForPTT
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: WaitingForPTT
+  nameWithType: Radio.WanRadioRegistrationState.WaitingForPTT
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingForPTT
+  type: Field
+  source:
+    id: WaitingForPTT
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 751
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: WaitingForPTT = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnServerConfirmation
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnServerConfirmation
+  id: WaitingOnServerConfirmation
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: WaitingOnServerConfirmation
+  nameWithType: Radio.WanRadioRegistrationState.WaitingOnServerConfirmation
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.WaitingOnServerConfirmation
+  type: Field
+  source:
+    id: WaitingOnServerConfirmation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 752
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: WaitingOnServerConfirmation = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.RegisterSuccess
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.RegisterSuccess
+  id: RegisterSuccess
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: RegisterSuccess
+  nameWithType: Radio.WanRadioRegistrationState.RegisterSuccess
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.RegisterSuccess
+  type: Field
+  source:
+    id: RegisterSuccess
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 753
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: RegisterSuccess = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.UnregisterSuccess
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.UnregisterSuccess
+  id: UnregisterSuccess
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: UnregisterSuccess
+  nameWithType: Radio.WanRadioRegistrationState.UnregisterSuccess
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.UnregisterSuccess
+  type: Field
+  source:
+    id: UnregisterSuccess
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 754
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: UnregisterSuccess = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedPTT
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedPTT
+  id: FailedPTT
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: FailedPTT
+  nameWithType: Radio.WanRadioRegistrationState.FailedPTT
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedPTT
+  type: Field
+  source:
+    id: FailedPTT
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 755
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FailedPTT = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConnection
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConnection
+  id: FailedServerConnection
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: FailedServerConnection
+  nameWithType: Radio.WanRadioRegistrationState.FailedServerConnection
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConnection
+  type: Field
+  source:
+    id: FailedServerConnection
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 756
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FailedServerConnection = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConfirmation
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConfirmation
+  id: FailedServerConfirmation
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: FailedServerConfirmation
+  nameWithType: Radio.WanRadioRegistrationState.FailedServerConfirmation
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedServerConfirmation
+  type: Field
+  source:
+    id: FailedServerConfirmation
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 757
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FailedServerConfirmation = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedNotLicensed
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedNotLicensed
+  id: FailedNotLicensed
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: FailedNotLicensed
+  nameWithType: Radio.WanRadioRegistrationState.FailedNotLicensed
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedNotLicensed
+  type: Field
+  source:
+    id: FailedNotLicensed
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 758
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FailedNotLicensed = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedUnknown
+  commentId: F:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedUnknown
+  id: FailedUnknown
+  parent: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  langs:
+  - csharp
+  - vb
+  name: FailedUnknown
+  nameWithType: Radio.WanRadioRegistrationState.FailedUnknown
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.FailedUnknown
+  type: Field
+  source:
+    id: FailedUnknown
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 759
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FailedUnknown = 10
+    return:
+      type: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio.WanRadioRegistrationState
+  nameWithType: Radio.WanRadioRegistrationState
+  fullName: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Radio
+    name: Radio
+    href: Flex.Smoothlake.FlexLib.Radio.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+    name: WanRadioRegistrationState
+    href: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Radio
+    name: Radio
+    href: Flex.Smoothlake.FlexLib.Radio.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState
+    name: WanRadioRegistrationState
+    href: Flex.Smoothlake.FlexLib.Radio.WanRadioRegistrationState.html

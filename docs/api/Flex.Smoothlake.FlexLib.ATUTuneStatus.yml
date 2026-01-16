@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  commentId: T:Flex.Smoothlake.FlexLib.ATUTuneStatus
+  id: ATUTuneStatus
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.Aborted
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.Bypass
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.Fail
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.FailBypass
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.InProgress
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.ManualBypass
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.None
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.NotStarted
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.OK
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.Successful
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_Aborted
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_InProgress
+  - Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_OK
+  langs:
+  - csharp
+  - vb
+  name: ATUTuneStatus
+  nameWithType: ATUTuneStatus
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  type: Enum
+  source:
+    id: ATUTuneStatus
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 128
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The state of the automatic antenna tuning unit (ATU)
+  example: []
+  syntax:
+    content: public enum ATUTuneStatus
+    content.vb: Public Enum ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.None
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ATUTuneStatus.None
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 130
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = -1
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.NotStarted
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.NotStarted
+  id: NotStarted
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: NotStarted
+  nameWithType: ATUTuneStatus.NotStarted
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.NotStarted
+  type: Field
+  source:
+    id: NotStarted
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 131
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: NotStarted = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.InProgress
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.InProgress
+  id: InProgress
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: InProgress
+  nameWithType: ATUTuneStatus.InProgress
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.InProgress
+  type: Field
+  source:
+    id: InProgress
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 132
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: InProgress = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.Bypass
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.Bypass
+  id: Bypass
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: Bypass
+  nameWithType: ATUTuneStatus.Bypass
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.Bypass
+  type: Field
+  source:
+    id: Bypass
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 133
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Bypass = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.Successful
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.Successful
+  id: Successful
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: Successful
+  nameWithType: ATUTuneStatus.Successful
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.Successful
+  type: Field
+  source:
+    id: Successful
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 134
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Successful = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.OK
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.OK
+  id: OK
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: OK
+  nameWithType: ATUTuneStatus.OK
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.OK
+  type: Field
+  source:
+    id: OK
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 135
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: OK = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.FailBypass
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.FailBypass
+  id: FailBypass
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: FailBypass
+  nameWithType: ATUTuneStatus.FailBypass
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.FailBypass
+  type: Field
+  source:
+    id: FailBypass
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 136
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FailBypass = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.Fail
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.Fail
+  id: Fail
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: Fail
+  nameWithType: ATUTuneStatus.Fail
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.Fail
+  type: Field
+  source:
+    id: Fail
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 137
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Fail = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.Aborted
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.Aborted
+  id: Aborted
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: Aborted
+  nameWithType: ATUTuneStatus.Aborted
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.Aborted
+  type: Field
+  source:
+    id: Aborted
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 138
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Aborted = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.ManualBypass
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.ManualBypass
+  id: ManualBypass
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: ManualBypass
+  nameWithType: ATUTuneStatus.ManualBypass
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.ManualBypass
+  type: Field
+  source:
+    id: ManualBypass
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 139
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: ManualBypass = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_InProgress
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_InProgress
+  id: TGXL_InProgress
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: TGXL_InProgress
+  nameWithType: ATUTuneStatus.TGXL_InProgress
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_InProgress
+  type: Field
+  source:
+    id: TGXL_InProgress
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 140
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TGXL_InProgress = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_OK
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_OK
+  id: TGXL_OK
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: TGXL_OK
+  nameWithType: ATUTuneStatus.TGXL_OK
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_OK
+  type: Field
+  source:
+    id: TGXL_OK
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 141
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TGXL_OK = 10
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_Aborted
+  commentId: F:Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_Aborted
+  id: TGXL_Aborted
+  parent: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  langs:
+  - csharp
+  - vb
+  name: TGXL_Aborted
+  nameWithType: ATUTuneStatus.TGXL_Aborted
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus.TGXL_Aborted
+  type: Field
+  source:
+    id: TGXL_Aborted
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 142
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TGXL_Aborted = 11
+    return:
+      type: Flex.Smoothlake.FlexLib.ATUTuneStatus
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.ATUTuneStatus
+  commentId: T:Flex.Smoothlake.FlexLib.ATUTuneStatus
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ATUTuneStatus.html
+  name: ATUTuneStatus
+  nameWithType: ATUTuneStatus
+  fullName: Flex.Smoothlake.FlexLib.ATUTuneStatus

@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.UiWpfFramework.Utils
+  commentId: N:Flex.UiWpfFramework.Utils
+  id: Flex.UiWpfFramework.Utils
+  children:
+  - Flex.UiWpfFramework.Utils.BoolAndToStringConverter
+  - Flex.UiWpfFramework.Utils.BoolAndToValueConverter`1
+  - Flex.UiWpfFramework.Utils.BoolOrToMarginConverter
+  - Flex.UiWpfFramework.Utils.BoolOrToStringConverter
+  - Flex.UiWpfFramework.Utils.BoolOrToValueConverter`1
+  - Flex.UiWpfFramework.Utils.BoolToBrushConverter
+  - Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter
+  - Flex.UiWpfFramework.Utils.BoolToFloatConverter
+  - Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter
+  - Flex.UiWpfFramework.Utils.BoolToStringConverter
+  - Flex.UiWpfFramework.Utils.BoolToThicknessConverter
+  - Flex.UiWpfFramework.Utils.BoolToValueConverter`1
+  - Flex.UiWpfFramework.Utils.BooleanAndMultiConverter
+  - Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter
+  - Flex.UiWpfFramework.Utils.BooleanOrMultiConverter
+  - Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter
+  - Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter
+  - Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter
+  - Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter
+  - Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter
+  - Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter
+  - Flex.UiWpfFramework.Utils.ClientPersistence
+  - Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter
+  - Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+  - Flex.UiWpfFramework.Utils.EnumToStringConverter
+  - Flex.UiWpfFramework.Utils.IPAddressValidator
+  - Flex.UiWpfFramework.Utils.IntStringConverter
+  - Flex.UiWpfFramework.Utils.InverseBooleanConverter
+  - Flex.UiWpfFramework.Utils.MHzToHzConverter
+  - Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter
+  - Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter
+  - Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter
+  - Flex.UiWpfFramework.Utils.NullToVisibilityConverter
+  - Flex.UiWpfFramework.Utils.POINT
+  - Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter
+  - Flex.UiWpfFramework.Utils.RECT
+  - Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter
+  - Flex.UiWpfFramework.Utils.UrlToQrConverter
+  - Flex.UiWpfFramework.Utils.VisibilityToHeightConverter
+  - Flex.UiWpfFramework.Utils.VisualStudio
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  - Flex.UiWpfFramework.Utils.WindowPlacement
+  - Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter
+  langs:
+  - csharp
+  - vb
+  name: Flex.UiWpfFramework.Utils
+  nameWithType: Flex.UiWpfFramework.Utils
+  fullName: Flex.UiWpfFramework.Utils
+  type: Namespace
+  assemblies:
+  - Flex.UiWpfFramework
+references:
+- uid: Flex.UiWpfFramework.Utils.ClientPersistence
+  commentId: T:Flex.UiWpfFramework.Utils.ClientPersistence
+  href: Flex.UiWpfFramework.Utils.ClientPersistence.html
+  name: ClientPersistence
+  nameWithType: ClientPersistence
+  fullName: Flex.UiWpfFramework.Utils.ClientPersistence
+- uid: Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter
+  commentId: T:Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter
+  href: Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter.html
+  name: ContentBlocksToFlowDocumentConverter
+  nameWithType: ContentBlocksToFlowDocumentConverter
+  fullName: Flex.UiWpfFramework.Utils.ContentBlocksToFlowDocumentConverter
+- uid: Flex.UiWpfFramework.Utils.IPAddressValidator
+  commentId: T:Flex.UiWpfFramework.Utils.IPAddressValidator
+  href: Flex.UiWpfFramework.Utils.IPAddressValidator.html
+  name: IPAddressValidator
+  nameWithType: IPAddressValidator
+  fullName: Flex.UiWpfFramework.Utils.IPAddressValidator
+- uid: Flex.UiWpfFramework.Utils.IntStringConverter
+  commentId: T:Flex.UiWpfFramework.Utils.IntStringConverter
+  href: Flex.UiWpfFramework.Utils.IntStringConverter.html
+  name: IntStringConverter
+  nameWithType: IntStringConverter
+  fullName: Flex.UiWpfFramework.Utils.IntStringConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter.html
+  name: BooleanToVisibilityMultiConverter
+  nameWithType: BooleanToVisibilityMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanToVisibilityMultiConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter.html
+  name: BooleanAndToInverseVisibilityMultiConverter
+  nameWithType: BooleanAndToInverseVisibilityMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanAndToInverseVisibilityMultiConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter.html
+  name: BooleanOrToVisibilityMultiConverter
+  nameWithType: BooleanOrToVisibilityMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanOrToVisibilityMultiConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter.html
+  name: BooleanOrToGridLengthMultiConverter
+  nameWithType: BooleanOrToGridLengthMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanOrToGridLengthMultiConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter.html
+  name: BooleanToOpacityMultiConverter
+  nameWithType: BooleanToOpacityMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanToOpacityMultiConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanAndMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanAndMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanAndMultiConverter.html
+  name: BooleanAndMultiConverter
+  nameWithType: BooleanAndMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanAndMultiConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanOrMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanOrMultiConverter
+  href: Flex.UiWpfFramework.Utils.BooleanOrMultiConverter.html
+  name: BooleanOrMultiConverter
+  nameWithType: BooleanOrMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanOrMultiConverter
+- uid: Flex.UiWpfFramework.Utils.NullToVisibilityConverter
+  commentId: T:Flex.UiWpfFramework.Utils.NullToVisibilityConverter
+  href: Flex.UiWpfFramework.Utils.NullToVisibilityConverter.html
+  name: NullToVisibilityConverter
+  nameWithType: NullToVisibilityConverter
+  fullName: Flex.UiWpfFramework.Utils.NullToVisibilityConverter
+- uid: Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter
+  commentId: T:Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter
+  href: Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter.html
+  name: NullOrEmptyStringToVisibilityConverter
+  nameWithType: NullOrEmptyStringToVisibilityConverter
+  fullName: Flex.UiWpfFramework.Utils.NullOrEmptyStringToVisibilityConverter
+- uid: Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter
+  commentId: T:Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter
+  href: Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter.html
+  name: NullToInverseVisibilityConverter
+  nameWithType: NullToInverseVisibilityConverter
+  fullName: Flex.UiWpfFramework.Utils.NullToInverseVisibilityConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter
+  href: Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter.html
+  name: BooleanToVisHiddenConverter
+  nameWithType: BooleanToVisHiddenConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanToVisHiddenConverter
+- uid: Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter
+  href: Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter.html
+  name: BooleanToVisCollapsedConverter
+  nameWithType: BooleanToVisCollapsedConverter
+  fullName: Flex.UiWpfFramework.Utils.BooleanToVisCollapsedConverter
+- uid: Flex.UiWpfFramework.Utils.EnumToStringConverter
+  commentId: T:Flex.UiWpfFramework.Utils.EnumToStringConverter
+  href: Flex.UiWpfFramework.Utils.EnumToStringConverter.html
+  name: EnumToStringConverter
+  nameWithType: EnumToStringConverter
+  fullName: Flex.UiWpfFramework.Utils.EnumToStringConverter
+- uid: Flex.UiWpfFramework.Utils.InverseBooleanConverter
+  commentId: T:Flex.UiWpfFramework.Utils.InverseBooleanConverter
+  href: Flex.UiWpfFramework.Utils.InverseBooleanConverter.html
+  name: InverseBooleanConverter
+  nameWithType: InverseBooleanConverter
+  fullName: Flex.UiWpfFramework.Utils.InverseBooleanConverter
+- uid: Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter
+  commentId: T:Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter
+  href: Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter.html
+  name: PercentToMeterWidthConverter
+  nameWithType: PercentToMeterWidthConverter
+  fullName: Flex.UiWpfFramework.Utils.PercentToMeterWidthConverter
+- uid: Flex.UiWpfFramework.Utils.MHzToHzConverter
+  commentId: T:Flex.UiWpfFramework.Utils.MHzToHzConverter
+  href: Flex.UiWpfFramework.Utils.MHzToHzConverter.html
+  name: MHzToHzConverter
+  nameWithType: MHzToHzConverter
+  fullName: Flex.UiWpfFramework.Utils.MHzToHzConverter
+- uid: Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter
+  commentId: T:Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter
+  href: Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter.html
+  name: ZeroWidthSpaceStringConverter
+  nameWithType: ZeroWidthSpaceStringConverter
+  fullName: Flex.UiWpfFramework.Utils.ZeroWidthSpaceStringConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToValueConverter`1
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToValueConverter`1
+  href: Flex.UiWpfFramework.Utils.BoolToValueConverter-1.html
+  name: BoolToValueConverter<T>
+  nameWithType: BoolToValueConverter<T>
+  fullName: Flex.UiWpfFramework.Utils.BoolToValueConverter<T>
+  nameWithType.vb: BoolToValueConverter(Of T)
+  fullName.vb: Flex.UiWpfFramework.Utils.BoolToValueConverter(Of T)
+  name.vb: BoolToValueConverter(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Utils.BoolToValueConverter`1
+    name: BoolToValueConverter
+    href: Flex.UiWpfFramework.Utils.BoolToValueConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Utils.BoolToValueConverter`1
+    name: BoolToValueConverter
+    href: Flex.UiWpfFramework.Utils.BoolToValueConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Utils.BoolOrToValueConverter`1
+  commentId: T:Flex.UiWpfFramework.Utils.BoolOrToValueConverter`1
+  href: Flex.UiWpfFramework.Utils.BoolOrToValueConverter-1.html
+  name: BoolOrToValueConverter<T>
+  nameWithType: BoolOrToValueConverter<T>
+  fullName: Flex.UiWpfFramework.Utils.BoolOrToValueConverter<T>
+  nameWithType.vb: BoolOrToValueConverter(Of T)
+  fullName.vb: Flex.UiWpfFramework.Utils.BoolOrToValueConverter(Of T)
+  name.vb: BoolOrToValueConverter(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Utils.BoolOrToValueConverter`1
+    name: BoolOrToValueConverter
+    href: Flex.UiWpfFramework.Utils.BoolOrToValueConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Utils.BoolOrToValueConverter`1
+    name: BoolOrToValueConverter
+    href: Flex.UiWpfFramework.Utils.BoolOrToValueConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Utils.BoolAndToValueConverter`1
+  commentId: T:Flex.UiWpfFramework.Utils.BoolAndToValueConverter`1
+  href: Flex.UiWpfFramework.Utils.BoolAndToValueConverter-1.html
+  name: BoolAndToValueConverter<T>
+  nameWithType: BoolAndToValueConverter<T>
+  fullName: Flex.UiWpfFramework.Utils.BoolAndToValueConverter<T>
+  nameWithType.vb: BoolAndToValueConverter(Of T)
+  fullName.vb: Flex.UiWpfFramework.Utils.BoolAndToValueConverter(Of T)
+  name.vb: BoolAndToValueConverter(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Utils.BoolAndToValueConverter`1
+    name: BoolAndToValueConverter
+    href: Flex.UiWpfFramework.Utils.BoolAndToValueConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Utils.BoolAndToValueConverter`1
+    name: BoolAndToValueConverter
+    href: Flex.UiWpfFramework.Utils.BoolAndToValueConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Utils.BoolOrToMarginConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolOrToMarginConverter
+  href: Flex.UiWpfFramework.Utils.BoolOrToMarginConverter.html
+  name: BoolOrToMarginConverter
+  nameWithType: BoolOrToMarginConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolOrToMarginConverter
+- uid: Flex.UiWpfFramework.Utils.BoolOrToStringConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolOrToStringConverter
+  href: Flex.UiWpfFramework.Utils.BoolOrToStringConverter.html
+  name: BoolOrToStringConverter
+  nameWithType: BoolOrToStringConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolOrToStringConverter
+- uid: Flex.UiWpfFramework.Utils.BoolAndToStringConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolAndToStringConverter
+  href: Flex.UiWpfFramework.Utils.BoolAndToStringConverter.html
+  name: BoolAndToStringConverter
+  nameWithType: BoolAndToStringConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolAndToStringConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToStringConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToStringConverter
+  href: Flex.UiWpfFramework.Utils.BoolToStringConverter.html
+  name: BoolToStringConverter
+  nameWithType: BoolToStringConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolToStringConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter
+  href: Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter.html
+  name: BoolToCustomVisibilityConverter
+  nameWithType: BoolToCustomVisibilityConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolToCustomVisibilityConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter
+  href: Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter.html
+  name: BoolToScrollBarVisibilityConverter
+  nameWithType: BoolToScrollBarVisibilityConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolToScrollBarVisibilityConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToBrushConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToBrushConverter
+  href: Flex.UiWpfFramework.Utils.BoolToBrushConverter.html
+  name: BoolToBrushConverter
+  nameWithType: BoolToBrushConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolToBrushConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToThicknessConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToThicknessConverter
+  href: Flex.UiWpfFramework.Utils.BoolToThicknessConverter.html
+  name: BoolToThicknessConverter
+  nameWithType: BoolToThicknessConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolToThicknessConverter
+- uid: Flex.UiWpfFramework.Utils.BoolToFloatConverter
+  commentId: T:Flex.UiWpfFramework.Utils.BoolToFloatConverter
+  href: Flex.UiWpfFramework.Utils.BoolToFloatConverter.html
+  name: BoolToFloatConverter
+  nameWithType: BoolToFloatConverter
+  fullName: Flex.UiWpfFramework.Utils.BoolToFloatConverter
+- uid: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+  commentId: T:Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+  parent: Flex.UiWpfFramework.Utils
+  href: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter.html
+  name: EnumDescriptionTypeConverter
+  nameWithType: EnumDescriptionTypeConverter
+  fullName: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+- uid: Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter
+  commentId: T:Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter
+  href: Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter.html
+  name: TwoArgsToTupleValueMultiConverter
+  nameWithType: TwoArgsToTupleValueMultiConverter
+  fullName: Flex.UiWpfFramework.Utils.TwoArgsToTupleValueMultiConverter
+- uid: Flex.UiWpfFramework.Utils.VisibilityToHeightConverter
+  commentId: T:Flex.UiWpfFramework.Utils.VisibilityToHeightConverter
+  href: Flex.UiWpfFramework.Utils.VisibilityToHeightConverter.html
+  name: VisibilityToHeightConverter
+  nameWithType: VisibilityToHeightConverter
+  fullName: Flex.UiWpfFramework.Utils.VisibilityToHeightConverter
+- uid: Flex.UiWpfFramework.Utils.UrlToQrConverter
+  commentId: T:Flex.UiWpfFramework.Utils.UrlToQrConverter
+  href: Flex.UiWpfFramework.Utils.UrlToQrConverter.html
+  name: UrlToQrConverter
+  nameWithType: UrlToQrConverter
+  fullName: Flex.UiWpfFramework.Utils.UrlToQrConverter
+- uid: Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter
+  commentId: T:Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter
+  href: Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter.html
+  name: MillisecondsToRoundedSecondsConverter
+  nameWithType: MillisecondsToRoundedSecondsConverter
+  fullName: Flex.UiWpfFramework.Utils.MillisecondsToRoundedSecondsConverter
+- uid: Flex.UiWpfFramework.Utils.VisualStudio
+  commentId: T:Flex.UiWpfFramework.Utils.VisualStudio
+  href: Flex.UiWpfFramework.Utils.VisualStudio.html
+  name: VisualStudio
+  nameWithType: VisualStudio
+  fullName: Flex.UiWpfFramework.Utils.VisualStudio
+- uid: Flex.UiWpfFramework.Utils.RECT
+  commentId: T:Flex.UiWpfFramework.Utils.RECT
+  parent: Flex.UiWpfFramework.Utils
+  href: Flex.UiWpfFramework.Utils.RECT.html
+  name: RECT
+  nameWithType: RECT
+  fullName: Flex.UiWpfFramework.Utils.RECT
+- uid: Flex.UiWpfFramework.Utils.POINT
+  commentId: T:Flex.UiWpfFramework.Utils.POINT
+  parent: Flex.UiWpfFramework.Utils
+  href: Flex.UiWpfFramework.Utils.POINT.html
+  name: POINT
+  nameWithType: POINT
+  fullName: Flex.UiWpfFramework.Utils.POINT
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  commentId: T:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  href: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.html
+  name: WINDOWPLACEMENT
+  nameWithType: WINDOWPLACEMENT
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+- uid: Flex.UiWpfFramework.Utils.WindowPlacement
+  commentId: T:Flex.UiWpfFramework.Utils.WindowPlacement
+  href: Flex.UiWpfFramework.Utils.WindowPlacement.html
+  name: WindowPlacement
+  nameWithType: WindowPlacement
+  fullName: Flex.UiWpfFramework.Utils.WindowPlacement
+- uid: Flex.UiWpfFramework.Utils
+  commentId: N:Flex.UiWpfFramework.Utils
+  href: Flex.html
+  name: Flex.UiWpfFramework.Utils
+  nameWithType: Flex.UiWpfFramework.Utils
+  fullName: Flex.UiWpfFramework.Utils
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Utils
+    name: Utils
+    href: Flex.UiWpfFramework.Utils.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Utils
+    name: Utils
+    href: Flex.UiWpfFramework.Utils.html

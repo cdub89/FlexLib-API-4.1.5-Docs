@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.BcdCableType
+  commentId: T:Flex.Smoothlake.FlexLib.BcdCableType
+  id: BcdCableType
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.BcdCableType.HF_BCD
+  - Flex.Smoothlake.FlexLib.BcdCableType.HF_VHF_BCD
+  - Flex.Smoothlake.FlexLib.BcdCableType.Invalid
+  - Flex.Smoothlake.FlexLib.BcdCableType.VHF_BCD
+  langs:
+  - csharp
+  - vb
+  name: BcdCableType
+  nameWithType: BcdCableType
+  fullName: Flex.Smoothlake.FlexLib.BcdCableType
+  type: Enum
+  source:
+    id: BcdCableType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 351
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum BcdCableType
+    content.vb: Public Enum BcdCableType
+- uid: Flex.Smoothlake.FlexLib.BcdCableType.Invalid
+  commentId: F:Flex.Smoothlake.FlexLib.BcdCableType.Invalid
+  id: Invalid
+  parent: Flex.Smoothlake.FlexLib.BcdCableType
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: BcdCableType.Invalid
+  fullName: Flex.Smoothlake.FlexLib.BcdCableType.Invalid
+  type: Field
+  source:
+    id: Invalid
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 353
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Invalid = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.BcdCableType
+- uid: Flex.Smoothlake.FlexLib.BcdCableType.HF_BCD
+  commentId: F:Flex.Smoothlake.FlexLib.BcdCableType.HF_BCD
+  id: HF_BCD
+  parent: Flex.Smoothlake.FlexLib.BcdCableType
+  langs:
+  - csharp
+  - vb
+  name: HF_BCD
+  nameWithType: BcdCableType.HF_BCD
+  fullName: Flex.Smoothlake.FlexLib.BcdCableType.HF_BCD
+  type: Field
+  source:
+    id: HF_BCD
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 354
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: HF_BCD = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.BcdCableType
+- uid: Flex.Smoothlake.FlexLib.BcdCableType.VHF_BCD
+  commentId: F:Flex.Smoothlake.FlexLib.BcdCableType.VHF_BCD
+  id: VHF_BCD
+  parent: Flex.Smoothlake.FlexLib.BcdCableType
+  langs:
+  - csharp
+  - vb
+  name: VHF_BCD
+  nameWithType: BcdCableType.VHF_BCD
+  fullName: Flex.Smoothlake.FlexLib.BcdCableType.VHF_BCD
+  type: Field
+  source:
+    id: VHF_BCD
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 355
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: VHF_BCD = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.BcdCableType
+- uid: Flex.Smoothlake.FlexLib.BcdCableType.HF_VHF_BCD
+  commentId: F:Flex.Smoothlake.FlexLib.BcdCableType.HF_VHF_BCD
+  id: HF_VHF_BCD
+  parent: Flex.Smoothlake.FlexLib.BcdCableType
+  langs:
+  - csharp
+  - vb
+  name: HF_VHF_BCD
+  nameWithType: BcdCableType.HF_VHF_BCD
+  fullName: Flex.Smoothlake.FlexLib.BcdCableType.HF_VHF_BCD
+  type: Field
+  source:
+    id: HF_VHF_BCD
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 356
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: HF_VHF_BCD = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.BcdCableType
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.BcdCableType
+  commentId: T:Flex.Smoothlake.FlexLib.BcdCableType
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.BcdCableType.html
+  name: BcdCableType
+  nameWithType: BcdCableType
+  fullName: Flex.Smoothlake.FlexLib.BcdCableType

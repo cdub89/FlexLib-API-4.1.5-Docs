@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.SerialParity
+  commentId: T:Flex.Smoothlake.FlexLib.SerialParity
+  id: SerialParity
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.SerialParity.even
+  - Flex.Smoothlake.FlexLib.SerialParity.mark
+  - Flex.Smoothlake.FlexLib.SerialParity.none
+  - Flex.Smoothlake.FlexLib.SerialParity.odd
+  - Flex.Smoothlake.FlexLib.SerialParity.space
+  langs:
+  - csharp
+  - vb
+  name: SerialParity
+  nameWithType: SerialParity
+  fullName: Flex.Smoothlake.FlexLib.SerialParity
+  type: Enum
+  source:
+    id: SerialParity
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 450
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: >-
+      [TypeConverter(typeof(EnumDescriptionTypeConverter))]
+
+      public enum SerialParity
+    content.vb: >-
+      <TypeConverter(GetType(EnumDescriptionTypeConverter))>
+
+      Public Enum SerialParity
+  attributes:
+  - type: System.ComponentModel.TypeConverterAttribute
+    ctor: System.ComponentModel.TypeConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+- uid: Flex.Smoothlake.FlexLib.SerialParity.none
+  commentId: F:Flex.Smoothlake.FlexLib.SerialParity.none
+  id: none
+  parent: Flex.Smoothlake.FlexLib.SerialParity
+  langs:
+  - csharp
+  - vb
+  name: none
+  nameWithType: SerialParity.none
+  fullName: Flex.Smoothlake.FlexLib.SerialParity.none
+  type: Field
+  source:
+    id: none
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 453
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: none = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+- uid: Flex.Smoothlake.FlexLib.SerialParity.odd
+  commentId: F:Flex.Smoothlake.FlexLib.SerialParity.odd
+  id: odd
+  parent: Flex.Smoothlake.FlexLib.SerialParity
+  langs:
+  - csharp
+  - vb
+  name: odd
+  nameWithType: SerialParity.odd
+  fullName: Flex.Smoothlake.FlexLib.SerialParity.odd
+  type: Field
+  source:
+    id: odd
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 455
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: odd = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+- uid: Flex.Smoothlake.FlexLib.SerialParity.even
+  commentId: F:Flex.Smoothlake.FlexLib.SerialParity.even
+  id: even
+  parent: Flex.Smoothlake.FlexLib.SerialParity
+  langs:
+  - csharp
+  - vb
+  name: even
+  nameWithType: SerialParity.even
+  fullName: Flex.Smoothlake.FlexLib.SerialParity.even
+  type: Field
+  source:
+    id: even
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 457
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: even = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+- uid: Flex.Smoothlake.FlexLib.SerialParity.mark
+  commentId: F:Flex.Smoothlake.FlexLib.SerialParity.mark
+  id: mark
+  parent: Flex.Smoothlake.FlexLib.SerialParity
+  langs:
+  - csharp
+  - vb
+  name: mark
+  nameWithType: SerialParity.mark
+  fullName: Flex.Smoothlake.FlexLib.SerialParity.mark
+  type: Field
+  source:
+    id: mark
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 459
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: mark = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+- uid: Flex.Smoothlake.FlexLib.SerialParity.space
+  commentId: F:Flex.Smoothlake.FlexLib.SerialParity.space
+  id: space
+  parent: Flex.Smoothlake.FlexLib.SerialParity
+  langs:
+  - csharp
+  - vb
+  name: space
+  nameWithType: SerialParity.space
+  fullName: Flex.Smoothlake.FlexLib.SerialParity.space
+  type: Field
+  source:
+    id: space
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 461
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: space = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.SerialParity
+  commentId: T:Flex.Smoothlake.FlexLib.SerialParity
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialParity.html
+  name: SerialParity
+  nameWithType: SerialParity
+  fullName: Flex.Smoothlake.FlexLib.SerialParity

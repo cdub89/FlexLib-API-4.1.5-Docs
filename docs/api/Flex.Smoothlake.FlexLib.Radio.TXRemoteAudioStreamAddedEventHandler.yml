@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler
+  id: Radio.TXRemoteAudioStreamAddedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Radio.TXRemoteAudioStreamAddedEventHandler
+  nameWithType: Radio.TXRemoteAudioStreamAddedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Radio.TXRemoteAudioStreamAddedEventHandler
+  type: Delegate
+  source:
+    id: TXRemoteAudioStreamAddedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 5660
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The delegate event handler for the TXRemoteAudioStream event
+  example: []
+  syntax:
+    content: public delegate void Radio.TXRemoteAudioStreamAddedEventHandler(TXRemoteAudioStream remoteAudioTX)
+    parameters:
+    - id: remoteAudioTX
+      type: Flex.Smoothlake.FlexLib.TXRemoteAudioStream
+      description: The TXRemoteAudioStream object
+    content.vb: Public Delegate Sub Radio.TXRemoteAudioStreamAddedEventHandler(remoteAudioTX As TXRemoteAudioStream)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.TXRemoteAudioStream
+  commentId: T:Flex.Smoothlake.FlexLib.TXRemoteAudioStream
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.TXRemoteAudioStream.html
+  name: TXRemoteAudioStream
+  nameWithType: TXRemoteAudioStream
+  fullName: Flex.Smoothlake.FlexLib.TXRemoteAudioStream

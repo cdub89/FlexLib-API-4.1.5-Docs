@@ -1,0 +1,1346 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Spot
+  commentId: T:Flex.Smoothlake.FlexLib.Spot
+  id: Spot
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.Spot.#ctor
+  - Flex.Smoothlake.FlexLib.Spot.BackgroundColor
+  - Flex.Smoothlake.FlexLib.Spot.Callsign
+  - Flex.Smoothlake.FlexLib.Spot.Color
+  - Flex.Smoothlake.FlexLib.Spot.Comment
+  - Flex.Smoothlake.FlexLib.Spot.Index
+  - Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds
+  - Flex.Smoothlake.FlexLib.Spot.Mode
+  - Flex.Smoothlake.FlexLib.Spot.Priority
+  - Flex.Smoothlake.FlexLib.Spot.RXFrequency
+  - Flex.Smoothlake.FlexLib.Spot.Remove
+  - Flex.Smoothlake.FlexLib.Spot.Source
+  - Flex.Smoothlake.FlexLib.Spot.SpotterCallsign
+  - Flex.Smoothlake.FlexLib.Spot.TXFrequency
+  - Flex.Smoothlake.FlexLib.Spot.Timestamp
+  - Flex.Smoothlake.FlexLib.Spot.Trigger
+  - Flex.Smoothlake.FlexLib.Spot.Trigger(Flex.Smoothlake.FlexLib.Panadapter)
+  - Flex.Smoothlake.FlexLib.Spot.TriggerAction
+  - Flex.Smoothlake.FlexLib.Spot._rxFrequency
+  - Flex.Smoothlake.FlexLib.Spot._txFrequency
+  langs:
+  - csharp
+  - vb
+  name: Spot
+  nameWithType: Spot
+  fullName: Flex.Smoothlake.FlexLib.Spot
+  type: Class
+  source:
+    id: Spot
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 24
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class Spot : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class Spot Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.Spot.#ctor
+  commentId: M:Flex.Smoothlake.FlexLib.Spot.#ctor
+  id: '#ctor'
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Spot()
+  nameWithType: Spot.Spot()
+  fullName: Flex.Smoothlake.FlexLib.Spot.Spot()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 45
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    This constructor is intended to be used to populate a Spot object prior to
+
+    requesting it from the radio using the Radio.RequestSpot function.  Note that
+
+    the resulting status messages from the radio will create a new Spot object
+
+    that contains a Radio reference and an index.
+  example: []
+  syntax:
+    content: public Spot()
+    content.vb: Public Sub New()
+  overload: Flex.Smoothlake.FlexLib.Spot.#ctor*
+  nameWithType.vb: Spot.New()
+  fullName.vb: Flex.Smoothlake.FlexLib.Spot.New()
+  name.vb: New()
+- uid: Flex.Smoothlake.FlexLib.Spot.Remove
+  commentId: M:Flex.Smoothlake.FlexLib.Spot.Remove
+  id: Remove
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Remove()
+  nameWithType: Spot.Remove()
+  fullName: Flex.Smoothlake.FlexLib.Spot.Remove()
+  type: Method
+  source:
+    id: Remove
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 54
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Removes a spot from the radio.  Note that only upon the resulting status
+
+    message from the radio will the SpotRemoved event fire from the Radio object.
+  example: []
+  syntax:
+    content: public void Remove()
+    content.vb: Public Sub Remove()
+  overload: Flex.Smoothlake.FlexLib.Spot.Remove*
+- uid: Flex.Smoothlake.FlexLib.Spot.Index
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Index
+  id: Index
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Spot.Index
+  fullName: Flex.Smoothlake.FlexLib.Spot.Index
+  type: Property
+  source:
+    id: Index
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 71
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The radio's reference to spot object.  When this is -1, it is assumed
+
+    that the FlexLib object exists only on the client side (as opposed to
+
+    a Spot object about which the radio is aware.
+  example: []
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: Flex.Smoothlake.FlexLib.Spot.Index*
+- uid: Flex.Smoothlake.FlexLib.Spot._rxFrequency
+  commentId: F:Flex.Smoothlake.FlexLib.Spot._rxFrequency
+  id: _rxFrequency
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: _rxFrequency
+  nameWithType: Spot._rxFrequency
+  fullName: Flex.Smoothlake.FlexLib.Spot._rxFrequency
+  type: Field
+  source:
+    id: _rxFrequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 76
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double _rxFrequency
+    return:
+      type: System.Double
+    content.vb: Public _rxFrequency As Double
+- uid: Flex.Smoothlake.FlexLib.Spot.RXFrequency
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.RXFrequency
+  id: RXFrequency
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: RXFrequency
+  nameWithType: Spot.RXFrequency
+  fullName: Flex.Smoothlake.FlexLib.Spot.RXFrequency
+  type: Property
+  source:
+    id: RXFrequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 80
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The frequency to be used to place the Spot.  If no TXFrequency is set, this is the assumed TX Frequency (simplex).
+  example: []
+  syntax:
+    content: public double RXFrequency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RXFrequency As Double
+  overload: Flex.Smoothlake.FlexLib.Spot.RXFrequency*
+- uid: Flex.Smoothlake.FlexLib.Spot._txFrequency
+  commentId: F:Flex.Smoothlake.FlexLib.Spot._txFrequency
+  id: _txFrequency
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: _txFrequency
+  nameWithType: Spot._txFrequency
+  fullName: Flex.Smoothlake.FlexLib.Spot._txFrequency
+  type: Field
+  source:
+    id: _txFrequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 95
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double _txFrequency
+    return:
+      type: System.Double
+    content.vb: Public _txFrequency As Double
+- uid: Flex.Smoothlake.FlexLib.Spot.TXFrequency
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.TXFrequency
+  id: TXFrequency
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: TXFrequency
+  nameWithType: Spot.TXFrequency
+  fullName: Flex.Smoothlake.FlexLib.Spot.TXFrequency
+  type: Property
+  source:
+    id: TXFrequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 103
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    (optional) This field would indicate a Split spot with a different 
+
+    transmit frequency than the RX frequency.  When this field is
+
+    blank, it is assumed to be a simplex Spot where the TX Frequency
+
+    matches the RX Frequency.  Note that triggering a Spot with this
+
+    field set does not automatically create a Split Slice as of v2.3.x.
+  example: []
+  syntax:
+    content: public double TXFrequency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TXFrequency As Double
+  overload: Flex.Smoothlake.FlexLib.Spot.TXFrequency*
+- uid: Flex.Smoothlake.FlexLib.Spot.Mode
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Mode
+  id: Mode
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: Spot.Mode
+  fullName: Flex.Smoothlake.FlexLib.Spot.Mode
+  type: Property
+  source:
+    id: Mode
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 123
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The Mode specified for the Spot.  Note that this may not always be provided
+
+    and may not map directly to a DSPMode (e.g. SSB, PSK31, etc)
+  example: []
+  syntax:
+    content: public string Mode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mode As String
+  overload: Flex.Smoothlake.FlexLib.Spot.Mode*
+- uid: Flex.Smoothlake.FlexLib.Spot.Callsign
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Callsign
+  id: Callsign
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Callsign
+  nameWithType: Spot.Callsign
+  fullName: Flex.Smoothlake.FlexLib.Spot.Callsign
+  type: Property
+  source:
+    id: Callsign
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 142
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The Callsign to display for the Spot (dxcall in N1MM spot packet)
+  example: []
+  syntax:
+    content: public string Callsign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Callsign As String
+  overload: Flex.Smoothlake.FlexLib.Spot.Callsign*
+- uid: Flex.Smoothlake.FlexLib.Spot.Color
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Color
+  id: Color
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Spot.Color
+  fullName: Flex.Smoothlake.FlexLib.Spot.Color
+  type: Property
+  source:
+    id: Color
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 161
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: '(Optional). A color represented by hex.  Typical format #AARRGGBB'
+  example: []
+  syntax:
+    content: public string Color { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Color As String
+  overload: Flex.Smoothlake.FlexLib.Spot.Color*
+- uid: Flex.Smoothlake.FlexLib.Spot.BackgroundColor
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.BackgroundColor
+  id: BackgroundColor
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: BackgroundColor
+  nameWithType: Spot.BackgroundColor
+  fullName: Flex.Smoothlake.FlexLib.Spot.BackgroundColor
+  type: Property
+  source:
+    id: BackgroundColor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 180
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: '(Optional). A color represented by hex.  Typical format #AARRGGBB'
+  example: []
+  syntax:
+    content: public string BackgroundColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BackgroundColor As String
+  overload: Flex.Smoothlake.FlexLib.Spot.BackgroundColor*
+- uid: Flex.Smoothlake.FlexLib.Spot.Source
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Source
+  id: Source
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Spot.Source
+  fullName: Flex.Smoothlake.FlexLib.Spot.Source
+  type: Property
+  source:
+    id: Source
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 200
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    A string used to identify from where the Spot came.  For example, the source
+
+    will be N1MM-[StationName] for spots that originate from N1MMSpot Ports.
+  example: []
+  syntax:
+    content: public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source As String
+  overload: Flex.Smoothlake.FlexLib.Spot.Source*
+- uid: Flex.Smoothlake.FlexLib.Spot.SpotterCallsign
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.SpotterCallsign
+  id: SpotterCallsign
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: SpotterCallsign
+  nameWithType: Spot.SpotterCallsign
+  fullName: Flex.Smoothlake.FlexLib.Spot.SpotterCallsign
+  type: Property
+  source:
+    id: SpotterCallsign
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 219
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The callsign of the spotter as is often reported on telnet.
+  example: []
+  syntax:
+    content: public string SpotterCallsign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SpotterCallsign As String
+  overload: Flex.Smoothlake.FlexLib.Spot.SpotterCallsign*
+- uid: Flex.Smoothlake.FlexLib.Spot.Timestamp
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Timestamp
+  id: Timestamp
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: Spot.Timestamp
+  fullName: Flex.Smoothlake.FlexLib.Spot.Timestamp
+  type: Property
+  source:
+    id: Timestamp
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 238
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The timestamp (UTC) of the spot as reported by the original source
+  example: []
+  syntax:
+    content: public DateTime Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Timestamp As Date
+  overload: Flex.Smoothlake.FlexLib.Spot.Timestamp*
+- uid: Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds
+  id: LifetimeSeconds
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: LifetimeSeconds
+  nameWithType: Spot.LifetimeSeconds
+  fullName: Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds
+  type: Property
+  source:
+    id: LifetimeSeconds
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 275
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    An expiration time.  After this many seconds, the Spot will automatically be
+
+    removed from the radio.  Setting this property will reset the countdown timer.
+
+    Warning: Because duplicate values are allowed to "reset" this timer, care should
+
+    be taken in the client not to create a loop where an upstream PropertyChanged
+
+    event triggers a downstream Property set call (which calls the radio, which
+
+    generates a status message, which creates another PropertyChanged event...).
+  example: []
+  syntax:
+    content: public int LifetimeSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LifetimeSeconds As Integer
+  overload: Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds*
+- uid: Flex.Smoothlake.FlexLib.Spot.Comment
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Comment
+  id: Comment
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: Spot.Comment
+  fullName: Flex.Smoothlake.FlexLib.Spot.Comment
+  type: Property
+  source:
+    id: Comment
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 294
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The Spot comment as provided by the original Spot source.
+  example: []
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: Flex.Smoothlake.FlexLib.Spot.Comment*
+- uid: Flex.Smoothlake.FlexLib.Spot.Priority
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.Priority
+  id: Priority
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: Spot.Priority
+  fullName: Flex.Smoothlake.FlexLib.Spot.Priority
+  type: Property
+  source:
+    id: Priority
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 314
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The integer (1:higher-5:lower) priority of the Spot perhaps due to multipliers, etc.  Higher
+
+    priority Spots will be shown lower on the Panadapter.
+  example: []
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Flex.Smoothlake.FlexLib.Spot.Priority*
+- uid: Flex.Smoothlake.FlexLib.Spot.TriggerAction
+  commentId: P:Flex.Smoothlake.FlexLib.Spot.TriggerAction
+  id: TriggerAction
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: TriggerAction
+  nameWithType: Spot.TriggerAction
+  fullName: Flex.Smoothlake.FlexLib.Spot.TriggerAction
+  type: Property
+  source:
+    id: TriggerAction
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 336
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    The action for the radio to take when a Spot is triggered (clicked in SmartSDR).
+
+    The supported actions today are "tune" and "none".  The assumption is that a
+
+    client that sets a Spot to "none" will likely be implementing their own
+
+    functionality that tuning might interfere with.
+  example: []
+  syntax:
+    content: public string TriggerAction { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TriggerAction As String
+  overload: Flex.Smoothlake.FlexLib.Spot.TriggerAction*
+- uid: Flex.Smoothlake.FlexLib.Spot.Trigger
+  commentId: M:Flex.Smoothlake.FlexLib.Spot.Trigger
+  id: Trigger
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Trigger()
+  nameWithType: Spot.Trigger()
+  fullName: Flex.Smoothlake.FlexLib.Spot.Trigger()
+  type: Method
+  source:
+    id: Trigger
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 351
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: A parameterless version of the Spot Trigger
+  example: []
+  syntax:
+    content: public void Trigger()
+    content.vb: Public Sub Trigger()
+  overload: Flex.Smoothlake.FlexLib.Spot.Trigger*
+- uid: Flex.Smoothlake.FlexLib.Spot.Trigger(Flex.Smoothlake.FlexLib.Panadapter)
+  commentId: M:Flex.Smoothlake.FlexLib.Spot.Trigger(Flex.Smoothlake.FlexLib.Panadapter)
+  id: Trigger(Flex.Smoothlake.FlexLib.Panadapter)
+  parent: Flex.Smoothlake.FlexLib.Spot
+  langs:
+  - csharp
+  - vb
+  name: Trigger(Panadapter)
+  nameWithType: Spot.Trigger(Panadapter)
+  fullName: Flex.Smoothlake.FlexLib.Spot.Trigger(Flex.Smoothlake.FlexLib.Panadapter)
+  type: Method
+  source:
+    id: Trigger
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Spot.cs
+    startLine: 363
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: >-
+    Gets called when the Spot is interacted with (e.g. Clicked in SmartSDR) and
+
+    could be called to simulate a Spot being Clicked.
+  example: []
+  syntax:
+    content: public void Trigger(Panadapter pan)
+    parameters:
+    - id: pan
+      type: Flex.Smoothlake.FlexLib.Panadapter
+      description: A reference to the Panadapter to use for any actions like tuning.
+    content.vb: Public Sub Trigger(pan As Panadapter)
+  overload: Flex.Smoothlake.FlexLib.Spot.Trigger*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Spot.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.#ctor
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot__ctor
+  name: Spot
+  nameWithType: Spot.Spot
+  fullName: Flex.Smoothlake.FlexLib.Spot.Spot
+  nameWithType.vb: Spot.New
+  fullName.vb: Flex.Smoothlake.FlexLib.Spot.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.Spot.Remove*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Remove
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Remove
+  name: Remove
+  nameWithType: Spot.Remove
+  fullName: Flex.Smoothlake.FlexLib.Spot.Remove
+- uid: Flex.Smoothlake.FlexLib.Spot.Index*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Index
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Index
+  name: Index
+  nameWithType: Spot.Index
+  fullName: Flex.Smoothlake.FlexLib.Spot.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.Spot.RXFrequency*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.RXFrequency
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_RXFrequency
+  name: RXFrequency
+  nameWithType: Spot.RXFrequency
+  fullName: Flex.Smoothlake.FlexLib.Spot.RXFrequency
+- uid: Flex.Smoothlake.FlexLib.Spot.TXFrequency*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.TXFrequency
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_TXFrequency
+  name: TXFrequency
+  nameWithType: Spot.TXFrequency
+  fullName: Flex.Smoothlake.FlexLib.Spot.TXFrequency
+- uid: Flex.Smoothlake.FlexLib.Spot.Mode*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Mode
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Mode
+  name: Mode
+  nameWithType: Spot.Mode
+  fullName: Flex.Smoothlake.FlexLib.Spot.Mode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.Spot.Callsign*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Callsign
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Callsign
+  name: Callsign
+  nameWithType: Spot.Callsign
+  fullName: Flex.Smoothlake.FlexLib.Spot.Callsign
+- uid: Flex.Smoothlake.FlexLib.Spot.Color*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Color
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Color
+  name: Color
+  nameWithType: Spot.Color
+  fullName: Flex.Smoothlake.FlexLib.Spot.Color
+- uid: Flex.Smoothlake.FlexLib.Spot.BackgroundColor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.BackgroundColor
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_BackgroundColor
+  name: BackgroundColor
+  nameWithType: Spot.BackgroundColor
+  fullName: Flex.Smoothlake.FlexLib.Spot.BackgroundColor
+- uid: Flex.Smoothlake.FlexLib.Spot.Source*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Source
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Source
+  name: Source
+  nameWithType: Spot.Source
+  fullName: Flex.Smoothlake.FlexLib.Spot.Source
+- uid: Flex.Smoothlake.FlexLib.Spot.SpotterCallsign*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.SpotterCallsign
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_SpotterCallsign
+  name: SpotterCallsign
+  nameWithType: Spot.SpotterCallsign
+  fullName: Flex.Smoothlake.FlexLib.Spot.SpotterCallsign
+- uid: Flex.Smoothlake.FlexLib.Spot.Timestamp*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Timestamp
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Timestamp
+  name: Timestamp
+  nameWithType: Spot.Timestamp
+  fullName: Flex.Smoothlake.FlexLib.Spot.Timestamp
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_LifetimeSeconds
+  name: LifetimeSeconds
+  nameWithType: Spot.LifetimeSeconds
+  fullName: Flex.Smoothlake.FlexLib.Spot.LifetimeSeconds
+- uid: Flex.Smoothlake.FlexLib.Spot.Comment*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Comment
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Comment
+  name: Comment
+  nameWithType: Spot.Comment
+  fullName: Flex.Smoothlake.FlexLib.Spot.Comment
+- uid: Flex.Smoothlake.FlexLib.Spot.Priority*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Priority
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Priority
+  name: Priority
+  nameWithType: Spot.Priority
+  fullName: Flex.Smoothlake.FlexLib.Spot.Priority
+- uid: Flex.Smoothlake.FlexLib.Spot.TriggerAction*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.TriggerAction
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_TriggerAction
+  name: TriggerAction
+  nameWithType: Spot.TriggerAction
+  fullName: Flex.Smoothlake.FlexLib.Spot.TriggerAction
+- uid: Flex.Smoothlake.FlexLib.Spot.Trigger*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Spot.Trigger
+  href: Flex.Smoothlake.FlexLib.Spot.html#Flex_Smoothlake_FlexLib_Spot_Trigger
+  name: Trigger
+  nameWithType: Spot.Trigger
+  fullName: Flex.Smoothlake.FlexLib.Spot.Trigger
+- uid: Flex.Smoothlake.FlexLib.Panadapter
+  commentId: T:Flex.Smoothlake.FlexLib.Panadapter
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Panadapter.html
+  name: Panadapter
+  nameWithType: Panadapter
+  fullName: Flex.Smoothlake.FlexLib.Panadapter

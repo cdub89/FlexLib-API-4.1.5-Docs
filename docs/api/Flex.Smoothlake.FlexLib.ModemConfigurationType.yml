@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  commentId: T:Flex.Smoothlake.FlexLib.ModemConfigurationType
+  id: ModemConfigurationType
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemCopro
+  - Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemIndependent
+  - Flex.Smoothlake.FlexLib.ModemConfigurationType.SingleModem
+  - Flex.Smoothlake.FlexLib.ModemConfigurationType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ModemConfigurationType
+  nameWithType: ModemConfigurationType
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  type: Enum
+  source:
+    id: ModemConfigurationType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ModelInfo.cs
+    startLine: 20
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum ModemConfigurationType
+    content.vb: Public Enum ModemConfigurationType
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType.Unknown
+  commentId: F:Flex.Smoothlake.FlexLib.ModemConfigurationType.Unknown
+  id: Unknown
+  parent: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ModemConfigurationType.Unknown
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ModelInfo.cs
+    startLine: 22
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.ModemConfigurationType
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType.SingleModem
+  commentId: F:Flex.Smoothlake.FlexLib.ModemConfigurationType.SingleModem
+  id: SingleModem
+  parent: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  langs:
+  - csharp
+  - vb
+  name: SingleModem
+  nameWithType: ModemConfigurationType.SingleModem
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType.SingleModem
+  type: Field
+  source:
+    id: SingleModem
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ModelInfo.cs
+    startLine: 23
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SingleModem = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.ModemConfigurationType
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemCopro
+  commentId: F:Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemCopro
+  id: DualModemCopro
+  parent: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  langs:
+  - csharp
+  - vb
+  name: DualModemCopro
+  nameWithType: ModemConfigurationType.DualModemCopro
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemCopro
+  type: Field
+  source:
+    id: DualModemCopro
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ModelInfo.cs
+    startLine: 24
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: DualModemCopro = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.ModemConfigurationType
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemIndependent
+  commentId: F:Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemIndependent
+  id: DualModemIndependent
+  parent: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  langs:
+  - csharp
+  - vb
+  name: DualModemIndependent
+  nameWithType: ModemConfigurationType.DualModemIndependent
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType.DualModemIndependent
+  type: Field
+  source:
+    id: DualModemIndependent
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ModelInfo.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: DualModemIndependent = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.ModemConfigurationType
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.ModemConfigurationType
+  commentId: T:Flex.Smoothlake.FlexLib.ModemConfigurationType
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ModemConfigurationType.html
+  name: ModemConfigurationType
+  nameWithType: ModemConfigurationType
+  fullName: Flex.Smoothlake.FlexLib.ModemConfigurationType

@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  id: Radio.UDPVitaPacket
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.#ctor(System.Net.IPEndPoint,System.Byte[],System.Int32)
+  - Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes
+  - Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data
+  - Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep
+  langs:
+  - csharp
+  - vb
+  name: Radio.UDPVitaPacket
+  nameWithType: Radio.UDPVitaPacket
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  type: Class
+  source:
+    id: UDPVitaPacket
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 14254
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public class Radio.UDPVitaPacket
+    content.vb: Public Class Radio.UDPVitaPacket
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep
+  commentId: P:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep
+  id: Ep
+  parent: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  langs:
+  - csharp
+  - vb
+  name: Ep
+  nameWithType: Radio.UDPVitaPacket.Ep
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep
+  type: Property
+  source:
+    id: Ep
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 14256
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public IPEndPoint Ep { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPEndPoint
+    content.vb: Public Property Ep As IPEndPoint
+  overload: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep*
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data
+  commentId: P:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data
+  id: Data
+  parent: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: Radio.UDPVitaPacket.Data
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data
+  type: Property
+  source:
+    id: Data
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 14257
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public byte[] Data { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data*
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes
+  commentId: P:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes
+  id: Bytes
+  parent: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: Radio.UDPVitaPacket.Bytes
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes
+  type: Property
+  source:
+    id: Bytes
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 14258
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Bytes As Integer
+  overload: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes*
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.#ctor(System.Net.IPEndPoint,System.Byte[],System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.#ctor(System.Net.IPEndPoint,System.Byte[],System.Int32)
+  id: '#ctor(System.Net.IPEndPoint,System.Byte[],System.Int32)'
+  parent: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket
+  langs:
+  - csharp
+  - vb
+  name: UDPVitaPacket(IPEndPoint, byte[], int)
+  nameWithType: Radio.UDPVitaPacket.UDPVitaPacket(IPEndPoint, byte[], int)
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.UDPVitaPacket(System.Net.IPEndPoint, byte[], int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 14261
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public UDPVitaPacket(IPEndPoint ep, byte[] data, int bytes)
+    parameters:
+    - id: ep
+      type: System.Net.IPEndPoint
+    - id: data
+      type: System.Byte[]
+    - id: bytes
+      type: System.Int32
+    content.vb: Public Sub New(ep As IPEndPoint, data As Byte(), bytes As Integer)
+  overload: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.#ctor*
+  nameWithType.vb: Radio.UDPVitaPacket.New(IPEndPoint, Byte(), Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.New(System.Net.IPEndPoint, Byte(), Integer)
+  name.vb: New(IPEndPoint, Byte(), Integer)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep
+  href: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.html#Flex_Smoothlake_FlexLib_Radio_UDPVitaPacket_Ep
+  name: Ep
+  nameWithType: Radio.UDPVitaPacket.Ep
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Ep
+- uid: System.Net.IPEndPoint
+  commentId: T:System.Net.IPEndPoint
+  parent: System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.ipendpoint
+  name: IPEndPoint
+  nameWithType: IPEndPoint
+  fullName: System.Net.IPEndPoint
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data
+  href: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.html#Flex_Smoothlake_FlexLib_Radio_UDPVitaPacket_Data
+  name: Data
+  nameWithType: Radio.UDPVitaPacket.Data
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Data
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes
+  href: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.html#Flex_Smoothlake_FlexLib_Radio_UDPVitaPacket_Bytes
+  name: Bytes
+  nameWithType: Radio.UDPVitaPacket.Bytes
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.Bytes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.#ctor
+  href: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.html#Flex_Smoothlake_FlexLib_Radio_UDPVitaPacket__ctor_System_Net_IPEndPoint_System_Byte___System_Int32_
+  name: UDPVitaPacket
+  nameWithType: Radio.UDPVitaPacket.UDPVitaPacket
+  fullName: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.UDPVitaPacket
+  nameWithType.vb: Radio.UDPVitaPacket.New
+  fullName.vb: Flex.Smoothlake.FlexLib.Radio.UDPVitaPacket.New
+  name.vb: New

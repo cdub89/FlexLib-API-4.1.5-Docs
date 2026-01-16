@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Migration Guide | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Migration Guide | FlexLib API Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="migration-guide">Migration Guide</h1>
+
+<p>This guide helps you upgrade from previous versions of FlexLib to the current version (4.1.5.39794).</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#version-4x-to-415">Version 4.x to 4.1.5</a></li>
+<li><a href="#version-3x-to-4x">Version 3.x to 4.x</a></li>
+<li><a href="#breaking-changes">Breaking Changes</a></li>
+<li><a href="#new-features">New Features</a></li>
+<li><a href="#deprecated-apis">Deprecated APIs</a></li>
+<li><a href="#common-migration-issues">Common Migration Issues</a></li>
+</ul>
+<hr>
+<h2 id="version-4x-to-415">Version 4.x to 4.1.5</h2>
+<h3 id="summary">Summary</h3>
+<p>This is primarily a maintenance release with framework updates and bug fixes.</p>
+<h3 id="target-framework-changes">Target Framework Changes</h3>
+<p><strong>Previous</strong>:</p>
+<ul>
+<li>.NET Framework 4.6.2</li>
+</ul>
+<p><strong>Current</strong>:</p>
+<ul>
+<li>.NET Framework 4.6.2</li>
+<li>.NET 8.0 (new)</li>
+</ul>
+<h3 id="multi-targeting-support">Multi-Targeting Support</h3>
+<p>FlexLib now supports both .NET Framework 4.6.2 and .NET 8.0.</p>
+<p><strong>Migration Steps</strong>:</p>
+<ol>
+<li>Update your project to target .NET 8.0 (recommended):</li>
+</ol>
+<pre><code class="lang-xml">&lt;PropertyGroup&gt;
+  &lt;TargetFramework&gt;net8.0-windows&lt;/TargetFramework&gt;
+&lt;/PropertyGroup&gt;
+</code></pre>
+<ol start="2">
+<li>Or continue using .NET Framework 4.6.2:</li>
+</ol>
+<pre><code class="lang-xml">&lt;PropertyGroup&gt;
+  &lt;TargetFramework&gt;net462&lt;/TargetFramework&gt;
+&lt;/PropertyGroup&gt;
+</code></pre>
+<h3 id="dependency-updates">Dependency Updates</h3>
+<p><strong>Updated NuGet Packages</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Old Version</th>
+<th>New Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AsyncAwaitBestPractices</td>
+<td>7.x</td>
+<td>9.0.0</td>
+</tr>
+<tr>
+<td>System.Collections.Immutable</td>
+<td>6.x</td>
+<td>9.0.0</td>
+</tr>
+<tr>
+<td>Newtonsoft.Json</td>
+<td>13.0.1</td>
+<td>13.0.3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Action Required</strong>: Update your application's dependencies if you reference these packages directly.</p>
+<pre><code class="lang-bash">dotnet add package AsyncAwaitBestPractices --version 9.0.0
+dotnet add package System.Collections.Immutable --version 9.0.0
+</code></pre>
+<h3 id="c-language-version">C# Language Version</h3>
+<p><strong>Current</strong>: Uses default C# language version (C# 12 for .NET 8.0).</p>
+<p><strong>Features Now Available</strong> (if targeting .NET 8.0):</p>
+<ul>
+<li>Primary constructors</li>
+<li>Collection expressions</li>
+<li><code>ref readonly</code> parameters</li>
+<li>Lambda default parameters</li>
+</ul>
+<p><strong>Example using new C# 12 features</strong>:</p>
+<pre><code class="lang-csharp">// Primary constructor (now used in RadioInfo struct)
+private readonly struct RadioInfo(Radio radio)
+{
+    public Radio Radio { get; } = radio;
+    public Stopwatch Timer { get; } = Stopwatch.StartNew();
+}
+</code></pre>
+<h3 id="api-changes">API Changes</h3>
+<p><strong>No Breaking API Changes</strong>: All existing APIs remain compatible.</p>
+<p><strong>Minor Changes</strong>:</p>
+<ul>
+<li>Internal optimizations to use immutable collections</li>
+<li>Improved thread safety in discovery</li>
+<li>Better resource cleanup</li>
+</ul>
+<hr>
+<h2 id="version-3x-to-4x">Version 3.x to 4.x</h2>
+<p>This was a major version update with significant changes.</p>
+<h3 id="breaking-changes">Breaking Changes</h3>
+<h4 id="1-namespace-changes">1. Namespace Changes</h4>
+<p><strong>Old</strong>:</p>
+<pre><code class="lang-csharp">using FlexLib;
+</code></pre>
+<p><strong>New</strong>:</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+</code></pre>
+<p><strong>Migration</strong>: Update all using statements in your code.</p>
+<pre><code class="lang-bash"># Find and replace in your project
+Old: &quot;using FlexLib;&quot;
+New: &quot;using Flex.Smoothlake.FlexLib;&quot;
+</code></pre>
+<hr>
+<h4 id="2-radio-discovery-changes">2. Radio Discovery Changes</h4>
+<p><strong>Old (v3.x)</strong>:</p>
+<pre><code class="lang-csharp">// Discovery was manual
+Discovery.Start();
+Discovery.RadioDiscovered += OnRadioDiscovered;
+
+void OnRadioDiscovered(Radio radio)
+{
+    // Handle radio
+}
+</code></pre>
+<p><strong>New (v4.x)</strong>:</p>
+<pre><code class="lang-csharp">// Use API class for discovery
+API.Init(); // Starts discovery automatically
+
+API.RadioAdded += (radio) =&gt;
+{
+    // Handle radio
+};
+</code></pre>
+<p><strong>Migration Steps</strong>:</p>
+<ol>
+<li>Replace <code>Discovery.Start()</code> with <code>API.Init()</code></li>
+<li>Change event subscription from <code>Discovery.RadioDiscovered</code> to <code>API.RadioAdded</code></li>
+<li>Access radios via <code>API.RadioList</code> instead of maintaining your own list</li>
+</ol>
+<hr>
+<h4 id="3-connection-method-changes">3. Connection Method Changes</h4>
+<p><strong>Old (v3.x)</strong>:</p>
+<pre><code class="lang-csharp">radio.Connect(&quot;192.168.1.100&quot;);
+</code></pre>
+<p><strong>New (v4.x)</strong>:</p>
+<pre><code class="lang-csharp">// Connection uses existing discovery information
+radio.Connect(); // No IP parameter needed
+</code></pre>
+<p><strong>Migration</strong>: Remove IP address parameters from <code>Connect()</code> calls.</p>
+<hr>
+<h4 id="4-slice-management">4. Slice Management</h4>
+<p><strong>Old (v3.x)</strong>:</p>
+<pre><code class="lang-csharp">Slice slice = radio.CreateSlice();
+</code></pre>
+<p><strong>New (v4.x)</strong>:</p>
+<pre><code class="lang-csharp">// Request slice from radio
+radio.RequestSliceFromRadio();
+
+// Wait for slice to be created
+// Subscribe to SliceAdded event or check SliceList
+</code></pre>
+<p><strong>Migration Example</strong>:</p>
+<pre><code class="lang-csharp">// Old way
+Slice slice = radio.CreateSlice();
+slice.Freq = 14.200;
+
+// New way
+radio.SliceAdded += (slice) =&gt;
+{
+    slice.Freq = 14.200;
+};
+radio.RequestSliceFromRadio();
+
+// Or wait and check
+radio.RequestSliceFromRadio();
+await Task.Delay(500);
+var slice = radio.SliceList.FirstOrDefault();
+</code></pre>
+<hr>
+<h4 id="5-audio-stream-changes">5. Audio Stream Changes</h4>
+<p><strong>Old (v3.x)</strong>:</p>
+<pre><code class="lang-csharp">AudioStream stream = new AudioStream(radio, 1);
+stream.DataAvailable += OnAudioData;
+</code></pre>
+<p><strong>New (v4.x)</strong>:</p>
+<pre><code class="lang-csharp">DAXRXAudioStream stream = radio.CreateDAXRXAudioStream(1);
+stream.DataReady += OnAudioData;
+stream.Start();
+</code></pre>
+<p><strong>Migration</strong>:</p>
+<ul>
+<li>Use factory methods on Radio class</li>
+<li>Rename event from <code>DataAvailable</code> to <code>DataReady</code></li>
+<li>Call <code>Start()</code> explicitly</li>
+</ul>
+<hr>
+<h4 id="6-property-name-changes">6. Property Name Changes</h4>
+<p>Some properties were renamed for clarity:</p>
+<table>
+<thead>
+<tr>
+<th>Old Name (v3.x)</th>
+<th>New Name (v4.x)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Radio.IsConnected</code></td>
+<td><code>Radio.Connected</code></td>
+</tr>
+<tr>
+<td><code>Slice.Frequency</code></td>
+<td><code>Slice.Freq</code></td>
+</tr>
+<tr>
+<td><code>Slice.RxAntenna</code></td>
+<td><code>Slice.RXAnt</code></td>
+</tr>
+<tr>
+<td><code>Slice.TxAntenna</code></td>
+<td><code>Slice.TXAnt</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Migration</strong>: Update property references.</p>
+<pre><code class="lang-csharp">// Old
+if (radio.IsConnected)
+    slice.Frequency = 14.200;
+
+// New
+if (radio.Connected)
+    slice.Freq = 14.200;
+</code></pre>
+<hr>
+<h3 id="new-features-in-4x">New Features in 4.x</h3>
+<h4 id="1-wan-server-support">1. WAN Server Support</h4>
+<p>Remote radio access over internet:</p>
+<pre><code class="lang-csharp">// Enable WAN connection
+WanServer.Connect(&quot;your-wan-server-url&quot;);
+
+// Access remote radios
+foreach (var radio in API.RadioList)
+{
+    if (radio.IsWan)
+    {
+        // This is a remote radio
+    }
+}
+</code></pre>
+<h4 id="2-enhanced-meter-system">2. Enhanced Meter System</h4>
+<p>More meters and better data:</p>
+<pre><code class="lang-csharp">radio.MeterAdded += (meter) =&gt;
+{
+    Console.WriteLine($&quot;New meter: {meter.Name}&quot;);
+    
+    meter.DataReady += (data) =&gt;
+    {
+        // New: More detailed meter data
+        Console.WriteLine($&quot;{meter.Name}: {data.Value} (units: {meter.Units})&quot;);
+    };
+};
+</code></pre>
+<h4 id="3-multiple-panadapter-support">3. Multiple Panadapter Support</h4>
+<pre><code class="lang-csharp">// Create multiple panadapters
+radio.RequestPanadapter();
+radio.RequestPanadapter();
+
+// Access all panadapters
+foreach (var pan in radio.PanadapterList)
+{
+    pan.CenterFreq = 14.200;
+}
+</code></pre>
+<h4 id="4-ale-support">4. ALE Support</h4>
+<p>Automatic Link Establishment:</p>
+<pre><code class="lang-csharp">// ALE 2G, 3G, 4G support
+var ale = radio.ALE2GList.FirstOrDefault();
+if (ale != null)
+{
+    // Configure ALE
+}
+</code></pre>
+<h4 id="5-usb-cable-control">5. USB Cable Control</h4>
+<p>New cable control interfaces:</p>
+<pre><code class="lang-csharp">// USB cable support
+var catCable = radio.UsbCatCableList.FirstOrDefault();
+var bcdCable = radio.UsbBcdCableList.FirstOrDefault();
+var ldpaCable = radio.UsbLdpaCableList.FirstOrDefault();
+</code></pre>
+<h4 id="6-improved-equalizer">6. Improved Equalizer</h4>
+<p>Enhanced audio EQ:</p>
+<pre><code class="lang-csharp">var eq = radio.EQList.FirstOrDefault();
+if (eq != null)
+{
+    eq.Mode = &quot;rx&quot;;
+    eq.SetLevel(0, -5); // Band 0, -5 dB
+}
+</code></pre>
+<hr>
+<h2 id="breaking-changes-summary">Breaking Changes Summary</h2>
+<h3 id="immediate-action-required">Immediate Action Required</h3>
+<ol>
+<li><strong>Update namespaces</strong>: <code>FlexLib</code> → <code>Flex.Smoothlake.FlexLib</code></li>
+<li><strong>Update discovery</strong>: Use <code>API.Init()</code> instead of <code>Discovery.Start()</code></li>
+<li><strong>Update connections</strong>: Remove IP parameters from <code>Connect()</code></li>
+<li><strong>Update slice creation</strong>: Use <code>RequestSliceFromRadio()</code> instead of <code>CreateSlice()</code></li>
+<li><strong>Update property names</strong>: See table above</li>
+</ol>
+<h3 id="code-changes-example">Code Changes Example</h3>
+<p><strong>Before (v3.x)</strong>:</p>
+<pre><code class="lang-csharp">using FlexLib;
+
+class Program
+{
+    static void Main()
+    {
+        Discovery.Start();
+        Discovery.RadioDiscovered += (radio) =&gt;
+        {
+            radio.Connect(&quot;192.168.1.100&quot;);
+            
+            if (radio.IsConnected)
+            {
+                Slice slice = radio.CreateSlice();
+                slice.Frequency = 14.200;
+            }
+        };
+    }
+}
+</code></pre>
+<p><strong>After (v4.x)</strong>:</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+
+class Program
+{
+    static async Task Main()
+    {
+        API.ProgramName = &quot;MyApp&quot;;
+        API.Init();
+        
+        API.RadioAdded += async (radio) =&gt;
+        {
+            radio.Connect();
+            
+            // Wait for connection
+            for (int i = 0; i &lt; 50 &amp;&amp; !radio.Connected; i++)
+                await Task.Delay(100);
+            
+            if (radio.Connected)
+            {
+                radio.RequestSliceFromRadio();
+                await Task.Delay(500);
+                
+                var slice = radio.SliceList.FirstOrDefault();
+                if (slice != null)
+                    slice.Freq = 14.200;
+            }
+        };
+        
+        await Task.Delay(-1);
+    }
+}
+</code></pre>
+<hr>
+<h2 id="deprecated-apis">Deprecated APIs</h2>
+<h3 id="removed-in-4x">Removed in 4.x</h3>
+<p>These APIs were removed and have no direct replacement:</p>
+<ul>
+<li><code>Radio.CreateSlice()</code> - Use <code>RequestSliceFromRadio()</code></li>
+<li><code>Discovery.Start()</code> - Use <code>API.Init()</code></li>
+<li><code>Discovery.Stop()</code> - Use <code>API.CloseSession()</code></li>
+</ul>
+<h3 id="deprecated-still-available">Deprecated (Still Available)</h3>
+<p>These APIs still work but are discouraged:</p>
+<ul>
+<li>Direct property modification without events</li>
+<li>Manual radio list management</li>
+<li>Direct socket access</li>
+</ul>
+<p><strong>Recommended Alternatives</strong>:</p>
+<ul>
+<li>Use events for all updates</li>
+<li>Use <code>API.RadioList</code></li>
+<li>Use high-level API methods</li>
+</ul>
+<hr>
+<h2 id="common-migration-issues">Common Migration Issues</h2>
+<h3 id="issue-1-type-or-namespace-flexlib-could-not-be-found">Issue 1: &quot;Type or namespace 'FlexLib' could not be found&quot;</h3>
+<p><strong>Cause</strong>: Namespace changed in v4.x</p>
+<p><strong>Solution</strong>: Update using statements:</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+</code></pre>
+<hr>
+<h3 id="issue-2-radio-connection-fails-immediately">Issue 2: Radio connection fails immediately</h3>
+<p><strong>Cause</strong>: Old connection pattern used.</p>
+<p><strong>Solution</strong>: Don't pass IP address:</p>
+<pre><code class="lang-csharp">// Wrong
+radio.Connect(&quot;192.168.1.100&quot;);
+
+// Correct
+radio.Connect();
+</code></pre>
+<hr>
+<h3 id="issue-3-slice-is-null-after-creation">Issue 3: Slice is null after creation</h3>
+<p><strong>Cause</strong>: Not waiting for asynchronous slice creation.</p>
+<p><strong>Solution</strong>: Wait for slice or use event:</p>
+<pre><code class="lang-csharp">radio.SliceAdded += (slice) =&gt;
+{
+    // Use slice here
+};
+radio.RequestSliceFromRadio();
+</code></pre>
+<hr>
+<h3 id="issue-4-events-not-firing">Issue 4: Events not firing</h3>
+<p><strong>Cause</strong>: Events must be subscribed before operation.</p>
+<p><strong>Solution</strong>: Subscribe to events first:</p>
+<pre><code class="lang-csharp">// Wrong order
+API.Init();
+API.RadioAdded += OnRadioAdded; // May miss radios
+
+// Correct order
+API.RadioAdded += OnRadioAdded;
+API.Init();
+</code></pre>
+<hr>
+<h3 id="issue-5-ui-freezing-with-events">Issue 5: UI freezing with events</h3>
+<p><strong>Cause</strong>: Events fire on background threads.</p>
+<p><strong>Solution</strong>: Use Dispatcher for UI updates:</p>
+<pre><code class="lang-csharp">radio.PropertyChanged += (s, e) =&gt;
+{
+    Dispatcher.Invoke(() =&gt;
+    {
+        // Update UI here
+    });
+};
+</code></pre>
+<hr>
+<h3 id="issue-6-property-changes-not-syncing">Issue 6: Property changes not syncing</h3>
+<p><strong>Cause</strong>: Properties changed before connection established.</p>
+<p><strong>Solution</strong>: Wait for connection:</p>
+<pre><code class="lang-csharp">radio.Connect();
+
+// Wait for connection
+for (int i = 0; i &lt; 50 &amp;&amp; !radio.Connected; i++)
+    await Task.Delay(100);
+
+// Now safe to modify
+if (radio.Connected)
+{
+    slice.Freq = 14.200;
+}
+</code></pre>
+<hr>
+<h2 id="testing-your-migration">Testing Your Migration</h2>
+<h3 id="checklist">Checklist</h3>
+<ul>
+<li>[ ] All namespaces updated</li>
+<li>[ ] Discovery uses <code>API.Init()</code></li>
+<li>[ ] No IP addresses in <code>Connect()</code> calls</li>
+<li>[ ] Slice creation uses <code>RequestSliceFromRadio()</code></li>
+<li>[ ] Property names updated</li>
+<li>[ ] Event subscriptions before operations</li>
+<li>[ ] UI updates use Dispatcher</li>
+<li>[ ] Proper async/await patterns</li>
+<li>[ ] Resource cleanup with <code>API.CloseSession()</code></li>
+</ul>
+<h3 id="test-plan">Test Plan</h3>
+<ol>
+<li><strong>Discovery Test</strong>: Verify radios are found</li>
+<li><strong>Connection Test</strong>: Connect to radio successfully</li>
+<li><strong>Slice Test</strong>: Create and tune slices</li>
+<li><strong>Audio Test</strong>: Start audio streams</li>
+<li><strong>PTT Test</strong>: Transmit control works</li>
+<li><strong>Meter Test</strong>: Receive meter data</li>
+<li><strong>Cleanup Test</strong>: Proper disconnection</li>
+</ol>
+<hr>
+<h2 id="getting-help">Getting Help</h2>
+<p>If you encounter migration issues:</p>
+<ol>
+<li><strong>Check this guide</strong> - Most issues covered here</li>
+<li><strong>Review examples</strong> - See <a href="Examples.html">Examples.md</a></li>
+<li><strong>Check API reference</strong> - Full documentation available</li>
+<li><strong>Community forum</strong> - <a href="https://community.flexradio.com">https://community.flexradio.com</a></li>
+<li><strong>Technical support</strong> - support@flexradio.com</li>
+</ol>
+<hr>
+<h2 id="migration-tools">Migration Tools</h2>
+<h3 id="find-and-replace-script">Find and Replace Script</h3>
+<p>PowerShell script to help with common replacements:</p>
+<pre><code class="lang-powershell"># migrate-flexlib.ps1
+
+$replacements = @{
+    'using FlexLib;' = 'using Flex.Smoothlake.FlexLib;'
+    'Discovery.Start()' = 'API.Init()'
+    'radio.IsConnected' = 'radio.Connected'
+    'slice.Frequency' = 'slice.Freq'
+    'slice.RxAntenna' = 'slice.RXAnt'
+    'slice.TxAntenna' = 'slice.TXAnt'
+}
+
+Get-ChildItem -Path . -Filter *.cs -Recurse | ForEach-Object {
+    $content = Get-Content $_.FullName -Raw
+    $modified = $false
+    
+    foreach ($old in $replacements.Keys) {
+        if ($content -match [regex]::Escape($old)) {
+            $content = $content -replace [regex]::Escape($old), $replacements[$old]
+            $modified = $true
+        }
+    }
+    
+    if ($modified) {
+        Set-Content -Path $_.FullName -Value $content
+        Write-Host &quot;Updated: $($_.FullName)&quot;
+    }
+}
+</code></pre>
+<hr>
+<h2 id="version-history">Version History</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Release Date</th>
+<th>Major Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.1.5</td>
+<td>2024</td>
+<td>.NET 8.0 support, dependency updates</td>
+</tr>
+<tr>
+<td>4.1.0</td>
+<td>2023</td>
+<td>Bug fixes, performance improvements</td>
+</tr>
+<tr>
+<td>4.0.0</td>
+<td>2021</td>
+<td>Major refactor, new API design</td>
+</tr>
+<tr>
+<td>3.x</td>
+<td>2018-2020</td>
+<td>Original FlexLib implementation</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="summary-1">Summary</h2>
+<p>Migrating to FlexLib 4.x requires code changes but provides:</p>
+<p>✅ <strong>Better API design</strong>: More intuitive and consistent<br>
+✅ <strong>Improved performance</strong>: Better threading and resource management<br>
+✅ <strong>More features</strong>: WAN, ALE, USB cables, enhanced meters<br>
+✅ <strong>Modern .NET</strong>: .NET 8.0 support<br>
+✅ <strong>Better documentation</strong>: Comprehensive guides and examples</p>
+<p>Most migrations can be completed in a few hours with careful testing.</p>
+<hr>
+<p><strong>Questions?</strong> See <a href="Getting-Started.html">Getting Started</a> or contact support.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

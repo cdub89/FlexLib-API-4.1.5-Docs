@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+  id: WanServer.WanApplicationRegistrationInvalidEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: WanServer.WanApplicationRegistrationInvalidEventHandler
+  nameWithType: WanServer.WanApplicationRegistrationInvalidEventHandler
+  fullName: Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler
+  type: Delegate
+  source:
+    id: WanApplicationRegistrationInvalidEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 550
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void WanServer.WanApplicationRegistrationInvalidEventHandler()
+    content.vb: Public Delegate Sub WanServer.WanApplicationRegistrationInvalidEventHandler()
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html

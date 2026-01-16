@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Util
+  commentId: N:Util
+  id: Util
+  children:
+  - Util.BigCommerce
+  - Util.MathHelper
+  - Util.PortHelper
+  - Util.SmartSDRNetwork
+  langs:
+  - csharp
+  - vb
+  name: Util
+  nameWithType: Util
+  fullName: Util
+  type: Namespace
+  assemblies:
+  - Util
+references:
+- uid: Util.BigCommerce
+  commentId: T:Util.BigCommerce
+  parent: Util
+  href: Util.BigCommerce.html
+  name: BigCommerce
+  nameWithType: BigCommerce
+  fullName: Util.BigCommerce
+- uid: Util.MathHelper
+  commentId: T:Util.MathHelper
+  href: Util.MathHelper.html
+  name: MathHelper
+  nameWithType: MathHelper
+  fullName: Util.MathHelper
+- uid: Util.PortHelper
+  commentId: T:Util.PortHelper
+  href: Util.PortHelper.html
+  name: PortHelper
+  nameWithType: PortHelper
+  fullName: Util.PortHelper
+- uid: Util.SmartSDRNetwork
+  commentId: T:Util.SmartSDRNetwork
+  href: Util.SmartSDRNetwork.html
+  name: SmartSDRNetwork
+  nameWithType: SmartSDRNetwork
+  fullName: Util.SmartSDRNetwork
+- uid: Util
+  commentId: N:Util
+  href: Util.html
+  name: Util
+  nameWithType: Util
+  fullName: Util

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  id: Flex.UiWpfFramework.Mvvm
+  children:
+  - Flex.UiWpfFramework.Mvvm.DialogService
+  - Flex.UiWpfFramework.Mvvm.IDialogService
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  - Flex.UiWpfFramework.Mvvm.PropertySupport
+  - Flex.UiWpfFramework.Mvvm.RelayCommand`1
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  - Flex.UiWpfFramework.Mvvm.SortedObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  type: Namespace
+  assemblies:
+  - Flex.UiWpfFramework
+references:
+- uid: Flex.UiWpfFramework.Mvvm.DialogService
+  commentId: T:Flex.UiWpfFramework.Mvvm.DialogService
+  href: Flex.UiWpfFramework.Mvvm.DialogService.html
+  name: DialogService
+  nameWithType: DialogService
+  fullName: Flex.UiWpfFramework.Mvvm.DialogService
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService
+  commentId: T:Flex.UiWpfFramework.Mvvm.IDialogService
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html
+  name: IDialogService
+  nameWithType: IDialogService
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: Flex.UiWpfFramework.Mvvm.PropertySupport
+  commentId: T:Flex.UiWpfFramework.Mvvm.PropertySupport
+  href: Flex.UiWpfFramework.Mvvm.PropertySupport.html
+  name: PropertySupport
+  nameWithType: PropertySupport
+  fullName: Flex.UiWpfFramework.Mvvm.PropertySupport
+- uid: Flex.UiWpfFramework.Mvvm.RelayCommand`1
+  commentId: T:Flex.UiWpfFramework.Mvvm.RelayCommand`1
+  href: Flex.UiWpfFramework.Mvvm.RelayCommand-1.html
+  name: RelayCommand<T>
+  nameWithType: RelayCommand<T>
+  fullName: Flex.UiWpfFramework.Mvvm.RelayCommand<T>
+  nameWithType.vb: RelayCommand(Of T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.RelayCommand(Of T)
+  name.vb: RelayCommand(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.RelayCommand`1
+    name: RelayCommand
+    href: Flex.UiWpfFramework.Mvvm.RelayCommand-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.RelayCommand`1
+    name: RelayCommand
+    href: Flex.UiWpfFramework.Mvvm.RelayCommand-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  commentId: T:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html
+  name: SafeObservableCollection<T>
+  nameWithType: SafeObservableCollection<T>
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>
+  nameWithType.vb: SafeObservableCollection(Of T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T)
+  name.vb: SafeObservableCollection(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    name: SafeObservableCollection
+    href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    name: SafeObservableCollection
+    href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SortedObservableCollection`1
+  commentId: T:Flex.UiWpfFramework.Mvvm.SortedObservableCollection`1
+  href: Flex.UiWpfFramework.Mvvm.SortedObservableCollection-1.html
+  name: SortedObservableCollection<T>
+  nameWithType: SortedObservableCollection<T>
+  fullName: Flex.UiWpfFramework.Mvvm.SortedObservableCollection<T>
+  nameWithType.vb: SortedObservableCollection(Of T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SortedObservableCollection(Of T)
+  name.vb: SortedObservableCollection(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.SortedObservableCollection`1
+    name: SortedObservableCollection
+    href: Flex.UiWpfFramework.Mvvm.SortedObservableCollection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.SortedObservableCollection`1
+    name: SortedObservableCollection
+    href: Flex.UiWpfFramework.Mvvm.SortedObservableCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html

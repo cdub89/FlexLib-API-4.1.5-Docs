@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  commentId: T:Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  id: DisplayConfigPath.VideoOutputTechnology
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.ComponentVideo
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.CompositeVideo
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.DJpn
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.DVI
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortEmbedded
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortExternal
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.ForceUInt32
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.HD15
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.HDMI
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.Internal
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.LVDS
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.MiraCast
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.Other
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.SDI
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.SVideo
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.SdTvDongle
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiEmbedded
+  - Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiExternal
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfigPath.VideoOutputTechnology
+  nameWithType: DisplayConfigPath.VideoOutputTechnology
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  type: Enum
+  source:
+    id: VideoOutputTechnology
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 462
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public enum DisplayConfigPath.VideoOutputTechnology
+    content.vb: Public Enum DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.Other
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.Other
+  id: Other
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.Other
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.Other
+  type: Field
+  source:
+    id: Other
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 464
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Other = -1
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.HD15
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.HD15
+  id: HD15
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: HD15
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.HD15
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.HD15
+  type: Field
+  source:
+    id: HD15
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 465
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: HD15 = 0
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.SVideo
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.SVideo
+  id: SVideo
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: SVideo
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.SVideo
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.SVideo
+  type: Field
+  source:
+    id: SVideo
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 466
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: SVideo = 1
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.CompositeVideo
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.CompositeVideo
+  id: CompositeVideo
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: CompositeVideo
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.CompositeVideo
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.CompositeVideo
+  type: Field
+  source:
+    id: CompositeVideo
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 467
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: CompositeVideo = 2
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.ComponentVideo
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.ComponentVideo
+  id: ComponentVideo
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: ComponentVideo
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.ComponentVideo
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.ComponentVideo
+  type: Field
+  source:
+    id: ComponentVideo
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 468
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: ComponentVideo = 3
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DVI
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.DVI
+  id: DVI
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: DVI
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.DVI
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DVI
+  type: Field
+  source:
+    id: DVI
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 469
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DVI = 4
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.HDMI
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.HDMI
+  id: HDMI
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: HDMI
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.HDMI
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.HDMI
+  type: Field
+  source:
+    id: HDMI
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 470
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: HDMI = 5
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.LVDS
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.LVDS
+  id: LVDS
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: LVDS
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.LVDS
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.LVDS
+  type: Field
+  source:
+    id: LVDS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 471
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: LVDS = 6
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DJpn
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.DJpn
+  id: DJpn
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: DJpn
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.DJpn
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DJpn
+  type: Field
+  source:
+    id: DJpn
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 472
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DJpn = 8
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.SDI
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.SDI
+  id: SDI
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: SDI
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.SDI
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.SDI
+  type: Field
+  source:
+    id: SDI
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 473
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: SDI = 9
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortExternal
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortExternal
+  id: DisplayPortExternal
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: DisplayPortExternal
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.DisplayPortExternal
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortExternal
+  type: Field
+  source:
+    id: DisplayPortExternal
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 474
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DisplayPortExternal = 10
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortEmbedded
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortEmbedded
+  id: DisplayPortEmbedded
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: DisplayPortEmbedded
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.DisplayPortEmbedded
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.DisplayPortEmbedded
+  type: Field
+  source:
+    id: DisplayPortEmbedded
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 475
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DisplayPortEmbedded = 11
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiExternal
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiExternal
+  id: UdiExternal
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: UdiExternal
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.UdiExternal
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiExternal
+  type: Field
+  source:
+    id: UdiExternal
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 476
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: UdiExternal = 12
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiEmbedded
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiEmbedded
+  id: UdiEmbedded
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: UdiEmbedded
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.UdiEmbedded
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.UdiEmbedded
+  type: Field
+  source:
+    id: UdiEmbedded
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 477
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: UdiEmbedded = 13
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.SdTvDongle
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.SdTvDongle
+  id: SdTvDongle
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: SdTvDongle
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.SdTvDongle
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.SdTvDongle
+  type: Field
+  source:
+    id: SdTvDongle
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 478
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: SdTvDongle = 14
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.MiraCast
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.MiraCast
+  id: MiraCast
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: MiraCast
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.MiraCast
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.MiraCast
+  type: Field
+  source:
+    id: MiraCast
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 479
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: MiraCast = 15
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.Internal
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.Internal
+  id: Internal
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: Internal
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.Internal
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.Internal
+  type: Field
+  source:
+    id: Internal
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 480
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Internal = -2147483648
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology.ForceUInt32
+  commentId: F:Flex.Util.DisplayConfigPath.VideoOutputTechnology.ForceUInt32
+  id: ForceUInt32
+  parent: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  langs:
+  - csharp
+  - vb
+  name: ForceUInt32
+  nameWithType: DisplayConfigPath.VideoOutputTechnology.ForceUInt32
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology.ForceUInt32
+  type: Field
+  source:
+    id: ForceUInt32
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 481
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: ForceUInt32 = -1
+    return:
+      type: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  commentId: T:Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfigPath.html
+  name: DisplayConfigPath.VideoOutputTechnology
+  nameWithType: DisplayConfigPath.VideoOutputTechnology
+  fullName: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: VideoOutputTechnology
+    href: Flex.Util.DisplayConfigPath.VideoOutputTechnology.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfigPath
+    name: DisplayConfigPath
+    href: Flex.Util.DisplayConfigPath.html
+  - name: .
+  - uid: Flex.Util.DisplayConfigPath.VideoOutputTechnology
+    name: VideoOutputTechnology
+    href: Flex.Util.DisplayConfigPath.VideoOutputTechnology.html

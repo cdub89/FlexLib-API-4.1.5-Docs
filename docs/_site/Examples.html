@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FlexLib Code Examples | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FlexLib Code Examples | FlexLib API Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="flexlib-code-examples">FlexLib Code Examples</h1>
+
+<p>This page provides practical, real-world examples for common FlexLib programming tasks.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#basic-examples">Basic Examples</a>
+<ul>
+<li><a href="#simple-radio-controller">Simple Radio Controller</a></li>
+<li><a href="#frequency-scanner">Frequency Scanner</a></li>
+<li><a href="#multi-radio-manager">Multi-Radio Manager</a></li>
+</ul>
+</li>
+<li><a href="#advanced-examples">Advanced Examples</a>
+<ul>
+<li><a href="#audio-streaming">Audio Streaming</a></li>
+<li><a href="#panadapter-display">Panadapter Display</a></li>
+<li><a href="#digital-mode-interface">Digital Mode Interface</a></li>
+<li><a href="#remote-station-controller">Remote Station Controller</a></li>
+</ul>
+</li>
+<li><a href="#utility-examples">Utility Examples</a>
+<ul>
+<li><a href="#radio-monitor">Radio Monitor</a></li>
+<li><a href="#band-hopper">Band Hopper</a></li>
+<li><a href="#memory-manager">Memory Manager</a></li>
+<li><a href="#amplifier-controller">Amplifier Controller</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="basic-examples">Basic Examples</h2>
+<h3 id="simple-radio-controller">Simple Radio Controller</h3>
+<p>A minimal console application that connects to a radio and allows frequency control.</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace SimpleRadioController
+{
+    class Program
+    {
+        private static Radio? _radio;
+        private static Slice? _slice;
+
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine(&quot;=== Simple FlexRadio Controller ===\n&quot;);
+
+            // Initialize API
+            API.ProgramName = &quot;SimpleController&quot;;
+            API.IsGUI = false;
+            
+            API.RadioAdded += OnRadioAdded;
+            API.Init();
+
+            Console.WriteLine(&quot;Searching for radios...&quot;);
+            await Task.Delay(3000);
+
+            // Connect to first radio
+            _radio = API.RadioList.FirstOrDefault();
+            if (_radio == null)
+            {
+                Console.WriteLine(&quot;No radios found!&quot;);
+                return;
+            }
+
+            await ConnectAndSetup();
+            await CommandLoop();
+        }
+
+        static async Task ConnectAndSetup()
+        {
+            Console.WriteLine($&quot;\nConnecting to {_radio!.Nickname}...&quot;);
+            _radio.Connect();
+
+            // Wait for connection
+            for (int i = 0; i &lt; 50 &amp;&amp; !_radio.Connected; i++)
+                await Task.Delay(100);
+
+            if (!_radio.Connected)
+            {
+                Console.WriteLine(&quot;Connection failed!&quot;);
+                return;
+            }
+
+            Console.WriteLine(&quot;✓ Connected&quot;);
+
+            // Create a slice
+            _radio.RequestSliceFromRadio();
+            await Task.Delay(500);
+
+            _slice = _radio.SliceList.FirstOrDefault();
+            if (_slice != null)
+            {
+                Console.WriteLine($&quot;✓ Slice created: {_slice.Freq:F3} MHz, {_slice.Mode}&quot;);
+            }
+        }
+
+        static async Task CommandLoop()
+        {
+            Console.WriteLine(&quot;\nCommands:&quot;);
+            Console.WriteLine(&quot;  f &lt;freq&gt;  - Set frequency in MHz (e.g., f 14.200)&quot;);
+            Console.WriteLine(&quot;  m &lt;mode&gt;  - Set mode (USB, LSB, CW, etc.)&quot;);
+            Console.WriteLine(&quot;  i         - Show info&quot;);
+            Console.WriteLine(&quot;  q         - Quit&quot;);
+
+            while (true)
+            {
+                Console.Write(&quot;\n&gt; &quot;);
+                string? input = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(input)) continue;
+
+                string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length == 0) continue;
+
+                string command = parts[0].ToLower();
+
+                switch (command)
+                {
+                    case &quot;f&quot;:
+                        if (parts.Length &gt; 1 &amp;&amp; double.TryParse(parts[1], out double freq))
+                        {
+                            _slice!.Freq = freq;
+                            Console.WriteLine($&quot;Tuned to {freq:F3} MHz&quot;);
+                        }
+                        break;
+
+                    case &quot;m&quot;:
+                        if (parts.Length &gt; 1)
+                        {
+                            _slice!.Mode = parts[1].ToUpper();
+                            Console.WriteLine($&quot;Mode set to {parts[1].ToUpper()}&quot;);
+                        }
+                        break;
+
+                    case &quot;i&quot;:
+                        ShowInfo();
+                        break;
+
+                    case &quot;q&quot;:
+                        Cleanup();
+                        return;
+                }
+            }
+        }
+
+        static void ShowInfo()
+        {
+            Console.WriteLine($&quot;\n--- Radio Info ---&quot;);
+            Console.WriteLine($&quot;Model: {_radio!.Model}&quot;);
+            Console.WriteLine($&quot;Serial: {_radio.Serial}&quot;);
+            Console.WriteLine($&quot;Version: {_radio.Version}&quot;);
+            Console.WriteLine($&quot;IP: {_radio.IP}&quot;);
+            
+            if (_slice != null)
+            {
+                Console.WriteLine($&quot;\n--- Slice Info ---&quot;);
+                Console.WriteLine($&quot;Frequency: {_slice.Freq:F6} MHz&quot;);
+                Console.WriteLine($&quot;Mode: {_slice.Mode}&quot;);
+                Console.WriteLine($&quot;Filter: {_slice.FilterLow}-{_slice.FilterHigh} Hz&quot;);
+                Console.WriteLine($&quot;RX Ant: {_slice.RXAnt}&quot;);
+            }
+        }
+
+        static void OnRadioAdded(Radio radio)
+        {
+            Console.WriteLine($&quot;Found: {radio.Nickname} ({radio.Model})&quot;);
+        }
+
+        static void Cleanup()
+        {
+            Console.WriteLine(&quot;\nDisconnecting...&quot;);
+            _radio?.Disconnect();
+            API.CloseSession();
+        }
+    }
+}
+</code></pre>
+<hr>
+<h3 id="frequency-scanner">Frequency Scanner</h3>
+<p>Scans a frequency range and reports signal levels.</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace FrequencyScanner
+{
+    public class Scanner
+    {
+        private Radio? _radio;
+        private Slice? _slice;
+        private Meter? _signalMeter;
+        private double _currentSignalLevel;
+
+        public async Task&lt;List&lt;ScanResult&gt;&gt; ScanRange(
+            double startMHz,
+            double endMHz,
+            double stepKHz,
+            string mode = &quot;USB&quot;)
+        {
+            var results = new List&lt;ScanResult&gt;();
+
+            // Initialize
+            if (!await Initialize())
+                return results;
+
+            // Setup signal meter monitoring
+            SetupMeterMonitoring();
+
+            // Configure slice
+            _slice!.Mode = mode;
+            _slice.FilterLow = 200;
+            _slice.FilterHigh = 2800;
+
+            Console.WriteLine($&quot;\nScanning {startMHz:F3} - {endMHz:F3} MHz&quot;);
+            Console.WriteLine($&quot;Step: {stepKHz} kHz, Mode: {mode}\n&quot;);
+
+            double freq = startMHz;
+            int stepCount = 0;
+
+            while (freq &lt;= endMHz)
+            {
+                // Tune to frequency
+                _slice.Freq = freq;
+                
+                // Wait for signal measurement
+                await Task.Delay(200);
+
+                // Record result
+                var result = new ScanResult
+                {
+                    Frequency = freq,
+                    SignalLevel = _currentSignalLevel,
+                    Mode = mode,
+                    Timestamp = DateTime.UtcNow
+                };
+                results.Add(result);
+
+                // Display progress
+                stepCount++;
+                if (stepCount % 10 == 0)
+                {
+                    Console.WriteLine($&quot;Scanned: {freq:F3} MHz - Signal: {_currentSignalLevel:F1} dB&quot;);
+                }
+
+                // Move to next frequency
+                freq += (stepKHz / 1000.0);
+            }
+
+            Console.WriteLine($&quot;\nScan complete. {results.Count} frequencies scanned.&quot;);
+
+            // Show top signals
+            var topSignals = results
+                .OrderByDescending(r =&gt; r.SignalLevel)
+                .Take(10)
+                .ToList();
+
+            Console.WriteLine(&quot;\nTop 10 Signals:&quot;);
+            foreach (var signal in topSignals)
+            {
+                Console.WriteLine($&quot;  {signal.Frequency:F3} MHz: {signal.SignalLevel:F1} dB&quot;);
+            }
+
+            Cleanup();
+            return results;
+        }
+
+        private async Task&lt;bool&gt; Initialize()
+        {
+            API.ProgramName = &quot;FrequencyScanner&quot;;
+            API.IsGUI = false;
+            API.Init();
+
+            await Task.Delay(2000);
+
+            _radio = API.RadioList.FirstOrDefault();
+            if (_radio == null)
+            {
+                Console.WriteLine(&quot;No radio found!&quot;);
+                return false;
+            }
+
+            _radio.Connect();
+            for (int i = 0; i &lt; 50 &amp;&amp; !_radio.Connected; i++)
+                await Task.Delay(100);
+
+            if (!_radio.Connected)
+            {
+                Console.WriteLine(&quot;Connection failed!&quot;);
+                return false;
+            }
+
+            _radio.RequestSliceFromRadio();
+            await Task.Delay(500);
+
+            _slice = _radio.SliceList.FirstOrDefault();
+            if (_slice == null)
+            {
+                Console.WriteLine(&quot;Failed to create slice!&quot;);
+                return false;
+            }
+
+            return true;
+        }
+
+        private void SetupMeterMonitoring()
+        {
+            _radio!.MeterAdded += (meter) =&gt;
+            {
+                if (meter.Name == &quot;SIGNAL&quot; || meter.Name.Contains(&quot;SIGNAL&quot;))
+                {
+                    _signalMeter = meter;
+                    meter.DataReady += (data) =&gt;
+                    {
+                        _currentSignalLevel = data.Value;
+                    };
+                }
+            };
+        }
+
+        private void Cleanup()
+        {
+            _radio?.Disconnect();
+            API.CloseSession();
+        }
+    }
+
+    public class ScanResult
+    {
+        public double Frequency { get; set; }
+        public double SignalLevel { get; set; }
+        public string Mode { get; set; } = &quot;&quot;;
+        public DateTime Timestamp { get; set; }
+    }
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var scanner = new Scanner();
+            
+            // Scan 20m band
+            var results = await scanner.ScanRange(
+                startMHz: 14.000,
+                endMHz: 14.350,
+                stepKHz: 5,
+                mode: &quot;USB&quot;
+            );
+
+            // Export results
+            ExportToCSV(results, &quot;scan_results.csv&quot;);
+        }
+
+        static void ExportToCSV(List&lt;ScanResult&gt; results, string filename)
+        {
+            using var writer = new System.IO.StreamWriter(filename);
+            writer.WriteLine(&quot;Frequency_MHz,Signal_dB,Mode,Timestamp&quot;);
+            
+            foreach (var result in results)
+            {
+                writer.WriteLine($&quot;{result.Frequency:F6},{result.SignalLevel:F2},{result.Mode},{result.Timestamp:O}&quot;);
+            }
+            
+            Console.WriteLine($&quot;\nResults exported to {filename}&quot;);
+        }
+    }
+}
+</code></pre>
+<hr>
+<h3 id="multi-radio-manager">Multi-Radio Manager</h3>
+<p>Manages multiple radios simultaneously.</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MultiRadioManager
+{
+    public class RadioManager
+    {
+        private Dictionary&lt;string, Radio&gt; _radios = new();
+        private Dictionary&lt;string, bool&gt; _radioStatus = new();
+
+        public async Task Initialize()
+        {
+            Console.WriteLine(&quot;=== Multi-Radio Manager ===\n&quot;);
+
+            API.ProgramName = &quot;MultiRadioManager&quot;;
+            API.IsGUI = false;
+
+            API.RadioAdded += OnRadioAdded;
+            API.RadioRemoved += OnRadioRemoved;
+
+            API.Init();
+
+            Console.WriteLine(&quot;Discovering radios...&quot;);
+            await Task.Delay(5000);
+
+            Console.WriteLine($&quot;\nFound {API.RadioList.Count} radio(s)&quot;);
+            ListRadios();
+        }
+
+        private void OnRadioAdded(Radio radio)
+        {
+            Console.WriteLine($&quot;✓ Discovered: {radio.Nickname} ({radio.Serial})&quot;);
+            _radios[radio.Serial] = radio;
+            _radioStatus[radio.Serial] = false;
+
+            // Monitor radio connection status
+            radio.PropertyChanged += (sender, e) =&gt;
+            {
+                if (e.PropertyName == &quot;Connected&quot;)
+                {
+                    var r = sender as Radio;
+                    _radioStatus[r!.Serial] = r.Connected;
+                    Console.WriteLine($&quot;  {r.Nickname}: {(r.Connected ? &quot;CONNECTED&quot; : &quot;DISCONNECTED&quot;)}&quot;);
+                }
+            };
+        }
+
+        private void OnRadioRemoved(Radio radio)
+        {
+            Console.WriteLine($&quot;✗ Lost: {radio.Nickname}&quot;);
+            _radios.Remove(radio.Serial);
+            _radioStatus.Remove(radio.Serial);
+        }
+
+        public void ConnectAll()
+        {
+            Console.WriteLine(&quot;\nConnecting to all radios...&quot;);
+            
+            foreach (var radio in _radios.Values)
+            {
+                if (!radio.Connected)
+                {
+                    Console.WriteLine($&quot;  Connecting to {radio.Nickname}...&quot;);
+                    radio.Connect();
+                }
+            }
+        }
+
+        public void DisconnectAll()
+        {
+            Console.WriteLine(&quot;\nDisconnecting from all radios...&quot;);
+            
+            foreach (var radio in _radios.Values)
+            {
+                if (radio.Connected)
+                {
+                    Console.WriteLine($&quot;  Disconnecting from {radio.Nickname}...&quot;);
+                    radio.Disconnect();
+                }
+            }
+        }
+
+        public void ListRadios()
+        {
+            Console.WriteLine(&quot;\n--- Available Radios ---&quot;);
+            
+            foreach (var radio in _radios.Values)
+            {
+                string status = _radioStatus[radio.Serial] ? &quot;CONNECTED&quot; : &quot;AVAILABLE&quot;;
+                Console.WriteLine($&quot;  [{status}] {radio.Nickname}&quot;);
+                Console.WriteLine($&quot;    Model: {radio.Model}&quot;);
+                Console.WriteLine($&quot;    Serial: {radio.Serial}&quot;);
+                Console.WriteLine($&quot;    IP: {radio.IP}&quot;);
+                Console.WriteLine($&quot;    Version: {radio.Version}&quot;);
+                Console.WriteLine();
+            }
+        }
+
+        public Radio? GetRadioByName(string nickname)
+        {
+            return _radios.Values.FirstOrDefault(r =&gt; 
+                r.Nickname.Equals(nickname, StringComparison.OrdinalIgnoreCase));
+        }
+
+        public void SetAllRadiosToFrequency(double freqMHz, string mode)
+        {
+            Console.WriteLine($&quot;\nTuning all radios to {freqMHz:F3} MHz, {mode}&quot;);
+            
+            foreach (var radio in _radios.Values.Where(r =&gt; r.Connected))
+            {
+                var slice = radio.SliceList.FirstOrDefault();
+                if (slice == null)
+                {
+                    radio.RequestSliceFromRadio();
+                    Task.Delay(500).Wait();
+                    slice = radio.SliceList.FirstOrDefault();
+                }
+
+                if (slice != null)
+                {
+                    slice.Freq = freqMHz;
+                    slice.Mode = mode;
+                    Console.WriteLine($&quot;  {radio.Nickname}: Tuned&quot;);
+                }
+            }
+        }
+
+        public void ShowAllStatus()
+        {
+            Console.WriteLine(&quot;\n=== Radio Status ===&quot;);
+            
+            foreach (var radio in _radios.Values)
+            {
+                Console.WriteLine($&quot;\n{radio.Nickname} ({radio.Serial}):&quot;);
+                Console.WriteLine($&quot;  Connected: {radio.Connected}&quot;);
+                
+                if (radio.Connected)
+                {
+                    Console.WriteLine($&quot;  Slices: {radio.SliceList.Count}&quot;);
+                    Console.WriteLine($&quot;  Panadapters: {radio.PanadapterList.Count}&quot;);
+                    
+                    foreach (var slice in radio.SliceList)
+                    {
+                        Console.WriteLine($&quot;    Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.Mode}&quot;);
+                    }
+                }
+            }
+        }
+
+        public void Cleanup()
+        {
+            Console.WriteLine(&quot;\nCleaning up...&quot;);
+            DisconnectAll();
+            API.CloseSession();
+        }
+    }
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var manager = new RadioManager();
+            await manager.Initialize();
+
+            // Interactive command loop
+            await CommandLoop(manager);
+        }
+
+        static async Task CommandLoop(RadioManager manager)
+        {
+            Console.WriteLine(&quot;\nCommands:&quot;);
+            Console.WriteLine(&quot;  connect          - Connect to all radios&quot;);
+            Console.WriteLine(&quot;  disconnect       - Disconnect from all radios&quot;);
+            Console.WriteLine(&quot;  list             - List all radios&quot;);
+            Console.WriteLine(&quot;  status           - Show status of all radios&quot;);
+            Console.WriteLine(&quot;  tune &lt;freq&gt; &lt;mode&gt; - Tune all radios&quot;);
+            Console.WriteLine(&quot;  quit             - Exit&quot;);
+
+            while (true)
+            {
+                Console.Write(&quot;\n&gt; &quot;);
+                string? input = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(input)) continue;
+
+                string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                string command = parts[0].ToLower();
+
+                switch (command)
+                {
+                    case &quot;connect&quot;:
+                        manager.ConnectAll();
+                        await Task.Delay(2000);
+                        break;
+
+                    case &quot;disconnect&quot;:
+                        manager.DisconnectAll();
+                        break;
+
+                    case &quot;list&quot;:
+                        manager.ListRadios();
+                        break;
+
+                    case &quot;status&quot;:
+                        manager.ShowAllStatus();
+                        break;
+
+                    case &quot;tune&quot;:
+                        if (parts.Length &gt;= 3 &amp;&amp; double.TryParse(parts[1], out double freq))
+                        {
+                            manager.SetAllRadiosToFrequency(freq, parts[2].ToUpper());
+                        }
+                        break;
+
+                    case &quot;quit&quot;:
+                    case &quot;exit&quot;:
+                        manager.Cleanup();
+                        return;
+                }
+            }
+        }
+    }
+}
+</code></pre>
+<hr>
+<h2 id="advanced-examples">Advanced Examples</h2>
+<h3 id="audio-streaming">Audio Streaming</h3>
+<p>Capture and process audio from a FlexRadio.</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace AudioStreamExample
+{
+    public class AudioRecorder
+    {
+        private Radio? _radio;
+        private Slice? _slice;
+        private DAXRXAudioStream? _audioStream;
+        private FileStream? _waveFile;
+        private BinaryWriter? _waveWriter;
+        private long _sampleCount = 0;
+
+        public async Task&lt;bool&gt; Initialize()
+        {
+            API.ProgramName = &quot;AudioRecorder&quot;;
+            API.IsGUI = false;
+            API.Init();
+
+            await Task.Delay(2000);
+
+            _radio = API.RadioList.FirstOrDefault();
+            if (_radio == null) return false;
+
+            _radio.Connect();
+            for (int i = 0; i &lt; 50 &amp;&amp; !_radio.Connected; i++)
+                await Task.Delay(100);
+
+            if (!_radio.Connected) return false;
+
+            _radio.RequestSliceFromRadio();
+            await Task.Delay(500);
+
+            _slice = _radio.SliceList.FirstOrDefault();
+            if (_slice == null) return false;
+
+            return true;
+        }
+
+        public void StartRecording(string filename, int daxChannel = 1)
+        {
+            Console.WriteLine($&quot;Starting recording to {filename}...&quot;);
+
+            // Create DAX audio stream
+            _audioStream = _radio!.CreateDAXRXAudioStream(daxChannel);
+            
+            if (_audioStream == null)
+            {
+                Console.WriteLine(&quot;Failed to create audio stream!&quot;);
+                return;
+            }
+
+            // Setup wave file
+            _waveFile = new FileStream(filename, FileMode.Create);
+            _waveWriter = new BinaryWriter(_waveFile);
+            WriteWaveHeader(_waveWriter, _audioStream.SampleRate);
+
+            // Subscribe to audio data
+            _audioStream.DataReady += OnAudioData;
+
+            // Start streaming
+            _audioStream.Start();
+
+            Console.WriteLine($&quot;✓ Recording at {_audioStream.SampleRate} Hz&quot;);
+        }
+
+        private void OnAudioData(float[] audioData)
+        {
+            if (_waveWriter == null) return;
+
+            // Convert float samples to 16-bit PCM
+            foreach (float sample in audioData)
+            {
+                short pcmSample = (short)(sample * 32767f);
+                _waveWriter.Write(pcmSample);
+                _sampleCount++;
+            }
+
+            // Progress indicator
+            if (_sampleCount % 48000 == 0) // Every second
+            {
+                Console.Write(&quot;.&quot;);
+            }
+        }
+
+        public void StopRecording()
+        {
+            Console.WriteLine(&quot;\nStopping recording...&quot;);
+
+            _audioStream?.Stop();
+
+            if (_waveWriter != null &amp;&amp; _waveFile != null)
+            {
+                // Update wave file header with actual size
+                UpdateWaveHeader(_waveWriter, _sampleCount);
+                _waveWriter.Close();
+                _waveFile.Close();
+            }
+
+            Console.WriteLine($&quot;✓ Recorded {_sampleCount} samples&quot;);
+            
+            _radio?.Disconnect();
+            API.CloseSession();
+        }
+
+        private void WriteWaveHeader(BinaryWriter writer, int sampleRate)
+        {
+            // RIFF header
+            writer.Write(new char[] { 'R', 'I', 'F', 'F' });
+            writer.Write(0); // File size (to be updated later)
+            writer.Write(new char[] { 'W', 'A', 'V', 'E' });
+
+            // fmt chunk
+            writer.Write(new char[] { 'f', 'm', 't', ' ' });
+            writer.Write(16); // fmt chunk size
+            writer.Write((short)1); // PCM format
+            writer.Write((short)1); // Mono
+            writer.Write(sampleRate); // Sample rate
+            writer.Write(sampleRate * 2); // Byte rate
+            writer.Write((short)2); // Block align
+            writer.Write((short)16); // Bits per sample
+
+            // data chunk
+            writer.Write(new char[] { 'd', 'a', 't', 'a' });
+            writer.Write(0); // Data size (to be updated later)
+        }
+
+        private void UpdateWaveHeader(BinaryWriter writer, long sampleCount)
+        {
+            long dataSize = sampleCount * 2; // 2 bytes per sample
+            long fileSize = dataSize + 36;
+
+            writer.Seek(4, SeekOrigin.Begin);
+            writer.Write((int)fileSize);
+
+            writer.Seek(40, SeekOrigin.Begin);
+            writer.Write((int)dataSize);
+        }
+    }
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var recorder = new AudioRecorder();
+
+            if (!await recorder.Initialize())
+            {
+                Console.WriteLine(&quot;Initialization failed!&quot;);
+                return;
+            }
+
+            // Start recording
+            recorder.StartRecording(&quot;recording.wav&quot;);
+
+            // Record for 30 seconds
+            Console.WriteLine(&quot;\nRecording for 30 seconds...&quot;);
+            await Task.Delay(30000);
+
+            // Stop recording
+            recorder.StopRecording();
+
+            Console.WriteLine(&quot;\nDone! Check recording.wav&quot;);
+        }
+    }
+}
+</code></pre>
+<hr>
+<h3 id="panadapter-display">Panadapter Display</h3>
+<p>Monitor panadapter data for spectrum display.</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace PanadapterExample
+{
+    public class PanadapterMonitor
+    {
+        private Radio? _radio;
+        private Panadapter? _panadapter;
+        private int _updateCount = 0;
+
+        public async Task&lt;bool&gt; Initialize()
+        {
+            API.ProgramName = &quot;PanadapterMonitor&quot;;
+            API.IsGUI = false;
+            API.Init();
+
+            await Task.Delay(2000);
+
+            _radio = API.RadioList.FirstOrDefault();
+            if (_radio == null) return false;
+
+            // Subscribe to panadapter events
+            _radio.PanadapterAdded += OnPanadapterAdded;
+
+            _radio.Connect();
+            for (int i = 0; i &lt; 50 &amp;&amp; !_radio.Connected; i++)
+                await Task.Delay(100);
+
+            if (!_radio.Connected) return false;
+
+            // Request a panadapter
+            _radio.RequestPanadapter();
+            await Task.Delay(500);
+
+            _panadapter = _radio.PanadapterList.FirstOrDefault();
+            if (_panadapter == null)
+            {
+                Console.WriteLine(&quot;Failed to create panadapter!&quot;);
+                return false;
+            }
+
+            return true;
+        }
+
+        private void OnPanadapterAdded(Panadapter pan, Waterfall fall)
+        {
+            Console.WriteLine($&quot;\nPanadapter created:&quot;);
+            Console.WriteLine($&quot;  StreamID: {pan.StreamID}&quot;);
+            Console.WriteLine($&quot;  Center Frequency: {pan.CenterFreq:F3} MHz&quot;);
+            Console.WriteLine($&quot;  Bandwidth: {pan.Bandwidth:F3} MHz&quot;);
+            Console.WriteLine($&quot;  MinDBM: {pan.MinDBM}, MaxDBM: {pan.MaxDBM}&quot;);
+
+            // Subscribe to panadapter data
+            pan.DataReady += OnPanadapterData;
+        }
+
+        private void OnPanadapterData(float[] data)
+        {
+            _updateCount++;
+
+            // Display update rate
+            if (_updateCount % 10 == 0)
+            {
+                Console.WriteLine($&quot;Panadapter updates: {_updateCount}&quot;);
+                DisplaySpectrum(data);
+            }
+        }
+
+        private void DisplaySpectrum(float[] data)
+        {
+            if (data.Length == 0) return;
+
+            // Find peak
+            float max = data.Max();
+            int maxIndex = Array.IndexOf(data, max);
+
+            // Calculate frequency of peak
+            double freqStep = _panadapter!.Bandwidth / data.Length;
+            double startFreq = _panadapter.CenterFreq - (_panadapter.Bandwidth / 2.0);
+            double peakFreq = startFreq + (maxIndex * freqStep);
+
+            Console.WriteLine($&quot;  Peak: {max:F1} dBm at {peakFreq:F6} MHz&quot;);
+
+            // Simple ASCII spectrum display (every 10th point)
+            Console.Write(&quot;  &quot;);
+            for (int i = 0; i &lt; data.Length; i += data.Length / 50)
+            {
+                int height = (int)((data[i] - _panadapter.MinDBM) / 
+                                   (_panadapter.MaxDBM - _panadapter.MinDBM) * 8);
+                height = Math.Max(0, Math.Min(8, height));
+                
+                Console.Write(&quot;▁▂▃▄▅▆▇█&quot;[height]);
+            }
+            Console.WriteLine();
+        }
+
+        public void ConfigurePanadapter(double centerMHz, double bandwidthMHz)
+        {
+            if (_panadapter == null) return;
+
+            Console.WriteLine($&quot;\nConfiguring panadapter:&quot;);
+            Console.WriteLine($&quot;  Center: {centerMHz:F3} MHz&quot;);
+            Console.WriteLine($&quot;  Bandwidth: {bandwidthMHz:F3} MHz&quot;);
+
+            _panadapter.CenterFreq = centerMHz;
+            _panadapter.Bandwidth = bandwidthMHz;
+        }
+
+        public void Cleanup()
+        {
+            _radio?.Disconnect();
+            API.CloseSession();
+        }
+    }
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var monitor = new PanadapterMonitor();
+
+            if (!await monitor.Initialize())
+            {
+                Console.WriteLine(&quot;Initialization failed!&quot;);
+                return;
+            }
+
+            // Configure for 20m band
+            monitor.ConfigurePanadapter(centerMHz: 14.175, bandwidthMHz: 0.350);
+
+            Console.WriteLine(&quot;\nMonitoring panadapter... (Press Ctrl+C to exit)&quot;);
+
+            // Monitor for 30 seconds
+            await Task.Delay(30000);
+
+            monitor.Cleanup();
+        }
+    }
+}
+</code></pre>
+<hr>
+<h3 id="digital-mode-interface">Digital Mode Interface</h3>
+<p>Interface for digital mode software (PSK31, FT8, etc.).</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace DigitalModeInterface
+{
+    public class DigitalInterface
+    {
+        private Radio? _radio;
+        private Slice? _slice;
+        private DAXIQStream? _iqStream;
+        private bool _isTransmitting = false;
+
+        // IQ buffer for digital mode processing
+        private float[] _iBuffer = new float[2048];
+        private float[] _qBuffer = new float[2048];
+        private int _bufferIndex = 0;
+
+        public async Task&lt;bool&gt; Initialize(string mode = &quot;DIGU&quot;)
+        {
+            API.ProgramName = &quot;DigitalInterface&quot;;
+            API.IsGUI = false;
+            API.Init();
+
+            await Task.Delay(2000);
+
+            _radio = API.RadioList.FirstOrDefault();
+            if (_radio == null) return false;
+
+            _radio.Connect();
+            for (int i = 0; i &lt; 50 &amp;&amp; !_radio.Connected; i++)
+                await Task.Delay(100);
+
+            if (!_radio.Connected) return false;
+
+            // Create slice for digital modes
+            _radio.RequestSliceFromRadio();
+            await Task.Delay(500);
+
+            _slice = _radio.SliceList.FirstOrDefault();
+            if (_slice == null) return false;
+
+            // Configure slice for digital modes
+            _slice.Mode = mode; // DIGU or DIGL
+            _slice.FilterLow = 0;
+            _slice.FilterHigh = 3000;
+            _slice.AGCMode = &quot;off&quot;; // Digital modes prefer no AGC
+
+            Console.WriteLine($&quot;✓ Digital interface ready&quot;);
+            Console.WriteLine($&quot;  Mode: {_slice.Mode}&quot;);
+            Console.WriteLine($&quot;  Frequency: {_slice.Freq:F3} MHz&quot;);
+
+            return true;
+        }
+
+        public void StartIQStream(int daxChannel = 1)
+        {
+            // Create DAX IQ stream for digital mode processing
+            _iqStream = _radio!.CreateDAXIQStream(daxChannel);
+            
+            if (_iqStream == null)
+            {
+                Console.WriteLine(&quot;Failed to create IQ stream!&quot;);
+                return;
+            }
+
+            // Subscribe to IQ data
+            _iqStream.DataReady += OnIQData;
+            _iqStream.Start();
+
+            Console.WriteLine($&quot;✓ IQ stream started at {_iqStream.SampleRate} Hz&quot;);
+        }
+
+        private void OnIQData(float[] data)
+        {
+            // IQ data arrives interleaved: I, Q, I, Q, I, Q...
+            for (int i = 0; i &lt; data.Length; i += 2)
+            {
+                _iBuffer[_bufferIndex] = data[i];     // I sample
+                _qBuffer[_bufferIndex] = data[i + 1]; // Q sample
+                _bufferIndex++;
+
+                if (_bufferIndex &gt;= _iBuffer.Length)
+                {
+                    // Buffer full, process it
+                    ProcessIQBuffer(_iBuffer, _qBuffer);
+                    _bufferIndex = 0;
+                }
+            }
+        }
+
+        private void ProcessIQBuffer(float[] iSamples, float[] qSamples)
+        {
+            // This is where you'd implement digital mode decoding
+            // For example: PSK31, RTTY, FT8 demodulation
+            
+            // Calculate average power for simple monitoring
+            double power = 0;
+            for (int i = 0; i &lt; iSamples.Length; i++)
+            {
+                power += iSamples[i] * iSamples[i] + qSamples[i] * qSamples[i];
+            }
+            power = Math.Sqrt(power / iSamples.Length);
+
+            if (power &gt; 0.01) // Threshold for signal detection
+            {
+                Console.WriteLine($&quot;Signal detected: {20 * Math.Log10(power):F1} dB&quot;);
+            }
+        }
+
+        public void TuneToFrequency(double freqMHz, int offsetHz = 0)
+        {
+            if (_slice == null) return;
+
+            // For digital modes, often use a carrier offset
+            _slice.Freq = freqMHz + (offsetHz / 1_000_000.0);
+            
+            Console.WriteLine($&quot;Tuned to {freqMHz:F6} MHz&quot;);
+            if (offsetHz != 0)
+                Console.WriteLine($&quot;  Offset: {offsetHz} Hz&quot;);
+        }
+
+        public void StartTransmit()
+        {
+            if (_slice == null || _isTransmitting) return;
+
+            Console.WriteLine(&quot;Starting transmission...&quot;);
+            _slice.Transmit = true;
+            _isTransmitting = true;
+
+            // Monitor transmit meters
+            MonitorTransmitMeters();
+        }
+
+        public void StopTransmit()
+        {
+            if (_slice == null || !_isTransmitting) return;
+
+            Console.WriteLine(&quot;Stopping transmission...&quot;);
+            _slice.Transmit = false;
+            _isTransmitting = false;
+        }
+
+        private void MonitorTransmitMeters()
+        {
+            foreach (var meter in _radio!.MeterList)
+            {
+                if (meter.Name == &quot;FWD&quot; || meter.Name == &quot;SWR&quot; || meter.Name == &quot;ALC&quot;)
+                {
+                    meter.DataReady += (data) =&gt;
+                    {
+                        if (_isTransmitting)
+                        {
+                            Console.WriteLine($&quot;  {meter.Name}: {data.Value:F1}&quot;);
+                        }
+                    };
+                }
+            }
+        }
+
+        public void Cleanup()
+        {
+            _iqStream?.Stop();
+            _radio?.Disconnect();
+            API.CloseSession();
+        }
+    }
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var digitalInterface = new DigitalInterface();
+
+            if (!await digitalInterface.Initialize(&quot;DIGU&quot;))
+            {
+                Console.WriteLine(&quot;Initialization failed!&quot;);
+                return;
+            }
+
+            // Tune to FT8 frequency on 20m
+            digitalInterface.TuneToFrequency(14.074, offsetHz: 1500);
+
+            // Start IQ streaming for decoding
+            digitalInterface.StartIQStream();
+
+            Console.WriteLine(&quot;\nMonitoring for digital signals...&quot;);
+            Console.WriteLine(&quot;Press any key to exit.&quot;);
+
+            Console.ReadKey();
+
+            digitalInterface.Cleanup();
+        }
+    }
+}
+</code></pre>
+<hr>
+<h2 id="utility-examples">Utility Examples</h2>
+<h3 id="radio-monitor">Radio Monitor</h3>
+<p>Monitor radio status and telemetry.</p>
+<pre><code class="lang-csharp">using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace RadioMonitor
+{
+    public class Monitor
+    {
+        private Radio? _radio;
+
+        public async Task Run()
+        {
+            if (!await Initialize())
+                return;
+
+            SetupMonitoring();
+
+            Console.WriteLine(&quot;\n=== Radio Monitor Active ===&quot;);
+            Console.WriteLine(&quot;Press Ctrl+C to exit\n&quot;);
+
+            await Task.Delay(-1);
+        }
+
+        private async Task&lt;bool&gt; Initialize()
+        {
+            API.ProgramName = &quot;RadioMonitor&quot;;
+            API.Init();
+
+            await Task.Delay(2000);
+
+            _radio = API.RadioList.FirstOrDefault();
+            if (_radio == null)
+            {
+                Console.WriteLine(&quot;No radio found!&quot;);
+                return false;
+            }
+
+            _radio.Connect();
+            for (int i = 0; i &lt; 50 &amp;&amp; !_radio.Connected; i++)
+                await Task.Delay(100);
+
+            return _radio.Connected;
+        }
+
+        private void SetupMonitoring()
+        {
+            // Monitor slices
+            _radio!.SliceAdded += (slice) =&gt;
+            {
+                Console.WriteLine($&quot;[{DateTime.Now:HH:mm:ss}] Slice {slice.Index} ADDED&quot;);
+                MonitorSlice(slice);
+            };
+
+            _radio.SliceRemoved += (slice) =&gt;
+            {
+                Console.WriteLine($&quot;[{DateTime.Now:HH:mm:ss}] Slice {slice.Index} REMOVED&quot;);
+            };
+
+            // Monitor meters
+            foreach (var meter in _radio.MeterList)
+            {
+                if (meter.Name == &quot;VOLTAGE&quot; || meter.Name == &quot;TEMP&quot; || 
+                    meter.Name == &quot;FWD&quot; || meter.Name == &quot;SWR&quot;)
+                {
+                    meter.DataReady += (data) =&gt;
+                    {
+                        LogMeter(meter.Name, data.Value);
+                    };
+                }
+            }
+
+            // Monitor interlock
+            _radio.PropertyChanged += (sender, e) =&gt;
+            {
+                if (e.PropertyName == &quot;InterlockState&quot;)
+                {
+                    Console.WriteLine($&quot;[{DateTime.Now:HH:mm:ss}] Interlock: {_radio.InterlockState}&quot;);
+                }
+            };
+        }
+
+        private void MonitorSlice(Slice slice)
+        {
+            slice.PropertyChanged += (sender, e) =&gt;
+            {
+                if (e.PropertyName == &quot;Freq&quot; || e.PropertyName == &quot;Mode&quot;)
+                {
+                    Console.WriteLine($&quot;[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.Mode}&quot;);
+                }
+                else if (e.PropertyName == &quot;Transmit&quot;)
+                {
+                    string status = slice.Transmit ? &quot;TX&quot; : &quot;RX&quot;;
+                    Console.WriteLine($&quot;[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {status}&quot;);
+                }
+            };
+        }
+
+        private void LogMeter(string name, float value)
+        {
+            string formatted = name switch
+            {
+                &quot;VOLTAGE&quot; =&gt; $&quot;{value:F1} V&quot;,
+                &quot;TEMP&quot; =&gt; $&quot;{value:F0} °C&quot;,
+                &quot;FWD&quot; =&gt; $&quot;{value:F0} W&quot;,
+                &quot;SWR&quot; =&gt; $&quot;{value:F2}:1&quot;,
+                _ =&gt; $&quot;{value:F2}&quot;
+            };
+
+            Console.WriteLine($&quot;[{DateTime.Now:HH:mm:ss}] {name}: {formatted}&quot;);
+        }
+    }
+
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var monitor = new Monitor();
+            await monitor.Run();
+        }
+    }
+}
+</code></pre>
+<hr>
+<h2 id="more-examples">More Examples</h2>
+<p>For more examples and patterns, check out:</p>
+<ul>
+<li><strong>ComPortPTT</strong> project in this repository - COM port PTT control</li>
+<li><strong>FlexRadio Community Forum</strong> - User-contributed examples</li>
+<li><strong>API Reference</strong> - Method documentation with usage examples</li>
+</ul>
+<hr>
+<h2 id="tips-and-best-practices">Tips and Best Practices</h2>
+<ol>
+<li><strong>Always initialize before use</strong>: Call <code>API.Init()</code> first</li>
+<li><strong>Wait for discovery</strong>: Give time for radios to be discovered (2-5 seconds)</li>
+<li><strong>Check connection status</strong>: Verify <code>radio.Connected</code> before operations</li>
+<li><strong>Use events</strong>: Subscribe to PropertyChanged for real-time updates</li>
+<li><strong>Handle cleanup</strong>: Always disconnect and call <code>API.CloseSession()</code></li>
+<li><strong>Async patterns</strong>: Use async/await for responsive applications</li>
+<li><strong>Error handling</strong>: Wrap operations in try-catch blocks</li>
+<li><strong>Threading</strong>: FlexLib events fire on background threads - use Dispatcher for UI updates</li>
+</ol>
+<p>Happy coding! 📻</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

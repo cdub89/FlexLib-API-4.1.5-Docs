@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler
+  id: RadioDiscoveredEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RadioDiscoveredEventHandler
+  nameWithType: RadioDiscoveredEventHandler
+  fullName: Flex.Smoothlake.FlexLib.RadioDiscoveredEventHandler
+  type: Delegate
+  source:
+    id: RadioDiscoveredEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Discovery.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void RadioDiscoveredEventHandler(Radio radio)
+    parameters:
+    - id: radio
+      type: Flex.Smoothlake.FlexLib.Radio
+    content.vb: Public Delegate Sub RadioDiscoveredEventHandler(radio As Radio)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.Radio
+  commentId: T:Flex.Smoothlake.FlexLib.Radio
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio
+  nameWithType: Radio
+  fullName: Flex.Smoothlake.FlexLib.Radio

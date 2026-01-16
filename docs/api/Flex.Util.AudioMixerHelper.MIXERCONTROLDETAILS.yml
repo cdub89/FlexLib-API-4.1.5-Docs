@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  commentId: T:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  id: AudioMixerHelper.MIXERCONTROLDETAILS
+  parent: Flex.Util
+  children:
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cChannels
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbDetails
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbStruct
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.dwControlID
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.item
+  - Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.paDetails
+  langs:
+  - csharp
+  - vb
+  name: AudioMixerHelper.MIXERCONTROLDETAILS
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  type: Struct
+  source:
+    id: MIXERCONTROLDETAILS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 138
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public struct AudioMixerHelper.MIXERCONTROLDETAILS
+    content.vb: Public Structure AudioMixerHelper.MIXERCONTROLDETAILS
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbStruct
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbStruct
+  id: cbStruct
+  parent: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  langs:
+  - csharp
+  - vb
+  name: cbStruct
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS.cbStruct
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbStruct
+  type: Field
+  source:
+    id: cbStruct
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 141
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int cbStruct
+    return:
+      type: System.Int32
+    content.vb: Public cbStruct As Integer
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.dwControlID
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.dwControlID
+  id: dwControlID
+  parent: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  langs:
+  - csharp
+  - vb
+  name: dwControlID
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS.dwControlID
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.dwControlID
+  type: Field
+  source:
+    id: dwControlID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 143
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int dwControlID
+    return:
+      type: System.Int32
+    content.vb: Public dwControlID As Integer
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cChannels
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cChannels
+  id: cChannels
+  parent: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  langs:
+  - csharp
+  - vb
+  name: cChannels
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS.cChannels
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cChannels
+  type: Field
+  source:
+    id: cChannels
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 145
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int cChannels
+    return:
+      type: System.Int32
+    content.vb: Public cChannels As Integer
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.item
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.item
+  id: item
+  parent: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  langs:
+  - csharp
+  - vb
+  name: item
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS.item
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.item
+  type: Field
+  source:
+    id: item
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 147
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int item
+    return:
+      type: System.Int32
+    content.vb: Public item As Integer
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbDetails
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbDetails
+  id: cbDetails
+  parent: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  langs:
+  - csharp
+  - vb
+  name: cbDetails
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS.cbDetails
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.cbDetails
+  type: Field
+  source:
+    id: cbDetails
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 149
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int cbDetails
+    return:
+      type: System.Int32
+    content.vb: Public cbDetails As Integer
+- uid: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.paDetails
+  commentId: F:Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.paDetails
+  id: paDetails
+  parent: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS
+  langs:
+  - csharp
+  - vb
+  name: paDetails
+  nameWithType: AudioMixerHelper.MIXERCONTROLDETAILS.paDetails
+  fullName: Flex.Util.AudioMixerHelper.MIXERCONTROLDETAILS.paDetails
+  type: Field
+  source:
+    id: paDetails
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\AudioMixerHelper.cs
+    startLine: 151
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public nint paDetails
+    return:
+      type: System.IntPtr
+    content.vb: Public paDetails As IntPtr
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr

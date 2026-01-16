@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.Vita.VitaDataReceivedCallback
+  commentId: T:Flex.Smoothlake.Vita.VitaDataReceivedCallback
+  id: VitaDataReceivedCallback
+  parent: Flex.Smoothlake.Vita
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: VitaDataReceivedCallback
+  nameWithType: VitaDataReceivedCallback
+  fullName: Flex.Smoothlake.Vita.VitaDataReceivedCallback
+  type: Delegate
+  source:
+    id: VitaDataReceivedCallback
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 23
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public delegate void VitaDataReceivedCallback(IPEndPoint ep, byte[] data, int num_bytes)
+    parameters:
+    - id: ep
+      type: System.Net.IPEndPoint
+    - id: data
+      type: System.Byte[]
+    - id: num_bytes
+      type: System.Int32
+    content.vb: Public Delegate Sub VitaDataReceivedCallback(ep As IPEndPoint, data As Byte(), num_bytes As Integer)
+references:
+- uid: Flex.Smoothlake.Vita
+  commentId: N:Flex.Smoothlake.Vita
+  href: Flex.html
+  name: Flex.Smoothlake.Vita
+  nameWithType: Flex.Smoothlake.Vita
+  fullName: Flex.Smoothlake.Vita
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+- uid: System.Net.IPEndPoint
+  commentId: T:System.Net.IPEndPoint
+  parent: System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.ipendpoint
+  name: IPEndPoint
+  nameWithType: IPEndPoint
+  fullName: System.Net.IPEndPoint
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

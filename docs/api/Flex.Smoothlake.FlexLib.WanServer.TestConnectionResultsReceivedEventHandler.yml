@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+  id: WanServer.TestConnectionResultsReceivedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: WanServer.TestConnectionResultsReceivedEventHandler
+  nameWithType: WanServer.TestConnectionResultsReceivedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler
+  type: Delegate
+  source:
+    id: TestConnectionResultsReceivedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\WanServer.cs
+    startLine: 569
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void WanServer.TestConnectionResultsReceivedEventHandler(WanTestConnectionResults results)
+    parameters:
+    - id: results
+      type: Flex.Smoothlake.FlexLib.WanTestConnectionResults
+    content.vb: Public Delegate Sub WanServer.TestConnectionResultsReceivedEventHandler(results As WanTestConnectionResults)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.WanTestConnectionResults
+  commentId: T:Flex.Smoothlake.FlexLib.WanTestConnectionResults
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.WanTestConnectionResults.html
+  name: WanTestConnectionResults
+  nameWithType: WanTestConnectionResults
+  fullName: Flex.Smoothlake.FlexLib.WanTestConnectionResults

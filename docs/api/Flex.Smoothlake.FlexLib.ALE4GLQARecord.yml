@@ -1,0 +1,650 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  commentId: T:Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  id: ALE4GLQARecord
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString
+  - Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight
+  langs:
+  - csharp
+  - vb
+  name: ALE4GLQARecord
+  nameWithType: ALE4GLQARecord
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  type: Class
+  source:
+    id: ALE4GLQARecord
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 725
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public record ALE4GLQARecord : IEquatable<ALE4GLQARecord>'
+    content.vb: Public Class ALE4GLQARecord Implements IEquatable(Of ALE4GLQARecord)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Flex.Smoothlake.FlexLib.ALE4GLQARecord}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.ALE4GLQARecord.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.String)'
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: ALE4GLQARecord(string, string, string, string, string, string)
+  nameWithType: ALE4GLQARecord.ALE4GLQARecord(string, string, string, string, string, string)
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ALE4GLQARecord(string, string, string, string, string, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 727
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public ALE4GLQARecord(string station, string path, string toSnr, string toWeight, string fromSnr, string fromWeight)
+    parameters:
+    - id: station
+      type: System.String
+    - id: path
+      type: System.String
+    - id: toSnr
+      type: System.String
+    - id: toWeight
+      type: System.String
+    - id: fromSnr
+      type: System.String
+    - id: fromWeight
+      type: System.String
+    content.vb: Public Sub New(station As String, path As String, toSnr As String, toWeight As String, fromSnr As String, fromWeight As String)
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.#ctor*
+  nameWithType.vb: ALE4GLQARecord.New(String, String, String, String, String, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.ALE4GLQARecord.New(String, String, String, String, String, String)
+  name.vb: New(String, String, String, String, String, String)
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station
+  id: Station
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: Station
+  nameWithType: ALE4GLQARecord.Station
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station
+  type: Property
+  source:
+    id: Station
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 736
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Station { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Station As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station*
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path
+  id: Path
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: ALE4GLQARecord.Path
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path
+  type: Property
+  source:
+    id: Path
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 737
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path*
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr
+  id: ToSnr
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: ToSnr
+  nameWithType: ALE4GLQARecord.ToSnr
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr
+  type: Property
+  source:
+    id: ToSnr
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 738
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string ToSnr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ToSnr As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr*
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight
+  id: ToWeight
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: ToWeight
+  nameWithType: ALE4GLQARecord.ToWeight
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight
+  type: Property
+  source:
+    id: ToWeight
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 739
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string ToWeight { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ToWeight As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight*
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr
+  id: FromSnr
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: FromSnr
+  nameWithType: ALE4GLQARecord.FromSnr
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr
+  type: Property
+  source:
+    id: FromSnr
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 740
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string FromSnr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FromSnr As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr*
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight
+  commentId: P:Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight
+  id: FromWeight
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: FromWeight
+  nameWithType: ALE4GLQARecord.FromWeight
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight
+  type: Property
+  source:
+    id: FromWeight
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 741
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string FromWeight { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FromWeight As String
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight*
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString
+  commentId: M:Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString
+  id: ToString
+  parent: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ALE4GLQARecord.ToString()
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 742
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Flex.Smoothlake.FlexLib.ALE4GLQARecord}
+  commentId: T:System.IEquatable{Flex.Smoothlake.FlexLib.ALE4GLQARecord}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ALE4GLQARecord>
+  nameWithType: IEquatable<ALE4GLQARecord>
+  fullName: System.IEquatable<Flex.Smoothlake.FlexLib.ALE4GLQARecord>
+  nameWithType.vb: IEquatable(Of ALE4GLQARecord)
+  fullName.vb: System.IEquatable(Of Flex.Smoothlake.FlexLib.ALE4GLQARecord)
+  name.vb: IEquatable(Of ALE4GLQARecord)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+    name: ALE4GLQARecord
+    href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord
+    name: ALE4GLQARecord
+    href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.#ctor
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord__ctor_System_String_System_String_System_String_System_String_System_String_System_String_
+  name: ALE4GLQARecord
+  nameWithType: ALE4GLQARecord.ALE4GLQARecord
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ALE4GLQARecord
+  nameWithType.vb: ALE4GLQARecord.New
+  fullName.vb: Flex.Smoothlake.FlexLib.ALE4GLQARecord.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_Station
+  name: Station
+  nameWithType: ALE4GLQARecord.Station
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Station
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_Path
+  name: Path
+  nameWithType: ALE4GLQARecord.Path
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.Path
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_ToSnr
+  name: ToSnr
+  nameWithType: ALE4GLQARecord.ToSnr
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToSnr
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_ToWeight
+  name: ToWeight
+  nameWithType: ALE4GLQARecord.ToWeight
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToWeight
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_FromSnr
+  name: FromSnr
+  nameWithType: ALE4GLQARecord.FromSnr
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromSnr
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_FromWeight
+  name: FromWeight
+  nameWithType: ALE4GLQARecord.FromWeight
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.FromWeight
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString*
+  commentId: Overload:Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString
+  href: Flex.Smoothlake.FlexLib.ALE4GLQARecord.html#Flex_Smoothlake_FlexLib_ALE4GLQARecord_ToString
+  name: ToString
+  nameWithType: ALE4GLQARecord.ToString
+  fullName: Flex.Smoothlake.FlexLib.ALE4GLQARecord.ToString

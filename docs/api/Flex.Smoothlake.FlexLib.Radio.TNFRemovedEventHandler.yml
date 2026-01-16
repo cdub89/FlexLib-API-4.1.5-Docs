@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler
+  id: Radio.TNFRemovedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Radio.TNFRemovedEventHandler
+  nameWithType: Radio.TNFRemovedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Radio.TNFRemovedEventHandler
+  type: Delegate
+  source:
+    id: TNFRemovedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 4264
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void Radio.TNFRemovedEventHandler(TNF tnf)
+    parameters:
+    - id: tnf
+      type: Flex.Smoothlake.FlexLib.TNF
+    content.vb: Public Delegate Sub Radio.TNFRemovedEventHandler(tnf As TNF)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.TNF
+  commentId: T:Flex.Smoothlake.FlexLib.TNF
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.TNF.html
+  name: TNF
+  nameWithType: TNF
+  fullName: Flex.Smoothlake.FlexLib.TNF

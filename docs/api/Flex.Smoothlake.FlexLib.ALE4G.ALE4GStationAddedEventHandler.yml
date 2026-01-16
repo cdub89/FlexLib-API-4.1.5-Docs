@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler
+  id: ALE4G.ALE4GStationAddedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ALE4G.ALE4GStationAddedEventHandler
+  nameWithType: ALE4G.ALE4GStationAddedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.ALE4G.ALE4GStationAddedEventHandler
+  type: Delegate
+  source:
+    id: ALE4GStationAddedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALE4G.cs
+    startLine: 194
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void ALE4G.ALE4GStationAddedEventHandler(ALE4GStation station)
+    parameters:
+    - id: station
+      type: Flex.Smoothlake.FlexLib.ALE4GStation
+    content.vb: Public Delegate Sub ALE4G.ALE4GStationAddedEventHandler(station As ALE4GStation)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.ALE4GStation
+  commentId: T:Flex.Smoothlake.FlexLib.ALE4GStation
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ALE4GStation.html
+  name: ALE4GStation
+  nameWithType: ALE4GStation
+  fullName: Flex.Smoothlake.FlexLib.ALE4GStation

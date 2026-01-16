@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  id: UsbCableFreqSource
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.ActiveSlice
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.Invalid
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.None
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.RXAntenna
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.Slice
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXAntenna
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXPanadapter
+  - Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXSlice
+  langs:
+  - csharp
+  - vb
+  name: UsbCableFreqSource
+  nameWithType: UsbCableFreqSource
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  type: Enum
+  source:
+    id: UsbCableFreqSource
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 368
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum UsbCableFreqSource
+    content.vb: Public Enum UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.None
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: UsbCableFreqSource.None
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 370
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXPanadapter
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXPanadapter
+  id: TXPanadapter
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: TXPanadapter
+  nameWithType: UsbCableFreqSource.TXPanadapter
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXPanadapter
+  type: Field
+  source:
+    id: TXPanadapter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 371
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TXPanadapter = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXSlice
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXSlice
+  id: TXSlice
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: TXSlice
+  nameWithType: UsbCableFreqSource.TXSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXSlice
+  type: Field
+  source:
+    id: TXSlice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 372
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TXSlice = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.ActiveSlice
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.ActiveSlice
+  id: ActiveSlice
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: ActiveSlice
+  nameWithType: UsbCableFreqSource.ActiveSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.ActiveSlice
+  type: Field
+  source:
+    id: ActiveSlice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 373
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: ActiveSlice = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXAntenna
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXAntenna
+  id: TXAntenna
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: TXAntenna
+  nameWithType: UsbCableFreqSource.TXAntenna
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.TXAntenna
+  type: Field
+  source:
+    id: TXAntenna
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 374
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TXAntenna = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.RXAntenna
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.RXAntenna
+  id: RXAntenna
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: RXAntenna
+  nameWithType: UsbCableFreqSource.RXAntenna
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.RXAntenna
+  type: Field
+  source:
+    id: RXAntenna
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 375
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: RXAntenna = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.Slice
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.Slice
+  id: Slice
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: Slice
+  nameWithType: UsbCableFreqSource.Slice
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.Slice
+  type: Field
+  source:
+    id: Slice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 376
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Slice = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource.Invalid
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCableFreqSource.Invalid
+  id: Invalid
+  parent: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: UsbCableFreqSource.Invalid
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource.Invalid
+  type: Field
+  source:
+    id: Invalid
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCable.cs
+    startLine: 377
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Invalid = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  name: UsbCableFreqSource
+  nameWithType: UsbCableFreqSource
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource

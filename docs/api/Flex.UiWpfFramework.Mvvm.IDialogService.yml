@@ -1,0 +1,566 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService
+  commentId: T:Flex.UiWpfFramework.Mvvm.IDialogService
+  id: IDialogService
+  parent: Flex.UiWpfFramework.Mvvm
+  children:
+  - Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox(System.String)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox(System.String,System.String)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage,System.Windows.MessageBoxResult)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl(System.Object)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner(System.Object)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox(System.String)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink(System.String,System.String,System.String)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox(System.Exception,System.String,System.String)
+  - Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IDialogService
+  nameWithType: IDialogService
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService
+  type: Interface
+  source:
+    id: IDialogService
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 17
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public interface IDialogService
+    content.vb: Public Interface IDialogService
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage,System.Windows.MessageBoxResult)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage,System.Windows.MessageBoxResult)
+  id: ShowMessageBox(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage,System.Windows.MessageBoxResult)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowMessageBox(string, string, MessageBoxButton, MessageBoxImage, MessageBoxResult)
+  nameWithType: IDialogService.ShowMessageBox(string, string, MessageBoxButton, MessageBoxImage, MessageBoxResult)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox(string, string, System.Windows.MessageBoxButton, System.Windows.MessageBoxImage, System.Windows.MessageBoxResult)
+  type: Method
+  source:
+    id: ShowMessageBox
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 19
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: MessageBoxResult ShowMessageBox(string messageBoxText, string title, MessageBoxButton button, MessageBoxImage icon, MessageBoxResult defaultResult)
+    parameters:
+    - id: messageBoxText
+      type: System.String
+    - id: title
+      type: System.String
+    - id: button
+      type: System.Windows.MessageBoxButton
+    - id: icon
+      type: System.Windows.MessageBoxImage
+    - id: defaultResult
+      type: System.Windows.MessageBoxResult
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Function ShowMessageBox(messageBoxText As String, title As String, button As MessageBoxButton, icon As MessageBoxImage, defaultResult As MessageBoxResult) As MessageBoxResult
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox*
+  nameWithType.vb: IDialogService.ShowMessageBox(String, String, MessageBoxButton, MessageBoxImage, MessageBoxResult)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox(String, String, System.Windows.MessageBoxButton, System.Windows.MessageBoxImage, System.Windows.MessageBoxResult)
+  name.vb: ShowMessageBox(String, String, MessageBoxButton, MessageBoxImage, MessageBoxResult)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox(System.String,System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox(System.String,System.String)
+  id: ShowWarningYesNoBox(System.String,System.String)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowWarningYesNoBox(string, string)
+  nameWithType: IDialogService.ShowWarningYesNoBox(string, string)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox(string, string)
+  type: Method
+  source:
+    id: ShowWarningYesNoBox
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 20
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: MessageBoxResult ShowWarningYesNoBox(string messageBoxText, string title)
+    parameters:
+    - id: messageBoxText
+      type: System.String
+    - id: title
+      type: System.String
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Function ShowWarningYesNoBox(messageBoxText As String, title As String) As MessageBoxResult
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox*
+  nameWithType.vb: IDialogService.ShowWarningYesNoBox(String, String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox(String, String)
+  name.vb: ShowWarningYesNoBox(String, String)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox(System.Exception,System.String,System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox(System.Exception,System.String,System.String)
+  id: ShowUHEBox(System.Exception,System.String,System.String)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowUHEBox(Exception, string, string)
+  nameWithType: IDialogService.ShowUHEBox(Exception, string, string)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox(System.Exception, string, string)
+  type: Method
+  source:
+    id: ShowUHEBox
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 21
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: MessageBoxResult ShowUHEBox(Exception exception, string uheTextSimple, string uheTextFull)
+    parameters:
+    - id: exception
+      type: System.Exception
+    - id: uheTextSimple
+      type: System.String
+    - id: uheTextFull
+      type: System.String
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Function ShowUHEBox(exception As Exception, uheTextSimple As String, uheTextFull As String) As MessageBoxResult
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox*
+  nameWithType.vb: IDialogService.ShowUHEBox(Exception, String, String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox(System.Exception, String, String)
+  name.vb: ShowUHEBox(Exception, String, String)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox(System.String)
+  id: ShowOkBox(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowOkBox(string)
+  nameWithType: IDialogService.ShowOkBox(string)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox(string)
+  type: Method
+  source:
+    id: ShowOkBox
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 22
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: MessageBoxResult ShowOkBox(string messageBoxText)
+    parameters:
+    - id: messageBoxText
+      type: System.String
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Function ShowOkBox(messageBoxText As String) As MessageBoxResult
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox*
+  nameWithType.vb: IDialogService.ShowOkBox(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox(String)
+  name.vb: ShowOkBox(String)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox(System.String,System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox(System.String,System.String)
+  id: ShowCustomMessageBox(System.String,System.String)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowCustomMessageBox(string, string)
+  nameWithType: IDialogService.ShowCustomMessageBox(string, string)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox(string, string)
+  type: Method
+  source:
+    id: ShowCustomMessageBox
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 23
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: (MessageBoxResult Result, bool dontShowAgain) ShowCustomMessageBox(string messageBoxText, string title)
+    parameters:
+    - id: messageBoxText
+      type: System.String
+    - id: title
+      type: System.String
+    return:
+      type: System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}
+    content.vb: Function ShowCustomMessageBox(messageBoxText As String, title As String) As (Result As MessageBoxResult, dontShowAgain As Boolean)
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox*
+  nameWithType.vb: IDialogService.ShowCustomMessageBox(String, String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox(String, String)
+  name.vb: ShowCustomMessageBox(String, String)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox(System.String)
+  id: FireAndForgetOkBox(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: FireAndForgetOkBox(string)
+  nameWithType: IDialogService.FireAndForgetOkBox(string)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox(string)
+  type: Method
+  source:
+    id: FireAndForgetOkBox
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 24
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: void FireAndForgetOkBox(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Sub FireAndForgetOkBox(message As String)
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox*
+  nameWithType.vb: IDialogService.FireAndForgetOkBox(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox(String)
+  name.vb: FireAndForgetOkBox(String)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink(System.String,System.String,System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink(System.String,System.String,System.String)
+  id: ShowOkBoxWithHelpLink(System.String,System.String,System.String)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowOkBoxWithHelpLink(string, string, string)
+  nameWithType: IDialogService.ShowOkBoxWithHelpLink(string, string, string)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink(string, string, string)
+  type: Method
+  source:
+    id: ShowOkBoxWithHelpLink
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 25
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: MessageBoxResult ShowOkBoxWithHelpLink(string messageBoxText, string url, string keyword)
+    parameters:
+    - id: messageBoxText
+      type: System.String
+    - id: url
+      type: System.String
+    - id: keyword
+      type: System.String
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Function ShowOkBoxWithHelpLink(messageBoxText As String, url As String, keyword As String) As MessageBoxResult
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink*
+  nameWithType.vb: IDialogService.ShowOkBoxWithHelpLink(String, String, String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink(String, String, String)
+  name.vb: ShowOkBoxWithHelpLink(String, String, String)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl(System.Object)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl(System.Object)
+  id: ShowModalDialogWithUserControl(System.Object)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowModalDialogWithUserControl(object)
+  nameWithType: IDialogService.ShowModalDialogWithUserControl(object)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl(object)
+  type: Method
+  source:
+    id: ShowModalDialogWithUserControl
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 26
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: void ShowModalDialogWithUserControl(object userControl)
+    parameters:
+    - id: userControl
+      type: System.Object
+    content.vb: Sub ShowModalDialogWithUserControl(userControl As Object)
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl*
+  nameWithType.vb: IDialogService.ShowModalDialogWithUserControl(Object)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl(Object)
+  name.vb: ShowModalDialogWithUserControl(Object)
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner(System.Object)
+  commentId: M:Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner(System.Object)
+  id: ShowModalDialogWithUserControlMainWindowOwner(System.Object)
+  parent: Flex.UiWpfFramework.Mvvm.IDialogService
+  langs:
+  - csharp
+  - vb
+  name: ShowModalDialogWithUserControlMainWindowOwner(object)
+  nameWithType: IDialogService.ShowModalDialogWithUserControlMainWindowOwner(object)
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner(object)
+  type: Method
+  source:
+    id: ShowModalDialogWithUserControlMainWindowOwner
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\IDialogService.cs
+    startLine: 27
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: void ShowModalDialogWithUserControlMainWindowOwner(object userControl)
+    parameters:
+    - id: userControl
+      type: System.Object
+    content.vb: Sub ShowModalDialogWithUserControlMainWindowOwner(userControl As Object)
+  overload: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner*
+  nameWithType.vb: IDialogService.ShowModalDialogWithUserControlMainWindowOwner(Object)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner(Object)
+  name.vb: ShowModalDialogWithUserControlMainWindowOwner(Object)
+references:
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowMessageBox_System_String_System_String_System_Windows_MessageBoxButton_System_Windows_MessageBoxImage_System_Windows_MessageBoxResult_
+  name: ShowMessageBox
+  nameWithType: IDialogService.ShowMessageBox
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowMessageBox
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.MessageBoxButton
+  commentId: T:System.Windows.MessageBoxButton
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.messageboxbutton
+  name: MessageBoxButton
+  nameWithType: MessageBoxButton
+  fullName: System.Windows.MessageBoxButton
+- uid: System.Windows.MessageBoxImage
+  commentId: T:System.Windows.MessageBoxImage
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.messageboximage
+  name: MessageBoxImage
+  nameWithType: MessageBoxImage
+  fullName: System.Windows.MessageBoxImage
+- uid: System.Windows.MessageBoxResult
+  commentId: T:System.Windows.MessageBoxResult
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.messageboxresult
+  name: MessageBoxResult
+  nameWithType: MessageBoxResult
+  fullName: System.Windows.MessageBoxResult
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowWarningYesNoBox_System_String_System_String_
+  name: ShowWarningYesNoBox
+  nameWithType: IDialogService.ShowWarningYesNoBox
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowWarningYesNoBox
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowUHEBox_System_Exception_System_String_System_String_
+  name: ShowUHEBox
+  nameWithType: IDialogService.ShowUHEBox
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowUHEBox
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowOkBox_System_String_
+  name: ShowOkBox
+  nameWithType: IDialogService.ShowOkBox
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBox
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowCustomMessageBox_System_String_System_String_
+  name: ShowCustomMessageBox
+  nameWithType: IDialogService.ShowCustomMessageBox
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowCustomMessageBox
+- uid: System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}
+  commentId: T:System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.windows.messageboxresult
+  name: (MessageBoxResult Result, bool dontShowAgain)
+  nameWithType: (MessageBoxResult Result, bool dontShowAgain)
+  fullName: (System.Windows.MessageBoxResult Result, bool dontShowAgain)
+  nameWithType.vb: (Result As MessageBoxResult, dontShowAgain As Boolean)
+  fullName.vb: (Result As System.Windows.MessageBoxResult, dontShowAgain As Boolean)
+  name.vb: (Result As MessageBoxResult, dontShowAgain As Boolean)
+  spec.csharp:
+  - name: (
+  - uid: System.Windows.MessageBoxResult
+    name: MessageBoxResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.messageboxresult
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}.Result
+    name: Result
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.messageboxresult,system.boolean-.result
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}.dontShowAgain
+    name: dontShowAgain
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.messageboxresult,system.boolean-.dontshowagain
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}.Result
+    name: Result
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.messageboxresult,system.boolean-.result
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Windows.MessageBoxResult
+    name: MessageBoxResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.messageboxresult
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Windows.MessageBoxResult,System.Boolean}.dontShowAgain
+    name: dontShowAgain
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.windows.messageboxresult,system.boolean-.dontshowagain
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_FireAndForgetOkBox_System_String_
+  name: FireAndForgetOkBox
+  nameWithType: IDialogService.FireAndForgetOkBox
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.FireAndForgetOkBox
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowOkBoxWithHelpLink_System_String_System_String_System_String_
+  name: ShowOkBoxWithHelpLink
+  nameWithType: IDialogService.ShowOkBoxWithHelpLink
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowOkBoxWithHelpLink
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowModalDialogWithUserControl_System_Object_
+  name: ShowModalDialogWithUserControl
+  nameWithType: IDialogService.ShowModalDialogWithUserControl
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControl
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner
+  href: Flex.UiWpfFramework.Mvvm.IDialogService.html#Flex_UiWpfFramework_Mvvm_IDialogService_ShowModalDialogWithUserControlMainWindowOwner_System_Object_
+  name: ShowModalDialogWithUserControlMainWindowOwner
+  nameWithType: IDialogService.ShowModalDialogWithUserControlMainWindowOwner
+  fullName: Flex.UiWpfFramework.Mvvm.IDialogService.ShowModalDialogWithUserControlMainWindowOwner

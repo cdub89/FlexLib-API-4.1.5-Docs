@@ -1,0 +1,1034 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.RingBufferFloat
+  commentId: T:Flex.Util.RingBufferFloat
+  id: RingBufferFloat
+  parent: Flex.Util
+  children:
+  - Flex.Util.RingBufferFloat.#ctor(System.Int32)
+  - Flex.Util.RingBufferFloat.Clear(System.Int32)
+  - Flex.Util.RingBufferFloat.Peek(System.Single*,System.Int32)
+  - Flex.Util.RingBufferFloat.Peek(System.Single[],System.Int32)
+  - Flex.Util.RingBufferFloat.Print
+  - Flex.Util.RingBufferFloat.Read(System.Single[],System.Int32)
+  - Flex.Util.RingBufferFloat.ReadAdvance(System.Int32)
+  - Flex.Util.RingBufferFloat.ReadIntPtr(System.IntPtr,System.Int32)
+  - Flex.Util.RingBufferFloat.ReadPtr(System.Single*,System.Int32)
+  - Flex.Util.RingBufferFloat.ReadSpace
+  - Flex.Util.RingBufferFloat.Reset
+  - Flex.Util.RingBufferFloat.Restart(System.Int32)
+  - Flex.Util.RingBufferFloat.Write(System.Single[],System.Int32)
+  - Flex.Util.RingBufferFloat.WriteAdvance(System.Int32)
+  - Flex.Util.RingBufferFloat.WritePtr(System.Single*,System.Int32)
+  - Flex.Util.RingBufferFloat.WriteSpace
+  - Flex.Util.RingBufferFloat.nblock2(System.Int32)
+  - Flex.Util.RingBufferFloat.npoof2(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: RingBufferFloat
+  nameWithType: RingBufferFloat
+  fullName: Flex.Util.RingBufferFloat
+  type: Class
+  source:
+    id: RingBufferFloat
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 19
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public class RingBufferFloat
+    content.vb: Public Class RingBufferFloat
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Util.RingBufferFloat.#ctor(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: RingBufferFloat(int)
+  nameWithType: RingBufferFloat.RingBufferFloat(int)
+  fullName: Flex.Util.RingBufferFloat.RingBufferFloat(int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 33
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  example: []
+  syntax:
+    content: public RingBufferFloat(int sz2)
+    parameters:
+    - id: sz2
+      type: System.Int32
+    content.vb: Public Sub New(sz2 As Integer)
+  overload: Flex.Util.RingBufferFloat.#ctor*
+  nameWithType.vb: RingBufferFloat.New(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.New(Integer)
+  name.vb: New(Integer)
+- uid: Flex.Util.RingBufferFloat.npoof2(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.npoof2(System.Int32)
+  id: npoof2(System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: npoof2(int)
+  nameWithType: RingBufferFloat.npoof2(int)
+  fullName: Flex.Util.RingBufferFloat.npoof2(int)
+  type: Method
+  source:
+    id: npoof2
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 46
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int npoof2(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function npoof2(n As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.npoof2*
+  nameWithType.vb: RingBufferFloat.npoof2(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.npoof2(Integer)
+  name.vb: npoof2(Integer)
+- uid: Flex.Util.RingBufferFloat.nblock2(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.nblock2(System.Int32)
+  id: nblock2(System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: nblock2(int)
+  nameWithType: RingBufferFloat.nblock2(int)
+  fullName: Flex.Util.RingBufferFloat.nblock2(int)
+  type: Method
+  source:
+    id: nblock2
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 59
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int nblock2(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function nblock2(n As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.nblock2*
+  nameWithType.vb: RingBufferFloat.nblock2(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.nblock2(Integer)
+  name.vb: nblock2(Integer)
+- uid: Flex.Util.RingBufferFloat.ReadSpace
+  commentId: M:Flex.Util.RingBufferFloat.ReadSpace
+  id: ReadSpace
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: ReadSpace()
+  nameWithType: RingBufferFloat.ReadSpace()
+  fullName: Flex.Util.RingBufferFloat.ReadSpace()
+  type: Method
+  source:
+    id: ReadSpace
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 68
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Get the number of elements available to be read from the ringbuffer.
+  example: []
+  syntax:
+    content: public int ReadSpace()
+    return:
+      type: System.Int32
+      description: Return the number of elements available to be read.
+    content.vb: Public Function ReadSpace() As Integer
+  overload: Flex.Util.RingBufferFloat.ReadSpace*
+- uid: Flex.Util.RingBufferFloat.WriteSpace
+  commentId: M:Flex.Util.RingBufferFloat.WriteSpace
+  id: WriteSpace
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: WriteSpace()
+  nameWithType: RingBufferFloat.WriteSpace()
+  fullName: Flex.Util.RingBufferFloat.WriteSpace()
+  type: Method
+  source:
+    id: WriteSpace
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 79
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Get the number of elements that will fit into the ringbuffer.
+  example: []
+  syntax:
+    content: public int WriteSpace()
+    return:
+      type: System.Int32
+      description: The amount of space available to be written.
+    content.vb: Public Function WriteSpace() As Integer
+  overload: Flex.Util.RingBufferFloat.WriteSpace*
+- uid: Flex.Util.RingBufferFloat.Read(System.Single[],System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.Read(System.Single[],System.Int32)
+  id: Read(System.Single[],System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Read(float[], int)
+  nameWithType: RingBufferFloat.Read(float[], int)
+  fullName: Flex.Util.RingBufferFloat.Read(float[], int)
+  type: Method
+  source:
+    id: Read
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 93
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Reads data out of the ringbuffer into the dest array.
+  example: []
+  syntax:
+    content: public int Read(float[] dest, int cnt)
+    parameters:
+    - id: dest
+      type: System.Single[]
+      description: Array to read data into.
+    - id: cnt
+      type: System.Int32
+      description: Requested number of elements to read
+    return:
+      type: System.Int32
+      description: Actual number of elements read
+    content.vb: Public Function Read(dest As Single(), cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.Read*
+  nameWithType.vb: RingBufferFloat.Read(Single(), Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.Read(Single(), Integer)
+  name.vb: Read(Single(), Integer)
+- uid: Flex.Util.RingBufferFloat.ReadPtr(System.Single*,System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.ReadPtr(System.Single*,System.Int32)
+  id: ReadPtr(System.Single*,System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: ReadPtr(float*, int)
+  nameWithType: RingBufferFloat.ReadPtr(float*, int)
+  fullName: Flex.Util.RingBufferFloat.ReadPtr(float*, int)
+  type: Method
+  source:
+    id: ReadPtr
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 129
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Read elements out of the ringbuffer into the array pointed to by dest.
+  example: []
+  syntax:
+    content: public int ReadPtr(float* dest, int cnt)
+    parameters:
+    - id: dest
+      type: System.Single*
+      description: Points to destination array to put read elements.
+    - id: cnt
+      type: System.Int32
+      description: Requested number of elements to read.
+    return:
+      type: System.Int32
+      description: The actual number of elements read.
+    content.vb: Public Function ReadPtr(dest As Single*, cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.ReadPtr*
+  nameWithType.vb: RingBufferFloat.ReadPtr(Single*, Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.ReadPtr(Single*, Integer)
+  name.vb: ReadPtr(Single*, Integer)
+- uid: Flex.Util.RingBufferFloat.ReadIntPtr(System.IntPtr,System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.ReadIntPtr(System.IntPtr,System.Int32)
+  id: ReadIntPtr(System.IntPtr,System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: ReadIntPtr(nint, int)
+  nameWithType: RingBufferFloat.ReadIntPtr(nint, int)
+  fullName: Flex.Util.RingBufferFloat.ReadIntPtr(nint, int)
+  type: Method
+  source:
+    id: ReadIntPtr
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 160
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int ReadIntPtr(nint dest, int cnt)
+    parameters:
+    - id: dest
+      type: System.IntPtr
+    - id: cnt
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function ReadIntPtr(dest As IntPtr, cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.ReadIntPtr*
+  nameWithType.vb: RingBufferFloat.ReadIntPtr(IntPtr, Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.ReadIntPtr(System.IntPtr, Integer)
+  name.vb: ReadIntPtr(IntPtr, Integer)
+- uid: Flex.Util.RingBufferFloat.Write(System.Single[],System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.Write(System.Single[],System.Int32)
+  id: Write(System.Single[],System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Write(float[], int)
+  nameWithType: RingBufferFloat.Write(float[], int)
+  fullName: Flex.Util.RingBufferFloat.Write(float[], int)
+  type: Method
+  source:
+    id: Write
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 197
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Writes from the src array into the ringbuffer.
+  example: []
+  syntax:
+    content: public int Write(float[] src, int cnt)
+    parameters:
+    - id: src
+      type: System.Single[]
+      description: The souce array to be written to the ringbuffer.
+    - id: cnt
+      type: System.Int32
+      description: The requested number of elements to write.
+    return:
+      type: System.Int32
+      description: The actual number of elements written.
+    content.vb: Public Function Write(src As Single(), cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.Write*
+  nameWithType.vb: RingBufferFloat.Write(Single(), Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.Write(Single(), Integer)
+  name.vb: Write(Single(), Integer)
+- uid: Flex.Util.RingBufferFloat.WritePtr(System.Single*,System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.WritePtr(System.Single*,System.Int32)
+  id: WritePtr(System.Single*,System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: WritePtr(float*, int)
+  nameWithType: RingBufferFloat.WritePtr(float*, int)
+  fullName: Flex.Util.RingBufferFloat.WritePtr(float*, int)
+  type: Method
+  source:
+    id: WritePtr
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 238
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Writes from the array pointed to by src into the ringbuffer.
+  example: []
+  syntax:
+    content: public int WritePtr(float* src, int cnt)
+    parameters:
+    - id: src
+      type: System.Single*
+      description: Points to the array to be used to write data into the ringbuffer.
+    - id: cnt
+      type: System.Int32
+      description: Requested number of elements to write.
+    return:
+      type: System.Int32
+      description: Actual number of elements written.
+    content.vb: Public Function WritePtr(src As Single*, cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.WritePtr*
+  nameWithType.vb: RingBufferFloat.WritePtr(Single*, Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.WritePtr(Single*, Integer)
+  name.vb: WritePtr(Single*, Integer)
+- uid: Flex.Util.RingBufferFloat.Reset
+  commentId: M:Flex.Util.RingBufferFloat.Reset
+  id: Reset
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: RingBufferFloat.Reset()
+  fullName: Flex.Util.RingBufferFloat.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 276
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Resets the ringbuffer pointers (will be empty afterwards).
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: Flex.Util.RingBufferFloat.Reset*
+- uid: Flex.Util.RingBufferFloat.Clear(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.Clear(System.Int32)
+  id: Clear(System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Clear(int)
+  nameWithType: RingBufferFloat.Clear(int)
+  fullName: Flex.Util.RingBufferFloat.Clear(int)
+  type: Method
+  source:
+    id: Clear
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 286
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Zero the data in the buffer.
+  example: []
+  syntax:
+    content: public void Clear(int nfloats)
+    parameters:
+    - id: nfloats
+      type: System.Int32
+      description: Number of elements to zero.
+    content.vb: Public Sub Clear(nfloats As Integer)
+  overload: Flex.Util.RingBufferFloat.Clear*
+  nameWithType.vb: RingBufferFloat.Clear(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.Clear(Integer)
+  name.vb: Clear(Integer)
+- uid: Flex.Util.RingBufferFloat.Restart(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.Restart(System.Int32)
+  id: Restart(System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Restart(int)
+  nameWithType: RingBufferFloat.Restart(int)
+  fullName: Flex.Util.RingBufferFloat.Restart(int)
+  type: Method
+  source:
+    id: Restart
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 297
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Reset the pointers and zero the actual data.
+  example: []
+  syntax:
+    content: public void Restart(int nfloats)
+    parameters:
+    - id: nfloats
+      type: System.Int32
+      description: Number of elements to zero.
+    content.vb: Public Sub Restart(nfloats As Integer)
+  overload: Flex.Util.RingBufferFloat.Restart*
+  nameWithType.vb: RingBufferFloat.Restart(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.Restart(Integer)
+  name.vb: Restart(Integer)
+- uid: Flex.Util.RingBufferFloat.Peek(System.Single[],System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.Peek(System.Single[],System.Int32)
+  id: Peek(System.Single[],System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Peek(float[], int)
+  nameWithType: RingBufferFloat.Peek(float[], int)
+  fullName: Flex.Util.RingBufferFloat.Peek(float[], int)
+  type: Method
+  source:
+    id: Peek
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 303
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int Peek(float[] dest, int cnt)
+    parameters:
+    - id: dest
+      type: System.Single[]
+    - id: cnt
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Peek(dest As Single(), cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.Peek*
+  nameWithType.vb: RingBufferFloat.Peek(Single(), Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.Peek(Single(), Integer)
+  name.vb: Peek(Single(), Integer)
+- uid: Flex.Util.RingBufferFloat.Peek(System.Single*,System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.Peek(System.Single*,System.Int32)
+  id: Peek(System.Single*,System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Peek(float*, int)
+  nameWithType: RingBufferFloat.Peek(float*, int)
+  fullName: Flex.Util.RingBufferFloat.Peek(float*, int)
+  type: Method
+  source:
+    id: Peek
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 331
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public int Peek(float* dest, int cnt)
+    parameters:
+    - id: dest
+      type: System.Single*
+    - id: cnt
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Peek(dest As Single*, cnt As Integer) As Integer
+  overload: Flex.Util.RingBufferFloat.Peek*
+  nameWithType.vb: RingBufferFloat.Peek(Single*, Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.Peek(Single*, Integer)
+  name.vb: Peek(Single*, Integer)
+- uid: Flex.Util.RingBufferFloat.ReadAdvance(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.ReadAdvance(System.Int32)
+  id: ReadAdvance(System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: ReadAdvance(int)
+  nameWithType: RingBufferFloat.ReadAdvance(int)
+  fullName: Flex.Util.RingBufferFloat.ReadAdvance(int)
+  type: Method
+  source:
+    id: ReadAdvance
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 359
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public void ReadAdvance(int cnt)
+    parameters:
+    - id: cnt
+      type: System.Int32
+    content.vb: Public Sub ReadAdvance(cnt As Integer)
+  overload: Flex.Util.RingBufferFloat.ReadAdvance*
+  nameWithType.vb: RingBufferFloat.ReadAdvance(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.ReadAdvance(Integer)
+  name.vb: ReadAdvance(Integer)
+- uid: Flex.Util.RingBufferFloat.WriteAdvance(System.Int32)
+  commentId: M:Flex.Util.RingBufferFloat.WriteAdvance(System.Int32)
+  id: WriteAdvance(System.Int32)
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: WriteAdvance(int)
+  nameWithType: RingBufferFloat.WriteAdvance(int)
+  fullName: Flex.Util.RingBufferFloat.WriteAdvance(int)
+  type: Method
+  source:
+    id: WriteAdvance
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 364
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public void WriteAdvance(int cnt)
+    parameters:
+    - id: cnt
+      type: System.Int32
+    content.vb: Public Sub WriteAdvance(cnt As Integer)
+  overload: Flex.Util.RingBufferFloat.WriteAdvance*
+  nameWithType.vb: RingBufferFloat.WriteAdvance(Integer)
+  fullName.vb: Flex.Util.RingBufferFloat.WriteAdvance(Integer)
+  name.vb: WriteAdvance(Integer)
+- uid: Flex.Util.RingBufferFloat.Print
+  commentId: M:Flex.Util.RingBufferFloat.Print
+  id: Print
+  parent: Flex.Util.RingBufferFloat
+  langs:
+  - csharp
+  - vb
+  name: Print()
+  nameWithType: RingBufferFloat.Print()
+  fullName: Flex.Util.RingBufferFloat.Print()
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\ringbuffer.cs
+    startLine: 369
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public void Print()
+    content.vb: Public Sub Print()
+  overload: Flex.Util.RingBufferFloat.Print*
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Util.RingBufferFloat.#ctor*
+  commentId: Overload:Flex.Util.RingBufferFloat.#ctor
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat__ctor_System_Int32_
+  name: RingBufferFloat
+  nameWithType: RingBufferFloat.RingBufferFloat
+  fullName: Flex.Util.RingBufferFloat.RingBufferFloat
+  nameWithType.vb: RingBufferFloat.New
+  fullName.vb: Flex.Util.RingBufferFloat.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Util.RingBufferFloat.npoof2*
+  commentId: Overload:Flex.Util.RingBufferFloat.npoof2
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_npoof2_System_Int32_
+  name: npoof2
+  nameWithType: RingBufferFloat.npoof2
+  fullName: Flex.Util.RingBufferFloat.npoof2
+- uid: Flex.Util.RingBufferFloat.nblock2*
+  commentId: Overload:Flex.Util.RingBufferFloat.nblock2
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_nblock2_System_Int32_
+  name: nblock2
+  nameWithType: RingBufferFloat.nblock2
+  fullName: Flex.Util.RingBufferFloat.nblock2
+- uid: Flex.Util.RingBufferFloat.ReadSpace*
+  commentId: Overload:Flex.Util.RingBufferFloat.ReadSpace
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_ReadSpace
+  name: ReadSpace
+  nameWithType: RingBufferFloat.ReadSpace
+  fullName: Flex.Util.RingBufferFloat.ReadSpace
+- uid: Flex.Util.RingBufferFloat.WriteSpace*
+  commentId: Overload:Flex.Util.RingBufferFloat.WriteSpace
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_WriteSpace
+  name: WriteSpace
+  nameWithType: RingBufferFloat.WriteSpace
+  fullName: Flex.Util.RingBufferFloat.WriteSpace
+- uid: Flex.Util.RingBufferFloat.Read*
+  commentId: Overload:Flex.Util.RingBufferFloat.Read
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Read_System_Single___System_Int32_
+  name: Read
+  nameWithType: RingBufferFloat.Read
+  fullName: Flex.Util.RingBufferFloat.Read
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: Flex.Util.RingBufferFloat.ReadPtr*
+  commentId: Overload:Flex.Util.RingBufferFloat.ReadPtr
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_ReadPtr_System_Single__System_Int32_
+  name: ReadPtr
+  nameWithType: RingBufferFloat.ReadPtr
+  fullName: Flex.Util.RingBufferFloat.ReadPtr
+- uid: System.Single*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float*
+  nameWithType: float*
+  fullName: float*
+  nameWithType.vb: Single*
+  fullName.vb: Single*
+  name.vb: Single*
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '*'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '*'
+- uid: Flex.Util.RingBufferFloat.ReadIntPtr*
+  commentId: Overload:Flex.Util.RingBufferFloat.ReadIntPtr
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_ReadIntPtr_System_IntPtr_System_Int32_
+  name: ReadIntPtr
+  nameWithType: RingBufferFloat.ReadIntPtr
+  fullName: Flex.Util.RingBufferFloat.ReadIntPtr
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: Flex.Util.RingBufferFloat.Write*
+  commentId: Overload:Flex.Util.RingBufferFloat.Write
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Write_System_Single___System_Int32_
+  name: Write
+  nameWithType: RingBufferFloat.Write
+  fullName: Flex.Util.RingBufferFloat.Write
+- uid: Flex.Util.RingBufferFloat.WritePtr*
+  commentId: Overload:Flex.Util.RingBufferFloat.WritePtr
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_WritePtr_System_Single__System_Int32_
+  name: WritePtr
+  nameWithType: RingBufferFloat.WritePtr
+  fullName: Flex.Util.RingBufferFloat.WritePtr
+- uid: Flex.Util.RingBufferFloat.Reset*
+  commentId: Overload:Flex.Util.RingBufferFloat.Reset
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Reset
+  name: Reset
+  nameWithType: RingBufferFloat.Reset
+  fullName: Flex.Util.RingBufferFloat.Reset
+- uid: Flex.Util.RingBufferFloat.Clear*
+  commentId: Overload:Flex.Util.RingBufferFloat.Clear
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Clear_System_Int32_
+  name: Clear
+  nameWithType: RingBufferFloat.Clear
+  fullName: Flex.Util.RingBufferFloat.Clear
+- uid: Flex.Util.RingBufferFloat.Restart*
+  commentId: Overload:Flex.Util.RingBufferFloat.Restart
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Restart_System_Int32_
+  name: Restart
+  nameWithType: RingBufferFloat.Restart
+  fullName: Flex.Util.RingBufferFloat.Restart
+- uid: Flex.Util.RingBufferFloat.Peek*
+  commentId: Overload:Flex.Util.RingBufferFloat.Peek
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Peek_System_Single___System_Int32_
+  name: Peek
+  nameWithType: RingBufferFloat.Peek
+  fullName: Flex.Util.RingBufferFloat.Peek
+- uid: Flex.Util.RingBufferFloat.ReadAdvance*
+  commentId: Overload:Flex.Util.RingBufferFloat.ReadAdvance
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_ReadAdvance_System_Int32_
+  name: ReadAdvance
+  nameWithType: RingBufferFloat.ReadAdvance
+  fullName: Flex.Util.RingBufferFloat.ReadAdvance
+- uid: Flex.Util.RingBufferFloat.WriteAdvance*
+  commentId: Overload:Flex.Util.RingBufferFloat.WriteAdvance
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_WriteAdvance_System_Int32_
+  name: WriteAdvance
+  nameWithType: RingBufferFloat.WriteAdvance
+  fullName: Flex.Util.RingBufferFloat.WriteAdvance
+- uid: Flex.Util.RingBufferFloat.Print*
+  commentId: Overload:Flex.Util.RingBufferFloat.Print
+  href: Flex.Util.RingBufferFloat.html#Flex_Util_RingBufferFloat_Print
+  name: Print
+  nameWithType: RingBufferFloat.Print
+  fullName: Flex.Util.RingBufferFloat.Print

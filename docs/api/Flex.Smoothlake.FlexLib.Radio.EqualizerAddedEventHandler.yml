@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler
+  id: Radio.EqualizerAddedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Radio.EqualizerAddedEventHandler
+  nameWithType: Radio.EqualizerAddedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Radio.EqualizerAddedEventHandler
+  type: Delegate
+  source:
+    id: EqualizerAddedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 12800
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void Radio.EqualizerAddedEventHandler(Equalizer eq)
+    parameters:
+    - id: eq
+      type: Flex.Smoothlake.FlexLib.Equalizer
+    content.vb: Public Delegate Sub Radio.EqualizerAddedEventHandler(eq As Equalizer)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.Equalizer
+  commentId: T:Flex.Smoothlake.FlexLib.Equalizer
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Equalizer.html
+  name: Equalizer
+  nameWithType: Equalizer
+  fullName: Flex.Smoothlake.FlexLib.Equalizer

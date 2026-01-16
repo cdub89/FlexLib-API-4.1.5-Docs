@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering
+  commentId: T:Flex.Util.DisplayConfig.ScanlineOrdering
+  id: DisplayConfig.ScanlineOrdering
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayConfig.ScanlineOrdering.ForceUInt32
+  - Flex.Util.DisplayConfig.ScanlineOrdering.Interlaced
+  - Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedLowerFieldFirst
+  - Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedUpperFieldFirst
+  - Flex.Util.DisplayConfig.ScanlineOrdering.Progressive
+  - Flex.Util.DisplayConfig.ScanlineOrdering.Unspecified
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfig.ScanlineOrdering
+  nameWithType: DisplayConfig.ScanlineOrdering
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering
+  type: Enum
+  source:
+    id: ScanlineOrdering
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 635
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public enum DisplayConfig.ScanlineOrdering
+    content.vb: Public Enum DisplayConfig.ScanlineOrdering
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering.Unspecified
+  commentId: F:Flex.Util.DisplayConfig.ScanlineOrdering.Unspecified
+  id: Unspecified
+  parent: Flex.Util.DisplayConfig.ScanlineOrdering
+  langs:
+  - csharp
+  - vb
+  name: Unspecified
+  nameWithType: DisplayConfig.ScanlineOrdering.Unspecified
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering.Unspecified
+  type: Field
+  source:
+    id: Unspecified
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 637
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Unspecified = 0
+    return:
+      type: Flex.Util.DisplayConfig.ScanlineOrdering
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering.Progressive
+  commentId: F:Flex.Util.DisplayConfig.ScanlineOrdering.Progressive
+  id: Progressive
+  parent: Flex.Util.DisplayConfig.ScanlineOrdering
+  langs:
+  - csharp
+  - vb
+  name: Progressive
+  nameWithType: DisplayConfig.ScanlineOrdering.Progressive
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering.Progressive
+  type: Field
+  source:
+    id: Progressive
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 638
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Progressive = 1
+    return:
+      type: Flex.Util.DisplayConfig.ScanlineOrdering
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering.Interlaced
+  commentId: F:Flex.Util.DisplayConfig.ScanlineOrdering.Interlaced
+  id: Interlaced
+  parent: Flex.Util.DisplayConfig.ScanlineOrdering
+  langs:
+  - csharp
+  - vb
+  name: Interlaced
+  nameWithType: DisplayConfig.ScanlineOrdering.Interlaced
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering.Interlaced
+  type: Field
+  source:
+    id: Interlaced
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 639
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: Interlaced = 2
+    return:
+      type: Flex.Util.DisplayConfig.ScanlineOrdering
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedUpperFieldFirst
+  commentId: F:Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedUpperFieldFirst
+  id: InterlacedUpperFieldFirst
+  parent: Flex.Util.DisplayConfig.ScanlineOrdering
+  langs:
+  - csharp
+  - vb
+  name: InterlacedUpperFieldFirst
+  nameWithType: DisplayConfig.ScanlineOrdering.InterlacedUpperFieldFirst
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedUpperFieldFirst
+  type: Field
+  source:
+    id: InterlacedUpperFieldFirst
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 640
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: InterlacedUpperFieldFirst = 2
+    return:
+      type: Flex.Util.DisplayConfig.ScanlineOrdering
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedLowerFieldFirst
+  commentId: F:Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedLowerFieldFirst
+  id: InterlacedLowerFieldFirst
+  parent: Flex.Util.DisplayConfig.ScanlineOrdering
+  langs:
+  - csharp
+  - vb
+  name: InterlacedLowerFieldFirst
+  nameWithType: DisplayConfig.ScanlineOrdering.InterlacedLowerFieldFirst
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering.InterlacedLowerFieldFirst
+  type: Field
+  source:
+    id: InterlacedLowerFieldFirst
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 641
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: InterlacedLowerFieldFirst = 3
+    return:
+      type: Flex.Util.DisplayConfig.ScanlineOrdering
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering.ForceUInt32
+  commentId: F:Flex.Util.DisplayConfig.ScanlineOrdering.ForceUInt32
+  id: ForceUInt32
+  parent: Flex.Util.DisplayConfig.ScanlineOrdering
+  langs:
+  - csharp
+  - vb
+  name: ForceUInt32
+  nameWithType: DisplayConfig.ScanlineOrdering.ForceUInt32
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering.ForceUInt32
+  type: Field
+  source:
+    id: ForceUInt32
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 642
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: ForceUInt32 = -1
+    return:
+      type: Flex.Util.DisplayConfig.ScanlineOrdering
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: Flex.Util.DisplayConfig.ScanlineOrdering
+  commentId: T:Flex.Util.DisplayConfig.ScanlineOrdering
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfig.html
+  name: DisplayConfig.ScanlineOrdering
+  nameWithType: DisplayConfig.ScanlineOrdering
+  fullName: Flex.Util.DisplayConfig.ScanlineOrdering
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.ScanlineOrdering
+    name: ScanlineOrdering
+    href: Flex.Util.DisplayConfig.ScanlineOrdering.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.ScanlineOrdering
+    name: ScanlineOrdering
+    href: Flex.Util.DisplayConfig.ScanlineOrdering.html

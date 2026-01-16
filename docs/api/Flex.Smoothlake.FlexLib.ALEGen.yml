@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.ALEGen
+  commentId: T:Flex.Smoothlake.FlexLib.ALEGen
+  id: ALEGen
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.ALEGen.Gen2G
+  - Flex.Smoothlake.FlexLib.ALEGen.Gen3G
+  - Flex.Smoothlake.FlexLib.ALEGen.Gen4G
+  langs:
+  - csharp
+  - vb
+  name: ALEGen
+  nameWithType: ALEGen
+  fullName: Flex.Smoothlake.FlexLib.ALEGen
+  type: Enum
+  source:
+    id: ALEGen
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 38
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum ALEGen
+    content.vb: Public Enum ALEGen
+- uid: Flex.Smoothlake.FlexLib.ALEGen.Gen2G
+  commentId: F:Flex.Smoothlake.FlexLib.ALEGen.Gen2G
+  id: Gen2G
+  parent: Flex.Smoothlake.FlexLib.ALEGen
+  langs:
+  - csharp
+  - vb
+  name: Gen2G
+  nameWithType: ALEGen.Gen2G
+  fullName: Flex.Smoothlake.FlexLib.ALEGen.Gen2G
+  type: Field
+  source:
+    id: Gen2G
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 40
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Gen2G = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.ALEGen
+- uid: Flex.Smoothlake.FlexLib.ALEGen.Gen3G
+  commentId: F:Flex.Smoothlake.FlexLib.ALEGen.Gen3G
+  id: Gen3G
+  parent: Flex.Smoothlake.FlexLib.ALEGen
+  langs:
+  - csharp
+  - vb
+  name: Gen3G
+  nameWithType: ALEGen.Gen3G
+  fullName: Flex.Smoothlake.FlexLib.ALEGen.Gen3G
+  type: Field
+  source:
+    id: Gen3G
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 41
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Gen3G = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.ALEGen
+- uid: Flex.Smoothlake.FlexLib.ALEGen.Gen4G
+  commentId: F:Flex.Smoothlake.FlexLib.ALEGen.Gen4G
+  id: Gen4G
+  parent: Flex.Smoothlake.FlexLib.ALEGen
+  langs:
+  - csharp
+  - vb
+  name: Gen4G
+  nameWithType: ALEGen.Gen4G
+  fullName: Flex.Smoothlake.FlexLib.ALEGen.Gen4G
+  type: Field
+  source:
+    id: Gen4G
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\ALEComposite.cs
+    startLine: 42
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Gen4G = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.ALEGen
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.ALEGen
+  commentId: T:Flex.Smoothlake.FlexLib.ALEGen
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.ALEGen.html
+  name: ALEGen
+  nameWithType: ALEGen
+  fullName: Flex.Smoothlake.FlexLib.ALEGen

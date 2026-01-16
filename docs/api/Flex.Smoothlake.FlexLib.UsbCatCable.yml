@@ -1,0 +1,1334 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCatCable
+  id: UsbCatCable
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.UsbCatCable.#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)
+  - Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport
+  - Flex.Smoothlake.FlexLib.UsbCatCable.DataBits
+  - Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl
+  - Flex.Smoothlake.FlexLib.UsbCatCable.Parity
+  - Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt
+  - Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice
+  - Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt
+  - Flex.Smoothlake.FlexLib.UsbCatCable.Source
+  - Flex.Smoothlake.FlexLib.UsbCatCable.Speed
+  - Flex.Smoothlake.FlexLib.UsbCatCable.StopBits
+  langs:
+  - csharp
+  - vb
+  name: UsbCatCable
+  nameWithType: UsbCatCable
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable
+  type: Class
+  source:
+    id: UsbCatCable
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 24
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class UsbCatCable : UsbCable, INotifyPropertyChanged, IUsbCatCable, IUsbCable'
+    content.vb: Public Class UsbCatCable Inherits UsbCable Implements INotifyPropertyChanged, IUsbCatCable, IUsbCable
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  - Flex.Smoothlake.FlexLib.UsbCable
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Flex.Smoothlake.FlexLib.IUsbCatCable
+  - Flex.Smoothlake.FlexLib.IUsbCable
+  inheritedMembers:
+  - Flex.Smoothlake.FlexLib.UsbCable._radio
+  - Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+  - Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+  - Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+  - Flex.Smoothlake.FlexLib.UsbCable._cableType
+  - Flex.Smoothlake.FlexLib.UsbCable.CableType
+  - Flex.Smoothlake.FlexLib.UsbCable._enabled
+  - Flex.Smoothlake.FlexLib.UsbCable.Enabled
+  - Flex.Smoothlake.FlexLib.UsbCable._present
+  - Flex.Smoothlake.FlexLib.UsbCable.Present
+  - Flex.Smoothlake.FlexLib.UsbCable._name
+  - Flex.Smoothlake.FlexLib.UsbCable.Name
+  - Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+  - Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+  - Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  - Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+  - Flex.Smoothlake.FlexLib.UsbCable.Remove
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCatCable.#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)
+  id: '#ctor(Flex.Smoothlake.FlexLib.Radio,System.String)'
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: UsbCatCable(Radio, string)
+  nameWithType: UsbCatCable.UsbCatCable(Radio, string)
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.UsbCatCable(Flex.Smoothlake.FlexLib.Radio, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 26
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public UsbCatCable(Radio radio, string serial_number)
+    parameters:
+    - id: radio
+      type: Flex.Smoothlake.FlexLib.Radio
+    - id: serial_number
+      type: System.String
+    content.vb: Public Sub New(radio As Radio, serial_number As String)
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.#ctor*
+  nameWithType.vb: UsbCatCable.New(Radio, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbCatCable.New(Flex.Smoothlake.FlexLib.Radio, String)
+  name.vb: New(Radio, String)
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.DataBits
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.DataBits
+  id: DataBits
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: DataBits
+  nameWithType: UsbCatCable.DataBits
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.DataBits
+  type: Property
+  source:
+    id: DataBits
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 33
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public SerialDataBits DataBits { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialDataBits
+    content.vb: Public Property DataBits As SerialDataBits
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.DataBits*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.DataBits
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.Speed
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.Speed
+  id: Speed
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: UsbCatCable.Speed
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.Speed
+  type: Property
+  source:
+    id: Speed
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 48
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public SerialSpeed Speed { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+    content.vb: Public Property Speed As SerialSpeed
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.Speed*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.Speed
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.Parity
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.Parity
+  id: Parity
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: Parity
+  nameWithType: UsbCatCable.Parity
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.Parity
+  type: Property
+  source:
+    id: Parity
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 113
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public SerialParity Parity { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+    content.vb: Public Property Parity As SerialParity
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.Parity*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.Parity
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.StopBits
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.StopBits
+  id: StopBits
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: StopBits
+  nameWithType: UsbCatCable.StopBits
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.StopBits
+  type: Property
+  source:
+    id: StopBits
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 177
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public SerialStopBits StopBits { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialStopBits
+    content.vb: Public Property StopBits As SerialStopBits
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.StopBits*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.StopBits
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl
+  id: FlowControl
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: FlowControl
+  nameWithType: UsbCatCable.FlowControl
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl
+  type: Property
+  source:
+    id: FlowControl
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 192
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public SerialFlowControl FlowControl { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialFlowControl
+    content.vb: Public Property FlowControl As SerialFlowControl
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.FlowControl
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.Source
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.Source
+  id: Source
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: UsbCatCable.Source
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.Source
+  type: Property
+  source:
+    id: Source
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 207
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public UsbCableFreqSource Source { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    content.vb: Public Property Source As UsbCableFreqSource
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.Source*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.Source
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt
+  id: SelectedRxAnt
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: SelectedRxAnt
+  nameWithType: UsbCatCable.SelectedRxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt
+  type: Property
+  source:
+    id: SelectedRxAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 223
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string SelectedRxAnt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedRxAnt As String
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedRxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt
+  id: SelectedTxAnt
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: SelectedTxAnt
+  nameWithType: UsbCatCable.SelectedTxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt
+  type: Property
+  source:
+    id: SelectedTxAnt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 241
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string SelectedTxAnt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedTxAnt As String
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedTxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice
+  id: SelectedSlice
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: SelectedSlice
+  nameWithType: UsbCatCable.SelectedSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice
+  type: Property
+  source:
+    id: SelectedSlice
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 258
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public string SelectedSlice { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedSlice As String
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedSlice
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport
+  id: AutoReport
+  parent: Flex.Smoothlake.FlexLib.UsbCatCable
+  langs:
+  - csharp
+  - vb
+  name: AutoReport
+  nameWithType: UsbCatCable.AutoReport
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport
+  type: Property
+  source:
+    id: AutoReport
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 275
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  example: []
+  syntax:
+    content: public bool AutoReport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoReport As Boolean
+  overload: Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport*
+  implements:
+  - Flex.Smoothlake.FlexLib.IUsbCatCable.AutoReport
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: Flex.Smoothlake.FlexLib.UsbCable
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.UsbCable.html
+  name: UsbCable
+  nameWithType: UsbCable
+  fullName: Flex.Smoothlake.FlexLib.UsbCable
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable
+  commentId: T:Flex.Smoothlake.FlexLib.IUsbCatCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html
+  name: IUsbCatCable
+  nameWithType: IUsbCatCable
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable
+- uid: Flex.Smoothlake.FlexLib.IUsbCable
+  commentId: T:Flex.Smoothlake.FlexLib.IUsbCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html
+  name: IUsbCable
+  nameWithType: IUsbCable
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable
+- uid: Flex.Smoothlake.FlexLib.UsbCable._radio
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._radio
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__radio
+  name: _radio
+  nameWithType: UsbCable._radio
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._radio
+- uid: Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+  commentId: E:Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_LogTextReceived
+  name: LogTextReceived
+  nameWithType: UsbCable.LogTextReceived
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.LogTextReceived
+- uid: Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__serialNumber
+  name: _serialNumber
+  nameWithType: UsbCable._serialNumber
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._serialNumber
+- uid: Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_SerialNumber
+  name: SerialNumber
+  nameWithType: UsbCable.SerialNumber
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.SerialNumber
+- uid: Flex.Smoothlake.FlexLib.UsbCable._cableType
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._cableType
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__cableType
+  name: _cableType
+  nameWithType: UsbCable._cableType
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._cableType
+- uid: Flex.Smoothlake.FlexLib.UsbCable.CableType
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.CableType
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_CableType
+  name: CableType
+  nameWithType: UsbCable.CableType
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.CableType
+- uid: Flex.Smoothlake.FlexLib.UsbCable._enabled
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._enabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__enabled
+  name: _enabled
+  nameWithType: UsbCable._enabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._enabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Enabled
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.Enabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Enabled
+  name: Enabled
+  nameWithType: UsbCable.Enabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Enabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable._present
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._present
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__present
+  name: _present
+  nameWithType: UsbCable._present
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._present
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Present
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.Present
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Present
+  name: Present
+  nameWithType: UsbCable.Present
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Present
+- uid: Flex.Smoothlake.FlexLib.UsbCable._name
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._name
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__name
+  name: _name
+  nameWithType: UsbCable._name
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._name
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Name
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.Name
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Name
+  name: Name
+  nameWithType: UsbCable.Name
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Name
+- uid: Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+  commentId: F:Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable__loggingEnabled
+  name: _loggingEnabled
+  nameWithType: UsbCable._loggingEnabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable._loggingEnabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_LoggingEnabled
+  name: LoggingEnabled
+  nameWithType: UsbCable.LoggingEnabled
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.LoggingEnabled
+- uid: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_UsbCableFreqSourceToString_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  name: UsbCableFreqSourceToString(UsbCableFreqSource)
+  nameWithType: UsbCable.UsbCableFreqSourceToString(UsbCableFreqSource)
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+    name: UsbCableFreqSourceToString
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_UsbCableFreqSourceToString_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  - name: (
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.UsbCableFreqSourceToString(Flex.Smoothlake.FlexLib.UsbCableFreqSource)
+    name: UsbCableFreqSourceToString
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_UsbCableFreqSourceToString_Flex_Smoothlake_FlexLib_UsbCableFreqSource_
+  - name: (
+  - uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+    name: UsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  isExternal: true
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_StringToUsbCableFreqSource_System_String_
+  name: StringToUsbCableFreqSource(string)
+  nameWithType: UsbCable.StringToUsbCableFreqSource(string)
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(string)
+  nameWithType.vb: UsbCable.StringToUsbCableFreqSource(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(String)
+  name.vb: StringToUsbCableFreqSource(String)
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+    name: StringToUsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_StringToUsbCableFreqSource_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.StringToUsbCableFreqSource(System.String)
+    name: StringToUsbCableFreqSource
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_StringToUsbCableFreqSource_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbCable.Remove
+  commentId: M:Flex.Smoothlake.FlexLib.UsbCable.Remove
+  parent: Flex.Smoothlake.FlexLib.UsbCable
+  href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Remove
+  name: Remove()
+  nameWithType: UsbCable.Remove()
+  fullName: Flex.Smoothlake.FlexLib.UsbCable.Remove()
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.Remove
+    name: Remove
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Remove
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.UsbCable.Remove
+    name: Remove
+    href: Flex.Smoothlake.FlexLib.UsbCable.html#Flex_Smoothlake_FlexLib_UsbCable_Remove
+  - name: (
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.#ctor
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable__ctor_Flex_Smoothlake_FlexLib_Radio_System_String_
+  name: UsbCatCable
+  nameWithType: UsbCatCable.UsbCatCable
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.UsbCatCable
+  nameWithType.vb: UsbCatCable.New
+  fullName.vb: Flex.Smoothlake.FlexLib.UsbCatCable.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.Radio
+  commentId: T:Flex.Smoothlake.FlexLib.Radio
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio
+  nameWithType: Radio
+  fullName: Flex.Smoothlake.FlexLib.Radio
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.DataBits*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.DataBits
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_DataBits
+  name: DataBits
+  nameWithType: UsbCatCable.DataBits
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.DataBits
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.DataBits
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.DataBits
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_DataBits
+  name: DataBits
+  nameWithType: IUsbCatCable.DataBits
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.DataBits
+- uid: Flex.Smoothlake.FlexLib.SerialDataBits
+  commentId: T:Flex.Smoothlake.FlexLib.SerialDataBits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialDataBits.html
+  name: SerialDataBits
+  nameWithType: SerialDataBits
+  fullName: Flex.Smoothlake.FlexLib.SerialDataBits
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.Speed*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.Speed
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_Speed
+  name: Speed
+  nameWithType: UsbCatCable.Speed
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.Speed
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.Speed
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.Speed
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_Speed
+  name: Speed
+  nameWithType: IUsbCatCable.Speed
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.Speed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed
+  commentId: T:Flex.Smoothlake.FlexLib.SerialSpeed
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialSpeed.html
+  name: SerialSpeed
+  nameWithType: SerialSpeed
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.Parity*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.Parity
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_Parity
+  name: Parity
+  nameWithType: UsbCatCable.Parity
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.Parity
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.Parity
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.Parity
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_Parity
+  name: Parity
+  nameWithType: IUsbCatCable.Parity
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.Parity
+- uid: Flex.Smoothlake.FlexLib.SerialParity
+  commentId: T:Flex.Smoothlake.FlexLib.SerialParity
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialParity.html
+  name: SerialParity
+  nameWithType: SerialParity
+  fullName: Flex.Smoothlake.FlexLib.SerialParity
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.StopBits*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.StopBits
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_StopBits
+  name: StopBits
+  nameWithType: UsbCatCable.StopBits
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.StopBits
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.StopBits
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.StopBits
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_StopBits
+  name: StopBits
+  nameWithType: IUsbCatCable.StopBits
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.StopBits
+- uid: Flex.Smoothlake.FlexLib.SerialStopBits
+  commentId: T:Flex.Smoothlake.FlexLib.SerialStopBits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialStopBits.html
+  name: SerialStopBits
+  nameWithType: SerialStopBits
+  fullName: Flex.Smoothlake.FlexLib.SerialStopBits
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_FlowControl
+  name: FlowControl
+  nameWithType: UsbCatCable.FlowControl
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.FlowControl
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.FlowControl
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.FlowControl
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_FlowControl
+  name: FlowControl
+  nameWithType: IUsbCatCable.FlowControl
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.FlowControl
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl
+  commentId: T:Flex.Smoothlake.FlexLib.SerialFlowControl
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialFlowControl.html
+  name: SerialFlowControl
+  nameWithType: SerialFlowControl
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.Source*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.Source
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_Source
+  name: Source
+  nameWithType: UsbCatCable.Source
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.Source
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.Source
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.Source
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_Source
+  name: Source
+  nameWithType: IUsbCatCable.Source
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.Source
+- uid: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  commentId: T:Flex.Smoothlake.FlexLib.UsbCableFreqSource
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.UsbCableFreqSource.html
+  name: UsbCableFreqSource
+  nameWithType: UsbCableFreqSource
+  fullName: Flex.Smoothlake.FlexLib.UsbCableFreqSource
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_SelectedRxAnt
+  name: SelectedRxAnt
+  nameWithType: UsbCatCable.SelectedRxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedRxAnt
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedRxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedRxAnt
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_SelectedRxAnt
+  name: SelectedRxAnt
+  nameWithType: IUsbCatCable.SelectedRxAnt
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedRxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_SelectedTxAnt
+  name: SelectedTxAnt
+  nameWithType: UsbCatCable.SelectedTxAnt
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedTxAnt
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedTxAnt
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedTxAnt
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_SelectedTxAnt
+  name: SelectedTxAnt
+  nameWithType: IUsbCatCable.SelectedTxAnt
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedTxAnt
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_SelectedSlice
+  name: SelectedSlice
+  nameWithType: UsbCatCable.SelectedSlice
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.SelectedSlice
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedSlice
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedSlice
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_SelectedSlice
+  name: SelectedSlice
+  nameWithType: IUsbCatCable.SelectedSlice
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.SelectedSlice
+- uid: Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport*
+  commentId: Overload:Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport
+  href: Flex.Smoothlake.FlexLib.UsbCatCable.html#Flex_Smoothlake_FlexLib_UsbCatCable_AutoReport
+  name: AutoReport
+  nameWithType: UsbCatCable.AutoReport
+  fullName: Flex.Smoothlake.FlexLib.UsbCatCable.AutoReport
+- uid: Flex.Smoothlake.FlexLib.IUsbCatCable.AutoReport
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCatCable.AutoReport
+  parent: Flex.Smoothlake.FlexLib.IUsbCatCable
+  href: Flex.Smoothlake.FlexLib.IUsbCatCable.html#Flex_Smoothlake_FlexLib_IUsbCatCable_AutoReport
+  name: AutoReport
+  nameWithType: IUsbCatCable.AutoReport
+  fullName: Flex.Smoothlake.FlexLib.IUsbCatCable.AutoReport
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

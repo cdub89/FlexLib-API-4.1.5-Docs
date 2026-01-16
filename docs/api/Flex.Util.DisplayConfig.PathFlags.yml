@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayConfig.PathFlags
+  commentId: T:Flex.Util.DisplayConfig.PathFlags
+  id: DisplayConfig.PathFlags
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayConfig.PathFlags.AllPaths
+  - Flex.Util.DisplayConfig.PathFlags.DatabaseCurrent
+  - Flex.Util.DisplayConfig.PathFlags.IncludeHmd
+  - Flex.Util.DisplayConfig.PathFlags.OnlyActivePaths
+  - Flex.Util.DisplayConfig.PathFlags.VirtualModeAware
+  - Flex.Util.DisplayConfig.PathFlags.VirtualRefreshRateAware
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfig.PathFlags
+  nameWithType: DisplayConfig.PathFlags
+  fullName: Flex.Util.DisplayConfig.PathFlags
+  type: Enum
+  source:
+    id: PathFlags
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 645
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DisplayConfig.PathFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum DisplayConfig.PathFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Flex.Util.DisplayConfig.PathFlags.AllPaths
+  commentId: F:Flex.Util.DisplayConfig.PathFlags.AllPaths
+  id: AllPaths
+  parent: Flex.Util.DisplayConfig.PathFlags
+  langs:
+  - csharp
+  - vb
+  name: AllPaths
+  nameWithType: DisplayConfig.PathFlags.AllPaths
+  fullName: Flex.Util.DisplayConfig.PathFlags.AllPaths
+  type: Field
+  source:
+    id: AllPaths
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 648
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: AllPaths = 1
+    return:
+      type: Flex.Util.DisplayConfig.PathFlags
+- uid: Flex.Util.DisplayConfig.PathFlags.OnlyActivePaths
+  commentId: F:Flex.Util.DisplayConfig.PathFlags.OnlyActivePaths
+  id: OnlyActivePaths
+  parent: Flex.Util.DisplayConfig.PathFlags
+  langs:
+  - csharp
+  - vb
+  name: OnlyActivePaths
+  nameWithType: DisplayConfig.PathFlags.OnlyActivePaths
+  fullName: Flex.Util.DisplayConfig.PathFlags.OnlyActivePaths
+  type: Field
+  source:
+    id: OnlyActivePaths
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 649
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: OnlyActivePaths = 2
+    return:
+      type: Flex.Util.DisplayConfig.PathFlags
+- uid: Flex.Util.DisplayConfig.PathFlags.DatabaseCurrent
+  commentId: F:Flex.Util.DisplayConfig.PathFlags.DatabaseCurrent
+  id: DatabaseCurrent
+  parent: Flex.Util.DisplayConfig.PathFlags
+  langs:
+  - csharp
+  - vb
+  name: DatabaseCurrent
+  nameWithType: DisplayConfig.PathFlags.DatabaseCurrent
+  fullName: Flex.Util.DisplayConfig.PathFlags.DatabaseCurrent
+  type: Field
+  source:
+    id: DatabaseCurrent
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 650
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DatabaseCurrent = 4
+    return:
+      type: Flex.Util.DisplayConfig.PathFlags
+- uid: Flex.Util.DisplayConfig.PathFlags.VirtualModeAware
+  commentId: F:Flex.Util.DisplayConfig.PathFlags.VirtualModeAware
+  id: VirtualModeAware
+  parent: Flex.Util.DisplayConfig.PathFlags
+  langs:
+  - csharp
+  - vb
+  name: VirtualModeAware
+  nameWithType: DisplayConfig.PathFlags.VirtualModeAware
+  fullName: Flex.Util.DisplayConfig.PathFlags.VirtualModeAware
+  type: Field
+  source:
+    id: VirtualModeAware
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 651
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: VirtualModeAware = 16
+    return:
+      type: Flex.Util.DisplayConfig.PathFlags
+- uid: Flex.Util.DisplayConfig.PathFlags.IncludeHmd
+  commentId: F:Flex.Util.DisplayConfig.PathFlags.IncludeHmd
+  id: IncludeHmd
+  parent: Flex.Util.DisplayConfig.PathFlags
+  langs:
+  - csharp
+  - vb
+  name: IncludeHmd
+  nameWithType: DisplayConfig.PathFlags.IncludeHmd
+  fullName: Flex.Util.DisplayConfig.PathFlags.IncludeHmd
+  type: Field
+  source:
+    id: IncludeHmd
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 652
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: IncludeHmd = 32
+    return:
+      type: Flex.Util.DisplayConfig.PathFlags
+- uid: Flex.Util.DisplayConfig.PathFlags.VirtualRefreshRateAware
+  commentId: F:Flex.Util.DisplayConfig.PathFlags.VirtualRefreshRateAware
+  id: VirtualRefreshRateAware
+  parent: Flex.Util.DisplayConfig.PathFlags
+  langs:
+  - csharp
+  - vb
+  name: VirtualRefreshRateAware
+  nameWithType: DisplayConfig.PathFlags.VirtualRefreshRateAware
+  fullName: Flex.Util.DisplayConfig.PathFlags.VirtualRefreshRateAware
+  type: Field
+  source:
+    id: VirtualRefreshRateAware
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 653
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: VirtualRefreshRateAware = 64
+    return:
+      type: Flex.Util.DisplayConfig.PathFlags
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: Flex.Util.DisplayConfig.PathFlags
+  commentId: T:Flex.Util.DisplayConfig.PathFlags
+  parent: Flex.Util
+  href: Flex.Util.DisplayConfig.html
+  name: DisplayConfig.PathFlags
+  nameWithType: DisplayConfig.PathFlags
+  fullName: Flex.Util.DisplayConfig.PathFlags
+  spec.csharp:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.PathFlags
+    name: PathFlags
+    href: Flex.Util.DisplayConfig.PathFlags.html
+  spec.vb:
+  - uid: Flex.Util.DisplayConfig
+    name: DisplayConfig
+    href: Flex.Util.DisplayConfig.html
+  - name: .
+  - uid: Flex.Util.DisplayConfig.PathFlags
+    name: PathFlags
+    href: Flex.Util.DisplayConfig.PathFlags.html

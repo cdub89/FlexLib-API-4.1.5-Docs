@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.VitaFrequency
+  commentId: T:Flex.Util.VitaFrequency
+  id: VitaFrequency
+  parent: Flex.Util
+  children:
+  - Flex.Util.VitaFrequency.FreqHz
+  - Flex.Util.VitaFrequency.FreqMhz
+  - Flex.Util.VitaFrequency.op_Implicit(Flex.Util.VitaFrequency)~System.Double
+  - Flex.Util.VitaFrequency.op_Implicit(Flex.Util.VitaFrequency)~System.Int64
+  - Flex.Util.VitaFrequency.op_Implicit(System.Double)~Flex.Util.VitaFrequency
+  - Flex.Util.VitaFrequency.op_Implicit(System.Int64)~Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: VitaFrequency
+  nameWithType: VitaFrequency
+  fullName: Flex.Util.VitaFrequency
+  type: Class
+  source:
+    id: VitaFrequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 21
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public class VitaFrequency
+    content.vb: Public Class VitaFrequency
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Util.VitaFrequency.op_Implicit(System.Int64)~Flex.Util.VitaFrequency
+  commentId: M:Flex.Util.VitaFrequency.op_Implicit(System.Int64)~Flex.Util.VitaFrequency
+  id: op_Implicit(System.Int64)~Flex.Util.VitaFrequency
+  parent: Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: implicit operator VitaFrequency(long)
+  nameWithType: VitaFrequency.implicit operator VitaFrequency(long)
+  fullName: Flex.Util.VitaFrequency.implicit operator Flex.Util.VitaFrequency(long)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 30
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Creates a new VitaFrequency with the raw data provided
+  example: []
+  syntax:
+    content: public static implicit operator VitaFrequency(long freq)
+    parameters:
+    - id: freq
+      type: System.Int64
+      description: The 64-bit integer to use to create the VitaFrequency
+    return:
+      type: Flex.Util.VitaFrequency
+      description: A new VitaFrequency
+    content.vb: Public Shared Widening Operator CType(freq As Long) As VitaFrequency
+  overload: Flex.Util.VitaFrequency.op_Implicit*
+  nameWithType.vb: VitaFrequency.CType(Long)
+  fullName.vb: Flex.Util.VitaFrequency.CType(Long)
+  name.vb: CType(Long)
+- uid: Flex.Util.VitaFrequency.op_Implicit(System.Double)~Flex.Util.VitaFrequency
+  commentId: M:Flex.Util.VitaFrequency.op_Implicit(System.Double)~Flex.Util.VitaFrequency
+  id: op_Implicit(System.Double)~Flex.Util.VitaFrequency
+  parent: Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: implicit operator VitaFrequency(double)
+  nameWithType: VitaFrequency.implicit operator VitaFrequency(double)
+  fullName: Flex.Util.VitaFrequency.implicit operator Flex.Util.VitaFrequency(double)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 40
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Creates a new VitaFrequency with the data provided
+  example: []
+  syntax:
+    content: public static implicit operator VitaFrequency(double freqMhz)
+    parameters:
+    - id: freqMhz
+      type: System.Double
+      description: The 64-bit float in MHz to use to create the VitaFrequency
+    return:
+      type: Flex.Util.VitaFrequency
+      description: A new VitaFrequency
+    content.vb: Public Shared Widening Operator CType(freqMhz As Double) As VitaFrequency
+  overload: Flex.Util.VitaFrequency.op_Implicit*
+  nameWithType.vb: VitaFrequency.CType(Double)
+  fullName.vb: Flex.Util.VitaFrequency.CType(Double)
+  name.vb: CType(Double)
+- uid: Flex.Util.VitaFrequency.op_Implicit(Flex.Util.VitaFrequency)~System.Int64
+  commentId: M:Flex.Util.VitaFrequency.op_Implicit(Flex.Util.VitaFrequency)~System.Int64
+  id: op_Implicit(Flex.Util.VitaFrequency)~System.Int64
+  parent: Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: implicit operator long(VitaFrequency)
+  nameWithType: VitaFrequency.implicit operator long(VitaFrequency)
+  fullName: Flex.Util.VitaFrequency.implicit operator long(Flex.Util.VitaFrequency)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 50
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Pulls the raw 64-bit integer data out of the VitaFrequency.  Allows the type to be used like a built-in type
+  example: []
+  syntax:
+    content: public static implicit operator long(VitaFrequency vf)
+    parameters:
+    - id: vf
+      type: Flex.Util.VitaFrequency
+      description: ''
+    return:
+      type: System.Int64
+      description: ''
+    content.vb: Public Shared Widening Operator CType(vf As VitaFrequency) As Long
+  overload: Flex.Util.VitaFrequency.op_Implicit*
+  nameWithType.vb: VitaFrequency.CType(VitaFrequency)
+  fullName.vb: Flex.Util.VitaFrequency.CType(Flex.Util.VitaFrequency)
+  name.vb: CType(VitaFrequency)
+- uid: Flex.Util.VitaFrequency.op_Implicit(Flex.Util.VitaFrequency)~System.Double
+  commentId: M:Flex.Util.VitaFrequency.op_Implicit(Flex.Util.VitaFrequency)~System.Double
+  id: op_Implicit(Flex.Util.VitaFrequency)~System.Double
+  parent: Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: implicit operator double(VitaFrequency)
+  nameWithType: VitaFrequency.implicit operator double(VitaFrequency)
+  fullName: Flex.Util.VitaFrequency.implicit operator double(Flex.Util.VitaFrequency)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 60
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Pulls the frequency out as a double in MHz.  Allows the type to be used like a built-in type
+  example: []
+  syntax:
+    content: public static implicit operator double(VitaFrequency vf)
+    parameters:
+    - id: vf
+      type: Flex.Util.VitaFrequency
+      description: ''
+    return:
+      type: System.Double
+      description: The frequency in MHz
+    content.vb: Public Shared Widening Operator CType(vf As VitaFrequency) As Double
+  overload: Flex.Util.VitaFrequency.op_Implicit*
+  nameWithType.vb: VitaFrequency.CType(VitaFrequency)
+  fullName.vb: Flex.Util.VitaFrequency.CType(Flex.Util.VitaFrequency)
+  name.vb: CType(VitaFrequency)
+- uid: Flex.Util.VitaFrequency.FreqMhz
+  commentId: P:Flex.Util.VitaFrequency.FreqMhz
+  id: FreqMhz
+  parent: Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: FreqMhz
+  nameWithType: VitaFrequency.FreqMhz
+  fullName: Flex.Util.VitaFrequency.FreqMhz
+  type: Property
+  source:
+    id: FreqMhz
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 68
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: The Frequency in Megahertz represented by the VitaFrequency to the limit of a double (64-bit floating point)
+  example: []
+  syntax:
+    content: public double FreqMhz { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property FreqMhz As Double
+  overload: Flex.Util.VitaFrequency.FreqMhz*
+- uid: Flex.Util.VitaFrequency.FreqHz
+  commentId: P:Flex.Util.VitaFrequency.FreqHz
+  id: FreqHz
+  parent: Flex.Util.VitaFrequency
+  langs:
+  - csharp
+  - vb
+  name: FreqHz
+  nameWithType: VitaFrequency.FreqHz
+  fullName: Flex.Util.VitaFrequency.FreqHz
+  type: Property
+  source:
+    id: FreqHz
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\VitaFrequency.cs
+    startLine: 76
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: The frequency in Hertz represented by the VitaFrequency to the limit of a long (64-bit signed integer)
+  example: []
+  syntax:
+    content: public long FreqHz { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property FreqHz As Long
+  overload: Flex.Util.VitaFrequency.FreqHz*
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Util.VitaFrequency.op_Implicit*
+  commentId: Overload:Flex.Util.VitaFrequency.op_Implicit
+  name: implicit operator
+  nameWithType: VitaFrequency.implicit operator
+  fullName: Flex.Util.VitaFrequency.implicit operator
+  nameWithType.vb: VitaFrequency.CType
+  fullName.vb: Flex.Util.VitaFrequency.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Flex.Util.VitaFrequency
+  commentId: T:Flex.Util.VitaFrequency
+  parent: Flex.Util
+  href: Flex.Util.VitaFrequency.html
+  name: VitaFrequency
+  nameWithType: VitaFrequency
+  fullName: Flex.Util.VitaFrequency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Util.VitaFrequency.FreqMhz*
+  commentId: Overload:Flex.Util.VitaFrequency.FreqMhz
+  href: Flex.Util.VitaFrequency.html#Flex_Util_VitaFrequency_FreqMhz
+  name: FreqMhz
+  nameWithType: VitaFrequency.FreqMhz
+  fullName: Flex.Util.VitaFrequency.FreqMhz
+- uid: Flex.Util.VitaFrequency.FreqHz*
+  commentId: Overload:Flex.Util.VitaFrequency.FreqHz
+  href: Flex.Util.VitaFrequency.html#Flex_Util_VitaFrequency_FreqHz
+  name: FreqHz
+  nameWithType: VitaFrequency.FreqHz
+  fullName: Flex.Util.VitaFrequency.FreqHz

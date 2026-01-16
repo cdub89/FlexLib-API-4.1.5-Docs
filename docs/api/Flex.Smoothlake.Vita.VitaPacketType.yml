@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.Vita.VitaPacketType
+  commentId: T:Flex.Smoothlake.Vita.VitaPacketType
+  id: VitaPacketType
+  parent: Flex.Smoothlake.Vita
+  children:
+  - Flex.Smoothlake.Vita.VitaPacketType.ExtContext
+  - Flex.Smoothlake.Vita.VitaPacketType.ExtData
+  - Flex.Smoothlake.Vita.VitaPacketType.ExtDataWithStream
+  - Flex.Smoothlake.Vita.VitaPacketType.IFContext
+  - Flex.Smoothlake.Vita.VitaPacketType.IFData
+  - Flex.Smoothlake.Vita.VitaPacketType.IFDataWithStream
+  langs:
+  - csharp
+  - vb
+  name: VitaPacketType
+  nameWithType: VitaPacketType
+  fullName: Flex.Smoothlake.Vita.VitaPacketType
+  type: Enum
+  source:
+    id: VitaPacketType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 28
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  summary: From Vita 49 Standard Table 6.1.1-1
+  example: []
+  syntax:
+    content: public enum VitaPacketType
+    content.vb: Public Enum VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaPacketType.IFData
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketType.IFData
+  id: IFData
+  parent: Flex.Smoothlake.Vita.VitaPacketType
+  langs:
+  - csharp
+  - vb
+  name: IFData
+  nameWithType: VitaPacketType.IFData
+  fullName: Flex.Smoothlake.Vita.VitaPacketType.IFData
+  type: Field
+  source:
+    id: IFData
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 30
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: IFData = 0
+    return:
+      type: Flex.Smoothlake.Vita.VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaPacketType.IFDataWithStream
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketType.IFDataWithStream
+  id: IFDataWithStream
+  parent: Flex.Smoothlake.Vita.VitaPacketType
+  langs:
+  - csharp
+  - vb
+  name: IFDataWithStream
+  nameWithType: VitaPacketType.IFDataWithStream
+  fullName: Flex.Smoothlake.Vita.VitaPacketType.IFDataWithStream
+  type: Field
+  source:
+    id: IFDataWithStream
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 31
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: IFDataWithStream = 1
+    return:
+      type: Flex.Smoothlake.Vita.VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaPacketType.ExtData
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketType.ExtData
+  id: ExtData
+  parent: Flex.Smoothlake.Vita.VitaPacketType
+  langs:
+  - csharp
+  - vb
+  name: ExtData
+  nameWithType: VitaPacketType.ExtData
+  fullName: Flex.Smoothlake.Vita.VitaPacketType.ExtData
+  type: Field
+  source:
+    id: ExtData
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 32
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: ExtData = 2
+    return:
+      type: Flex.Smoothlake.Vita.VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaPacketType.ExtDataWithStream
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketType.ExtDataWithStream
+  id: ExtDataWithStream
+  parent: Flex.Smoothlake.Vita.VitaPacketType
+  langs:
+  - csharp
+  - vb
+  name: ExtDataWithStream
+  nameWithType: VitaPacketType.ExtDataWithStream
+  fullName: Flex.Smoothlake.Vita.VitaPacketType.ExtDataWithStream
+  type: Field
+  source:
+    id: ExtDataWithStream
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 33
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: ExtDataWithStream = 3
+    return:
+      type: Flex.Smoothlake.Vita.VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaPacketType.IFContext
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketType.IFContext
+  id: IFContext
+  parent: Flex.Smoothlake.Vita.VitaPacketType
+  langs:
+  - csharp
+  - vb
+  name: IFContext
+  nameWithType: VitaPacketType.IFContext
+  fullName: Flex.Smoothlake.Vita.VitaPacketType.IFContext
+  type: Field
+  source:
+    id: IFContext
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 34
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: IFContext = 4
+    return:
+      type: Flex.Smoothlake.Vita.VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaPacketType.ExtContext
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketType.ExtContext
+  id: ExtContext
+  parent: Flex.Smoothlake.Vita.VitaPacketType
+  langs:
+  - csharp
+  - vb
+  name: ExtContext
+  nameWithType: VitaPacketType.ExtContext
+  fullName: Flex.Smoothlake.Vita.VitaPacketType.ExtContext
+  type: Field
+  source:
+    id: ExtContext
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaCommon.cs
+    startLine: 35
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: ExtContext = 5
+    return:
+      type: Flex.Smoothlake.Vita.VitaPacketType
+references:
+- uid: Flex.Smoothlake.Vita
+  commentId: N:Flex.Smoothlake.Vita
+  href: Flex.html
+  name: Flex.Smoothlake.Vita
+  nameWithType: Flex.Smoothlake.Vita
+  fullName: Flex.Smoothlake.Vita
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+- uid: Flex.Smoothlake.Vita.VitaPacketType
+  commentId: T:Flex.Smoothlake.Vita.VitaPacketType
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaPacketType.html
+  name: VitaPacketType
+  nameWithType: VitaPacketType
+  fullName: Flex.Smoothlake.Vita.VitaPacketType

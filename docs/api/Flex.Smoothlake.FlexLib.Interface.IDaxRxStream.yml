@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  commentId: T:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  id: IDaxRxStream
+  parent: Flex.Smoothlake.FlexLib.Interface
+  children:
+  - Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio
+  - Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.DataReady
+  - Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount
+  - Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount
+  langs:
+  - csharp
+  - vb
+  name: IDaxRxStream
+  nameWithType: IDaxRxStream
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  type: Interface
+  source:
+    id: IDaxRxStream
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IDaxRxStream.cs
+    startLine: 2
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib.Interface
+  syntax:
+    content: 'public interface IDaxRxStream : IDaxStream, INotifyPropertyChanged'
+    content.vb: Public Interface IDaxRxStream Inherits IDaxStream, INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.Smoothlake.FlexLib.Interface.IDaxStream.Gain
+  - Flex.Smoothlake.FlexLib.Interface.IDaxStream.Close
+  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio
+  commentId: P:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio
+  id: BytesPerSecFromRadio
+  parent: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  langs:
+  - csharp
+  - vb
+  name: BytesPerSecFromRadio
+  nameWithType: IDaxRxStream.BytesPerSecFromRadio
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio
+  type: Property
+  source:
+    id: BytesPerSecFromRadio
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IDaxRxStream.cs
+    startLine: 4
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib.Interface
+  syntax:
+    content: int BytesPerSecFromRadio { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property BytesPerSecFromRadio As Integer
+  overload: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio*
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount
+  commentId: P:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount
+  id: ErrorCount
+  parent: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  langs:
+  - csharp
+  - vb
+  name: ErrorCount
+  nameWithType: IDaxRxStream.ErrorCount
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount
+  type: Property
+  source:
+    id: ErrorCount
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IDaxRxStream.cs
+    startLine: 5
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib.Interface
+  syntax:
+    content: int ErrorCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ErrorCount As Integer
+  overload: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount*
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount
+  commentId: P:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount
+  id: TotalCount
+  parent: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  langs:
+  - csharp
+  - vb
+  name: TotalCount
+  nameWithType: IDaxRxStream.TotalCount
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount
+  type: Property
+  source:
+    id: TotalCount
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IDaxRxStream.cs
+    startLine: 6
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib.Interface
+  syntax:
+    content: int TotalCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property TotalCount As Integer
+  overload: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount*
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.DataReady
+  commentId: E:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.DataReady
+  id: DataReady
+  parent: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream
+  langs:
+  - csharp
+  - vb
+  name: DataReady
+  nameWithType: IDaxRxStream.DataReady
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.DataReady
+  type: Event
+  source:
+    id: DataReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IDaxRxStream.cs
+    startLine: 8
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib.Interface
+  syntax:
+    content: event RXAudioStream.DataReadyEventHandler DataReady
+    return:
+      type: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+    content.vb: Event DataReady As RXAudioStream.DataReadyEventHandler
+references:
+- uid: Flex.Smoothlake.FlexLib.Interface
+  commentId: N:Flex.Smoothlake.FlexLib.Interface
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib.Interface
+  nameWithType: Flex.Smoothlake.FlexLib.Interface
+  fullName: Flex.Smoothlake.FlexLib.Interface
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Interface
+    name: Interface
+    href: Flex.Smoothlake.FlexLib.Interface.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Interface
+    name: Interface
+    href: Flex.Smoothlake.FlexLib.Interface.html
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxStream.Gain
+  commentId: P:Flex.Smoothlake.FlexLib.Interface.IDaxStream.Gain
+  parent: Flex.Smoothlake.FlexLib.Interface.IDaxStream
+  href: Flex.Smoothlake.FlexLib.Interface.IDaxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxStream_Gain
+  name: Gain
+  nameWithType: IDaxStream.Gain
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxStream.Gain
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxStream.Close
+  commentId: M:Flex.Smoothlake.FlexLib.Interface.IDaxStream.Close
+  parent: Flex.Smoothlake.FlexLib.Interface.IDaxStream
+  href: Flex.Smoothlake.FlexLib.Interface.IDaxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxStream_Close
+  name: Close()
+  nameWithType: IDaxStream.Close()
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxStream.Close()
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Interface.IDaxStream.Close
+    name: Close
+    href: Flex.Smoothlake.FlexLib.Interface.IDaxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxStream_Close
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Interface.IDaxStream.Close
+    name: Close
+    href: Flex.Smoothlake.FlexLib.Interface.IDaxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxStream_Close
+  - name: (
+  - name: )
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxStream
+  commentId: T:Flex.Smoothlake.FlexLib.Interface.IDaxStream
+  parent: Flex.Smoothlake.FlexLib.Interface
+  href: Flex.Smoothlake.FlexLib.Interface.IDaxStream.html
+  name: IDaxStream
+  nameWithType: IDaxStream
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxStream
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio
+  href: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxRxStream_BytesPerSecFromRadio
+  name: BytesPerSecFromRadio
+  nameWithType: IDaxRxStream.BytesPerSecFromRadio
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.BytesPerSecFromRadio
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount
+  href: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxRxStream_ErrorCount
+  name: ErrorCount
+  nameWithType: IDaxRxStream.ErrorCount
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.ErrorCount
+- uid: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount
+  href: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.html#Flex_Smoothlake_FlexLib_Interface_IDaxRxStream_TotalCount
+  name: TotalCount
+  nameWithType: IDaxRxStream.TotalCount
+  fullName: Flex.Smoothlake.FlexLib.Interface.IDaxRxStream.TotalCount
+- uid: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.RXAudioStream.html
+  name: RXAudioStream.DataReadyEventHandler
+  nameWithType: RXAudioStream.DataReadyEventHandler
+  fullName: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream
+    name: RXAudioStream
+    href: Flex.Smoothlake.FlexLib.RXAudioStream.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+    name: DataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream
+    name: RXAudioStream
+    href: Flex.Smoothlake.FlexLib.RXAudioStream.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler
+    name: DataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.RXAudioStream.DataReadyEventHandler.html
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html

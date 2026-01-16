@@ -1,0 +1,3389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Slice | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Slice | FlexLib API Documentation ">
+      
+      <meta name="description" content="Represents a receiver/transmitter channel (slice) in a FlexRadio device.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="ApiPage" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Flex.Smoothlake.FlexLib.Slice">
+
+
+
+  <h1 id="Flex_Smoothlake_FlexLib_Slice" data-uid="Flex.Smoothlake.FlexLib.Slice" class="text-break">
+Class Slice  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Flex.html">Flex</a>.<a class="xref" href="Flex.Smoothlake.html">Smoothlake</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.html">FlexLib</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FlexLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a receiver/transmitter channel (slice) in a FlexRadio device.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Slice : ObservableObject, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html">ObservableObject</a></div>
+      <div><span class="xref">Slice</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_PropertyChanged">ObservableObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_">ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_RaisePropertyChanged__1_System_Linq_Expressions_Expression_System_Func___0___">ObservableObject.RaisePropertyChanged&lt;T&gt;(Expression&lt;Func&lt;T&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_RaisePropertyChanged_System_String_">ObservableObject.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_VerifyPropertyName_System_String_">ObservableObject.VerifyPropertyName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+  <h2 id="Flex_Smoothlake_FlexLib_Slice_examples">Examples</h2>
+  <pre><code class="lang-csharp">// Create and configure a slice
+radio.RequestSliceFromRadio();
+await Task.Delay(500);
+
+var slice = radio.SliceList.FirstOrDefault();
+if (slice != null)
+{
+    slice.Freq = 14.200;           // Tune to 14.200 MHz
+    slice.Mode = "USB";            // Set to Upper Sideband
+    slice.FilterLow = 200;         // Set filter low cut
+    slice.FilterHigh = 2800;       // Set filter high cut
+    slice.Active = true;           // Activate slice
+}</code></pre>
+
+
+  <h2 id="Flex_Smoothlake_FlexLib_Slice_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+A slice is an independent receiver or transmitter channel that can be tuned
+to any frequency within the radio's capabilities. Modern FlexRadio devices
+support multiple simultaneous slices (typically up to 8), allowing monitoring
+of different frequencies or modes at the same time.
+</p>
+<p>
+Each slice has its own:
+<ul><li>Frequency and mode settings</li><li>Filter configuration</li><li>Audio gain and routing</li><li>AGC settings</li><li>Antenna selection</li><li>Processing features (NR, NB, ANF, APF)</li></ul>
+
+<p>
+Slices are created by calling Radio.RequestSliceFromRadio and
+removed with <a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html">RemoveSlice(Slice)</a>. This class implements 
+<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a> for data binding support.
+</p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_AGCMode_" data-uid="Flex.Smoothlake.FlexLib.Slice.AGCMode*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_AGCMode" data-uid="Flex.Smoothlake.FlexLib.Slice.AGCMode">
+  AGCMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the current AGC mode for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AGCMode AGCMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.AGCMode.html">AGCMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_AGCOffLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.AGCOffLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_AGCOffLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.AGCOffLevel">
+  AGCOffLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AGCOffLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_AGCThreshold_" data-uid="Flex.Smoothlake.FlexLib.Slice.AGCThreshold*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_AGCThreshold" data-uid="Flex.Smoothlake.FlexLib.Slice.AGCThreshold">
+  AGCThreshold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AGCThreshold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ANFLOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFLOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ANFLOn" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFLOn">
+  ANFLOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the lms legacy auto-notch filter (ANFL) for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ANFLOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ANFL_Level_" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFL_Level*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ANFL_Level" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFL_Level">
+  ANFL_Level
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the lms legacy auto-notch filter (ANFL) level from 0 to 100 for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ANFL_Level { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ANFLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ANFLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFLevel">
+  ANFLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the auto-notch filter (ANF) level from 0 to 100.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ANFLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ANFOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ANFOn" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFOn">
+  ANFOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the auto-notch filter (ANF) for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ANFOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ANFTOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFTOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ANFTOn" data-uid="Flex.Smoothlake.FlexLib.Slice.ANFTOn">
+  ANFTOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables FFT-based automatic notch filter (ANFT) for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ANFTOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_APFLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.APFLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_APFLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.APFLevel">
+  APFLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the auto-peaking filter (APF) level from 0 to 100.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int APFLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_APFOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.APFOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_APFOn" data-uid="Flex.Smoothlake.FlexLib.Slice.APFOn">
+  APFOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the auto-peaking filter (APF) for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool APFOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Active_" data-uid="Flex.Smoothlake.FlexLib.Slice.Active*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Active" data-uid="Flex.Smoothlake.FlexLib.Slice.Active">
+  Active
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the whether the Slice is the Active Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Active { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_AudioGain_" data-uid="Flex.Smoothlake.FlexLib.Slice.AudioGain*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_AudioGain" data-uid="Flex.Smoothlake.FlexLib.Slice.AudioGain">
+  AudioGain
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the Slice audio level from 0 to 100.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AudioGain { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_AudioPan_" data-uid="Flex.Smoothlake.FlexLib.Slice.AudioPan*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_AudioPan" data-uid="Flex.Smoothlake.FlexLib.Slice.AudioPan">
+  AudioPan
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the left-right pan for the Slice audio from 0 to 100.<br>
+A value of 50 pans evenly between left and right.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AudioPan { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_AutoPan_" data-uid="Flex.Smoothlake.FlexLib.Slice.AutoPan*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_AutoPan" data-uid="Flex.Smoothlake.FlexLib.Slice.AutoPan">
+  AutoPan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoPan { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ClientHandle_" data-uid="Flex.Smoothlake.FlexLib.Slice.ClientHandle*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ClientHandle" data-uid="Flex.Smoothlake.FlexLib.Slice.ClientHandle">
+  ClientHandle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ClientHandle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DAXChannel_" data-uid="Flex.Smoothlake.FlexLib.Slice.DAXChannel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DAXChannel" data-uid="Flex.Smoothlake.FlexLib.Slice.DAXChannel">
+  DAXChannel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the DAX Channel for the Slice, from 0 to 8</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DAXChannel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DFMPreDeEmphasis_" data-uid="Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DFMPreDeEmphasis" data-uid="Flex.Smoothlake.FlexLib.Slice.DFMPreDeEmphasis">
+  DFMPreDeEmphasis
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether de-emphasis is enabled on RX and if the slice is the transmitter then it also controls pre-emphasis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DFMPreDeEmphasis { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DIGLOffset_" data-uid="Flex.Smoothlake.FlexLib.Slice.DIGLOffset*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DIGLOffset" data-uid="Flex.Smoothlake.FlexLib.Slice.DIGLOffset">
+  DIGLOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Slice DIGL offset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DIGLOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DIGUOffset_" data-uid="Flex.Smoothlake.FlexLib.Slice.DIGUOffset*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DIGUOffset" data-uid="Flex.Smoothlake.FlexLib.Slice.DIGUOffset">
+  DIGUOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Slice DIGL offset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DIGUOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DemodMode_" data-uid="Flex.Smoothlake.FlexLib.Slice.DemodMode*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DemodMode" data-uid="Flex.Smoothlake.FlexLib.Slice.DemodMode">
+  DemodMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DemodMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DiversityChild_" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversityChild*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DiversityChild" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversityChild">
+  DiversityChild
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Represents if this slice is a diversity child. Only available for 2-SCU radios</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DiversityChild { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DiversityIndex_" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversityIndex*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DiversityIndex" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversityIndex">
+  DiversityIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The slice index of the paired diversity slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DiversityIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DiversityOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversityOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DiversityOn" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversityOn">
+  DiversityOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the simple Diversity reception for the Slice.
+Only available for the FLEX-6700 and FLEX-6700R.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DiversityOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_DiversitySlicePartner_" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_DiversitySlicePartner" data-uid="Flex.Smoothlake.FlexLib.Slice.DiversitySlicePartner">
+  DiversitySlicePartner
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The diversity Slice is associated with this Slice, if
+this Slice is a diversity Slice parent or child.
+If this Slice is a diversity parent, DiversitySlicePartner
+will be the diversity child Slice and vice versa.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Slice DiversitySlicePartner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html">Slice</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ESCEnabled_" data-uid="Flex.Smoothlake.FlexLib.Slice.ESCEnabled*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ESCEnabled" data-uid="Flex.Smoothlake.FlexLib.Slice.ESCEnabled">
+  ESCEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ESCEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ESCGain_" data-uid="Flex.Smoothlake.FlexLib.Slice.ESCGain*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ESCGain" data-uid="Flex.Smoothlake.FlexLib.Slice.ESCGain">
+  ESCGain
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ESCGain { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ESCPhaseShift_" data-uid="Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ESCPhaseShift" data-uid="Flex.Smoothlake.FlexLib.Slice.ESCPhaseShift">
+  ESCPhaseShift
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ESCPhaseShift { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_EqCompBypass_" data-uid="Flex.Smoothlake.FlexLib.Slice.EqCompBypass*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_EqCompBypass" data-uid="Flex.Smoothlake.FlexLib.Slice.EqCompBypass">
+  EqCompBypass
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EqCompBypass { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FMDeviation_" data-uid="Flex.Smoothlake.FlexLib.Slice.FMDeviation*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FMDeviation" data-uid="Flex.Smoothlake.FlexLib.Slice.FMDeviation">
+  FMDeviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Controls the FM deviation for a given slice. If the slice is also the transmitter it updates the transmit FM deviation as well.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FMDeviation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FMRepeaterOffsetFreq_" data-uid="Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FMRepeaterOffsetFreq" data-uid="Flex.Smoothlake.FlexLib.Slice.FMRepeaterOffsetFreq">
+  FMRepeaterOffsetFreq
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the OffsetFrequency used for transmitting a wide split in FM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double FMRepeaterOffsetFreq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FMTX1750_" data-uid="Flex.Smoothlake.FlexLib.Slice.FMTX1750*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FMTX1750" data-uid="Flex.Smoothlake.FlexLib.Slice.FMTX1750">
+  FMTX1750
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether the FM 1750 Hz PL tone is enabled (EU only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FMTX1750 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FMToneValue_" data-uid="Flex.Smoothlake.FlexLib.Slice.FMToneValue*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FMToneValue" data-uid="Flex.Smoothlake.FlexLib.Slice.FMToneValue">
+  FMToneValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to set the value of the FM Tone. In most cases this is the repeater tone.S</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FMToneValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FilterHigh_" data-uid="Flex.Smoothlake.FlexLib.Slice.FilterHigh*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FilterHigh" data-uid="Flex.Smoothlake.FlexLib.Slice.FilterHigh">
+  FilterHigh
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Slice receive filter high cut in Hz</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FilterHigh { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FilterLow_" data-uid="Flex.Smoothlake.FlexLib.Slice.FilterLow*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FilterLow" data-uid="Flex.Smoothlake.FlexLib.Slice.FilterLow">
+  FilterLow
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Slice receive filter low cut in Hz</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FilterLow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Freq_" data-uid="Flex.Smoothlake.FlexLib.Slice.Freq*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Freq" data-uid="Flex.Smoothlake.FlexLib.Slice.Freq">
+  Freq
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the frequency of the slice in megahertz (MHz).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Freq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The frequency in MHz. Valid range depends on radio model and configuration,
+typically from 0.03 MHz to 77 MHz (direct sampling) and 122.88 MHz to 245.76 MHz.</p>
+</dd>
+  </dl>
+
+
+
+  <h4 class="section" id="Flex_Smoothlake_FlexLib_Slice_Freq_examples">Examples</h4>
+  <pre><code class="lang-csharp">// Tune to 14.200 MHz (20m band)
+slice.Freq = 14.200;
+
+// Tune to 146.52 MHz (2m simplex)
+slice.Freq = 146.52;
+
+// Monitor frequency changes
+slice.PropertyChanged += (s, e) =&gt;
+{
+    if (e.PropertyName == "Freq")
+        Console.WriteLine($"Now tuned to: {slice.Freq:F6} MHz");
+};</code></pre>
+
+
+  <h4 class="section" id="Flex_Smoothlake_FlexLib_Slice_Freq_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+Setting this property sends a command to the radio to tune the slice to the
+specified frequency. The actual tuned frequency may differ slightly due to
+radio hardware constraints.
+</p>
+<p>
+If the slice is locked (<a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Lock">Lock</a> is <code>true</code>), setting this
+property has no effect.
+</p>
+<p>
+This property raises <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged">PropertyChanged</a>
+when the frequency changes.
+</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html#Flex_Smoothlake_FlexLib_Slice_Lock">Lock</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Index_" data-uid="Flex.Smoothlake.FlexLib.Slice.Index*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Index" data-uid="Flex.Smoothlake.FlexLib.Slice.Index">
+  Index
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the slice index of the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Index { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_IsTransmitSlice_" data-uid="Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_IsTransmitSlice" data-uid="Flex.Smoothlake.FlexLib.Slice.IsTransmitSlice">
+  IsTransmitSlice
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTransmitSlice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Letter_" data-uid="Flex.Smoothlake.FlexLib.Slice.Letter*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Letter" data-uid="Flex.Smoothlake.FlexLib.Slice.Letter">
+  Letter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Letter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Lock_" data-uid="Flex.Smoothlake.FlexLib.Slice.Lock*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Lock" data-uid="Flex.Smoothlake.FlexLib.Slice.Lock">
+  Lock
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether or not the Slice is locked.  When locked,
+the Slice frequency cannot be changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Lock { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_LoopA_" data-uid="Flex.Smoothlake.FlexLib.Slice.LoopA*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_LoopA" data-uid="Flex.Smoothlake.FlexLib.Slice.LoopA">
+  LoopA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoopA { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_LoopB_" data-uid="Flex.Smoothlake.FlexLib.Slice.LoopB*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_LoopB" data-uid="Flex.Smoothlake.FlexLib.Slice.LoopB">
+  LoopB
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoopB { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_MaxInternalPaPowerWatts_" data-uid="Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_MaxInternalPaPowerWatts" data-uid="Flex.Smoothlake.FlexLib.Slice.MaxInternalPaPowerWatts">
+  MaxInternalPaPowerWatts
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxInternalPaPowerWatts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ModeList_" data-uid="Flex.Smoothlake.FlexLib.Slice.ModeList*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ModeList" data-uid="Flex.Smoothlake.FlexLib.Slice.ModeList">
+  ModeList
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of available modes for this slice</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; ModeList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Mute_" data-uid="Flex.Smoothlake.FlexLib.Slice.Mute*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Mute" data-uid="Flex.Smoothlake.FlexLib.Slice.Mute">
+  Mute
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the mute state of the Slice.  When true, the
+Slice audio is muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Mute { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NBLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.NBLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NBLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.NBLevel">
+  NBLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Noise Blanker (NB) level from 0 to 100.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NBLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NBOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.NBOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NBOn" data-uid="Flex.Smoothlake.FlexLib.Slice.NBOn">
+  NBOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the Noise Blanker (NB) for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NBOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRFLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRFLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRFLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.NRFLevel">
+  NRFLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets Noise Reduction w/ filter (NRF) level from 0 to 100 for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NRFLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRFOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRFOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRFOn" data-uid="Flex.Smoothlake.FlexLib.Slice.NRFOn">
+  NRFOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables Noise Reduction w/ Filter (NRF, better NR) for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NRFOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRLOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRLOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRLOn" data-uid="Flex.Smoothlake.FlexLib.Slice.NRLOn">
+  NRLOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the lms legacy noise reduction (NRL) for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NRLOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRL_Level_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRL_Level*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRL_Level" data-uid="Flex.Smoothlake.FlexLib.Slice.NRL_Level">
+  NRL_Level
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the lms legacy Noise Reduction (NRL) level from 0 to 100 for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NRL_Level { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.NRLevel">
+  NRLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Noise Reduction (NR) level from 0 to 100 for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NRLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NROn_" data-uid="Flex.Smoothlake.FlexLib.Slice.NROn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NROn" data-uid="Flex.Smoothlake.FlexLib.Slice.NROn">
+  NROn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the Noise Reduction (NR) for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NROn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRSLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRSLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRSLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.NRSLevel">
+  NRSLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets spectral subtraction noise reduction (NRS) level from 0 to 100 of the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NRSLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_NRSOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.NRSOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_NRSOn" data-uid="Flex.Smoothlake.FlexLib.Slice.NRSOn">
+  NRSOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables spectral subtraction noise reduction (NRS) for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NRSOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Owner_" data-uid="Flex.Smoothlake.FlexLib.Slice.Owner*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Owner" data-uid="Flex.Smoothlake.FlexLib.Slice.Owner">
+  Owner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Panadapter_" data-uid="Flex.Smoothlake.FlexLib.Slice.Panadapter*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Panadapter" data-uid="Flex.Smoothlake.FlexLib.Slice.Panadapter">
+  Panadapter
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the Panadapter object that the Slice is associated with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Panadapter Panadapter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Panadapter.html">Panadapter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_PanadapterStreamID_" data-uid="Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_PanadapterStreamID" data-uid="Flex.Smoothlake.FlexLib.Slice.PanadapterStreamID">
+  PanadapterStreamID
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the Stream ID of the Panadapter object that the Slice
+is associated with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PanadapterStreamID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_PlayEnabled_" data-uid="Flex.Smoothlake.FlexLib.Slice.PlayEnabled*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_PlayEnabled" data-uid="Flex.Smoothlake.FlexLib.Slice.PlayEnabled">
+  PlayEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the play button for the Slice</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PlayEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_PlayOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.PlayOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_PlayOn" data-uid="Flex.Smoothlake.FlexLib.Slice.PlayOn">
+  PlayOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables audio recording playback for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PlayOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_QSK_" data-uid="Flex.Smoothlake.FlexLib.Slice.QSK*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_QSK" data-uid="Flex.Smoothlake.FlexLib.Slice.QSK">
+  QSK
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool QSK { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RFGain_" data-uid="Flex.Smoothlake.FlexLib.Slice.RFGain*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RFGain" data-uid="Flex.Smoothlake.FlexLib.Slice.RFGain">
+  RFGain
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the RF gain for the SCU on which this Slice is on (-10, 0 , 10, 20, 30)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This property is no longer used. Use the RFGain property in Panadapter.cs instead.&quot;)]
+public int RFGain { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RITFreq_" data-uid="Flex.Smoothlake.FlexLib.Slice.RITFreq*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RITFreq" data-uid="Flex.Smoothlake.FlexLib.Slice.RITFreq">
+  RITFreq
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RITFreq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RITOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.RITOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RITOn" data-uid="Flex.Smoothlake.FlexLib.Slice.RITOn">
+  RITOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RITOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RNNOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.RNNOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RNNOn" data-uid="Flex.Smoothlake.FlexLib.Slice.RNNOn">
+  RNNOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables AI noise reduction (RNN) for the slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RNNOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RTTYMark_" data-uid="Flex.Smoothlake.FlexLib.Slice.RTTYMark*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RTTYMark" data-uid="Flex.Smoothlake.FlexLib.Slice.RTTYMark">
+  RTTYMark
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Slice RTTY Mark offset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RTTYMark { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RTTYShift_" data-uid="Flex.Smoothlake.FlexLib.Slice.RTTYShift*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RTTYShift" data-uid="Flex.Smoothlake.FlexLib.Slice.RTTYShift">
+  RTTYShift
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Slice RTTY Shift offset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RTTYShift { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RXAnt_" data-uid="Flex.Smoothlake.FlexLib.Slice.RXAnt*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RXAnt" data-uid="Flex.Smoothlake.FlexLib.Slice.RXAnt">
+  RXAnt
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the receive antenna for the slice as a string:<br>
+&quot;ANT1&quot;, &quot;ANT2&quot;, &quot;RX_A&quot;, &quot;RX_B&quot;, &quot;XVTR&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RXAnt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RXAntList_" data-uid="Flex.Smoothlake.FlexLib.Slice.RXAntList*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RXAntList" data-uid="Flex.Smoothlake.FlexLib.Slice.RXAntList">
+  RXAntList
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of the available RX Antenna ports on
+the radio, i.e. &quot;ANT1&quot;, &quot;ANT2&quot;, &quot;RX_A&quot;,
+&quot;RX_B&quot;, &quot;XVTR&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] RXAntList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Radio_" data-uid="Flex.Smoothlake.FlexLib.Slice.Radio*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Radio" data-uid="Flex.Smoothlake.FlexLib.Slice.Radio">
+  Radio
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Radio Radio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Radio.html">Radio</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RecordOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.RecordOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RecordOn" data-uid="Flex.Smoothlake.FlexLib.Slice.RecordOn">
+  RecordOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables audio recording for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RecordOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_RepeaterOffsetDirection_" data-uid="Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_RepeaterOffsetDirection" data-uid="Flex.Smoothlake.FlexLib.Slice.RepeaterOffsetDirection">
+  RepeaterOffsetDirection
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the direction that the TX Offset will be applied in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMTXOffsetDirection RepeaterOffsetDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.FMTXOffsetDirection.html">FMTXOffsetDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_SquelchLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.SquelchLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_SquelchLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.SquelchLevel">
+  SquelchLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the squelch level for modes with squelch. 0 - 100 is valid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SquelchLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_SquelchOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.SquelchOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_SquelchOn" data-uid="Flex.Smoothlake.FlexLib.Slice.SquelchOn">
+  SquelchOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether the squelch algorithm is on for a given slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SquelchOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_TXAnt_" data-uid="Flex.Smoothlake.FlexLib.Slice.TXAnt*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_TXAnt" data-uid="Flex.Smoothlake.FlexLib.Slice.TXAnt">
+  TXAnt
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the transmit antenna for the slice as a string:
+&quot;ANT1&quot;, &quot;ANT2&quot;, &quot;XVTR&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TXAnt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_TXAntList_" data-uid="Flex.Smoothlake.FlexLib.Slice.TXAntList*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_TXAntList" data-uid="Flex.Smoothlake.FlexLib.Slice.TXAntList">
+  TXAntList
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of the available RX Antenna ports on
+the radio, i.e. &quot;ANT1&quot;, &quot;ANT2&quot;, &quot;RX_A&quot;,
+&quot;RX_B&quot;, &quot;XVTR&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] TXAntList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_TXOffsetFreq_" data-uid="Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_TXOffsetFreq" data-uid="Flex.Smoothlake.FlexLib.Slice.TXOffsetFreq">
+  TXOffsetFreq
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the offset frequency of the transmitter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TXOffsetFreq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ToneMode_" data-uid="Flex.Smoothlake.FlexLib.Slice.ToneMode*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ToneMode" data-uid="Flex.Smoothlake.FlexLib.Slice.ToneMode">
+  ToneMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMToneMode ToneMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.FMToneMode.html">FMToneMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_TuneStep_" data-uid="Flex.Smoothlake.FlexLib.Slice.TuneStep*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_TuneStep" data-uid="Flex.Smoothlake.FlexLib.Slice.TuneStep">
+  TuneStep
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TuneStep { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_TuneStepList_" data-uid="Flex.Smoothlake.FlexLib.Slice.TuneStepList*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_TuneStepList" data-uid="Flex.Smoothlake.FlexLib.Slice.TuneStepList">
+  TuneStepList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] TuneStepList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_WNBLevel_" data-uid="Flex.Smoothlake.FlexLib.Slice.WNBLevel*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_WNBLevel" data-uid="Flex.Smoothlake.FlexLib.Slice.WNBLevel">
+  WNBLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Wideband Noise Blanker (WNB) level from 0 to 100.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WNBLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_WNBOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.WNBOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_WNBOn" data-uid="Flex.Smoothlake.FlexLib.Slice.WNBOn">
+  WNBOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the Wideband Noise Blanker (WNB) for the Slice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WNBOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Wide_" data-uid="Flex.Smoothlake.FlexLib.Slice.Wide*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Wide" data-uid="Flex.Smoothlake.FlexLib.Slice.Wide">
+  Wide
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the 'wide' state of the radio, if applicable.  When true,
+the receive preselector filters in the radio are bypassed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Wide { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_XITFreq_" data-uid="Flex.Smoothlake.FlexLib.Slice.XITFreq*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_XITFreq" data-uid="Flex.Smoothlake.FlexLib.Slice.XITFreq">
+  XITFreq
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int XITFreq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_XITOn_" data-uid="Flex.Smoothlake.FlexLib.Slice.XITOn*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_XITOn" data-uid="Flex.Smoothlake.FlexLib.Slice.XITOn">
+  XITOn
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool XITOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_CheckReady_" data-uid="Flex.Smoothlake.FlexLib.Slice.CheckReady*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_CheckReady" data-uid="Flex.Smoothlake.FlexLib.Slice.CheckReady">
+  CheckReady()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckReady()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Close_" data-uid="Flex.Smoothlake.FlexLib.Slice.Close*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Close" data-uid="Flex.Smoothlake.FlexLib.Slice.Close">
+  Close()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FindMeterByIndex_" data-uid="Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FindMeterByIndex_System_Int32_" data-uid="Flex.Smoothlake.FlexLib.Slice.FindMeterByIndex(System.Int32)">
+  FindMeterByIndex(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Meter FindMeterByIndex(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Meter.html">Meter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_FindMeterByName_" data-uid="Flex.Smoothlake.FlexLib.Slice.FindMeterByName*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_FindMeterByName_System_String_" data-uid="Flex.Smoothlake.FlexLib.Slice.FindMeterByName(System.String)">
+  FindMeterByName(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Meter FindMeterByName(string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Meter.html">Meter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_Remove_" data-uid="Flex.Smoothlake.FlexLib.Slice.Remove*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_Remove" data-uid="Flex.Smoothlake.FlexLib.Slice.Remove">
+  Remove()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void Remove()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_SendCWAutotuneCommand_" data-uid="Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_SendCWAutotuneCommand_System_Nullable_System_Boolean__" data-uid="Flex.Smoothlake.FlexLib.Slice.SendCWAutotuneCommand(System.Nullable{System.Boolean})">
+  SendCWAutotuneCommand(bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendCWAutotuneCommand(bool? isIntermittent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isIntermittent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_SendWaveformCommand_" data-uid="Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_SendWaveformCommand_System_String_" data-uid="Flex.Smoothlake.FlexLib.Slice.SendWaveformCommand(System.String)">
+  SendWaveformCommand(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendWaveformCommand(string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_StatusUpdate_" data-uid="Flex.Smoothlake.FlexLib.Slice.StatusUpdate*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_StatusUpdate_System_String_" data-uid="Flex.Smoothlake.FlexLib.Slice.StatusUpdate(System.String)">
+  StatusUpdate(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StatusUpdate(string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_ToString_" data-uid="Flex.Smoothlake.FlexLib.Slice.ToString*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_ToString" data-uid="Flex.Smoothlake.FlexLib.Slice.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_Slice_UpdateFilter_" data-uid="Flex.Smoothlake.FlexLib.Slice.UpdateFilter*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_UpdateFilter_System_Int32_System_Int32_" data-uid="Flex.Smoothlake.FlexLib.Slice.UpdateFilter(System.Int32,System.Int32)">
+  UpdateFilter(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the Slice receive filter bandwidth</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateFilter(int low, int high)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>low</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The filter low cut frequency in Hz</p>
+</dd>
+    <dt><code>high</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The filter high cut frequecny in Hz</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_MeterAdded" data-uid="Flex.Smoothlake.FlexLib.Slice.MeterAdded">
+  MeterAdded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Slice.MeterAddedEventHandler MeterAdded</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html">Slice</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.Slice.MeterAddedEventHandler.html">MeterAddedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_MeterRemoved" data-uid="Flex.Smoothlake.FlexLib.Slice.MeterRemoved">
+  MeterRemoved
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Slice.MeterRemovedEventHandler MeterRemoved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html">Slice</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.Slice.MeterRemovedEventHandler.html">MeterRemovedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_SMeterDataReady" data-uid="Flex.Smoothlake.FlexLib.Slice.SMeterDataReady">
+  SMeterDataReady
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Slice.SMeterDataReadyEventHandler SMeterDataReady</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html">Slice</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.Slice.SMeterDataReadyEventHandler.html">SMeterDataReadyEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_Slice_WaveformStatusReceived" data-uid="Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceived">
+  WaveformStatusReceived
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Slice.WaveformStatusReceivedEventHandler WaveformStatusReceived</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.Slice.html">Slice</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.Slice.WaveformStatusReceivedEventHandler.html">WaveformStatusReceivedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

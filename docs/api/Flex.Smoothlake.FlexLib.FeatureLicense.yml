@@ -1,0 +1,1331 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense
+  commentId: T:Flex.Smoothlake.FlexLib.FeatureLicense
+  id: FeatureLicense
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.FeatureLicense.#ctor(Flex.Smoothlake.FlexLib.Radio)
+  - Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus
+  - Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate
+  - Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion
+  - Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus(System.String)
+  - Flex.Smoothlake.FlexLib.FeatureLicense.RadioID
+  - Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand(System.String)
+  - Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration
+  - Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration
+  langs:
+  - csharp
+  - vb
+  name: FeatureLicense
+  nameWithType: FeatureLicense
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense
+  type: Class
+  source:
+    id: FeatureLicense
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 39
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class FeatureLicense : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class FeatureLicense Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.#ctor(Flex.Smoothlake.FlexLib.Radio)
+  commentId: M:Flex.Smoothlake.FlexLib.FeatureLicense.#ctor(Flex.Smoothlake.FlexLib.Radio)
+  id: '#ctor(Flex.Smoothlake.FlexLib.Radio)'
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: FeatureLicense(Radio)
+  nameWithType: FeatureLicense.FeatureLicense(Radio)
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.FeatureLicense(Flex.Smoothlake.FlexLib.Radio)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 43
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public FeatureLicense(Radio radio)
+    parameters:
+    - id: radio
+      type: Flex.Smoothlake.FlexLib.Radio
+    content.vb: Public Sub New(radio As Radio)
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.#ctor*
+  nameWithType.vb: FeatureLicense.New(Radio)
+  fullName.vb: Flex.Smoothlake.FlexLib.FeatureLicense.New(Flex.Smoothlake.FlexLib.Radio)
+  name.vb: New(Radio)
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus(System.String)
+  id: ParseLicenseStatus(System.String)
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: ParseLicenseStatus(string)
+  nameWithType: FeatureLicense.ParseLicenseStatus(string)
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus(string)
+  type: Method
+  source:
+    id: ParseLicenseStatus
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 211
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void ParseLicenseStatus(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub ParseLicenseStatus(s As String)
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus*
+  nameWithType.vb: FeatureLicense.ParseLicenseStatus(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus(String)
+  name.vb: ParseLicenseStatus(String)
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.RadioID
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.RadioID
+  id: RadioID
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: RadioID
+  nameWithType: FeatureLicense.RadioID
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.RadioID
+  type: Property
+  source:
+    id: RadioID
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 317
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string RadioID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RadioID As String
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.RadioID*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate
+  id: LicenseIssueDate
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseIssueDate
+  nameWithType: FeatureLicense.LicenseIssueDate
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate
+  type: Property
+  source:
+    id: LicenseIssueDate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 329
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public DateTime LicenseIssueDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LicenseIssueDate As Date
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate
+  id: LicenseLastRefreshDate
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseLastRefreshDate
+  nameWithType: FeatureLicense.LicenseLastRefreshDate
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate
+  type: Property
+  source:
+    id: LicenseLastRefreshDate
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 341
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public DateTime LicenseLastRefreshDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LicenseLastRefreshDate As Date
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion
+  id: LicenseHighestMajorVersion
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseHighestMajorVersion
+  nameWithType: FeatureLicense.LicenseHighestMajorVersion
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion
+  type: Property
+  source:
+    id: LicenseHighestMajorVersion
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 353
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int LicenseHighestMajorVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LicenseHighestMajorVersion As Integer
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion
+  id: LicenseRegion
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseRegion
+  nameWithType: FeatureLicense.LicenseRegion
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion
+  type: Property
+  source:
+    id: LicenseRegion
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 365
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string LicenseRegion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LicenseRegion As String
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha
+  id: LicenseFeatAlpha
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatAlpha
+  nameWithType: FeatureLicense.LicenseFeatAlpha
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha
+  type: Property
+  source:
+    id: LicenseFeatAlpha
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 377
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatAlpha { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatAlpha As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink
+  id: LicenseFeatSmartlink
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatSmartlink
+  nameWithType: FeatureLicense.LicenseFeatSmartlink
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink
+  type: Property
+  source:
+    id: LicenseFeatSmartlink
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 389
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatSmartlink { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatSmartlink As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex
+  id: LicenseFeatMultiflex
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatMultiflex
+  nameWithType: FeatureLicense.LicenseFeatMultiflex
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex
+  type: Property
+  source:
+    id: LicenseFeatMultiflex
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 401
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatMultiflex { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatMultiflex As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP
+  id: LicenseFeatWFP
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatWFP
+  nameWithType: FeatureLicense.LicenseFeatWFP
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP
+  type: Property
+  source:
+    id: LicenseFeatWFP
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 413
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatWFP { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatWFP As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor
+  id: LicenseFeatNoiseFloor
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatNoiseFloor
+  nameWithType: FeatureLicense.LicenseFeatNoiseFloor
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor
+  type: Property
+  source:
+    id: LicenseFeatNoiseFloor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 425
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatNoiseFloor { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatNoiseFloor As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction
+  id: LicenseFeatNoiseReduction
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatNoiseReduction
+  nameWithType: FeatureLicense.LicenseFeatNoiseReduction
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction
+  type: Property
+  source:
+    id: LicenseFeatNoiseReduction
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 437
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatNoiseReduction { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatNoiseReduction As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK
+  id: LicenseFeatDVK
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatDVK
+  nameWithType: FeatureLicense.LicenseFeatDVK
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK
+  type: Property
+  source:
+    id: LicenseFeatDVK
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 449
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatDVK { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatDVK As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune
+  id: LicenseFeatAutotune
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatAutotune
+  nameWithType: FeatureLicense.LicenseFeatAutotune
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune
+  type: Property
+  source:
+    id: LicenseFeatAutotune
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 461
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatAutotune { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatAutotune As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc
+  id: LicenseFeatDivEsc
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseFeatDivEsc
+  nameWithType: FeatureLicense.LicenseFeatDivEsc
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc
+  type: Property
+  source:
+    id: LicenseFeatDivEsc
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 473
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public Feature LicenseFeatDivEsc { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.Feature
+    content.vb: Public Property LicenseFeatDivEsc As Feature
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus
+  id: IsSmartSDRPlus
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: IsSmartSDRPlus
+  nameWithType: FeatureLicense.IsSmartSDRPlus
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus
+  type: Property
+  source:
+    id: IsSmartSDRPlus
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 485
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsSmartSDRPlus { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSmartSDRPlus As Boolean
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA
+  id: IsSmartSDRPlusEA
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: IsSmartSDRPlusEA
+  nameWithType: FeatureLicense.IsSmartSDRPlusEA
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA
+  type: Property
+  source:
+    id: IsSmartSDRPlusEA
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 497
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool IsSmartSDRPlusEA { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSmartSDRPlusEA As Boolean
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration
+  id: SsdrPlusExpiration
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: SsdrPlusExpiration
+  nameWithType: FeatureLicense.SsdrPlusExpiration
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration
+  type: Property
+  source:
+    id: SsdrPlusExpiration
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 509
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public DateTime SsdrPlusExpiration { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SsdrPlusExpiration As Date
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration
+  commentId: P:Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration
+  id: SsdrEarlyAccessExpiration
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: SsdrEarlyAccessExpiration
+  nameWithType: FeatureLicense.SsdrEarlyAccessExpiration
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration
+  type: Property
+  source:
+    id: SsdrEarlyAccessExpiration
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 521
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public DateTime SsdrEarlyAccessExpiration { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SsdrEarlyAccessExpiration As Date
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration*
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand(System.String)
+  id: SendFeatureLicenseCommand(System.String)
+  parent: Flex.Smoothlake.FlexLib.FeatureLicense
+  langs:
+  - csharp
+  - vb
+  name: SendFeatureLicenseCommand(string)
+  nameWithType: FeatureLicense.SendFeatureLicenseCommand(string)
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand(string)
+  type: Method
+  source:
+    id: SendFeatureLicenseCommand
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\FeatureLicense.cs
+    startLine: 532
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void SendFeatureLicenseCommand(string cmd)
+    parameters:
+    - id: cmd
+      type: System.String
+    content.vb: Public Sub SendFeatureLicenseCommand(cmd As String)
+  overload: Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand*
+  nameWithType.vb: FeatureLicense.SendFeatureLicenseCommand(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand(String)
+  name.vb: SendFeatureLicenseCommand(String)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.#ctor
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense__ctor_Flex_Smoothlake_FlexLib_Radio_
+  name: FeatureLicense
+  nameWithType: FeatureLicense.FeatureLicense
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.FeatureLicense
+  nameWithType.vb: FeatureLicense.New
+  fullName.vb: Flex.Smoothlake.FlexLib.FeatureLicense.New
+  name.vb: New
+- uid: Flex.Smoothlake.FlexLib.Radio
+  commentId: T:Flex.Smoothlake.FlexLib.Radio
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Radio.html
+  name: Radio
+  nameWithType: Radio
+  fullName: Flex.Smoothlake.FlexLib.Radio
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_ParseLicenseStatus_System_String_
+  name: ParseLicenseStatus
+  nameWithType: FeatureLicense.ParseLicenseStatus
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.ParseLicenseStatus
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.RadioID*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.RadioID
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_RadioID
+  name: RadioID
+  nameWithType: FeatureLicense.RadioID
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.RadioID
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseIssueDate
+  name: LicenseIssueDate
+  nameWithType: FeatureLicense.LicenseIssueDate
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseIssueDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseLastRefreshDate
+  name: LicenseLastRefreshDate
+  nameWithType: FeatureLicense.LicenseLastRefreshDate
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseLastRefreshDate
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseHighestMajorVersion
+  name: LicenseHighestMajorVersion
+  nameWithType: FeatureLicense.LicenseHighestMajorVersion
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseHighestMajorVersion
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseRegion
+  name: LicenseRegion
+  nameWithType: FeatureLicense.LicenseRegion
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseRegion
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatAlpha
+  name: LicenseFeatAlpha
+  nameWithType: FeatureLicense.LicenseFeatAlpha
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAlpha
+- uid: Flex.Smoothlake.FlexLib.Feature
+  commentId: T:Flex.Smoothlake.FlexLib.Feature
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Feature.html
+  name: Feature
+  nameWithType: Feature
+  fullName: Flex.Smoothlake.FlexLib.Feature
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatSmartlink
+  name: LicenseFeatSmartlink
+  nameWithType: FeatureLicense.LicenseFeatSmartlink
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatSmartlink
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatMultiflex
+  name: LicenseFeatMultiflex
+  nameWithType: FeatureLicense.LicenseFeatMultiflex
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatMultiflex
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatWFP
+  name: LicenseFeatWFP
+  nameWithType: FeatureLicense.LicenseFeatWFP
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatWFP
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatNoiseFloor
+  name: LicenseFeatNoiseFloor
+  nameWithType: FeatureLicense.LicenseFeatNoiseFloor
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseFloor
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatNoiseReduction
+  name: LicenseFeatNoiseReduction
+  nameWithType: FeatureLicense.LicenseFeatNoiseReduction
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatNoiseReduction
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatDVK
+  name: LicenseFeatDVK
+  nameWithType: FeatureLicense.LicenseFeatDVK
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDVK
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatAutotune
+  name: LicenseFeatAutotune
+  nameWithType: FeatureLicense.LicenseFeatAutotune
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatAutotune
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_LicenseFeatDivEsc
+  name: LicenseFeatDivEsc
+  nameWithType: FeatureLicense.LicenseFeatDivEsc
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.LicenseFeatDivEsc
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_IsSmartSDRPlus
+  name: IsSmartSDRPlus
+  nameWithType: FeatureLicense.IsSmartSDRPlus
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_IsSmartSDRPlusEA
+  name: IsSmartSDRPlusEA
+  nameWithType: FeatureLicense.IsSmartSDRPlusEA
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.IsSmartSDRPlusEA
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_SsdrPlusExpiration
+  name: SsdrPlusExpiration
+  nameWithType: FeatureLicense.SsdrPlusExpiration
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrPlusExpiration
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_SsdrEarlyAccessExpiration
+  name: SsdrEarlyAccessExpiration
+  nameWithType: FeatureLicense.SsdrEarlyAccessExpiration
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.SsdrEarlyAccessExpiration
+- uid: Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand*
+  commentId: Overload:Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand
+  href: Flex.Smoothlake.FlexLib.FeatureLicense.html#Flex_Smoothlake_FlexLib_FeatureLicense_SendFeatureLicenseCommand_System_String_
+  name: SendFeatureLicenseCommand
+  nameWithType: FeatureLicense.SendFeatureLicenseCommand
+  fullName: Flex.Smoothlake.FlexLib.FeatureLicense.SendFeatureLicenseCommand

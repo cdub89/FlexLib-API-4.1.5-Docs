@@ -1,0 +1,2715 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  commentId: T:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  id: SafeObservableCollection`1
+  parent: Flex.UiWpfFramework.Mvvm
+  children:
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(Flex.UiWpfFramework.Mvvm.SafeObservableCollection{`0})
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(System.Collections.Generic.IList{`0})
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(System.Collections.ObjectModel.ObservableCollection{`0})
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Add(`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Clear
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CollectionChanged
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Contains(`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CopyTo(`0[],System.Int32)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Count
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.GetEnumerator
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IndexOf(`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Insert(System.Int32,`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsReadOnly
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsSynced
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Item(System.Int32)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Remove(`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.RemoveAt(System.Int32)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeContains(`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCopyTo(`0[],System.Int32)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCount
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetCopy
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetItemAtIndex(System.Int32)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetList
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIndexOf(`0)
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIsReadOnly
+  - Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeSetItemAtIndex(System.Int32,`0)
+  langs:
+  - csharp
+  - vb
+  name: SafeObservableCollection<T>
+  nameWithType: SafeObservableCollection<T>
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>
+  type: Class
+  source:
+    id: SafeObservableCollection
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 27
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: 'public class SafeObservableCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, INotifyCollectionChanged'
+    typeParameters:
+    - id: T
+    content.vb: Public Class SafeObservableCollection(Of T) Implements IList(Of T), ICollection(Of T), IEnumerable(Of T), IEnumerable, INotifyCollectionChanged
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IList{{T}}
+  - System.Collections.Generic.ICollection{{T}}
+  - System.Collections.Generic.IEnumerable{{T}}
+  - System.Collections.IEnumerable
+  - System.Collections.Specialized.INotifyCollectionChanged
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: SafeObservableCollection(Of T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T)
+  name.vb: SafeObservableCollection(Of T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CollectionChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CollectionChanged
+  id: CollectionChanged
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: CollectionChanged
+  nameWithType: SafeObservableCollection<T>.CollectionChanged
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.CollectionChanged
+  type: Event
+  source:
+    id: CollectionChanged
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 35
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Occurs when the collection changes.
+  example: []
+  syntax:
+    content: public event NotifyCollectionChangedEventHandler CollectionChanged
+    return:
+      type: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+    content.vb: Public Event CollectionChanged As NotifyCollectionChangedEventHandler
+  implements:
+  - System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+  nameWithType.vb: SafeObservableCollection(Of T).CollectionChanged
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).CollectionChanged
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor
+  id: '#ctor'
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeObservableCollection()
+  nameWithType: SafeObservableCollection<T>.SafeObservableCollection()
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeObservableCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 63
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public SafeObservableCollection()
+    content.vb: Public Sub New()
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor*
+  nameWithType.vb: SafeObservableCollection(Of T).New()
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).New()
+  name.vb: New()
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(System.Collections.ObjectModel.ObservableCollection{`0})
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(System.Collections.ObjectModel.ObservableCollection{`0})
+  id: '#ctor(System.Collections.ObjectModel.ObservableCollection{`0})'
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeObservableCollection(ObservableCollection<T>)
+  nameWithType: SafeObservableCollection<T>.SafeObservableCollection(ObservableCollection<T>)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeObservableCollection(System.Collections.ObjectModel.ObservableCollection<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 72
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public SafeObservableCollection(ObservableCollection<T> sourceCollection)
+    parameters:
+    - id: sourceCollection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    content.vb: Public Sub New(sourceCollection As ObservableCollection(Of T))
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor*
+  nameWithType.vb: SafeObservableCollection(Of T).New(ObservableCollection(Of T))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).New(System.Collections.ObjectModel.ObservableCollection(Of T))
+  name.vb: New(ObservableCollection(Of T))
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(Flex.UiWpfFramework.Mvvm.SafeObservableCollection{`0})
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(Flex.UiWpfFramework.Mvvm.SafeObservableCollection{`0})
+  id: '#ctor(Flex.UiWpfFramework.Mvvm.SafeObservableCollection{`0})'
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeObservableCollection(SafeObservableCollection<T>)
+  nameWithType: SafeObservableCollection<T>.SafeObservableCollection(SafeObservableCollection<T>)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeObservableCollection(Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 90
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public SafeObservableCollection(SafeObservableCollection<T> sourceCollection)
+    parameters:
+    - id: sourceCollection
+      type: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    content.vb: Public Sub New(sourceCollection As SafeObservableCollection(Of T))
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor*
+  nameWithType.vb: SafeObservableCollection(Of T).New(SafeObservableCollection(Of T))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).New(Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T))
+  name.vb: New(SafeObservableCollection(Of T))
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(System.Collections.Generic.IList{`0})
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor(System.Collections.Generic.IList{`0})
+  id: '#ctor(System.Collections.Generic.IList{`0})'
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeObservableCollection(IList<T>)
+  nameWithType: SafeObservableCollection<T>.SafeObservableCollection(IList<T>)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeObservableCollection(System.Collections.Generic.IList<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 108
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public SafeObservableCollection(IList<T> sourceCollection)
+    parameters:
+    - id: sourceCollection
+      type: System.Collections.Generic.IList{{T}}
+    content.vb: Public Sub New(sourceCollection As IList(Of T))
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor*
+  nameWithType.vb: SafeObservableCollection(Of T).New(IList(Of T))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).New(System.Collections.Generic.IList(Of T))
+  name.vb: New(IList(Of T))
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetList
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetList
+  id: SafeGetList
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeGetList()
+  nameWithType: SafeObservableCollection<T>.SafeGetList()
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeGetList()
+  type: Method
+  source:
+    id: SafeGetList
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 126
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public List<T> SafeGetList()
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Function SafeGetList() As List(Of T)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetList*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeGetList()
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeGetList()
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetCopy
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetCopy
+  id: SafeGetCopy
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeGetCopy()
+  nameWithType: SafeObservableCollection<T>.SafeGetCopy()
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeGetCopy()
+  type: Method
+  source:
+    id: SafeGetCopy
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 143
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public SafeObservableCollection<T> SafeGetCopy()
+    return:
+      type: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    content.vb: Public Function SafeGetCopy() As SafeObservableCollection(Of T)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetCopy*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeGetCopy()
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeGetCopy()
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Add(`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Add(`0)
+  id: Add(`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Add(T)
+  nameWithType: SafeObservableCollection<T>.Add(T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Add(T)
+  type: Method
+  source:
+    id: Add
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 160
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Adds an item to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Add(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: The object to add to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub Add(item As T)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Add*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.Add({T})
+  nameWithType.vb: SafeObservableCollection(Of T).Add(T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Add(T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Clear
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Clear
+  id: Clear
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: SafeObservableCollection<T>.Clear()
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 186
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Clear*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.Clear
+  nameWithType.vb: SafeObservableCollection(Of T).Clear()
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Clear()
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Contains(`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Contains(`0)
+  id: Contains(`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Contains(T)
+  nameWithType: SafeObservableCollection<T>.Contains(T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Contains(T)
+  type: Method
+  source:
+    id: Contains
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 212
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeContains() instead")]
+
+      public bool Contains(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: The object to locate in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeContains() instead")>
+
+      Public Function Contains(item As T) As Boolean
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Contains*
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.Contains({T})
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeContains() instead
+  nameWithType.vb: SafeObservableCollection(Of T).Contains(T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Contains(T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeContains(`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeContains(`0)
+  id: SafeContains(`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeContains(T)
+  nameWithType: SafeObservableCollection<T>.SafeContains(T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeContains(T)
+  type: Method
+  source:
+    id: SafeContains
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 221
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public bool SafeContains(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function SafeContains(item As T) As Boolean
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeContains*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeContains(T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeContains(T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CopyTo(`0[],System.Int32)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CopyTo(`0[],System.Int32)
+  id: CopyTo(`0[],System.Int32)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(T[], int)
+  nameWithType: SafeObservableCollection<T>.CopyTo(T[], int)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.CopyTo(T[], int)
+  type: Method
+  source:
+    id: CopyTo
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 229
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeCopyTo() instead")]
+
+      public void CopyTo(T[] array, int arrayIndex)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: The one-dimensional <xref href="System.Array" data-throw-if-not-resolved="false"></xref> that is the destination of the elements copied from <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>. The <xref href="System.Array" data-throw-if-not-resolved="false"></xref> must have zero-based indexing.
+    - id: arrayIndex
+      type: System.Int32
+      description: The zero-based index in <code class="paramref">array</code> at which copying begins.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeCopyTo() instead")>
+
+      Public Sub CopyTo(array As T(), arrayIndex As Integer)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CopyTo*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">array</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">arrayIndex</code> is less than 0.
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: The number of elements in the source <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is greater than the available space from <code class="paramref">arrayIndex</code> to the end of the destination <code class="paramref">array</code>.
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.CopyTo({T}[],System.Int32)
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeCopyTo() instead
+  nameWithType.vb: SafeObservableCollection(Of T).CopyTo(T(), Integer)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).CopyTo(T(), Integer)
+  name.vb: CopyTo(T(), Integer)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCopyTo(`0[],System.Int32)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCopyTo(`0[],System.Int32)
+  id: SafeCopyTo(`0[],System.Int32)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeCopyTo(T[], int)
+  nameWithType: SafeObservableCollection<T>.SafeCopyTo(T[], int)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeCopyTo(T[], int)
+  type: Method
+  source:
+    id: SafeCopyTo
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 237
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public void SafeCopyTo(T[] array, int arrayIndex)
+    parameters:
+    - id: array
+      type: '{T}[]'
+    - id: arrayIndex
+      type: System.Int32
+    content.vb: Public Sub SafeCopyTo(array As T(), arrayIndex As Integer)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCopyTo*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeCopyTo(T(), Integer)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeCopyTo(T(), Integer)
+  name.vb: SafeCopyTo(T(), Integer)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Count
+  commentId: P:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Count
+  id: Count
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: SafeObservableCollection<T>.Count
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Count
+  type: Property
+  source:
+    id: Count
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 244
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeCount instead")]
+
+      public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeCount instead")>
+
+      Public ReadOnly Property Count As Integer
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Count*
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.Count
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeCount instead
+  nameWithType.vb: SafeObservableCollection(Of T).Count
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Count
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCount
+  commentId: P:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCount
+  id: SafeCount
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeCount
+  nameWithType: SafeObservableCollection<T>.SafeCount
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeCount
+  type: Property
+  source:
+    id: SafeCount
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 256
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public int SafeCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SafeCount As Integer
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCount*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeCount
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeCount
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsReadOnly
+  commentId: P:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsReadOnly
+  id: IsReadOnly
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: SafeObservableCollection<T>.IsReadOnly
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.IsReadOnly
+  type: Property
+  source:
+    id: IsReadOnly
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 267
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeIsReadOnly instead")]
+
+      public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeIsReadOnly instead")>
+
+      Public ReadOnly Property IsReadOnly As Boolean
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsReadOnly*
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.IsReadOnly
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeIsReadOnly instead
+  nameWithType.vb: SafeObservableCollection(Of T).IsReadOnly
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).IsReadOnly
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIsReadOnly
+  commentId: P:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIsReadOnly
+  id: SafeIsReadOnly
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeIsReadOnly
+  nameWithType: SafeObservableCollection<T>.SafeIsReadOnly
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeIsReadOnly
+  type: Property
+  source:
+    id: SafeIsReadOnly
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 279
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public bool SafeIsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SafeIsReadOnly As Boolean
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIsReadOnly*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeIsReadOnly
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeIsReadOnly
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Remove(`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Remove(`0)
+  id: Remove(`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Remove(T)
+  nameWithType: SafeObservableCollection<T>.Remove(T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Remove(T)
+  type: Method
+  source:
+    id: Remove
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 311
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Removes the first occurrence of a specific object from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool Remove(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: The object to remove from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>. This method also returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Remove(item As T) As Boolean
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Remove*
+  exceptions:
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.ICollection{{T}}.Remove({T})
+  nameWithType.vb: SafeObservableCollection(Of T).Remove(T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Remove(T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.GetEnumerator
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.GetEnumerator
+  id: GetEnumerator
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: SafeObservableCollection<T>.GetEnumerator()
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 361
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeGetList() get access to Enumerator")]
+
+      public IEnumerator<T> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{{T}}
+      description: An enumerator that can be used to iterate through the collection.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeGetList() get access to Enumerator")>
+
+      Public Function GetEnumerator() As IEnumerator(Of T)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{{T}}.GetEnumerator
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeGetList() get access to Enumerator
+  nameWithType.vb: SafeObservableCollection(Of T).GetEnumerator()
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).GetEnumerator()
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IndexOf(`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IndexOf(`0)
+  id: IndexOf(`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: IndexOf(T)
+  nameWithType: SafeObservableCollection<T>.IndexOf(T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.IndexOf(T)
+  type: Method
+  source:
+    id: IndexOf
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 390
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Determines the index of a specific item in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeIndexOf instead")]
+
+      public int IndexOf(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: The object to locate in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Int32
+      description: The index of <code class="paramref">item</code> if found in the list; otherwise, -1.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeIndexOf instead")>
+
+      Public Function IndexOf(item As T) As Integer
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IndexOf*
+  implements:
+  - System.Collections.Generic.IList{{T}}.IndexOf({T})
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeIndexOf instead
+  nameWithType.vb: SafeObservableCollection(Of T).IndexOf(T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).IndexOf(T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIndexOf(`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIndexOf(`0)
+  id: SafeIndexOf(`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeIndexOf(T)
+  nameWithType: SafeObservableCollection<T>.SafeIndexOf(T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeIndexOf(T)
+  type: Method
+  source:
+    id: SafeIndexOf
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 399
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public int SafeIndexOf(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: System.Int32
+    content.vb: Public Function SafeIndexOf(item As T) As Integer
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIndexOf*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeIndexOf(T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeIndexOf(T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Insert(System.Int32,`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Insert(System.Int32,`0)
+  id: Insert(System.Int32,`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: Insert(int, T)
+  nameWithType: SafeObservableCollection<T>.Insert(int, T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Insert(int, T)
+  type: Method
+  source:
+    id: Insert
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 409
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Inserts an item to the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> at the specified index.
+  example: []
+  syntax:
+    content: public void Insert(int index, T item)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The zero-based index at which <code class="paramref">item</code> should be inserted.
+    - id: item
+      type: '{T}'
+      description: The object to insert into the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub Insert(index As Integer, item As T)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Insert*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">index</code> is not a valid index in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IList{{T}}.Insert(System.Int32,{T})
+  nameWithType.vb: SafeObservableCollection(Of T).Insert(Integer, T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Insert(Integer, T)
+  name.vb: Insert(Integer, T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.RemoveAt(System.Int32)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(int)
+  nameWithType: SafeObservableCollection<T>.RemoveAt(int)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.RemoveAt(int)
+  type: Method
+  source:
+    id: RemoveAt
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 439
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Removes the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> item at the specified index.
+  example: []
+  syntax:
+    content: public void RemoveAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The zero-based index of the item to remove.
+    content.vb: Public Sub RemoveAt(index As Integer)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.RemoveAt*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">index</code> is not a valid index in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IList{{T}}.RemoveAt(System.Int32)
+  nameWithType.vb: SafeObservableCollection(Of T).RemoveAt(Integer)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetItemAtIndex(System.Int32)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetItemAtIndex(System.Int32)
+  id: SafeGetItemAtIndex(System.Int32)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeGetItemAtIndex(int)
+  nameWithType: SafeObservableCollection<T>.SafeGetItemAtIndex(int)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeGetItemAtIndex(int)
+  type: Method
+  source:
+    id: SafeGetItemAtIndex
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 483
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public T SafeGetItemAtIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Public Function SafeGetItemAtIndex(index As Integer) As T
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetItemAtIndex*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeGetItemAtIndex(Integer)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeGetItemAtIndex(Integer)
+  name.vb: SafeGetItemAtIndex(Integer)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeSetItemAtIndex(System.Int32,`0)
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeSetItemAtIndex(System.Int32,`0)
+  id: SafeSetItemAtIndex(System.Int32,`0)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: SafeSetItemAtIndex(int, T)
+  nameWithType: SafeObservableCollection<T>.SafeSetItemAtIndex(int, T)
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeSetItemAtIndex(int, T)
+  type: Method
+  source:
+    id: SafeSetItemAtIndex
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 496
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public void SafeSetItemAtIndex(int index, T item)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: item
+      type: '{T}'
+    content.vb: Public Sub SafeSetItemAtIndex(index As Integer, item As T)
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeSetItemAtIndex*
+  nameWithType.vb: SafeObservableCollection(Of T).SafeSetItemAtIndex(Integer, T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeSetItemAtIndex(Integer, T)
+  name.vb: SafeSetItemAtIndex(Integer, T)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Item(System.Int32)
+  commentId: P:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: SafeObservableCollection<T>.this[int]
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.this[int]
+  type: Property
+  source:
+    id: this[]
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 519
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  summary: Gets or sets the element at the specified index.
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This is unsafe, use SafeGetItemAtIndex() and SafeSetItemAtIndex() instead")]
+
+      public T this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The zero-based index of the element to get or set.
+    return:
+      type: '{T}'
+      description: The element at the specified index.
+    content.vb: >-
+      <Obsolete("This is unsafe, use SafeGetItemAtIndex() and SafeSetItemAtIndex() instead")>
+
+      Public Default Property this[](index As Integer) As T
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Item*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">index</code> is not a valid index in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
+  - type: System.NotSupportedException
+    commentId: T:System.NotSupportedException
+    description: The property is set and the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+  implements:
+  - System.Collections.Generic.IList{{T}}.Item(System.Int32)
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This is unsafe, use SafeGetItemAtIndex() and SafeSetItemAtIndex() instead
+  nameWithType.vb: SafeObservableCollection(Of T).this[](Integer)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).this[](Integer)
+  name.vb: this[](Integer)
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsSynced
+  commentId: M:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsSynced
+  id: IsSynced
+  parent: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  langs:
+  - csharp
+  - vb
+  name: IsSynced()
+  nameWithType: SafeObservableCollection<T>.IsSynced()
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.IsSynced()
+  type: Method
+  source:
+    id: IsSynced
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Mvvm\SafeObservableCollection.cs
+    startLine: 574
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Mvvm
+  syntax:
+    content: public bool IsSynced()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsSynced() As Boolean
+  overload: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsSynced*
+  nameWithType.vb: SafeObservableCollection(Of T).IsSynced()
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).IsSynced()
+references:
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IList{{T}}
+  commentId: T:System.Collections.Generic.IList{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.ICollection{{T}}
+  commentId: T:System.Collections.Generic.ICollection{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Collections.Specialized.INotifyCollectionChanged
+  commentId: T:System.Collections.Specialized.INotifyCollectionChanged
+  parent: System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged
+  name: INotifyCollectionChanged
+  nameWithType: INotifyCollectionChanged
+  fullName: System.Collections.Specialized.INotifyCollectionChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+- uid: System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+  commentId: E:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+  parent: System.Collections.Specialized.INotifyCollectionChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged.collectionchanged
+  name: CollectionChanged
+  nameWithType: INotifyCollectionChanged.CollectionChanged
+  fullName: System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+- uid: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+  commentId: T:System.Collections.Specialized.NotifyCollectionChangedEventHandler
+  parent: System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler
+  name: NotifyCollectionChangedEventHandler
+  nameWithType: NotifyCollectionChangedEventHandler
+  fullName: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.#ctor
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1__ctor
+  name: SafeObservableCollection
+  nameWithType: SafeObservableCollection<T>.SafeObservableCollection
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeObservableCollection
+  nameWithType.vb: SafeObservableCollection(Of T).New
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).New
+  name.vb: New
+- uid: System.Collections.ObjectModel.ObservableCollection{{T}}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{`0}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  commentId: T:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html
+  name: SafeObservableCollection<T>
+  nameWithType: SafeObservableCollection<T>
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>
+  nameWithType.vb: SafeObservableCollection(Of T)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T)
+  name.vb: SafeObservableCollection(Of T)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    name: SafeObservableCollection
+    href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1
+    name: SafeObservableCollection
+    href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetList*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetList
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeGetList
+  name: SafeGetList
+  nameWithType: SafeObservableCollection<T>.SafeGetList
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeGetList
+  nameWithType.vb: SafeObservableCollection(Of T).SafeGetList
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeGetList
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetCopy*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetCopy
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeGetCopy
+  name: SafeGetCopy
+  nameWithType: SafeObservableCollection<T>.SafeGetCopy
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeGetCopy
+  nameWithType.vb: SafeObservableCollection(Of T).SafeGetCopy
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeGetCopy
+- uid: System.NotSupportedException
+  commentId: T:System.NotSupportedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notsupportedexception
+  name: NotSupportedException
+  nameWithType: NotSupportedException
+  fullName: System.NotSupportedException
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Add*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Add
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Add__0_
+  name: Add
+  nameWithType: SafeObservableCollection<T>.Add
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Add
+  nameWithType.vb: SafeObservableCollection(Of T).Add
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Add
+- uid: System.Collections.Generic.ICollection{{T}}.Add({T})
+  commentId: M:System.Collections.Generic.ICollection{`0}.Add(`0)
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.Add(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  name: Add(T)
+  nameWithType: ICollection<T>.Add(T)
+  fullName: System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType.vb: ICollection(Of T).Add(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Add(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{`0}.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{`0}.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.ICollection`1.Add(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Add(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  name: Add(T)
+  nameWithType: ICollection<T>.Add(T)
+  fullName: System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType.vb: ICollection(Of T).Add(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Add(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Clear*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Clear
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Clear
+  name: Clear
+  nameWithType: SafeObservableCollection<T>.Clear
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Clear
+  nameWithType.vb: SafeObservableCollection(Of T).Clear
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Clear
+- uid: System.Collections.Generic.ICollection{{T}}.Clear
+  commentId: M:System.Collections.Generic.ICollection{`0}.Clear
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.Clear
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<T>.Clear()
+  fullName: System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType.vb: ICollection(Of T).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{`0}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{`0}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Clear
+  commentId: M:System.Collections.Generic.ICollection`1.Clear
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<T>.Clear()
+  fullName: System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType.vb: ICollection(Of T).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Contains*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Contains
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Contains__0_
+  name: Contains
+  nameWithType: SafeObservableCollection<T>.Contains
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Contains
+  nameWithType.vb: SafeObservableCollection(Of T).Contains
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Contains
+- uid: System.Collections.Generic.ICollection{{T}}.Contains({T})
+  commentId: M:System.Collections.Generic.ICollection{`0}.Contains(`0)
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.Contains(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  name: Contains(T)
+  nameWithType: ICollection<T>.Contains(T)
+  fullName: System.Collections.Generic.ICollection<T>.Contains(T)
+  nameWithType.vb: ICollection(Of T).Contains(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Contains(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{`0}.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{`0}.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.ICollection`1.Contains(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Contains(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  name: Contains(T)
+  nameWithType: ICollection<T>.Contains(T)
+  fullName: System.Collections.Generic.ICollection<T>.Contains(T)
+  nameWithType.vb: ICollection(Of T).Contains(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Contains(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeContains*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeContains
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeContains__0_
+  name: SafeContains
+  nameWithType: SafeObservableCollection<T>.SafeContains
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeContains
+  nameWithType.vb: SafeObservableCollection(Of T).SafeContains
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeContains
+- uid: System.Array
+  commentId: T:System.Array
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.array
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CopyTo*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.CopyTo
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_CopyTo__0___System_Int32_
+  name: CopyTo
+  nameWithType: SafeObservableCollection<T>.CopyTo
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.CopyTo
+  nameWithType.vb: SafeObservableCollection(Of T).CopyTo
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).CopyTo
+- uid: System.Collections.Generic.ICollection{{T}}.CopyTo({T}[],System.Int32)
+  commentId: M:System.Collections.Generic.ICollection{`0}.CopyTo(`0[],System.Int32)
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  name: CopyTo(T[], int)
+  nameWithType: ICollection<T>.CopyTo(T[], int)
+  fullName: System.Collections.Generic.ICollection<T>.CopyTo(T[], int)
+  nameWithType.vb: ICollection(Of T).CopyTo(T(), Integer)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).CopyTo(T(), Integer)
+  name.vb: CopyTo(T(), Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{`0}.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{`0}.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  commentId: M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  name: CopyTo(T[], int)
+  nameWithType: ICollection<T>.CopyTo(T[], int)
+  fullName: System.Collections.Generic.ICollection<T>.CopyTo(T[], int)
+  nameWithType.vb: ICollection(Of T).CopyTo(T(), Integer)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).CopyTo(T(), Integer)
+  name.vb: CopyTo(T(), Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCopyTo*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCopyTo
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeCopyTo__0___System_Int32_
+  name: SafeCopyTo
+  nameWithType: SafeObservableCollection<T>.SafeCopyTo
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeCopyTo
+  nameWithType.vb: SafeObservableCollection(Of T).SafeCopyTo
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeCopyTo
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Count*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Count
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Count
+  name: Count
+  nameWithType: SafeObservableCollection<T>.Count
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Count
+  nameWithType.vb: SafeObservableCollection(Of T).Count
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Count
+- uid: System.Collections.Generic.ICollection{{T}}.Count
+  commentId: P:System.Collections.Generic.ICollection{`0}.Count
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.Count
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<T>.Count
+  fullName: System.Collections.Generic.ICollection<T>.Count
+  nameWithType.vb: ICollection(Of T).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Count
+- uid: System.Collections.Generic.ICollection`1.Count
+  commentId: P:System.Collections.Generic.ICollection`1.Count
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<T>.Count
+  fullName: System.Collections.Generic.ICollection<T>.Count
+  nameWithType.vb: ICollection(Of T).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Count
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCount*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeCount
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeCount
+  name: SafeCount
+  nameWithType: SafeObservableCollection<T>.SafeCount
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeCount
+  nameWithType.vb: SafeObservableCollection(Of T).SafeCount
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeCount
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsReadOnly*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsReadOnly
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_IsReadOnly
+  name: IsReadOnly
+  nameWithType: SafeObservableCollection<T>.IsReadOnly
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.IsReadOnly
+  nameWithType.vb: SafeObservableCollection(Of T).IsReadOnly
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).IsReadOnly
+- uid: System.Collections.Generic.ICollection{{T}}.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection{`0}.IsReadOnly
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.IsReadOnly
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<T>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType.vb: ICollection(Of T).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of T).IsReadOnly
+- uid: System.Collections.Generic.ICollection`1.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection`1.IsReadOnly
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<T>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType.vb: ICollection(Of T).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of T).IsReadOnly
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIsReadOnly*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIsReadOnly
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeIsReadOnly
+  name: SafeIsReadOnly
+  nameWithType: SafeObservableCollection<T>.SafeIsReadOnly
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeIsReadOnly
+  nameWithType.vb: SafeObservableCollection(Of T).SafeIsReadOnly
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeIsReadOnly
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Remove*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Remove
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Remove__0_
+  name: Remove
+  nameWithType: SafeObservableCollection<T>.Remove
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Remove
+  nameWithType.vb: SafeObservableCollection(Of T).Remove
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Remove
+- uid: System.Collections.Generic.ICollection{{T}}.Remove({T})
+  commentId: M:System.Collections.Generic.ICollection{`0}.Remove(`0)
+  parent: System.Collections.Generic.ICollection{{T}}
+  definition: System.Collections.Generic.ICollection`1.Remove(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  name: Remove(T)
+  nameWithType: ICollection<T>.Remove(T)
+  fullName: System.Collections.Generic.ICollection<T>.Remove(T)
+  nameWithType.vb: ICollection(Of T).Remove(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Remove(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{`0}.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{`0}.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Remove(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Remove(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  name: Remove(T)
+  nameWithType: ICollection<T>.Remove(T)
+  fullName: System.Collections.Generic.ICollection<T>.Remove(T)
+  nameWithType.vb: ICollection(Of T).Remove(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Remove(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.GetEnumerator*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.GetEnumerator
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_GetEnumerator
+  name: GetEnumerator
+  nameWithType: SafeObservableCollection<T>.GetEnumerator
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.GetEnumerator
+  nameWithType.vb: SafeObservableCollection(Of T).GetEnumerator
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{{T}}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{`0}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{{T}}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{`0}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{`0}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{{T}}
+  commentId: T:System.Collections.Generic.IEnumerator{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IndexOf*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IndexOf
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_IndexOf__0_
+  name: IndexOf
+  nameWithType: SafeObservableCollection<T>.IndexOf
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.IndexOf
+  nameWithType.vb: SafeObservableCollection(Of T).IndexOf
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).IndexOf
+- uid: System.Collections.Generic.IList{{T}}.IndexOf({T})
+  commentId: M:System.Collections.Generic.IList{`0}.IndexOf(`0)
+  parent: System.Collections.Generic.IList{{T}}
+  definition: System.Collections.Generic.IList`1.IndexOf(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  name: IndexOf(T)
+  nameWithType: IList<T>.IndexOf(T)
+  fullName: System.Collections.Generic.IList<T>.IndexOf(T)
+  nameWithType.vb: IList(Of T).IndexOf(T)
+  fullName.vb: System.Collections.Generic.IList(Of T).IndexOf(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList{`0}.IndexOf(`0)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList{`0}.IndexOf(`0)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IList`1.IndexOf(`0)
+  commentId: M:System.Collections.Generic.IList`1.IndexOf(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  name: IndexOf(T)
+  nameWithType: IList<T>.IndexOf(T)
+  fullName: System.Collections.Generic.IList<T>.IndexOf(T)
+  nameWithType.vb: IList(Of T).IndexOf(T)
+  fullName.vb: System.Collections.Generic.IList(Of T).IndexOf(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1.IndexOf(`0)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.IndexOf(`0)
+    name: IndexOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
+  - name: (
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIndexOf*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeIndexOf
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeIndexOf__0_
+  name: SafeIndexOf
+  nameWithType: SafeObservableCollection<T>.SafeIndexOf
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeIndexOf
+  nameWithType.vb: SafeObservableCollection(Of T).SafeIndexOf
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeIndexOf
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Insert*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Insert
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Insert_System_Int32__0_
+  name: Insert
+  nameWithType: SafeObservableCollection<T>.Insert
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.Insert
+  nameWithType.vb: SafeObservableCollection(Of T).Insert
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).Insert
+- uid: System.Collections.Generic.IList{{T}}.Insert(System.Int32,{T})
+  commentId: M:System.Collections.Generic.IList{`0}.Insert(System.Int32,`0)
+  parent: System.Collections.Generic.IList{{T}}
+  definition: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  name: Insert(int, T)
+  nameWithType: IList<T>.Insert(int, T)
+  fullName: System.Collections.Generic.IList<T>.Insert(int, T)
+  nameWithType.vb: IList(Of T).Insert(Integer, T)
+  fullName.vb: System.Collections.Generic.IList(Of T).Insert(Integer, T)
+  name.vb: Insert(Integer, T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList{`0}.Insert(System.Int32,`0)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList{`0}.Insert(System.Int32,`0)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+  commentId: M:System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  name: Insert(int, T)
+  nameWithType: IList<T>.Insert(int, T)
+  fullName: System.Collections.Generic.IList<T>.Insert(int, T)
+  nameWithType.vb: IList(Of T).Insert(Integer, T)
+  fullName.vb: System.Collections.Generic.IList(Of T).Insert(Integer, T)
+  name.vb: Insert(Integer, T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.Insert(System.Int32,`0)
+    name: Insert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.insert
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.RemoveAt*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.RemoveAt
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_RemoveAt_System_Int32_
+  name: RemoveAt
+  nameWithType: SafeObservableCollection<T>.RemoveAt
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.RemoveAt
+  nameWithType.vb: SafeObservableCollection(Of T).RemoveAt
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).RemoveAt
+- uid: System.Collections.Generic.IList{{T}}.RemoveAt(System.Int32)
+  commentId: M:System.Collections.Generic.IList{`0}.RemoveAt(System.Int32)
+  parent: System.Collections.Generic.IList{{T}}
+  definition: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  name: RemoveAt(int)
+  nameWithType: IList<T>.RemoveAt(int)
+  fullName: System.Collections.Generic.IList<T>.RemoveAt(int)
+  nameWithType.vb: IList(Of T).RemoveAt(Integer)
+  fullName.vb: System.Collections.Generic.IList(Of T).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList{`0}.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList{`0}.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+  commentId: M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  name: RemoveAt(int)
+  nameWithType: IList<T>.RemoveAt(int)
+  fullName: System.Collections.Generic.IList<T>.RemoveAt(int)
+  nameWithType.vb: IList(Of T).RemoveAt(Integer)
+  fullName.vb: System.Collections.Generic.IList(Of T).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.removeat
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetItemAtIndex*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeGetItemAtIndex
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeGetItemAtIndex_System_Int32_
+  name: SafeGetItemAtIndex
+  nameWithType: SafeObservableCollection<T>.SafeGetItemAtIndex
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeGetItemAtIndex
+  nameWithType.vb: SafeObservableCollection(Of T).SafeGetItemAtIndex
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeGetItemAtIndex
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeSetItemAtIndex*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.SafeSetItemAtIndex
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_SafeSetItemAtIndex_System_Int32__0_
+  name: SafeSetItemAtIndex
+  nameWithType: SafeObservableCollection<T>.SafeSetItemAtIndex
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.SafeSetItemAtIndex
+  nameWithType.vb: SafeObservableCollection(Of T).SafeSetItemAtIndex
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).SafeSetItemAtIndex
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Item*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.Item
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_Item_System_Int32_
+  name: this
+  nameWithType: SafeObservableCollection<T>.this
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.this
+  nameWithType.vb: SafeObservableCollection(Of T).this[]
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).this[]
+  name.vb: this[]
+- uid: System.Collections.Generic.IList{{T}}.Item(System.Int32)
+  commentId: P:System.Collections.Generic.IList{`0}.Item(System.Int32)
+  parent: System.Collections.Generic.IList{{T}}
+  definition: System.Collections.Generic.IList`1.Item(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: IList<T>.this[int]
+  fullName: System.Collections.Generic.IList<T>.this[int]
+  nameWithType.vb: IList(Of T).this[](Integer)
+  fullName.vb: System.Collections.Generic.IList(Of T).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IList{`0}.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IList`1.Item(System.Int32)
+  commentId: P:System.Collections.Generic.IList`1.Item(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: IList<T>.this[int]
+  fullName: System.Collections.Generic.IList<T>.this[int]
+  nameWithType.vb: IList(Of T).this[](Integer)
+  fullName.vb: System.Collections.Generic.IList(Of T).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsSynced*
+  commentId: Overload:Flex.UiWpfFramework.Mvvm.SafeObservableCollection`1.IsSynced
+  href: Flex.UiWpfFramework.Mvvm.SafeObservableCollection-1.html#Flex_UiWpfFramework_Mvvm_SafeObservableCollection_1_IsSynced
+  name: IsSynced
+  nameWithType: SafeObservableCollection<T>.IsSynced
+  fullName: Flex.UiWpfFramework.Mvvm.SafeObservableCollection<T>.IsSynced
+  nameWithType.vb: SafeObservableCollection(Of T).IsSynced
+  fullName.vb: Flex.UiWpfFramework.Mvvm.SafeObservableCollection(Of T).IsSynced

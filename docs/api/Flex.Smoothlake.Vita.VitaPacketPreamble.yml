@@ -1,0 +1,532 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble
+  commentId: T:Flex.Smoothlake.Vita.VitaPacketPreamble
+  id: VitaPacketPreamble
+  parent: Flex.Smoothlake.Vita
+  children:
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.#ctor(System.Byte[])
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.class_id
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.header
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.stream_id
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_frac
+  - Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_int
+  langs:
+  - csharp
+  - vb
+  name: VitaPacketPreamble
+  nameWithType: VitaPacketPreamble
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble
+  type: Struct
+  source:
+    id: VitaPacketPreamble
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 27
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  summary: >-
+    Represents a single Vita IF Data Packet as defined in the Vita 49 Standard Section 6.1.
+
+    Can also represent an Extended Data Packet as seen in Section 6.2.
+  example: []
+  syntax:
+    content: public struct VitaPacketPreamble
+    content.vb: Public Structure VitaPacketPreamble
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.header
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketPreamble.header
+  id: header
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: header
+  nameWithType: VitaPacketPreamble.header
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.header
+  type: Field
+  source:
+    id: header
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 29
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public Header header
+    return:
+      type: Flex.Smoothlake.Vita.Header
+    content.vb: Public header As Header
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.stream_id
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketPreamble.stream_id
+  id: stream_id
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: stream_id
+  nameWithType: VitaPacketPreamble.stream_id
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.stream_id
+  type: Field
+  source:
+    id: stream_id
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 30
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public uint stream_id
+    return:
+      type: System.UInt32
+    content.vb: Public stream_id As UInteger
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.class_id
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketPreamble.class_id
+  id: class_id
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: class_id
+  nameWithType: VitaPacketPreamble.class_id
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.class_id
+  type: Field
+  source:
+    id: class_id
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 31
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public VitaClassID class_id
+    return:
+      type: Flex.Smoothlake.Vita.VitaClassID
+    content.vb: Public class_id As VitaClassID
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_int
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_int
+  id: timestamp_int
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: timestamp_int
+  nameWithType: VitaPacketPreamble.timestamp_int
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_int
+  type: Field
+  source:
+    id: timestamp_int
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 32
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public uint timestamp_int
+    return:
+      type: System.UInt32
+    content.vb: Public timestamp_int As UInteger
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_frac
+  commentId: F:Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_frac
+  id: timestamp_frac
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: timestamp_frac
+  nameWithType: VitaPacketPreamble.timestamp_frac
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.timestamp_frac
+  type: Field
+  source:
+    id: timestamp_frac
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 33
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public ulong timestamp_frac
+    return:
+      type: System.UInt64
+    content.vb: Public timestamp_frac As ULong
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.#ctor(System.Byte[])
+  commentId: M:Flex.Smoothlake.Vita.VitaPacketPreamble.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: VitaPacketPreamble(byte[])
+  nameWithType: VitaPacketPreamble.VitaPacketPreamble(byte[])
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.VitaPacketPreamble(byte[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 45
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public VitaPacketPreamble(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub New(data As Byte())
+  overload: Flex.Smoothlake.Vita.VitaPacketPreamble.#ctor*
+  nameWithType.vb: VitaPacketPreamble.New(Byte())
+  fullName.vb: Flex.Smoothlake.Vita.VitaPacketPreamble.New(Byte())
+  name.vb: New(Byte())
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes
+  commentId: M:Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes
+  id: ToBytes
+  parent: Flex.Smoothlake.Vita.VitaPacketPreamble
+  langs:
+  - csharp
+  - vb
+  name: ToBytes()
+  nameWithType: VitaPacketPreamble.ToBytes()
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes()
+  type: Method
+  source:
+    id: ToBytes
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Vita\VitaPacketPreamble.cs
+    startLine: 111
+  assemblies:
+  - Vita
+  namespace: Flex.Smoothlake.Vita
+  syntax:
+    content: public byte[] ToBytes()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ToBytes() As Byte()
+  overload: Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes*
+references:
+- uid: Flex.Smoothlake.Vita
+  commentId: N:Flex.Smoothlake.Vita
+  href: Flex.html
+  name: Flex.Smoothlake.Vita
+  nameWithType: Flex.Smoothlake.Vita
+  fullName: Flex.Smoothlake.Vita
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Smoothlake.Vita.Header
+  commentId: T:Flex.Smoothlake.Vita.Header
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.Header.html
+  name: Header
+  nameWithType: Header
+  fullName: Flex.Smoothlake.Vita.Header
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Flex.Smoothlake.Vita.VitaClassID
+  commentId: T:Flex.Smoothlake.Vita.VitaClassID
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaClassID.html
+  name: VitaClassID
+  nameWithType: VitaClassID
+  fullName: Flex.Smoothlake.Vita.VitaClassID
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.#ctor*
+  commentId: Overload:Flex.Smoothlake.Vita.VitaPacketPreamble.#ctor
+  href: Flex.Smoothlake.Vita.VitaPacketPreamble.html#Flex_Smoothlake_Vita_VitaPacketPreamble__ctor_System_Byte___
+  name: VitaPacketPreamble
+  nameWithType: VitaPacketPreamble.VitaPacketPreamble
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.VitaPacketPreamble
+  nameWithType.vb: VitaPacketPreamble.New
+  fullName.vb: Flex.Smoothlake.Vita.VitaPacketPreamble.New
+  name.vb: New
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes*
+  commentId: Overload:Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes
+  href: Flex.Smoothlake.Vita.VitaPacketPreamble.html#Flex_Smoothlake_Vita_VitaPacketPreamble_ToBytes
+  name: ToBytes
+  nameWithType: VitaPacketPreamble.ToBytes
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble.ToBytes

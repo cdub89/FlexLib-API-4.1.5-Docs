@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType
+  commentId: T:Flex.Smoothlake.FlexLib.DVKCommandType
+  id: DVKCommandType
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.DVKCommandType.ClearRecording
+  - Flex.Smoothlake.FlexLib.DVKCommandType.Create
+  - Flex.Smoothlake.FlexLib.DVKCommandType.DeleteRecording
+  - Flex.Smoothlake.FlexLib.DVKCommandType.DownloadRecording
+  - Flex.Smoothlake.FlexLib.DVKCommandType.SetName
+  - Flex.Smoothlake.FlexLib.DVKCommandType.StartPlayback
+  - Flex.Smoothlake.FlexLib.DVKCommandType.StartPreview
+  - Flex.Smoothlake.FlexLib.DVKCommandType.StartRecording
+  - Flex.Smoothlake.FlexLib.DVKCommandType.StopPlayback
+  - Flex.Smoothlake.FlexLib.DVKCommandType.StopPreview
+  - Flex.Smoothlake.FlexLib.DVKCommandType.StopRecording
+  - Flex.Smoothlake.FlexLib.DVKCommandType.UploadRecording
+  langs:
+  - csharp
+  - vb
+  name: DVKCommandType
+  nameWithType: DVKCommandType
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType
+  type: Enum
+  source:
+    id: DVKCommandType
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 283
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum DVKCommandType
+    content.vb: Public Enum DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.Create
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.Create
+  id: Create
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: DVKCommandType.Create
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.Create
+  type: Field
+  source:
+    id: Create
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 285
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Create = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.StartRecording
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.StartRecording
+  id: StartRecording
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: StartRecording
+  nameWithType: DVKCommandType.StartRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.StartRecording
+  type: Field
+  source:
+    id: StartRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 286
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StartRecording = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.StopRecording
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.StopRecording
+  id: StopRecording
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: StopRecording
+  nameWithType: DVKCommandType.StopRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.StopRecording
+  type: Field
+  source:
+    id: StopRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 287
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StopRecording = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.DeleteRecording
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.DeleteRecording
+  id: DeleteRecording
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: DeleteRecording
+  nameWithType: DVKCommandType.DeleteRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.DeleteRecording
+  type: Field
+  source:
+    id: DeleteRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 288
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: DeleteRecording = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.StartPreview
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.StartPreview
+  id: StartPreview
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: StartPreview
+  nameWithType: DVKCommandType.StartPreview
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.StartPreview
+  type: Field
+  source:
+    id: StartPreview
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 289
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StartPreview = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.StopPreview
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.StopPreview
+  id: StopPreview
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: StopPreview
+  nameWithType: DVKCommandType.StopPreview
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.StopPreview
+  type: Field
+  source:
+    id: StopPreview
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 290
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StopPreview = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.StartPlayback
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.StartPlayback
+  id: StartPlayback
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: StartPlayback
+  nameWithType: DVKCommandType.StartPlayback
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.StartPlayback
+  type: Field
+  source:
+    id: StartPlayback
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 291
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StartPlayback = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.StopPlayback
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.StopPlayback
+  id: StopPlayback
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: StopPlayback
+  nameWithType: DVKCommandType.StopPlayback
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.StopPlayback
+  type: Field
+  source:
+    id: StopPlayback
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 292
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StopPlayback = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.SetName
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.SetName
+  id: SetName
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: SetName
+  nameWithType: DVKCommandType.SetName
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.SetName
+  type: Field
+  source:
+    id: SetName
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 293
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SetName = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.ClearRecording
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.ClearRecording
+  id: ClearRecording
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: ClearRecording
+  nameWithType: DVKCommandType.ClearRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.ClearRecording
+  type: Field
+  source:
+    id: ClearRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 294
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: ClearRecording = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.DownloadRecording
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.DownloadRecording
+  id: DownloadRecording
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: DownloadRecording
+  nameWithType: DVKCommandType.DownloadRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.DownloadRecording
+  type: Field
+  source:
+    id: DownloadRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 295
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: DownloadRecording = 10
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType.UploadRecording
+  commentId: F:Flex.Smoothlake.FlexLib.DVKCommandType.UploadRecording
+  id: UploadRecording
+  parent: Flex.Smoothlake.FlexLib.DVKCommandType
+  langs:
+  - csharp
+  - vb
+  name: UploadRecording
+  nameWithType: DVKCommandType.UploadRecording
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType.UploadRecording
+  type: Field
+  source:
+    id: UploadRecording
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\DVK.cs
+    startLine: 296
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: UploadRecording = 11
+    return:
+      type: Flex.Smoothlake.FlexLib.DVKCommandType
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.DVKCommandType
+  commentId: T:Flex.Smoothlake.FlexLib.DVKCommandType
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.DVKCommandType.html
+  name: DVKCommandType
+  nameWithType: DVKCommandType
+  fullName: Flex.Smoothlake.FlexLib.DVKCommandType

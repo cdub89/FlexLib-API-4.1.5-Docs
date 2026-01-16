@@ -1,0 +1,294 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.InterlockState
+  commentId: T:Flex.Smoothlake.FlexLib.InterlockState
+  id: InterlockState
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.InterlockState.None
+  - Flex.Smoothlake.FlexLib.InterlockState.NotReady
+  - Flex.Smoothlake.FlexLib.InterlockState.PTTRequested
+  - Flex.Smoothlake.FlexLib.InterlockState.Ready
+  - Flex.Smoothlake.FlexLib.InterlockState.Receive
+  - Flex.Smoothlake.FlexLib.InterlockState.StuckInput
+  - Flex.Smoothlake.FlexLib.InterlockState.TXFault
+  - Flex.Smoothlake.FlexLib.InterlockState.Timeout
+  - Flex.Smoothlake.FlexLib.InterlockState.Transmitting
+  - Flex.Smoothlake.FlexLib.InterlockState.UnkeyRequested
+  langs:
+  - csharp
+  - vb
+  name: InterlockState
+  nameWithType: InterlockState
+  fullName: Flex.Smoothlake.FlexLib.InterlockState
+  type: Enum
+  source:
+    id: InterlockState
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 57
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The interlock state of transmitter
+  example: []
+  syntax:
+    content: public enum InterlockState
+    content.vb: Public Enum InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.None
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: InterlockState.None
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 59
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.Receive
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.Receive
+  id: Receive
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: Receive
+  nameWithType: InterlockState.Receive
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.Receive
+  type: Field
+  source:
+    id: Receive
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 60
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Receive = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.Ready
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.Ready
+  id: Ready
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: InterlockState.Ready
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.Ready
+  type: Field
+  source:
+    id: Ready
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 61
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Ready = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.NotReady
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.NotReady
+  id: NotReady
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: NotReady
+  nameWithType: InterlockState.NotReady
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.NotReady
+  type: Field
+  source:
+    id: NotReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 62
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: NotReady = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.PTTRequested
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.PTTRequested
+  id: PTTRequested
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: PTTRequested
+  nameWithType: InterlockState.PTTRequested
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.PTTRequested
+  type: Field
+  source:
+    id: PTTRequested
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 63
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: PTTRequested = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.Transmitting
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.Transmitting
+  id: Transmitting
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: Transmitting
+  nameWithType: InterlockState.Transmitting
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.Transmitting
+  type: Field
+  source:
+    id: Transmitting
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 64
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Transmitting = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.TXFault
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.TXFault
+  id: TXFault
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: TXFault
+  nameWithType: InterlockState.TXFault
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.TXFault
+  type: Field
+  source:
+    id: TXFault
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 65
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: TXFault = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.Timeout
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.Timeout
+  id: Timeout
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: InterlockState.Timeout
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.Timeout
+  type: Field
+  source:
+    id: Timeout
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 66
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Timeout = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.StuckInput
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.StuckInput
+  id: StuckInput
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: StuckInput
+  nameWithType: InterlockState.StuckInput
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.StuckInput
+  type: Field
+  source:
+    id: StuckInput
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 67
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: StuckInput = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+- uid: Flex.Smoothlake.FlexLib.InterlockState.UnkeyRequested
+  commentId: F:Flex.Smoothlake.FlexLib.InterlockState.UnkeyRequested
+  id: UnkeyRequested
+  parent: Flex.Smoothlake.FlexLib.InterlockState
+  langs:
+  - csharp
+  - vb
+  name: UnkeyRequested
+  nameWithType: InterlockState.UnkeyRequested
+  fullName: Flex.Smoothlake.FlexLib.InterlockState.UnkeyRequested
+  type: Field
+  source:
+    id: UnkeyRequested
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 68
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: UnkeyRequested = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.InterlockState
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.InterlockState
+  commentId: T:Flex.Smoothlake.FlexLib.InterlockState
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.InterlockState.html
+  name: InterlockState
+  nameWithType: InterlockState
+  fullName: Flex.Smoothlake.FlexLib.InterlockState

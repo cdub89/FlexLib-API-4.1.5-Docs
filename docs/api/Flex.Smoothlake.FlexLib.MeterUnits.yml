@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.MeterUnits
+  commentId: T:Flex.Smoothlake.FlexLib.MeterUnits
+  id: MeterUnits
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.MeterUnits.Amps
+  - Flex.Smoothlake.FlexLib.MeterUnits.Db
+  - Flex.Smoothlake.FlexLib.MeterUnits.Dbfs
+  - Flex.Smoothlake.FlexLib.MeterUnits.Dbm
+  - Flex.Smoothlake.FlexLib.MeterUnits.DegreesC
+  - Flex.Smoothlake.FlexLib.MeterUnits.DegreesF
+  - Flex.Smoothlake.FlexLib.MeterUnits.None
+  - Flex.Smoothlake.FlexLib.MeterUnits.Percent
+  - Flex.Smoothlake.FlexLib.MeterUnits.RPM
+  - Flex.Smoothlake.FlexLib.MeterUnits.SWR
+  - Flex.Smoothlake.FlexLib.MeterUnits.Volts
+  - Flex.Smoothlake.FlexLib.MeterUnits.Watts
+  langs:
+  - csharp
+  - vb
+  name: MeterUnits
+  nameWithType: MeterUnits
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits
+  type: Enum
+  source:
+    id: MeterUnits
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Specifies the units of measurement for meter values.
+  example: []
+  syntax:
+    content: public enum MeterUnits
+    content.vb: Public Enum MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.None
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.None
+  id: None
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MeterUnits.None
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: No units specified.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Volts
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Volts
+  id: Volts
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Volts
+  nameWithType: MeterUnits.Volts
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Volts
+  type: Field
+  source:
+    id: Volts
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 30
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in volts (V).
+  example: []
+  syntax:
+    content: Volts = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Amps
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Amps
+  id: Amps
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Amps
+  nameWithType: MeterUnits.Amps
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Amps
+  type: Field
+  source:
+    id: Amps
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 32
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in amperes (A).
+  example: []
+  syntax:
+    content: Amps = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Db
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Db
+  id: Db
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Db
+  nameWithType: MeterUnits.Db
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Db
+  type: Field
+  source:
+    id: Db
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 34
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in decibels (dB).
+  example: []
+  syntax:
+    content: Db = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Dbfs
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Dbfs
+  id: Dbfs
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Dbfs
+  nameWithType: MeterUnits.Dbfs
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Dbfs
+  type: Field
+  source:
+    id: Dbfs
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 36
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in dB relative to full scale (dBFS).
+  example: []
+  syntax:
+    content: Dbfs = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Dbm
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Dbm
+  id: Dbm
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Dbm
+  nameWithType: MeterUnits.Dbm
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Dbm
+  type: Field
+  source:
+    id: Dbm
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 38
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in dB relative to 1 milliwatt (dBm).
+  example: []
+  syntax:
+    content: Dbm = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.RPM
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.RPM
+  id: RPM
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: RPM
+  nameWithType: MeterUnits.RPM
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.RPM
+  type: Field
+  source:
+    id: RPM
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 40
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in revolutions per minute (RPM).
+  example: []
+  syntax:
+    content: RPM = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.DegreesF
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.DegreesF
+  id: DegreesF
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: DegreesF
+  nameWithType: MeterUnits.DegreesF
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.DegreesF
+  type: Field
+  source:
+    id: DegreesF
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 42
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in degrees Fahrenheit (°F).
+  example: []
+  syntax:
+    content: DegreesF = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.DegreesC
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.DegreesC
+  id: DegreesC
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: DegreesC
+  nameWithType: MeterUnits.DegreesC
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.DegreesC
+  type: Field
+  source:
+    id: DegreesC
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 44
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in degrees Celsius (°C).
+  example: []
+  syntax:
+    content: DegreesC = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.SWR
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.SWR
+  id: SWR
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: SWR
+  nameWithType: MeterUnits.SWR
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.SWR
+  type: Field
+  source:
+    id: SWR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 46
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Standing Wave Ratio (SWR), a unitless ratio.
+  example: []
+  syntax:
+    content: SWR = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Watts
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Watts
+  id: Watts
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Watts
+  nameWithType: MeterUnits.Watts
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Watts
+  type: Field
+  source:
+    id: Watts
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 48
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement in watts (W).
+  example: []
+  syntax:
+    content: Watts = 10
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.MeterUnits.Percent
+  commentId: F:Flex.Smoothlake.FlexLib.MeterUnits.Percent
+  id: Percent
+  parent: Flex.Smoothlake.FlexLib.MeterUnits
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: MeterUnits.Percent
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits.Percent
+  type: Field
+  source:
+    id: Percent
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 50
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Measurement as a percentage (%).
+  example: []
+  syntax:
+    content: Percent = 11
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.MeterUnits
+  commentId: T:Flex.Smoothlake.FlexLib.MeterUnits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.MeterUnits.html
+  name: MeterUnits
+  nameWithType: MeterUnits
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits

@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.WindowHelper
+  commentId: T:Flex.Util.WindowHelper
+  id: WindowHelper
+  parent: Flex.Util
+  children:
+  - Flex.Util.WindowHelper.GetClassName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  - Flex.Util.WindowHelper.GetWindowText(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  - Flex.Util.WindowHelper.SearchForWindow(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: WindowHelper
+  nameWithType: WindowHelper
+  fullName: Flex.Util.WindowHelper
+  type: Class
+  source:
+    id: WindowHelper
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\WindowHelper.cs
+    startLine: 22
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public class WindowHelper
+    content.vb: Public Class WindowHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Util.WindowHelper.SearchForWindow(System.String,System.String)
+  commentId: M:Flex.Util.WindowHelper.SearchForWindow(System.String,System.String)
+  id: SearchForWindow(System.String,System.String)
+  parent: Flex.Util.WindowHelper
+  langs:
+  - csharp
+  - vb
+  name: SearchForWindow(string, string)
+  nameWithType: WindowHelper.SearchForWindow(string, string)
+  fullName: Flex.Util.WindowHelper.SearchForWindow(string, string)
+  type: Method
+  source:
+    id: SearchForWindow
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\WindowHelper.cs
+    startLine: 30
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  summary: Finds a Window based on a string.  Supports partial matches.
+  example: []
+  syntax:
+    content: public static nint SearchForWindow(string wndclass, string title)
+    parameters:
+    - id: wndclass
+      type: System.String
+      description: The wndclass to use in the search
+    - id: title
+      type: System.String
+      description: The search string to match
+    return:
+      type: System.IntPtr
+      description: An IntPtr to the window if a match is found, otherwise null
+    content.vb: Public Shared Function SearchForWindow(wndclass As String, title As String) As IntPtr
+  overload: Flex.Util.WindowHelper.SearchForWindow*
+  nameWithType.vb: WindowHelper.SearchForWindow(String, String)
+  fullName.vb: Flex.Util.WindowHelper.SearchForWindow(String, String)
+  name.vb: SearchForWindow(String, String)
+- uid: Flex.Util.WindowHelper.GetClassName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  commentId: M:Flex.Util.WindowHelper.GetClassName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  id: GetClassName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  parent: Flex.Util.WindowHelper
+  langs:
+  - csharp
+  - vb
+  name: GetClassName(nint, StringBuilder, int)
+  nameWithType: WindowHelper.GetClassName(nint, StringBuilder, int)
+  fullName: Flex.Util.WindowHelper.GetClassName(nint, System.Text.StringBuilder, int)
+  type: Method
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public static extern int GetClassName(nint hWnd, StringBuilder lpClassName, int nMaxCount)
+    parameters:
+    - id: hWnd
+      type: System.IntPtr
+    - id: lpClassName
+      type: System.Text.StringBuilder
+    - id: nMaxCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetClassName(hWnd As IntPtr, lpClassName As StringBuilder, nMaxCount As Integer) As Integer
+  overload: Flex.Util.WindowHelper.GetClassName*
+  nameWithType.vb: WindowHelper.GetClassName(IntPtr, StringBuilder, Integer)
+  fullName.vb: Flex.Util.WindowHelper.GetClassName(System.IntPtr, System.Text.StringBuilder, Integer)
+  name.vb: GetClassName(IntPtr, StringBuilder, Integer)
+- uid: Flex.Util.WindowHelper.GetWindowText(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  commentId: M:Flex.Util.WindowHelper.GetWindowText(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  id: GetWindowText(System.IntPtr,System.Text.StringBuilder,System.Int32)
+  parent: Flex.Util.WindowHelper
+  langs:
+  - csharp
+  - vb
+  name: GetWindowText(nint, StringBuilder, int)
+  nameWithType: WindowHelper.GetWindowText(nint, StringBuilder, int)
+  fullName: Flex.Util.WindowHelper.GetWindowText(nint, System.Text.StringBuilder, int)
+  type: Method
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public static extern int GetWindowText(nint hWnd, StringBuilder lpString, int nMaxCount)
+    parameters:
+    - id: hWnd
+      type: System.IntPtr
+    - id: lpString
+      type: System.Text.StringBuilder
+    - id: nMaxCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetWindowText(hWnd As IntPtr, lpString As StringBuilder, nMaxCount As Integer) As Integer
+  overload: Flex.Util.WindowHelper.GetWindowText*
+  nameWithType.vb: WindowHelper.GetWindowText(IntPtr, StringBuilder, Integer)
+  fullName.vb: Flex.Util.WindowHelper.GetWindowText(System.IntPtr, System.Text.StringBuilder, Integer)
+  name.vb: GetWindowText(IntPtr, StringBuilder, Integer)
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.Util.WindowHelper.SearchForWindow*
+  commentId: Overload:Flex.Util.WindowHelper.SearchForWindow
+  href: Flex.Util.WindowHelper.html#Flex_Util_WindowHelper_SearchForWindow_System_String_System_String_
+  name: SearchForWindow
+  nameWithType: WindowHelper.SearchForWindow
+  fullName: Flex.Util.WindowHelper.SearchForWindow
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: Flex.Util.WindowHelper.GetClassName*
+  commentId: Overload:Flex.Util.WindowHelper.GetClassName
+  isExternal: true
+  href: Flex.Util.WindowHelper.html#Flex_Util_WindowHelper_GetClassName_System_IntPtr_System_Text_StringBuilder_System_Int32_
+  name: GetClassName
+  nameWithType: WindowHelper.GetClassName
+  fullName: Flex.Util.WindowHelper.GetClassName
+- uid: System.Text.StringBuilder
+  commentId: T:System.Text.StringBuilder
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.stringbuilder
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: System.Text.StringBuilder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: Flex.Util.WindowHelper.GetWindowText*
+  commentId: Overload:Flex.Util.WindowHelper.GetWindowText
+  isExternal: true
+  href: Flex.Util.WindowHelper.html#Flex_Util_WindowHelper_GetWindowText_System_IntPtr_System_Text_StringBuilder_System_Int32_
+  name: GetWindowText
+  nameWithType: WindowHelper.GetWindowText
+  fullName: Flex.Util.WindowHelper.GetWindowText

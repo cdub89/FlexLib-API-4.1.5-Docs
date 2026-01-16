@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  commentId: T:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  id: WINDOWPLACEMENT
+  parent: Flex.UiWpfFramework.Utils
+  children:
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.flags
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.length
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.maxPosition
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.minPosition
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.normalPosition
+  - Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.showCmd
+  langs:
+  - csharp
+  - vb
+  name: WINDOWPLACEMENT
+  nameWithType: WINDOWPLACEMENT
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  type: Struct
+  source:
+    id: WINDOWPLACEMENT
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 61
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct WINDOWPLACEMENT
+    content.vb: >-
+      <Serializable>
+
+      Public Structure WINDOWPLACEMENT
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.length
+  commentId: F:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.length
+  id: length
+  parent: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  langs:
+  - csharp
+  - vb
+  name: length
+  nameWithType: WINDOWPLACEMENT.length
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.length
+  type: Field
+  source:
+    id: length
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 65
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: public int length
+    return:
+      type: System.Int32
+    content.vb: Public length As Integer
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.flags
+  commentId: F:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.flags
+  id: flags
+  parent: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  langs:
+  - csharp
+  - vb
+  name: flags
+  nameWithType: WINDOWPLACEMENT.flags
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.flags
+  type: Field
+  source:
+    id: flags
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 66
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: public int flags
+    return:
+      type: System.Int32
+    content.vb: Public flags As Integer
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.showCmd
+  commentId: F:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.showCmd
+  id: showCmd
+  parent: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  langs:
+  - csharp
+  - vb
+  name: showCmd
+  nameWithType: WINDOWPLACEMENT.showCmd
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.showCmd
+  type: Field
+  source:
+    id: showCmd
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 67
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: public int showCmd
+    return:
+      type: System.Int32
+    content.vb: Public showCmd As Integer
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.minPosition
+  commentId: F:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.minPosition
+  id: minPosition
+  parent: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  langs:
+  - csharp
+  - vb
+  name: minPosition
+  nameWithType: WINDOWPLACEMENT.minPosition
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.minPosition
+  type: Field
+  source:
+    id: minPosition
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 68
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: public POINT minPosition
+    return:
+      type: Flex.UiWpfFramework.Utils.POINT
+    content.vb: Public minPosition As POINT
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.maxPosition
+  commentId: F:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.maxPosition
+  id: maxPosition
+  parent: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  langs:
+  - csharp
+  - vb
+  name: maxPosition
+  nameWithType: WINDOWPLACEMENT.maxPosition
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.maxPosition
+  type: Field
+  source:
+    id: maxPosition
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 69
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: public POINT maxPosition
+    return:
+      type: Flex.UiWpfFramework.Utils.POINT
+    content.vb: Public maxPosition As POINT
+- uid: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.normalPosition
+  commentId: F:Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.normalPosition
+  id: normalPosition
+  parent: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT
+  langs:
+  - csharp
+  - vb
+  name: normalPosition
+  nameWithType: WINDOWPLACEMENT.normalPosition
+  fullName: Flex.UiWpfFramework.Utils.WINDOWPLACEMENT.normalPosition
+  type: Field
+  source:
+    id: normalPosition
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\UiWpfFramework\Utils\WindowPlacement.cs
+    startLine: 70
+  assemblies:
+  - Flex.UiWpfFramework
+  namespace: Flex.UiWpfFramework.Utils
+  syntax:
+    content: public RECT normalPosition
+    return:
+      type: Flex.UiWpfFramework.Utils.RECT
+    content.vb: Public normalPosition As RECT
+references:
+- uid: Flex.UiWpfFramework.Utils
+  commentId: N:Flex.UiWpfFramework.Utils
+  href: Flex.html
+  name: Flex.UiWpfFramework.Utils
+  nameWithType: Flex.UiWpfFramework.Utils
+  fullName: Flex.UiWpfFramework.Utils
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Utils
+    name: Utils
+    href: Flex.UiWpfFramework.Utils.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Utils
+    name: Utils
+    href: Flex.UiWpfFramework.Utils.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.UiWpfFramework.Utils.POINT
+  commentId: T:Flex.UiWpfFramework.Utils.POINT
+  parent: Flex.UiWpfFramework.Utils
+  href: Flex.UiWpfFramework.Utils.POINT.html
+  name: POINT
+  nameWithType: POINT
+  fullName: Flex.UiWpfFramework.Utils.POINT
+- uid: Flex.UiWpfFramework.Utils.RECT
+  commentId: T:Flex.UiWpfFramework.Utils.RECT
+  parent: Flex.UiWpfFramework.Utils
+  href: Flex.UiWpfFramework.Utils.RECT.html
+  name: RECT
+  nameWithType: RECT
+  fullName: Flex.UiWpfFramework.Utils.RECT

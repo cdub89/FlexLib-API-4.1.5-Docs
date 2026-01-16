@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage
+  commentId: T:Flex.Smoothlake.FlexLib.RapidMMessage
+  id: RapidMMessage
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.RapidMMessage.#ctor(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String)
+  - Flex.Smoothlake.FlexLib.RapidMMessage.isBinary
+  - Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime
+  - Flex.Smoothlake.FlexLib.RapidMMessage.station
+  - Flex.Smoothlake.FlexLib.RapidMMessage.text
+  - Flex.Smoothlake.FlexLib.RapidMMessage.usingAle
+  langs:
+  - csharp
+  - vb
+  name: RapidMMessage
+  nameWithType: RapidMMessage
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage
+  type: Class
+  source:
+    id: RapidMMessage
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public record RapidMMessage : IEquatable<RapidMMessage>'
+    content.vb: Public Class RapidMMessage Implements IEquatable(Of RapidMMessage)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Flex.Smoothlake.FlexLib.RapidMMessage}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.#ctor(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.RapidMMessage.#ctor(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String)
+  id: '#ctor(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String)'
+  parent: Flex.Smoothlake.FlexLib.RapidMMessage
+  langs:
+  - csharp
+  - vb
+  name: RapidMMessage(string, bool?, bool?, bool?, string?)
+  nameWithType: RapidMMessage.RapidMMessage(string, bool?, bool?, bool?, string?)
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.RapidMMessage(string, bool?, bool?, bool?, string?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public RapidMMessage(string text, bool? usingAle = null, bool? isOneTime = null, bool? isBinary = null, string? station = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: usingAle
+      type: System.Nullable{System.Boolean}
+    - id: isOneTime
+      type: System.Nullable{System.Boolean}
+    - id: isBinary
+      type: System.Nullable{System.Boolean}
+    - id: station
+      type: System.String
+    content.vb: Public Sub New(text As String, usingAle As Boolean? = Nothing, isOneTime As Boolean? = Nothing, isBinary As Boolean? = Nothing, station As String = Nothing)
+  overload: Flex.Smoothlake.FlexLib.RapidMMessage.#ctor*
+  nameWithType.vb: RapidMMessage.New(String, Boolean?, Boolean?, Boolean?, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidMMessage.New(String, Boolean?, Boolean?, Boolean?, String)
+  name.vb: New(String, Boolean?, Boolean?, Boolean?, String)
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.text
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMMessage.text
+  id: text
+  parent: Flex.Smoothlake.FlexLib.RapidMMessage
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: RapidMMessage.text
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.text
+  type: Property
+  source:
+    id: text
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string text { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property text As String
+  overload: Flex.Smoothlake.FlexLib.RapidMMessage.text*
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.usingAle
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMMessage.usingAle
+  id: usingAle
+  parent: Flex.Smoothlake.FlexLib.RapidMMessage
+  langs:
+  - csharp
+  - vb
+  name: usingAle
+  nameWithType: RapidMMessage.usingAle
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.usingAle
+  type: Property
+  source:
+    id: usingAle
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool? usingAle { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property usingAle As Boolean?
+  overload: Flex.Smoothlake.FlexLib.RapidMMessage.usingAle*
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime
+  id: isOneTime
+  parent: Flex.Smoothlake.FlexLib.RapidMMessage
+  langs:
+  - csharp
+  - vb
+  name: isOneTime
+  nameWithType: RapidMMessage.isOneTime
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime
+  type: Property
+  source:
+    id: isOneTime
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool? isOneTime { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property isOneTime As Boolean?
+  overload: Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime*
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.isBinary
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMMessage.isBinary
+  id: isBinary
+  parent: Flex.Smoothlake.FlexLib.RapidMMessage
+  langs:
+  - csharp
+  - vb
+  name: isBinary
+  nameWithType: RapidMMessage.isBinary
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.isBinary
+  type: Property
+  source:
+    id: isBinary
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool? isBinary { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property isBinary As Boolean?
+  overload: Flex.Smoothlake.FlexLib.RapidMMessage.isBinary*
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.station
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMMessage.station
+  id: station
+  parent: Flex.Smoothlake.FlexLib.RapidMMessage
+  langs:
+  - csharp
+  - vb
+  name: station
+  nameWithType: RapidMMessage.station
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.station
+  type: Property
+  source:
+    id: station
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 25
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string? station { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property station As String
+  overload: Flex.Smoothlake.FlexLib.RapidMMessage.station*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Flex.Smoothlake.FlexLib.RapidMMessage}
+  commentId: T:System.IEquatable{Flex.Smoothlake.FlexLib.RapidMMessage}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RapidMMessage>
+  nameWithType: IEquatable<RapidMMessage>
+  fullName: System.IEquatable<Flex.Smoothlake.FlexLib.RapidMMessage>
+  nameWithType.vb: IEquatable(Of RapidMMessage)
+  fullName.vb: System.IEquatable(Of Flex.Smoothlake.FlexLib.RapidMMessage)
+  name.vb: IEquatable(Of RapidMMessage)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.RapidMMessage
+    name: RapidMMessage
+    href: Flex.Smoothlake.FlexLib.RapidMMessage.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.RapidMMessage
+    name: RapidMMessage
+    href: Flex.Smoothlake.FlexLib.RapidMMessage.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMMessage.#ctor
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html#Flex_Smoothlake_FlexLib_RapidMMessage__ctor_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_String_
+  name: RapidMMessage
+  nameWithType: RapidMMessage.RapidMMessage
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.RapidMMessage
+  nameWithType.vb: RapidMMessage.New
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidMMessage.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.text*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMMessage.text
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html#Flex_Smoothlake_FlexLib_RapidMMessage_text
+  name: text
+  nameWithType: RapidMMessage.text
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.text
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.usingAle*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMMessage.usingAle
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html#Flex_Smoothlake_FlexLib_RapidMMessage_usingAle
+  name: usingAle
+  nameWithType: RapidMMessage.usingAle
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.usingAle
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html#Flex_Smoothlake_FlexLib_RapidMMessage_isOneTime
+  name: isOneTime
+  nameWithType: RapidMMessage.isOneTime
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.isOneTime
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.isBinary*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMMessage.isBinary
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html#Flex_Smoothlake_FlexLib_RapidMMessage_isBinary
+  name: isBinary
+  nameWithType: RapidMMessage.isBinary
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.isBinary
+- uid: Flex.Smoothlake.FlexLib.RapidMMessage.station*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMMessage.station
+  href: Flex.Smoothlake.FlexLib.RapidMMessage.html#Flex_Smoothlake_FlexLib_RapidMMessage_station
+  name: station
+  nameWithType: RapidMMessage.station
+  fullName: Flex.Smoothlake.FlexLib.RapidMMessage.station

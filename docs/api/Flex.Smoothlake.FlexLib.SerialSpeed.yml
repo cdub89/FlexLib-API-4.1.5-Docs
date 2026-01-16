@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed
+  commentId: T:Flex.Smoothlake.FlexLib.SerialSpeed
+  id: SerialSpeed
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_115200
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_1200
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_14400
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_19200
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_230400
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_2400
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_300
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_38400
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_460800
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_4800
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_57600
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_600
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_921600
+  - Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_9600
+  langs:
+  - csharp
+  - vb
+  name: SerialSpeed
+  nameWithType: SerialSpeed
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed
+  type: Enum
+  source:
+    id: SerialSpeed
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 417
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: >-
+      [TypeConverter(typeof(EnumDescriptionTypeConverter))]
+
+      public enum SerialSpeed
+    content.vb: >-
+      <TypeConverter(GetType(EnumDescriptionTypeConverter))>
+
+      Public Enum SerialSpeed
+  attributes:
+  - type: System.ComponentModel.TypeConverterAttribute
+    ctor: System.ComponentModel.TypeConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_300
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_300
+  id: BAUD_300
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_300
+  nameWithType: SerialSpeed.BAUD_300
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_300
+  type: Field
+  source:
+    id: BAUD_300
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 420
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_300 = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_600
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_600
+  id: BAUD_600
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_600
+  nameWithType: SerialSpeed.BAUD_600
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_600
+  type: Field
+  source:
+    id: BAUD_600
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 422
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_600 = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_1200
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_1200
+  id: BAUD_1200
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_1200
+  nameWithType: SerialSpeed.BAUD_1200
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_1200
+  type: Field
+  source:
+    id: BAUD_1200
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 424
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_1200 = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_2400
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_2400
+  id: BAUD_2400
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_2400
+  nameWithType: SerialSpeed.BAUD_2400
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_2400
+  type: Field
+  source:
+    id: BAUD_2400
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 426
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_2400 = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_4800
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_4800
+  id: BAUD_4800
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_4800
+  nameWithType: SerialSpeed.BAUD_4800
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_4800
+  type: Field
+  source:
+    id: BAUD_4800
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 428
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_4800 = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_9600
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_9600
+  id: BAUD_9600
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_9600
+  nameWithType: SerialSpeed.BAUD_9600
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_9600
+  type: Field
+  source:
+    id: BAUD_9600
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 430
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_9600 = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_14400
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_14400
+  id: BAUD_14400
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_14400
+  nameWithType: SerialSpeed.BAUD_14400
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_14400
+  type: Field
+  source:
+    id: BAUD_14400
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 432
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_14400 = 6
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_19200
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_19200
+  id: BAUD_19200
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_19200
+  nameWithType: SerialSpeed.BAUD_19200
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_19200
+  type: Field
+  source:
+    id: BAUD_19200
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 434
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_19200 = 7
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_38400
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_38400
+  id: BAUD_38400
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_38400
+  nameWithType: SerialSpeed.BAUD_38400
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_38400
+  type: Field
+  source:
+    id: BAUD_38400
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 436
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_38400 = 8
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_57600
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_57600
+  id: BAUD_57600
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_57600
+  nameWithType: SerialSpeed.BAUD_57600
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_57600
+  type: Field
+  source:
+    id: BAUD_57600
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 438
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_57600 = 9
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_115200
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_115200
+  id: BAUD_115200
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_115200
+  nameWithType: SerialSpeed.BAUD_115200
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_115200
+  type: Field
+  source:
+    id: BAUD_115200
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 440
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_115200 = 10
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_230400
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_230400
+  id: BAUD_230400
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_230400
+  nameWithType: SerialSpeed.BAUD_230400
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_230400
+  type: Field
+  source:
+    id: BAUD_230400
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 442
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_230400 = 11
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_460800
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_460800
+  id: BAUD_460800
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_460800
+  nameWithType: SerialSpeed.BAUD_460800
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_460800
+  type: Field
+  source:
+    id: BAUD_460800
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 444
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_460800 = 12
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_921600
+  commentId: F:Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_921600
+  id: BAUD_921600
+  parent: Flex.Smoothlake.FlexLib.SerialSpeed
+  langs:
+  - csharp
+  - vb
+  name: BAUD_921600
+  nameWithType: SerialSpeed.BAUD_921600
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed.BAUD_921600
+  type: Field
+  source:
+    id: BAUD_921600
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 446
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: BAUD_921600 = 13
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed
+  commentId: T:Flex.Smoothlake.FlexLib.SerialSpeed
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialSpeed.html
+  name: SerialSpeed
+  nameWithType: SerialSpeed
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed

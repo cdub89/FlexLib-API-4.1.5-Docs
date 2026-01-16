@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler
+  id: Radio.XvtrAddedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Radio.XvtrAddedEventHandler
+  nameWithType: Radio.XvtrAddedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Radio.XvtrAddedEventHandler
+  type: Delegate
+  source:
+    id: XvtrAddedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 12911
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Delegate event handler for the XVTRAdded event
+  example: []
+  syntax:
+    content: public delegate void Radio.XvtrAddedEventHandler(Xvtr xvtr)
+    parameters:
+    - id: xvtr
+      type: Flex.Smoothlake.FlexLib.Xvtr
+      description: The XVTR object being added
+    content.vb: Public Delegate Sub Radio.XvtrAddedEventHandler(xvtr As Xvtr)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.Xvtr
+  commentId: T:Flex.Smoothlake.FlexLib.Xvtr
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Xvtr.html
+  name: Xvtr
+  nameWithType: Xvtr
+  fullName: Flex.Smoothlake.FlexLib.Xvtr

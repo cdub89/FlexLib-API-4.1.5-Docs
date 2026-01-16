@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.SerialDataBits
+  commentId: T:Flex.Smoothlake.FlexLib.SerialDataBits
+  id: SerialDataBits
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.SerialDataBits.eight
+  - Flex.Smoothlake.FlexLib.SerialDataBits.seven
+  langs:
+  - csharp
+  - vb
+  name: SerialDataBits
+  nameWithType: SerialDataBits
+  fullName: Flex.Smoothlake.FlexLib.SerialDataBits
+  type: Enum
+  source:
+    id: SerialDataBits
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 408
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: >-
+      [TypeConverter(typeof(EnumDescriptionTypeConverter))]
+
+      public enum SerialDataBits
+    content.vb: >-
+      <TypeConverter(GetType(EnumDescriptionTypeConverter))>
+
+      Public Enum SerialDataBits
+  attributes:
+  - type: System.ComponentModel.TypeConverterAttribute
+    ctor: System.ComponentModel.TypeConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Flex.UiWpfFramework.Utils.EnumDescriptionTypeConverter
+- uid: Flex.Smoothlake.FlexLib.SerialDataBits.seven
+  commentId: F:Flex.Smoothlake.FlexLib.SerialDataBits.seven
+  id: seven
+  parent: Flex.Smoothlake.FlexLib.SerialDataBits
+  langs:
+  - csharp
+  - vb
+  name: seven
+  nameWithType: SerialDataBits.seven
+  fullName: Flex.Smoothlake.FlexLib.SerialDataBits.seven
+  type: Field
+  source:
+    id: seven
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 411
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: seven = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialDataBits
+- uid: Flex.Smoothlake.FlexLib.SerialDataBits.eight
+  commentId: F:Flex.Smoothlake.FlexLib.SerialDataBits.eight
+  id: eight
+  parent: Flex.Smoothlake.FlexLib.SerialDataBits
+  langs:
+  - csharp
+  - vb
+  name: eight
+  nameWithType: SerialDataBits.eight
+  fullName: Flex.Smoothlake.FlexLib.SerialDataBits.eight
+  type: Field
+  source:
+    id: eight
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\UsbCatCable.cs
+    startLine: 413
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: eight = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialDataBits
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.SerialDataBits
+  commentId: T:Flex.Smoothlake.FlexLib.SerialDataBits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialDataBits.html
+  name: SerialDataBits
+  nameWithType: SerialDataBits
+  fullName: Flex.Smoothlake.FlexLib.SerialDataBits

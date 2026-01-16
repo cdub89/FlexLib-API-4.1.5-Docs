@@ -1,0 +1,1326 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.CWX
+  commentId: T:Flex.Smoothlake.FlexLib.CWX
+  id: CWX
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.CWX.CharSent
+  - Flex.Smoothlake.FlexLib.CWX.ClearBuffer
+  - Flex.Smoothlake.FlexLib.CWX.Delay
+  - Flex.Smoothlake.FlexLib.CWX.Erase(System.Int32)
+  - Flex.Smoothlake.FlexLib.CWX.Erase(System.Int32,System.Int32)
+  - Flex.Smoothlake.FlexLib.CWX.EraseSent
+  - Flex.Smoothlake.FlexLib.CWX.GetMacro(System.Int32,System.String@)
+  - Flex.Smoothlake.FlexLib.CWX.Insert(System.Int32,System.String,System.Int32)
+  - Flex.Smoothlake.FlexLib.CWX.InsertQueued
+  - Flex.Smoothlake.FlexLib.CWX.Macros
+  - Flex.Smoothlake.FlexLib.CWX.MessageQueued
+  - Flex.Smoothlake.FlexLib.CWX.QskEnabled
+  - Flex.Smoothlake.FlexLib.CWX.Send(System.String)
+  - Flex.Smoothlake.FlexLib.CWX.Send(System.String,System.Int32)
+  - Flex.Smoothlake.FlexLib.CWX.SendMacro(System.Int32)
+  - Flex.Smoothlake.FlexLib.CWX.SetMacro(System.Int32,System.String)
+  - Flex.Smoothlake.FlexLib.CWX.Speed
+  - Flex.Smoothlake.FlexLib.CWX.getTXFrequency
+  langs:
+  - csharp
+  - vb
+  name: CWX
+  nameWithType: CWX
+  fullName: Flex.Smoothlake.FlexLib.CWX
+  type: Class
+  source:
+    id: CWX
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 23
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public class CWX : ObservableObject, INotifyPropertyChanged'
+    content.vb: Public Class CWX Inherits ObservableObject Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Flex.UiWpfFramework.Mvvm.ObservableObject
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  - Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.CWX.SendMacro(System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.SendMacro(System.Int32)
+  id: SendMacro(System.Int32)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: SendMacro(int)
+  nameWithType: CWX.SendMacro(int)
+  fullName: Flex.Smoothlake.FlexLib.CWX.SendMacro(int)
+  type: Method
+  source:
+    id: SendMacro
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 48
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int SendMacro(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function SendMacro(index As Integer) As Integer
+  overload: Flex.Smoothlake.FlexLib.CWX.SendMacro*
+  nameWithType.vb: CWX.SendMacro(Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.SendMacro(Integer)
+  name.vb: SendMacro(Integer)
+- uid: Flex.Smoothlake.FlexLib.CWX.Send(System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.Send(System.String)
+  id: Send(System.String)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Send(string)
+  nameWithType: CWX.Send(string)
+  fullName: Flex.Smoothlake.FlexLib.CWX.Send(string)
+  type: Method
+  source:
+    id: Send
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 84
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Send(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function Send(s As String) As Integer
+  overload: Flex.Smoothlake.FlexLib.CWX.Send*
+  nameWithType.vb: CWX.Send(String)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.Send(String)
+  name.vb: Send(String)
+- uid: Flex.Smoothlake.FlexLib.CWX.Send(System.String,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.Send(System.String,System.Int32)
+  id: Send(System.String,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Send(string, int)
+  nameWithType: CWX.Send(string, int)
+  fullName: Flex.Smoothlake.FlexLib.CWX.Send(string, int)
+  type: Method
+  source:
+    id: Send
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 91
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Send(string s, int block)
+    parameters:
+    - id: s
+      type: System.String
+    - id: block
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Send(s As String, block As Integer) As Integer
+  overload: Flex.Smoothlake.FlexLib.CWX.Send*
+  nameWithType.vb: CWX.Send(String, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.Send(String, Integer)
+  name.vb: Send(String, Integer)
+- uid: Flex.Smoothlake.FlexLib.CWX.Erase(System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.Erase(System.Int32)
+  id: Erase(System.Int32)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Erase(int)
+  nameWithType: CWX.Erase(int)
+  fullName: Flex.Smoothlake.FlexLib.CWX.Erase(int)
+  type: Method
+  source:
+    id: Erase
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 100
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Erase(int num_chars)
+    parameters:
+    - id: num_chars
+      type: System.Int32
+    content.vb: Public Sub [Erase](num_chars As Integer)
+  overload: Flex.Smoothlake.FlexLib.CWX.Erase*
+  nameWithType.vb: CWX.Erase(Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.Erase(Integer)
+  name.vb: Erase(Integer)
+- uid: Flex.Smoothlake.FlexLib.CWX.Erase(System.Int32,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.Erase(System.Int32,System.Int32)
+  id: Erase(System.Int32,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Erase(int, int)
+  nameWithType: CWX.Erase(int, int)
+  fullName: Flex.Smoothlake.FlexLib.CWX.Erase(int, int)
+  type: Method
+  source:
+    id: Erase
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 107
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Erase(int num_chars, int radio_index)
+    parameters:
+    - id: num_chars
+      type: System.Int32
+    - id: radio_index
+      type: System.Int32
+    content.vb: Public Sub [Erase](num_chars As Integer, radio_index As Integer)
+  overload: Flex.Smoothlake.FlexLib.CWX.Erase*
+  nameWithType.vb: CWX.Erase(Integer, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.Erase(Integer, Integer)
+  name.vb: Erase(Integer, Integer)
+- uid: Flex.Smoothlake.FlexLib.CWX.Insert(System.Int32,System.String,System.Int32)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.Insert(System.Int32,System.String,System.Int32)
+  id: Insert(System.Int32,System.String,System.Int32)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Insert(int, string, int)
+  nameWithType: CWX.Insert(int, string, int)
+  fullName: Flex.Smoothlake.FlexLib.CWX.Insert(int, string, int)
+  type: Method
+  source:
+    id: Insert
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 146
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void Insert(int radio_index, string s, int block)
+    parameters:
+    - id: radio_index
+      type: System.Int32
+    - id: s
+      type: System.String
+    - id: block
+      type: System.Int32
+    content.vb: Public Sub Insert(radio_index As Integer, s As String, block As Integer)
+  overload: Flex.Smoothlake.FlexLib.CWX.Insert*
+  nameWithType.vb: CWX.Insert(Integer, String, Integer)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.Insert(Integer, String, Integer)
+  name.vb: Insert(Integer, String, Integer)
+- uid: Flex.Smoothlake.FlexLib.CWX.getTXFrequency
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.getTXFrequency
+  id: getTXFrequency
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: getTXFrequency()
+  nameWithType: CWX.getTXFrequency()
+  fullName: Flex.Smoothlake.FlexLib.CWX.getTXFrequency()
+  type: Method
+  source:
+    id: getTXFrequency
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 185
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double getTXFrequency()
+    return:
+      type: System.Double
+    content.vb: Public Function getTXFrequency() As Double
+  overload: Flex.Smoothlake.FlexLib.CWX.getTXFrequency*
+- uid: Flex.Smoothlake.FlexLib.CWX.ClearBuffer
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.ClearBuffer
+  id: ClearBuffer
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: ClearBuffer()
+  nameWithType: CWX.ClearBuffer()
+  fullName: Flex.Smoothlake.FlexLib.CWX.ClearBuffer()
+  type: Method
+  source:
+    id: ClearBuffer
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 200
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void ClearBuffer()
+    content.vb: Public Sub ClearBuffer()
+  overload: Flex.Smoothlake.FlexLib.CWX.ClearBuffer*
+- uid: Flex.Smoothlake.FlexLib.CWX.Macros
+  commentId: P:Flex.Smoothlake.FlexLib.CWX.Macros
+  id: Macros
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Macros
+  nameWithType: CWX.Macros
+  fullName: Flex.Smoothlake.FlexLib.CWX.Macros
+  type: Property
+  source:
+    id: Macros
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 235
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string[] Macros { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property Macros As String()
+  overload: Flex.Smoothlake.FlexLib.CWX.Macros*
+- uid: Flex.Smoothlake.FlexLib.CWX.SetMacro(System.Int32,System.String)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.SetMacro(System.Int32,System.String)
+  id: SetMacro(System.Int32,System.String)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: SetMacro(int, string)
+  nameWithType: CWX.SetMacro(int, string)
+  fullName: Flex.Smoothlake.FlexLib.CWX.SetMacro(int, string)
+  type: Method
+  source:
+    id: SetMacro
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 240
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool SetMacro(int index, string s)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: s
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function SetMacro(index As Integer, s As String) As Boolean
+  overload: Flex.Smoothlake.FlexLib.CWX.SetMacro*
+  nameWithType.vb: CWX.SetMacro(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.SetMacro(Integer, String)
+  name.vb: SetMacro(Integer, String)
+- uid: Flex.Smoothlake.FlexLib.CWX.GetMacro(System.Int32,System.String@)
+  commentId: M:Flex.Smoothlake.FlexLib.CWX.GetMacro(System.Int32,System.String@)
+  id: GetMacro(System.Int32,System.String@)
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: GetMacro(int, out string)
+  nameWithType: CWX.GetMacro(int, out string)
+  fullName: Flex.Smoothlake.FlexLib.CWX.GetMacro(int, out string)
+  type: Method
+  source:
+    id: GetMacro
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 248
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool GetMacro(int index, out string s)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: s
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetMacro(index As Integer, s As String) As Boolean
+  overload: Flex.Smoothlake.FlexLib.CWX.GetMacro*
+  nameWithType.vb: CWX.GetMacro(Integer, String)
+  fullName.vb: Flex.Smoothlake.FlexLib.CWX.GetMacro(Integer, String)
+  name.vb: GetMacro(Integer, String)
+- uid: Flex.Smoothlake.FlexLib.CWX.Delay
+  commentId: P:Flex.Smoothlake.FlexLib.CWX.Delay
+  id: Delay
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Delay
+  nameWithType: CWX.Delay
+  fullName: Flex.Smoothlake.FlexLib.CWX.Delay
+  type: Property
+  source:
+    id: Delay
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 261
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The CWX breakin delay in milliseconds (ms) from 0 ms to 2000 ms
+  example: []
+  syntax:
+    content: public int Delay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Delay As Integer
+  overload: Flex.Smoothlake.FlexLib.CWX.Delay*
+- uid: Flex.Smoothlake.FlexLib.CWX.Speed
+  commentId: P:Flex.Smoothlake.FlexLib.CWX.Speed
+  id: Speed
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: CWX.Speed
+  fullName: Flex.Smoothlake.FlexLib.CWX.Speed
+  type: Property
+  source:
+    id: Speed
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 288
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: The CWX speed in words per minute (wpm) from 5 to 100
+  example: []
+  syntax:
+    content: public int Speed { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Speed As Integer
+  overload: Flex.Smoothlake.FlexLib.CWX.Speed*
+- uid: Flex.Smoothlake.FlexLib.CWX.QskEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.CWX.QskEnabled
+  id: QskEnabled
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: QskEnabled
+  nameWithType: CWX.QskEnabled
+  fullName: Flex.Smoothlake.FlexLib.CWX.QskEnabled
+  type: Property
+  source:
+    id: QskEnabled
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 312
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool QskEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property QskEnabled As Boolean
+  overload: Flex.Smoothlake.FlexLib.CWX.QskEnabled*
+- uid: Flex.Smoothlake.FlexLib.CWX.MessageQueued
+  commentId: E:Flex.Smoothlake.FlexLib.CWX.MessageQueued
+  id: MessageQueued
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: MessageQueued
+  nameWithType: CWX.MessageQueued
+  fullName: Flex.Smoothlake.FlexLib.CWX.MessageQueued
+  type: Event
+  source:
+    id: MessageQueued
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 327
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event CWX.MessageQueuedEventHandler MessageQueued
+    return:
+      type: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+    content.vb: Public Event MessageQueued As CWX.MessageQueuedEventHandler
+- uid: Flex.Smoothlake.FlexLib.CWX.CharSent
+  commentId: E:Flex.Smoothlake.FlexLib.CWX.CharSent
+  id: CharSent
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: CharSent
+  nameWithType: CWX.CharSent
+  fullName: Flex.Smoothlake.FlexLib.CWX.CharSent
+  type: Event
+  source:
+    id: CharSent
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 336
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event CWX.CharSentEventHandler CharSent
+    return:
+      type: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+    content.vb: Public Event CharSent As CWX.CharSentEventHandler
+- uid: Flex.Smoothlake.FlexLib.CWX.EraseSent
+  commentId: E:Flex.Smoothlake.FlexLib.CWX.EraseSent
+  id: EraseSent
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: EraseSent
+  nameWithType: CWX.EraseSent
+  fullName: Flex.Smoothlake.FlexLib.CWX.EraseSent
+  type: Event
+  source:
+    id: EraseSent
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 345
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event CWX.EraseSentEventHandler EraseSent
+    return:
+      type: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+    content.vb: Public Event EraseSent As CWX.EraseSentEventHandler
+- uid: Flex.Smoothlake.FlexLib.CWX.InsertQueued
+  commentId: E:Flex.Smoothlake.FlexLib.CWX.InsertQueued
+  id: InsertQueued
+  parent: Flex.Smoothlake.FlexLib.CWX
+  langs:
+  - csharp
+  - vb
+  name: InsertQueued
+  nameWithType: CWX.InsertQueued
+  fullName: Flex.Smoothlake.FlexLib.CWX.InsertQueued
+  type: Event
+  source:
+    id: InsertQueued
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\CWX.cs
+    startLine: 354
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event CWX.InsertQueuedEventHandler InsertQueued
+    return:
+      type: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+    content.vb: Public Event InsertQueued As CWX.InsertQueuedEventHandler
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject
+  commentId: T:Flex.UiWpfFramework.Mvvm.ObservableObject
+  parent: Flex.UiWpfFramework.Mvvm
+  href: Flex.UiWpfFramework.Mvvm.ObservableObject.html
+  name: ObservableObject
+  nameWithType: ObservableObject
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  commentId: E:Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  name: PropertyChanged
+  nameWithType: ObservableObject.PropertyChanged
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.PropertyChanged
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  name: OnPropertyChanged(PropertyChangedEventArgs)
+  nameWithType: ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanged
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{{T}}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  definition: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RaisePropertyChanged(string)
+  nameWithType: ObservableObject.RaisePropertyChanged(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(string)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+  parent: Flex.UiWpfFramework.Mvvm.ObservableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: VerifyPropertyName(string)
+  nameWithType: ObservableObject.VerifyPropertyName(string)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(string)
+  nameWithType.vb: ObservableObject.VerifyPropertyName(String)
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(String)
+  name.vb: VerifyPropertyName(String)
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.VerifyPropertyName(System.String)
+    name: VerifyPropertyName
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Flex.UiWpfFramework.Mvvm
+  commentId: N:Flex.UiWpfFramework.Mvvm
+  href: Flex.html
+  name: Flex.UiWpfFramework.Mvvm
+  nameWithType: Flex.UiWpfFramework.Mvvm
+  fullName: Flex.UiWpfFramework.Mvvm
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.UiWpfFramework
+    name: UiWpfFramework
+    href: Flex.UiWpfFramework.html
+  - name: .
+  - uid: Flex.UiWpfFramework.Mvvm
+    name: Mvvm
+    href: Flex.UiWpfFramework.Mvvm.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: RaisePropertyChanged<T>(Expression<Func<T>>)
+  nameWithType: ObservableObject.RaisePropertyChanged<T>(Expression<Func<T>>)
+  fullName: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  nameWithType.vb: ObservableObject.RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  fullName.vb: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: RaisePropertyChanged(Of T)(Expression(Of Func(Of T)))
+  spec.csharp:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Flex.UiWpfFramework.Mvvm.ObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+    name: RaisePropertyChanged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.CWX.SendMacro*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.SendMacro
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_SendMacro_System_Int32_
+  name: SendMacro
+  nameWithType: CWX.SendMacro
+  fullName: Flex.Smoothlake.FlexLib.CWX.SendMacro
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.CWX.Send*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.Send
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_Send_System_String_
+  name: Send
+  nameWithType: CWX.Send
+  fullName: Flex.Smoothlake.FlexLib.CWX.Send
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.CWX.Erase*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.Erase
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_Erase_System_Int32_
+  name: Erase
+  nameWithType: CWX.Erase
+  fullName: Flex.Smoothlake.FlexLib.CWX.Erase
+- uid: Flex.Smoothlake.FlexLib.CWX.Insert*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.Insert
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_Insert_System_Int32_System_String_System_Int32_
+  name: Insert
+  nameWithType: CWX.Insert
+  fullName: Flex.Smoothlake.FlexLib.CWX.Insert
+- uid: Flex.Smoothlake.FlexLib.CWX.getTXFrequency*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.getTXFrequency
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_getTXFrequency
+  name: getTXFrequency
+  nameWithType: CWX.getTXFrequency
+  fullName: Flex.Smoothlake.FlexLib.CWX.getTXFrequency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.CWX.ClearBuffer*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.ClearBuffer
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_ClearBuffer
+  name: ClearBuffer
+  nameWithType: CWX.ClearBuffer
+  fullName: Flex.Smoothlake.FlexLib.CWX.ClearBuffer
+- uid: Flex.Smoothlake.FlexLib.CWX.Macros*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.Macros
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_Macros
+  name: Macros
+  nameWithType: CWX.Macros
+  fullName: Flex.Smoothlake.FlexLib.CWX.Macros
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.CWX.SetMacro*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.SetMacro
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_SetMacro_System_Int32_System_String_
+  name: SetMacro
+  nameWithType: CWX.SetMacro
+  fullName: Flex.Smoothlake.FlexLib.CWX.SetMacro
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.CWX.GetMacro*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.GetMacro
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_GetMacro_System_Int32_System_String__
+  name: GetMacro
+  nameWithType: CWX.GetMacro
+  fullName: Flex.Smoothlake.FlexLib.CWX.GetMacro
+- uid: Flex.Smoothlake.FlexLib.CWX.Delay*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.Delay
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_Delay
+  name: Delay
+  nameWithType: CWX.Delay
+  fullName: Flex.Smoothlake.FlexLib.CWX.Delay
+- uid: Flex.Smoothlake.FlexLib.CWX.Speed*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.Speed
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_Speed
+  name: Speed
+  nameWithType: CWX.Speed
+  fullName: Flex.Smoothlake.FlexLib.CWX.Speed
+- uid: Flex.Smoothlake.FlexLib.CWX.QskEnabled*
+  commentId: Overload:Flex.Smoothlake.FlexLib.CWX.QskEnabled
+  href: Flex.Smoothlake.FlexLib.CWX.html#Flex_Smoothlake_FlexLib_CWX_QskEnabled
+  name: QskEnabled
+  nameWithType: CWX.QskEnabled
+  fullName: Flex.Smoothlake.FlexLib.CWX.QskEnabled
+- uid: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.CWX.html
+  name: CWX.MessageQueuedEventHandler
+  nameWithType: CWX.MessageQueuedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+    name: MessageQueuedEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler
+    name: MessageQueuedEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.MessageQueuedEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.CWX.html
+  name: CWX.CharSentEventHandler
+  nameWithType: CWX.CharSentEventHandler
+  fullName: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+    name: CharSentEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler
+    name: CharSentEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.CharSentEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.CWX.html
+  name: CWX.EraseSentEventHandler
+  nameWithType: CWX.EraseSentEventHandler
+  fullName: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+    name: EraseSentEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler
+    name: EraseSentEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.EraseSentEventHandler.html
+- uid: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.CWX.html
+  name: CWX.InsertQueuedEventHandler
+  nameWithType: CWX.InsertQueuedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+    name: InsertQueuedEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.CWX
+    name: CWX
+    href: Flex.Smoothlake.FlexLib.CWX.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler
+    name: InsertQueuedEventHandler
+    href: Flex.Smoothlake.FlexLib.CWX.InsertQueuedEventHandler.html

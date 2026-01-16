@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.Meter
+  commentId: T:Flex.Smoothlake.FlexLib.Meter
+  id: Meter
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.Meter.DataReady
+  - Flex.Smoothlake.FlexLib.Meter.Description
+  - Flex.Smoothlake.FlexLib.Meter.FPS
+  - Flex.Smoothlake.FlexLib.Meter.High
+  - Flex.Smoothlake.FlexLib.Meter.Index
+  - Flex.Smoothlake.FlexLib.Meter.Low
+  - Flex.Smoothlake.FlexLib.Meter.Name
+  - Flex.Smoothlake.FlexLib.Meter.Peak
+  - Flex.Smoothlake.FlexLib.Meter.SOURCE_AMPLIFIER
+  - Flex.Smoothlake.FlexLib.Meter.SOURCE_SLICE
+  - Flex.Smoothlake.FlexLib.Meter.Source
+  - Flex.Smoothlake.FlexLib.Meter.SourceIndex
+  - Flex.Smoothlake.FlexLib.Meter.ToString
+  - Flex.Smoothlake.FlexLib.Meter.Units
+  - Flex.Smoothlake.FlexLib.Meter.UpdateValue(System.Int16)
+  langs:
+  - csharp
+  - vb
+  name: Meter
+  nameWithType: Meter
+  fullName: Flex.Smoothlake.FlexLib.Meter
+  type: Class
+  source:
+    id: Meter
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 97
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Represents a telemetry meter that provides real-time monitoring data from the radio.
+  remarks: >-
+    <p>
+
+    Meters provide real-time monitoring of various radio parameters including:
+
+    <ul><li>Signal levels (MICPEAK, COMPPEAK, SIGNAL)</li><li>Power measurements (FWD, REF, SWR)</li><li>System status (VOLTAGE, TEMP)</li><li>Audio levels (LEVELPEAK, LEVELAVG)</li></ul>
+
+    </p>
+
+    <p>
+
+    Meters are automatically created by the radio and added to the Radio.MeterList.
+
+    Subscribe to the Radio.MeterAdded event to be notified when new meters
+
+    become available, then subscribe to the meter's <xref href="Flex.Smoothlake.FlexLib.Meter.DataReady" data-throw-if-not-resolved="false"></xref> event to
+
+    receive real-time data updates.
+
+    </p>
+
+    <p>
+
+    Meter data updates are sent at regular intervals (typically 10-50ms depending on the meter type).
+
+    Event handlers are called on a background thread.
+
+    </p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Monitor SWR during transmission
+
+    radio.MeterAdded += (meter) =&gt;
+
+    {
+        if (meter.Name == "SWR")
+        {
+            meter.DataReady += (data) =&gt;
+            {
+                Console.WriteLine($"SWR: {data.Value:F2}:1");
+
+                if (data.Value &gt; 3.0)
+                {
+                    Console.WriteLine("WARNING: High SWR detected!");
+                }
+            };
+        }
+    };</code></pre>
+  syntax:
+    content: public class Meter
+    content.vb: Public Class Meter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Flex.Smoothlake.FlexLib.Meter.SOURCE_SLICE
+  commentId: F:Flex.Smoothlake.FlexLib.Meter.SOURCE_SLICE
+  id: SOURCE_SLICE
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: SOURCE_SLICE
+  nameWithType: Meter.SOURCE_SLICE
+  fullName: Flex.Smoothlake.FlexLib.Meter.SOURCE_SLICE
+  type: Field
+  source:
+    id: SOURCE_SLICE
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 99
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public const string SOURCE_SLICE = "SLC"
+    return:
+      type: System.String
+    content.vb: Public Const SOURCE_SLICE As String = "SLC"
+- uid: Flex.Smoothlake.FlexLib.Meter.SOURCE_AMPLIFIER
+  commentId: F:Flex.Smoothlake.FlexLib.Meter.SOURCE_AMPLIFIER
+  id: SOURCE_AMPLIFIER
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: SOURCE_AMPLIFIER
+  nameWithType: Meter.SOURCE_AMPLIFIER
+  fullName: Flex.Smoothlake.FlexLib.Meter.SOURCE_AMPLIFIER
+  type: Field
+  source:
+    id: SOURCE_AMPLIFIER
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 100
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public const string SOURCE_AMPLIFIER = "AMP"
+    return:
+      type: System.String
+    content.vb: Public Const SOURCE_AMPLIFIER As String = "AMP"
+- uid: Flex.Smoothlake.FlexLib.Meter.Index
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Index
+  id: Index
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Meter.Index
+  fullName: Flex.Smoothlake.FlexLib.Meter.Index
+  type: Property
+  source:
+    id: Index
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 120
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: Flex.Smoothlake.FlexLib.Meter.Index*
+- uid: Flex.Smoothlake.FlexLib.Meter.Source
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Source
+  id: Source
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Meter.Source
+  fullName: Flex.Smoothlake.FlexLib.Meter.Source
+  type: Property
+  source:
+    id: Source
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 126
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source As String
+  overload: Flex.Smoothlake.FlexLib.Meter.Source*
+- uid: Flex.Smoothlake.FlexLib.Meter.SourceIndex
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.SourceIndex
+  id: SourceIndex
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: SourceIndex
+  nameWithType: Meter.SourceIndex
+  fullName: Flex.Smoothlake.FlexLib.Meter.SourceIndex
+  type: Property
+  source:
+    id: SourceIndex
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 137
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public int SourceIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceIndex As Integer
+  overload: Flex.Smoothlake.FlexLib.Meter.SourceIndex*
+- uid: Flex.Smoothlake.FlexLib.Meter.Name
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Name
+  id: Name
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Meter.Name
+  fullName: Flex.Smoothlake.FlexLib.Meter.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 148
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Flex.Smoothlake.FlexLib.Meter.Name*
+- uid: Flex.Smoothlake.FlexLib.Meter.Description
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Description
+  id: Description
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Meter.Description
+  fullName: Flex.Smoothlake.FlexLib.Meter.Description
+  type: Property
+  source:
+    id: Description
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 159
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Flex.Smoothlake.FlexLib.Meter.Description*
+- uid: Flex.Smoothlake.FlexLib.Meter.Low
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Low
+  id: Low
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: Meter.Low
+  fullName: Flex.Smoothlake.FlexLib.Meter.Low
+  type: Property
+  source:
+    id: Low
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 170
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double Low { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Low As Double
+  overload: Flex.Smoothlake.FlexLib.Meter.Low*
+- uid: Flex.Smoothlake.FlexLib.Meter.High
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.High
+  id: High
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: Meter.High
+  fullName: Flex.Smoothlake.FlexLib.Meter.High
+  type: Property
+  source:
+    id: High
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 181
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double High { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property High As Double
+  overload: Flex.Smoothlake.FlexLib.Meter.High*
+- uid: Flex.Smoothlake.FlexLib.Meter.FPS
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.FPS
+  id: FPS
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: FPS
+  nameWithType: Meter.FPS
+  fullName: Flex.Smoothlake.FlexLib.Meter.FPS
+  type: Property
+  source:
+    id: FPS
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 192
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public double FPS { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property FPS As Double
+  overload: Flex.Smoothlake.FlexLib.Meter.FPS*
+- uid: Flex.Smoothlake.FlexLib.Meter.Peak
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Peak
+  id: Peak
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Peak
+  nameWithType: Meter.Peak
+  fullName: Flex.Smoothlake.FlexLib.Meter.Peak
+  type: Property
+  source:
+    id: Peak
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 203
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public bool Peak { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Peak As Boolean
+  overload: Flex.Smoothlake.FlexLib.Meter.Peak*
+- uid: Flex.Smoothlake.FlexLib.Meter.Units
+  commentId: P:Flex.Smoothlake.FlexLib.Meter.Units
+  id: Units
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: Units
+  nameWithType: Meter.Units
+  fullName: Flex.Smoothlake.FlexLib.Meter.Units
+  type: Property
+  source:
+    id: Units
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 213
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public MeterUnits Units { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.MeterUnits
+    content.vb: Public Property Units As MeterUnits
+  overload: Flex.Smoothlake.FlexLib.Meter.Units*
+- uid: Flex.Smoothlake.FlexLib.Meter.UpdateValue(System.Int16)
+  commentId: M:Flex.Smoothlake.FlexLib.Meter.UpdateValue(System.Int16)
+  id: UpdateValue(System.Int16)
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: UpdateValue(short)
+  nameWithType: Meter.UpdateValue(short)
+  fullName: Flex.Smoothlake.FlexLib.Meter.UpdateValue(short)
+  type: Method
+  source:
+    id: UpdateValue
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 223
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public void UpdateValue(short new_raw_value)
+    parameters:
+    - id: new_raw_value
+      type: System.Int16
+    content.vb: Public Sub UpdateValue(new_raw_value As Short)
+  overload: Flex.Smoothlake.FlexLib.Meter.UpdateValue*
+  nameWithType.vb: Meter.UpdateValue(Short)
+  fullName.vb: Flex.Smoothlake.FlexLib.Meter.UpdateValue(Short)
+  name.vb: UpdateValue(Short)
+- uid: Flex.Smoothlake.FlexLib.Meter.DataReady
+  commentId: E:Flex.Smoothlake.FlexLib.Meter.DataReady
+  id: DataReady
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: DataReady
+  nameWithType: Meter.DataReady
+  fullName: Flex.Smoothlake.FlexLib.Meter.DataReady
+  type: Event
+  source:
+    id: DataReady
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 254
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public event Meter.DataReadyEventHandler DataReady
+    return:
+      type: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+    content.vb: Public Event DataReady As Meter.DataReadyEventHandler
+- uid: Flex.Smoothlake.FlexLib.Meter.ToString
+  commentId: M:Flex.Smoothlake.FlexLib.Meter.ToString
+  id: ToString
+  parent: Flex.Smoothlake.FlexLib.Meter
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Meter.ToString()
+  fullName: Flex.Smoothlake.FlexLib.Meter.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Meter.cs
+    startLine: 261
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Flex.Smoothlake.FlexLib.Meter.ToString*
+references:
+- uid: Flex.Smoothlake.FlexLib.Meter.DataReady
+  commentId: E:Flex.Smoothlake.FlexLib.Meter.DataReady
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_DataReady
+  name: DataReady
+  nameWithType: Meter.DataReady
+  fullName: Flex.Smoothlake.FlexLib.Meter.DataReady
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Flex.Smoothlake.FlexLib.Meter.Index*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Index
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Index
+  name: Index
+  nameWithType: Meter.Index
+  fullName: Flex.Smoothlake.FlexLib.Meter.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Flex.Smoothlake.FlexLib.Meter.Source*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Source
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Source
+  name: Source
+  nameWithType: Meter.Source
+  fullName: Flex.Smoothlake.FlexLib.Meter.Source
+- uid: Flex.Smoothlake.FlexLib.Meter.SourceIndex*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.SourceIndex
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_SourceIndex
+  name: SourceIndex
+  nameWithType: Meter.SourceIndex
+  fullName: Flex.Smoothlake.FlexLib.Meter.SourceIndex
+- uid: Flex.Smoothlake.FlexLib.Meter.Name*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Name
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Name
+  name: Name
+  nameWithType: Meter.Name
+  fullName: Flex.Smoothlake.FlexLib.Meter.Name
+- uid: Flex.Smoothlake.FlexLib.Meter.Description*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Description
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Description
+  name: Description
+  nameWithType: Meter.Description
+  fullName: Flex.Smoothlake.FlexLib.Meter.Description
+- uid: Flex.Smoothlake.FlexLib.Meter.Low*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Low
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Low
+  name: Low
+  nameWithType: Meter.Low
+  fullName: Flex.Smoothlake.FlexLib.Meter.Low
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Flex.Smoothlake.FlexLib.Meter.High*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.High
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_High
+  name: High
+  nameWithType: Meter.High
+  fullName: Flex.Smoothlake.FlexLib.Meter.High
+- uid: Flex.Smoothlake.FlexLib.Meter.FPS*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.FPS
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_FPS
+  name: FPS
+  nameWithType: Meter.FPS
+  fullName: Flex.Smoothlake.FlexLib.Meter.FPS
+- uid: Flex.Smoothlake.FlexLib.Meter.Peak*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Peak
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Peak
+  name: Peak
+  nameWithType: Meter.Peak
+  fullName: Flex.Smoothlake.FlexLib.Meter.Peak
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Flex.Smoothlake.FlexLib.Meter.Units*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.Units
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_Units
+  name: Units
+  nameWithType: Meter.Units
+  fullName: Flex.Smoothlake.FlexLib.Meter.Units
+- uid: Flex.Smoothlake.FlexLib.MeterUnits
+  commentId: T:Flex.Smoothlake.FlexLib.MeterUnits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.MeterUnits.html
+  name: MeterUnits
+  nameWithType: MeterUnits
+  fullName: Flex.Smoothlake.FlexLib.MeterUnits
+- uid: Flex.Smoothlake.FlexLib.Meter.UpdateValue*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.UpdateValue
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_UpdateValue_System_Int16_
+  name: UpdateValue
+  nameWithType: Meter.UpdateValue
+  fullName: Flex.Smoothlake.FlexLib.Meter.UpdateValue
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.Meter.html
+  name: Meter.DataReadyEventHandler
+  nameWithType: Meter.DataReadyEventHandler
+  fullName: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.Meter
+    name: Meter
+    href: Flex.Smoothlake.FlexLib.Meter.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+    name: DataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler.html
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.Meter
+    name: Meter
+    href: Flex.Smoothlake.FlexLib.Meter.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler
+    name: DataReadyEventHandler
+    href: Flex.Smoothlake.FlexLib.Meter.DataReadyEventHandler.html
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.Meter.ToString*
+  commentId: Overload:Flex.Smoothlake.FlexLib.Meter.ToString
+  href: Flex.Smoothlake.FlexLib.Meter.html#Flex_Smoothlake_FlexLib_Meter_ToString
+  name: ToString
+  nameWithType: Meter.ToString
+  fullName: Flex.Smoothlake.FlexLib.Meter.ToString

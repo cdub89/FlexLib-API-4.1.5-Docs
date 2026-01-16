@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler
+  commentId: T:Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler
+  id: TlsCommandCommunication.IsConnectedChangedEventHandler
+  parent: Flex.Smoothlake.FlexLib
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TlsCommandCommunication.IsConnectedChangedEventHandler
+  nameWithType: TlsCommandCommunication.IsConnectedChangedEventHandler
+  fullName: Flex.Smoothlake.FlexLib.TlsCommandCommunication.IsConnectedChangedEventHandler
+  type: Delegate
+  source:
+    id: IsConnectedChangedEventHandler
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\TlsCommandCommunication.cs
+    startLine: 99
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public delegate void TlsCommandCommunication.IsConnectedChangedEventHandler(bool connected)
+    parameters:
+    - id: connected
+      type: System.Boolean
+    content.vb: Public Delegate Sub TlsCommandCommunication.IsConnectedChangedEventHandler(connected As Boolean)
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

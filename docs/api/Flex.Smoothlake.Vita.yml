@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.Vita
+  commentId: N:Flex.Smoothlake.Vita
+  id: Flex.Smoothlake.Vita
+  children:
+  - Flex.Smoothlake.Vita.Header
+  - Flex.Smoothlake.Vita.Trailer
+  - Flex.Smoothlake.Vita.VitaClassID
+  - Flex.Smoothlake.Vita.VitaCommon
+  - Flex.Smoothlake.Vita.VitaDataReceivedCallback
+  - Flex.Smoothlake.Vita.VitaDiscoveryPacket
+  - Flex.Smoothlake.Vita.VitaFFTPacket
+  - Flex.Smoothlake.Vita.VitaFlex
+  - Flex.Smoothlake.Vita.VitaIFDataPacket
+  - Flex.Smoothlake.Vita.VitaMeterPacket
+  - Flex.Smoothlake.Vita.VitaOpusDataPacket
+  - Flex.Smoothlake.Vita.VitaPacketPreamble
+  - Flex.Smoothlake.Vita.VitaPacketType
+  - Flex.Smoothlake.Vita.VitaSocket
+  - Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  - Flex.Smoothlake.Vita.VitaTimeStampIntegerType
+  - Flex.Smoothlake.Vita.VitaWaterfallPacket
+  langs:
+  - csharp
+  - vb
+  name: Flex.Smoothlake.Vita
+  nameWithType: Flex.Smoothlake.Vita
+  fullName: Flex.Smoothlake.Vita
+  type: Namespace
+  assemblies:
+  - Vita
+references:
+- uid: Flex.Smoothlake.Vita.VitaDataReceivedCallback
+  commentId: T:Flex.Smoothlake.Vita.VitaDataReceivedCallback
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaDataReceivedCallback.html
+  name: VitaDataReceivedCallback
+  nameWithType: VitaDataReceivedCallback
+  fullName: Flex.Smoothlake.Vita.VitaDataReceivedCallback
+- uid: Flex.Smoothlake.Vita.VitaPacketType
+  commentId: T:Flex.Smoothlake.Vita.VitaPacketType
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaPacketType.html
+  name: VitaPacketType
+  nameWithType: VitaPacketType
+  fullName: Flex.Smoothlake.Vita.VitaPacketType
+- uid: Flex.Smoothlake.Vita.VitaTimeStampIntegerType
+  commentId: T:Flex.Smoothlake.Vita.VitaTimeStampIntegerType
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaTimeStampIntegerType.html
+  name: VitaTimeStampIntegerType
+  nameWithType: VitaTimeStampIntegerType
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampIntegerType
+- uid: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  commentId: T:Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaTimeStampFractionalType.html
+  name: VitaTimeStampFractionalType
+  nameWithType: VitaTimeStampFractionalType
+  fullName: Flex.Smoothlake.Vita.VitaTimeStampFractionalType
+- uid: Flex.Smoothlake.Vita.Header
+  commentId: T:Flex.Smoothlake.Vita.Header
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.Header.html
+  name: Header
+  nameWithType: Header
+  fullName: Flex.Smoothlake.Vita.Header
+- uid: Flex.Smoothlake.Vita.VitaClassID
+  commentId: T:Flex.Smoothlake.Vita.VitaClassID
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaClassID.html
+  name: VitaClassID
+  nameWithType: VitaClassID
+  fullName: Flex.Smoothlake.Vita.VitaClassID
+- uid: Flex.Smoothlake.Vita.Trailer
+  commentId: T:Flex.Smoothlake.Vita.Trailer
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.Trailer.html
+  name: Trailer
+  nameWithType: Trailer
+  fullName: Flex.Smoothlake.Vita.Trailer
+- uid: Flex.Smoothlake.Vita.VitaCommon
+  commentId: T:Flex.Smoothlake.Vita.VitaCommon
+  href: Flex.Smoothlake.Vita.VitaCommon.html
+  name: VitaCommon
+  nameWithType: VitaCommon
+  fullName: Flex.Smoothlake.Vita.VitaCommon
+- uid: Flex.Smoothlake.Vita.VitaDiscoveryPacket
+  commentId: T:Flex.Smoothlake.Vita.VitaDiscoveryPacket
+  href: Flex.Smoothlake.Vita.VitaDiscoveryPacket.html
+  name: VitaDiscoveryPacket
+  nameWithType: VitaDiscoveryPacket
+  fullName: Flex.Smoothlake.Vita.VitaDiscoveryPacket
+- uid: Flex.Smoothlake.Vita.VitaFFTPacket
+  commentId: T:Flex.Smoothlake.Vita.VitaFFTPacket
+  href: Flex.Smoothlake.Vita.VitaFFTPacket.html
+  name: VitaFFTPacket
+  nameWithType: VitaFFTPacket
+  fullName: Flex.Smoothlake.Vita.VitaFFTPacket
+- uid: Flex.Smoothlake.Vita.VitaFlex
+  commentId: T:Flex.Smoothlake.Vita.VitaFlex
+  href: Flex.Smoothlake.Vita.VitaFlex.html
+  name: VitaFlex
+  nameWithType: VitaFlex
+  fullName: Flex.Smoothlake.Vita.VitaFlex
+- uid: Flex.Smoothlake.Vita.VitaIFDataPacket
+  commentId: T:Flex.Smoothlake.Vita.VitaIFDataPacket
+  href: Flex.Smoothlake.Vita.VitaIFDataPacket.html
+  name: VitaIFDataPacket
+  nameWithType: VitaIFDataPacket
+  fullName: Flex.Smoothlake.Vita.VitaIFDataPacket
+- uid: Flex.Smoothlake.Vita.VitaMeterPacket
+  commentId: T:Flex.Smoothlake.Vita.VitaMeterPacket
+  href: Flex.Smoothlake.Vita.VitaMeterPacket.html
+  name: VitaMeterPacket
+  nameWithType: VitaMeterPacket
+  fullName: Flex.Smoothlake.Vita.VitaMeterPacket
+- uid: Flex.Smoothlake.Vita.VitaOpusDataPacket
+  commentId: T:Flex.Smoothlake.Vita.VitaOpusDataPacket
+  href: Flex.Smoothlake.Vita.VitaOpusDataPacket.html
+  name: VitaOpusDataPacket
+  nameWithType: VitaOpusDataPacket
+  fullName: Flex.Smoothlake.Vita.VitaOpusDataPacket
+- uid: Flex.Smoothlake.Vita.VitaPacketPreamble
+  commentId: T:Flex.Smoothlake.Vita.VitaPacketPreamble
+  href: Flex.Smoothlake.Vita.VitaPacketPreamble.html
+  name: VitaPacketPreamble
+  nameWithType: VitaPacketPreamble
+  fullName: Flex.Smoothlake.Vita.VitaPacketPreamble
+- uid: Flex.Smoothlake.Vita.VitaSocket
+  commentId: T:Flex.Smoothlake.Vita.VitaSocket
+  parent: Flex.Smoothlake.Vita
+  href: Flex.Smoothlake.Vita.VitaSocket.html
+  name: VitaSocket
+  nameWithType: VitaSocket
+  fullName: Flex.Smoothlake.Vita.VitaSocket
+- uid: Flex.Smoothlake.Vita.VitaWaterfallPacket
+  commentId: T:Flex.Smoothlake.Vita.VitaWaterfallPacket
+  href: Flex.Smoothlake.Vita.VitaWaterfallPacket.html
+  name: VitaWaterfallPacket
+  nameWithType: VitaWaterfallPacket
+  fullName: Flex.Smoothlake.Vita.VitaWaterfallPacket
+- uid: Flex.Smoothlake.Vita
+  commentId: N:Flex.Smoothlake.Vita
+  href: Flex.html
+  name: Flex.Smoothlake.Vita
+  nameWithType: Flex.Smoothlake.Vita
+  fullName: Flex.Smoothlake.Vita
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.Vita
+    name: Vita
+    href: Flex.Smoothlake.Vita.html

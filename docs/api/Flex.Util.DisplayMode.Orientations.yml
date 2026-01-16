@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Util.DisplayMode.Orientations
+  commentId: T:Flex.Util.DisplayMode.Orientations
+  id: DisplayMode.Orientations
+  parent: Flex.Util
+  children:
+  - Flex.Util.DisplayMode.Orientations.DEGREES_CW_0
+  - Flex.Util.DisplayMode.Orientations.DEGREES_CW_180
+  - Flex.Util.DisplayMode.Orientations.DEGREES_CW_270
+  - Flex.Util.DisplayMode.Orientations.DEGREES_CW_90
+  langs:
+  - csharp
+  - vb
+  name: DisplayMode.Orientations
+  nameWithType: DisplayMode.Orientations
+  fullName: Flex.Util.DisplayMode.Orientations
+  type: Enum
+  source:
+    id: Orientations
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 162
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: public enum DisplayMode.Orientations
+    content.vb: Public Enum DisplayMode.Orientations
+- uid: Flex.Util.DisplayMode.Orientations.DEGREES_CW_0
+  commentId: F:Flex.Util.DisplayMode.Orientations.DEGREES_CW_0
+  id: DEGREES_CW_0
+  parent: Flex.Util.DisplayMode.Orientations
+  langs:
+  - csharp
+  - vb
+  name: DEGREES_CW_0
+  nameWithType: DisplayMode.Orientations.DEGREES_CW_0
+  fullName: Flex.Util.DisplayMode.Orientations.DEGREES_CW_0
+  type: Field
+  source:
+    id: DEGREES_CW_0
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 164
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DEGREES_CW_0 = 0
+    return:
+      type: Flex.Util.DisplayMode.Orientations
+- uid: Flex.Util.DisplayMode.Orientations.DEGREES_CW_90
+  commentId: F:Flex.Util.DisplayMode.Orientations.DEGREES_CW_90
+  id: DEGREES_CW_90
+  parent: Flex.Util.DisplayMode.Orientations
+  langs:
+  - csharp
+  - vb
+  name: DEGREES_CW_90
+  nameWithType: DisplayMode.Orientations.DEGREES_CW_90
+  fullName: Flex.Util.DisplayMode.Orientations.DEGREES_CW_90
+  type: Field
+  source:
+    id: DEGREES_CW_90
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 165
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DEGREES_CW_90 = 3
+    return:
+      type: Flex.Util.DisplayMode.Orientations
+- uid: Flex.Util.DisplayMode.Orientations.DEGREES_CW_180
+  commentId: F:Flex.Util.DisplayMode.Orientations.DEGREES_CW_180
+  id: DEGREES_CW_180
+  parent: Flex.Util.DisplayMode.Orientations
+  langs:
+  - csharp
+  - vb
+  name: DEGREES_CW_180
+  nameWithType: DisplayMode.Orientations.DEGREES_CW_180
+  fullName: Flex.Util.DisplayMode.Orientations.DEGREES_CW_180
+  type: Field
+  source:
+    id: DEGREES_CW_180
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 166
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DEGREES_CW_180 = 2
+    return:
+      type: Flex.Util.DisplayMode.Orientations
+- uid: Flex.Util.DisplayMode.Orientations.DEGREES_CW_270
+  commentId: F:Flex.Util.DisplayMode.Orientations.DEGREES_CW_270
+  id: DEGREES_CW_270
+  parent: Flex.Util.DisplayMode.Orientations
+  langs:
+  - csharp
+  - vb
+  name: DEGREES_CW_270
+  nameWithType: DisplayMode.Orientations.DEGREES_CW_270
+  fullName: Flex.Util.DisplayMode.Orientations.DEGREES_CW_270
+  type: Field
+  source:
+    id: DEGREES_CW_270
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\Util\Display.cs
+    startLine: 167
+  assemblies:
+  - Util
+  namespace: Flex.Util
+  syntax:
+    content: DEGREES_CW_270 = 1
+    return:
+      type: Flex.Util.DisplayMode.Orientations
+references:
+- uid: Flex.Util
+  commentId: N:Flex.Util
+  href: Flex.html
+  name: Flex.Util
+  nameWithType: Flex.Util
+  fullName: Flex.Util
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Util
+    name: Util
+    href: Flex.Util.html
+- uid: Flex.Util.DisplayMode.Orientations
+  commentId: T:Flex.Util.DisplayMode.Orientations
+  parent: Flex.Util
+  href: Flex.Util.DisplayMode.html
+  name: DisplayMode.Orientations
+  nameWithType: DisplayMode.Orientations
+  fullName: Flex.Util.DisplayMode.Orientations
+  spec.csharp:
+  - uid: Flex.Util.DisplayMode
+    name: DisplayMode
+    href: Flex.Util.DisplayMode.html
+  - name: .
+  - uid: Flex.Util.DisplayMode.Orientations
+    name: Orientations
+    href: Flex.Util.DisplayMode.Orientations.html
+  spec.vb:
+  - uid: Flex.Util.DisplayMode
+    name: DisplayMode
+    href: Flex.Util.DisplayMode.html
+  - name: .
+  - uid: Flex.Util.DisplayMode.Orientations
+    name: Orientations
+    href: Flex.Util.DisplayMode.Orientations.html

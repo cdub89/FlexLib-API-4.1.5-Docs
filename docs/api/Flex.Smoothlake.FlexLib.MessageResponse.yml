@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.MessageResponse
+  commentId: T:Flex.Smoothlake.FlexLib.MessageResponse
+  id: MessageResponse
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.MessageResponse.Success
+  langs:
+  - csharp
+  - vb
+  name: MessageResponse
+  nameWithType: MessageResponse
+  fullName: Flex.Smoothlake.FlexLib.MessageResponse
+  type: Enum
+  source:
+    id: MessageResponse
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 41
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum MessageResponse
+    content.vb: Public Enum MessageResponse
+- uid: Flex.Smoothlake.FlexLib.MessageResponse.Success
+  commentId: F:Flex.Smoothlake.FlexLib.MessageResponse.Success
+  id: Success
+  parent: Flex.Smoothlake.FlexLib.MessageResponse
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: MessageResponse.Success
+  fullName: Flex.Smoothlake.FlexLib.MessageResponse.Success
+  type: Field
+  source:
+    id: Success
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 43
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: Success = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.MessageResponse
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.MessageResponse
+  commentId: T:Flex.Smoothlake.FlexLib.MessageResponse
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.MessageResponse.html
+  name: MessageResponse
+  nameWithType: MessageResponse
+  fullName: Flex.Smoothlake.FlexLib.MessageResponse

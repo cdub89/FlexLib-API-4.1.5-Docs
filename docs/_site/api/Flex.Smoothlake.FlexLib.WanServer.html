@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WanServer | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WanServer | FlexLib API Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="ApiPage" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Flex.Smoothlake.FlexLib.WanServer">
+
+
+
+  <h1 id="Flex_Smoothlake_FlexLib_WanServer" data-uid="Flex.Smoothlake.FlexLib.WanServer" class="text-break">
+Class WanServer  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Flex.html">Flex</a>.<a class="xref" href="Flex.Smoothlake.html">Smoothlake</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.html">FlexLib</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FlexLib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WanServer : ObservableObject, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html">ObservableObject</a></div>
+      <div><span class="xref">WanServer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_PropertyChanged">ObservableObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_">ObservableObject.OnPropertyChanged(PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_RaisePropertyChanged__1_System_Linq_Expressions_Expression_System_Func___0___">ObservableObject.RaisePropertyChanged&lt;T&gt;(Expression&lt;Func&lt;T&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_RaisePropertyChanged_System_String_">ObservableObject.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Flex.UiWpfFramework.Mvvm.ObservableObject.html#Flex_UiWpfFramework_Mvvm_ObservableObject_VerifyPropertyName_System_String_">ObservableObject.VerifyPropertyName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer__ctor_" data-uid="Flex.Smoothlake.FlexLib.WanServer.#ctor*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer__ctor" data-uid="Flex.Smoothlake.FlexLib.WanServer.#ctor">
+  WanServer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WanServer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_HostName_" data-uid="Flex.Smoothlake.FlexLib.WanServer.HostName*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_HostName" data-uid="Flex.Smoothlake.FlexLib.WanServer.HostName">
+  HostName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HostName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_HostPort_" data-uid="Flex.Smoothlake.FlexLib.WanServer.HostPort*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_HostPort" data-uid="Flex.Smoothlake.FlexLib.WanServer.HostPort">
+  HostPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HostPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_IsConnected_" data-uid="Flex.Smoothlake.FlexLib.WanServer.IsConnected*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_IsConnected" data-uid="Flex.Smoothlake.FlexLib.WanServer.IsConnected">
+  IsConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_RadioPublicIpAddress_" data-uid="Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_RadioPublicIpAddress" data-uid="Flex.Smoothlake.FlexLib.WanServer.RadioPublicIpAddress">
+  RadioPublicIpAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RadioPublicIpAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_RadioPublicUdpPort_" data-uid="Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_RadioPublicUdpPort" data-uid="Flex.Smoothlake.FlexLib.WanServer.RadioPublicUdpPort">
+  RadioPublicUdpPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RadioPublicUdpPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SslClientPublicIp_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SslClientPublicIp" data-uid="Flex.Smoothlake.FlexLib.WanServer.SslClientPublicIp">
+  SslClientPublicIp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SslClientPublicIp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_UserSettings_" data-uid="Flex.Smoothlake.FlexLib.WanServer.UserSettings*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_UserSettings" data-uid="Flex.Smoothlake.FlexLib.WanServer.UserSettings">
+  UserSettings
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WanUserSettings UserSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.WanUserSettings.html">WanUserSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_Connect_" data-uid="Flex.Smoothlake.FlexLib.WanServer.Connect*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_Connect" data-uid="Flex.Smoothlake.FlexLib.WanServer.Connect">
+  Connect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_Disconnect_" data-uid="Flex.Smoothlake.FlexLib.WanServer.Disconnect*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_Disconnect" data-uid="Flex.Smoothlake.FlexLib.WanServer.Disconnect">
+  Disconnect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_OnTestConnectionResultsReceived_" data-uid="Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_OnTestConnectionResultsReceived_Flex_Smoothlake_FlexLib_WanTestConnectionResults_" data-uid="Flex.Smoothlake.FlexLib.WanServer.OnTestConnectionResultsReceived(Flex.Smoothlake.FlexLib.WanTestConnectionResults)">
+  OnTestConnectionResultsReceived(WanTestConnectionResults)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTestConnectionResultsReceived(WanTestConnectionResults results)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>results</code> <a class="xref" href="Flex.Smoothlake.FlexLib.WanTestConnectionResults.html">WanTestConnectionResults</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_OnWanRadioListReceived_" data-uid="Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_OnWanRadioListReceived_System_Collections_Generic_List_Flex_Smoothlake_FlexLib_Radio__" data-uid="Flex.Smoothlake.FlexLib.WanServer.OnWanRadioListReceived(System.Collections.Generic.List{Flex.Smoothlake.FlexLib.Radio})">
+  OnWanRadioListReceived(List&lt;Radio&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnWanRadioListReceived(List&lt;Radio&gt; radios)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radios</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Flex.Smoothlake.FlexLib.Radio.html">Radio</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendConnectMessageToRadio_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendConnectMessageToRadio_System_String_System_Int32_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendConnectMessageToRadio(System.String,System.Int32)">
+  SendConnectMessageToRadio(string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendConnectMessageToRadio(string radioSerial, int HolePunchPort = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radioSerial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>HolePunchPort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendDisconnectSingleUserMessageToServer_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendDisconnectSingleUserMessageToServer_System_String_System_String_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendDisconnectSingleUserMessageToServer(System.String,System.String)">
+  SendDisconnectSingleUserMessageToServer(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendDisconnectSingleUserMessageToServer(string radioSerial, string handle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radioSerial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>handle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendDisconnectUsersMessageToServer_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendDisconnectUsersMessageToServer_System_String_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendDisconnectUsersMessageToServer(System.String)">
+  SendDisconnectUsersMessageToServer(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendDisconnectUsersMessageToServer(string radioSerial)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radioSerial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendRefreshLicenseMessageToServer_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendRefreshLicenseMessageToServer_System_String_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendRefreshLicenseMessageToServer(System.String)">
+  SendRefreshLicenseMessageToServer(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendRefreshLicenseMessageToServer(string radioSerial)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radioSerial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendRegisterApplicationMessageToServer_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendRegisterApplicationMessageToServer_System_String_System_String_System_String_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendRegisterApplicationMessageToServer(System.String,System.String,System.String)">
+  SendRegisterApplicationMessageToServer(string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendRegisterApplicationMessageToServer(string appName, string platform, string token)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>platform</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendSetUserInfoToServer_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendSetUserInfoToServer_System_String_Flex_Smoothlake_FlexLib_WanUserSettings_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendSetUserInfoToServer(System.String,Flex.Smoothlake.FlexLib.WanUserSettings)">
+  SendSetUserInfoToServer(string, WanUserSettings)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendSetUserInfoToServer(string token, WanUserSettings userSettings)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userSettings</code> <a class="xref" href="Flex.Smoothlake.FlexLib.WanUserSettings.html">WanUserSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Flex_Smoothlake_FlexLib_WanServer_SendTestConnection_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendTestConnection*"></a>
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_SendTestConnection_System_String_" data-uid="Flex.Smoothlake.FlexLib.WanServer.SendTestConnection(System.String)">
+  SendTestConnection(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendTestConnection(string serial)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_TestConnectionResultsReceived" data-uid="Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceived">
+  TestConnectionResultsReceived
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event WanServer.TestConnectionResultsReceivedEventHandler TestConnectionResultsReceived</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.html">WanServer</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.TestConnectionResultsReceivedEventHandler.html">TestConnectionResultsReceivedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_WanApplicationRegistrationInvalid" data-uid="Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalid">
+  WanApplicationRegistrationInvalid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event WanServer.WanApplicationRegistrationInvalidEventHandler WanApplicationRegistrationInvalid</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.html">WanServer</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.WanApplicationRegistrationInvalidEventHandler.html">WanApplicationRegistrationInvalidEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_WanRadioConnectReady" data-uid="Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReady">
+  WanRadioConnectReady
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event WanServer.WanRadioConnectReadyEventHandler WanRadioConnectReady</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.html">WanServer</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.WanRadioConnectReadyEventHandler.html">WanRadioConnectReadyEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Flex_Smoothlake_FlexLib_WanServer_WanRadioRadioListRecieved" data-uid="Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecieved">
+  WanRadioRadioListRecieved
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event WanServer.WanRadioRadioListRecievedEventHandler WanRadioRadioListRecieved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.html">WanServer</a>.<a class="xref" href="Flex.Smoothlake.FlexLib.WanServer.WanRadioRadioListRecievedEventHandler.html">WanRadioRadioListRecievedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality
+  commentId: T:Flex.Smoothlake.FlexLib.NetworkQuality
+  id: NetworkQuality
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.NetworkQuality.EXCELLENT
+  - Flex.Smoothlake.FlexLib.NetworkQuality.FAIR
+  - Flex.Smoothlake.FlexLib.NetworkQuality.GOOD
+  - Flex.Smoothlake.FlexLib.NetworkQuality.OFF
+  - Flex.Smoothlake.FlexLib.NetworkQuality.POOR
+  - Flex.Smoothlake.FlexLib.NetworkQuality.VERYGOOD
+  langs:
+  - csharp
+  - vb
+  name: NetworkQuality
+  nameWithType: NetworkQuality
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality
+  type: Enum
+  source:
+    id: NetworkQuality
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 145
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public enum NetworkQuality
+    content.vb: Public Enum NetworkQuality
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality.OFF
+  commentId: F:Flex.Smoothlake.FlexLib.NetworkQuality.OFF
+  id: OFF
+  parent: Flex.Smoothlake.FlexLib.NetworkQuality
+  langs:
+  - csharp
+  - vb
+  name: OFF
+  nameWithType: NetworkQuality.OFF
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality.OFF
+  type: Field
+  source:
+    id: OFF
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 147
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: OFF = 0
+    return:
+      type: Flex.Smoothlake.FlexLib.NetworkQuality
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality.EXCELLENT
+  commentId: F:Flex.Smoothlake.FlexLib.NetworkQuality.EXCELLENT
+  id: EXCELLENT
+  parent: Flex.Smoothlake.FlexLib.NetworkQuality
+  langs:
+  - csharp
+  - vb
+  name: EXCELLENT
+  nameWithType: NetworkQuality.EXCELLENT
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality.EXCELLENT
+  type: Field
+  source:
+    id: EXCELLENT
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 148
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: EXCELLENT = 1
+    return:
+      type: Flex.Smoothlake.FlexLib.NetworkQuality
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality.VERYGOOD
+  commentId: F:Flex.Smoothlake.FlexLib.NetworkQuality.VERYGOOD
+  id: VERYGOOD
+  parent: Flex.Smoothlake.FlexLib.NetworkQuality
+  langs:
+  - csharp
+  - vb
+  name: VERYGOOD
+  nameWithType: NetworkQuality.VERYGOOD
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality.VERYGOOD
+  type: Field
+  source:
+    id: VERYGOOD
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 149
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: VERYGOOD = 2
+    return:
+      type: Flex.Smoothlake.FlexLib.NetworkQuality
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality.GOOD
+  commentId: F:Flex.Smoothlake.FlexLib.NetworkQuality.GOOD
+  id: GOOD
+  parent: Flex.Smoothlake.FlexLib.NetworkQuality
+  langs:
+  - csharp
+  - vb
+  name: GOOD
+  nameWithType: NetworkQuality.GOOD
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality.GOOD
+  type: Field
+  source:
+    id: GOOD
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 150
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: GOOD = 3
+    return:
+      type: Flex.Smoothlake.FlexLib.NetworkQuality
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality.FAIR
+  commentId: F:Flex.Smoothlake.FlexLib.NetworkQuality.FAIR
+  id: FAIR
+  parent: Flex.Smoothlake.FlexLib.NetworkQuality
+  langs:
+  - csharp
+  - vb
+  name: FAIR
+  nameWithType: NetworkQuality.FAIR
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality.FAIR
+  type: Field
+  source:
+    id: FAIR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 151
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: FAIR = 4
+    return:
+      type: Flex.Smoothlake.FlexLib.NetworkQuality
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality.POOR
+  commentId: F:Flex.Smoothlake.FlexLib.NetworkQuality.POOR
+  id: POOR
+  parent: Flex.Smoothlake.FlexLib.NetworkQuality
+  langs:
+  - csharp
+  - vb
+  name: POOR
+  nameWithType: NetworkQuality.POOR
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality.POOR
+  type: Field
+  source:
+    id: POOR
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Radio.cs
+    startLine: 152
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: POOR = 5
+    return:
+      type: Flex.Smoothlake.FlexLib.NetworkQuality
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.NetworkQuality
+  commentId: T:Flex.Smoothlake.FlexLib.NetworkQuality
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.NetworkQuality.html
+  name: NetworkQuality
+  nameWithType: NetworkQuality
+  fullName: Flex.Smoothlake.FlexLib.NetworkQuality

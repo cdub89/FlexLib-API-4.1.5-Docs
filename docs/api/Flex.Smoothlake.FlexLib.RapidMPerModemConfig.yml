@@ -1,0 +1,748 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  commentId: T:Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  id: RapidMPerModemConfig
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus})
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet
+  - Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version
+  langs:
+  - csharp
+  - vb
+  name: RapidMPerModemConfig
+  nameWithType: RapidMPerModemConfig
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  type: Class
+  source:
+    id: RapidMPerModemConfig
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public record RapidMPerModemConfig : IEquatable<RapidMPerModemConfig>'
+    content.vb: Public Class RapidMPerModemConfig Implements IEquatable(Of RapidMPerModemConfig)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Flex.Smoothlake.FlexLib.RapidMPerModemConfig}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus})
+  commentId: M:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus})
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus})'
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: RapidMPerModemConfig(string, string, string, string, string, string, List<RapidMOptionStatus>)
+  nameWithType: RapidMPerModemConfig.RapidMPerModemConfig(string, string, string, string, string, string, List<RapidMOptionStatus>)
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.RapidMPerModemConfig(string, string, string, string, string, string, System.Collections.Generic.List<Flex.Smoothlake.FlexLib.RapidMOptionStatus>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public RapidMPerModemConfig(string version, string serial, string mac, string ip, string subnet, string gw, List<RapidMOptionStatus> options)
+    parameters:
+    - id: version
+      type: System.String
+    - id: serial
+      type: System.String
+    - id: mac
+      type: System.String
+    - id: ip
+      type: System.String
+    - id: subnet
+      type: System.String
+    - id: gw
+      type: System.String
+    - id: options
+      type: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus}
+    content.vb: Public Sub New(version As String, serial As String, mac As String, ip As String, subnet As String, gw As String, options As List(Of RapidMOptionStatus))
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.#ctor*
+  nameWithType.vb: RapidMPerModemConfig.New(String, String, String, String, String, String, List(Of RapidMOptionStatus))
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.New(String, String, String, String, String, String, System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.RapidMOptionStatus))
+  name.vb: New(String, String, String, String, String, String, List(Of RapidMOptionStatus))
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version
+  id: version
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: RapidMPerModemConfig.version
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version
+  type: Property
+  source:
+    id: version
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string version { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property version As String
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version*
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial
+  id: serial
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: serial
+  nameWithType: RapidMPerModemConfig.serial
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial
+  type: Property
+  source:
+    id: serial
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string serial { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property serial As String
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial*
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac
+  id: mac
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: mac
+  nameWithType: RapidMPerModemConfig.mac
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac
+  type: Property
+  source:
+    id: mac
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string mac { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property mac As String
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac*
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip
+  id: ip
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: ip
+  nameWithType: RapidMPerModemConfig.ip
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip
+  type: Property
+  source:
+    id: ip
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string ip { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ip As String
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip*
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet
+  id: subnet
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: subnet
+  nameWithType: RapidMPerModemConfig.subnet
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet
+  type: Property
+  source:
+    id: subnet
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string subnet { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property subnet As String
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet*
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw
+  id: gw
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: gw
+  nameWithType: RapidMPerModemConfig.gw
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw
+  type: Property
+  source:
+    id: gw
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public string gw { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property gw As String
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw*
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options
+  commentId: P:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options
+  id: options
+  parent: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+  langs:
+  - csharp
+  - vb
+  name: options
+  nameWithType: RapidMPerModemConfig.options
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options
+  type: Property
+  source:
+    id: options
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Rapidm.cs
+    startLine: 28
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: public List<RapidMOptionStatus> options { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus}
+    content.vb: Public Property options As List(Of RapidMOptionStatus)
+  overload: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Flex.Smoothlake.FlexLib.RapidMPerModemConfig}
+  commentId: T:System.IEquatable{Flex.Smoothlake.FlexLib.RapidMPerModemConfig}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RapidMPerModemConfig>
+  nameWithType: IEquatable<RapidMPerModemConfig>
+  fullName: System.IEquatable<Flex.Smoothlake.FlexLib.RapidMPerModemConfig>
+  nameWithType.vb: IEquatable(Of RapidMPerModemConfig)
+  fullName.vb: System.IEquatable(Of Flex.Smoothlake.FlexLib.RapidMPerModemConfig)
+  name.vb: IEquatable(Of RapidMPerModemConfig)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+    name: RapidMPerModemConfig
+    href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig
+    name: RapidMPerModemConfig
+    href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.#ctor*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.#ctor
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig__ctor_System_String_System_String_System_String_System_String_System_String_System_String_System_Collections_Generic_List_Flex_Smoothlake_FlexLib_RapidMOptionStatus__
+  name: RapidMPerModemConfig
+  nameWithType: RapidMPerModemConfig.RapidMPerModemConfig
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.RapidMPerModemConfig
+  nameWithType.vb: RapidMPerModemConfig.New
+  fullName.vb: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus}
+  commentId: T:System.Collections.Generic.List{Flex.Smoothlake.FlexLib.RapidMOptionStatus}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<RapidMOptionStatus>
+  nameWithType: List<RapidMOptionStatus>
+  fullName: System.Collections.Generic.List<Flex.Smoothlake.FlexLib.RapidMOptionStatus>
+  nameWithType.vb: List(Of RapidMOptionStatus)
+  fullName.vb: System.Collections.Generic.List(Of Flex.Smoothlake.FlexLib.RapidMOptionStatus)
+  name.vb: List(Of RapidMOptionStatus)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Flex.Smoothlake.FlexLib.RapidMOptionStatus
+    name: RapidMOptionStatus
+    href: Flex.Smoothlake.FlexLib.RapidMOptionStatus.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Flex.Smoothlake.FlexLib.RapidMOptionStatus
+    name: RapidMOptionStatus
+    href: Flex.Smoothlake.FlexLib.RapidMOptionStatus.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_version
+  name: version
+  nameWithType: RapidMPerModemConfig.version
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.version
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_serial
+  name: serial
+  nameWithType: RapidMPerModemConfig.serial
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.serial
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_mac
+  name: mac
+  nameWithType: RapidMPerModemConfig.mac
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.mac
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_ip
+  name: ip
+  nameWithType: RapidMPerModemConfig.ip
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.ip
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_subnet
+  name: subnet
+  nameWithType: RapidMPerModemConfig.subnet
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.subnet
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_gw
+  name: gw
+  nameWithType: RapidMPerModemConfig.gw
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.gw
+- uid: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options*
+  commentId: Overload:Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options
+  href: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.html#Flex_Smoothlake_FlexLib_RapidMPerModemConfig_options
+  name: options
+  nameWithType: RapidMPerModemConfig.options
+  fullName: Flex.Smoothlake.FlexLib.RapidMPerModemConfig.options

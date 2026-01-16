@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  commentId: T:Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  id: IUsbPassthroughCable
+  parent: Flex.Smoothlake.FlexLib
+  children:
+  - Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits
+  - Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl
+  - Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity
+  - Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed
+  - Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits
+  langs:
+  - csharp
+  - vb
+  name: IUsbPassthroughCable
+  nameWithType: IUsbPassthroughCable
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  type: Interface
+  source:
+    id: IUsbPassthroughCable
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IUsbPassthroughCable.cs
+    startLine: 18
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: 'public interface IUsbPassthroughCable : IUsbCable'
+    content.vb: Public Interface IUsbPassthroughCable Inherits IUsbCable
+  inheritedMembers:
+  - Flex.Smoothlake.FlexLib.IUsbCable.CableType
+  - Flex.Smoothlake.FlexLib.IUsbCable.SerialNumber
+  - Flex.Smoothlake.FlexLib.IUsbCable.Enabled
+  - Flex.Smoothlake.FlexLib.IUsbCable.Present
+  - Flex.Smoothlake.FlexLib.IUsbCable.LoggingEnabled
+  - Flex.Smoothlake.FlexLib.IUsbCable.Name
+  - Flex.Smoothlake.FlexLib.IUsbCable.Remove
+  - Flex.Smoothlake.FlexLib.IUsbCable.PropertyChanged
+  - Flex.Smoothlake.FlexLib.IUsbCable.LogTextReceived
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits
+  id: DataBits
+  parent: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  langs:
+  - csharp
+  - vb
+  name: DataBits
+  nameWithType: IUsbPassthroughCable.DataBits
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits
+  type: Property
+  source:
+    id: DataBits
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IUsbPassthroughCable.cs
+    startLine: 20
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SerialDataBits DataBits { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialDataBits
+    content.vb: Property DataBits As SerialDataBits
+  overload: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits*
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed
+  id: Speed
+  parent: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: IUsbPassthroughCable.Speed
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed
+  type: Property
+  source:
+    id: Speed
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IUsbPassthroughCable.cs
+    startLine: 21
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SerialSpeed Speed { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialSpeed
+    content.vb: Property Speed As SerialSpeed
+  overload: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed*
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity
+  id: Parity
+  parent: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  langs:
+  - csharp
+  - vb
+  name: Parity
+  nameWithType: IUsbPassthroughCable.Parity
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity
+  type: Property
+  source:
+    id: Parity
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IUsbPassthroughCable.cs
+    startLine: 22
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SerialParity Parity { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialParity
+    content.vb: Property Parity As SerialParity
+  overload: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity*
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl
+  id: FlowControl
+  parent: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  langs:
+  - csharp
+  - vb
+  name: FlowControl
+  nameWithType: IUsbPassthroughCable.FlowControl
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl
+  type: Property
+  source:
+    id: FlowControl
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IUsbPassthroughCable.cs
+    startLine: 23
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SerialFlowControl FlowControl { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialFlowControl
+    content.vb: Property FlowControl As SerialFlowControl
+  overload: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl*
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits
+  id: StopBits
+  parent: Flex.Smoothlake.FlexLib.IUsbPassthroughCable
+  langs:
+  - csharp
+  - vb
+  name: StopBits
+  nameWithType: IUsbPassthroughCable.StopBits
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits
+  type: Property
+  source:
+    id: StopBits
+    path: C:\Users\chris\OneDrive\Documents\github\FlexLib_API_v4.1.5.39794\FlexLib\Interface\IUsbPassthroughCable.cs
+    startLine: 24
+  assemblies:
+  - FlexLib
+  namespace: Flex.Smoothlake.FlexLib
+  syntax:
+    content: SerialStopBits StopBits { get; set; }
+    parameters: []
+    return:
+      type: Flex.Smoothlake.FlexLib.SerialStopBits
+    content.vb: Property StopBits As SerialStopBits
+  overload: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits*
+references:
+- uid: Flex.Smoothlake.FlexLib
+  commentId: N:Flex.Smoothlake.FlexLib
+  href: Flex.html
+  name: Flex.Smoothlake.FlexLib
+  nameWithType: Flex.Smoothlake.FlexLib
+  fullName: Flex.Smoothlake.FlexLib
+  spec.csharp:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+  spec.vb:
+  - uid: Flex
+    name: Flex
+    href: Flex.html
+  - name: .
+  - uid: Flex.Smoothlake
+    name: Smoothlake
+    href: Flex.Smoothlake.html
+  - name: .
+  - uid: Flex.Smoothlake.FlexLib
+    name: FlexLib
+    href: Flex.Smoothlake.FlexLib.html
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.CableType
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCable.CableType
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_CableType
+  name: CableType
+  nameWithType: IUsbCable.CableType
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.CableType
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.SerialNumber
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCable.SerialNumber
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_SerialNumber
+  name: SerialNumber
+  nameWithType: IUsbCable.SerialNumber
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.SerialNumber
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.Enabled
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCable.Enabled
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_Enabled
+  name: Enabled
+  nameWithType: IUsbCable.Enabled
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.Enabled
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.Present
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCable.Present
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_Present
+  name: Present
+  nameWithType: IUsbCable.Present
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.Present
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.LoggingEnabled
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCable.LoggingEnabled
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_LoggingEnabled
+  name: LoggingEnabled
+  nameWithType: IUsbCable.LoggingEnabled
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.LoggingEnabled
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.Name
+  commentId: P:Flex.Smoothlake.FlexLib.IUsbCable.Name
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_Name
+  name: Name
+  nameWithType: IUsbCable.Name
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.Name
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.Remove
+  commentId: M:Flex.Smoothlake.FlexLib.IUsbCable.Remove
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_Remove
+  name: Remove()
+  nameWithType: IUsbCable.Remove()
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.Remove()
+  spec.csharp:
+  - uid: Flex.Smoothlake.FlexLib.IUsbCable.Remove
+    name: Remove
+    href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_Remove
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Flex.Smoothlake.FlexLib.IUsbCable.Remove
+    name: Remove
+    href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_Remove
+  - name: (
+  - name: )
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.PropertyChanged
+  commentId: E:Flex.Smoothlake.FlexLib.IUsbCable.PropertyChanged
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_PropertyChanged
+  name: PropertyChanged
+  nameWithType: IUsbCable.PropertyChanged
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.PropertyChanged
+- uid: Flex.Smoothlake.FlexLib.IUsbCable.LogTextReceived
+  commentId: E:Flex.Smoothlake.FlexLib.IUsbCable.LogTextReceived
+  parent: Flex.Smoothlake.FlexLib.IUsbCable
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html#Flex_Smoothlake_FlexLib_IUsbCable_LogTextReceived
+  name: LogTextReceived
+  nameWithType: IUsbCable.LogTextReceived
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable.LogTextReceived
+- uid: Flex.Smoothlake.FlexLib.IUsbCable
+  commentId: T:Flex.Smoothlake.FlexLib.IUsbCable
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.IUsbCable.html
+  name: IUsbCable
+  nameWithType: IUsbCable
+  fullName: Flex.Smoothlake.FlexLib.IUsbCable
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits*
+  commentId: Overload:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits
+  href: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.html#Flex_Smoothlake_FlexLib_IUsbPassthroughCable_DataBits
+  name: DataBits
+  nameWithType: IUsbPassthroughCable.DataBits
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.DataBits
+- uid: Flex.Smoothlake.FlexLib.SerialDataBits
+  commentId: T:Flex.Smoothlake.FlexLib.SerialDataBits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialDataBits.html
+  name: SerialDataBits
+  nameWithType: SerialDataBits
+  fullName: Flex.Smoothlake.FlexLib.SerialDataBits
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed*
+  commentId: Overload:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed
+  href: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.html#Flex_Smoothlake_FlexLib_IUsbPassthroughCable_Speed
+  name: Speed
+  nameWithType: IUsbPassthroughCable.Speed
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Speed
+- uid: Flex.Smoothlake.FlexLib.SerialSpeed
+  commentId: T:Flex.Smoothlake.FlexLib.SerialSpeed
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialSpeed.html
+  name: SerialSpeed
+  nameWithType: SerialSpeed
+  fullName: Flex.Smoothlake.FlexLib.SerialSpeed
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity*
+  commentId: Overload:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity
+  href: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.html#Flex_Smoothlake_FlexLib_IUsbPassthroughCable_Parity
+  name: Parity
+  nameWithType: IUsbPassthroughCable.Parity
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.Parity
+- uid: Flex.Smoothlake.FlexLib.SerialParity
+  commentId: T:Flex.Smoothlake.FlexLib.SerialParity
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialParity.html
+  name: SerialParity
+  nameWithType: SerialParity
+  fullName: Flex.Smoothlake.FlexLib.SerialParity
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl*
+  commentId: Overload:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl
+  href: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.html#Flex_Smoothlake_FlexLib_IUsbPassthroughCable_FlowControl
+  name: FlowControl
+  nameWithType: IUsbPassthroughCable.FlowControl
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.FlowControl
+- uid: Flex.Smoothlake.FlexLib.SerialFlowControl
+  commentId: T:Flex.Smoothlake.FlexLib.SerialFlowControl
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialFlowControl.html
+  name: SerialFlowControl
+  nameWithType: SerialFlowControl
+  fullName: Flex.Smoothlake.FlexLib.SerialFlowControl
+- uid: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits*
+  commentId: Overload:Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits
+  href: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.html#Flex_Smoothlake_FlexLib_IUsbPassthroughCable_StopBits
+  name: StopBits
+  nameWithType: IUsbPassthroughCable.StopBits
+  fullName: Flex.Smoothlake.FlexLib.IUsbPassthroughCable.StopBits
+- uid: Flex.Smoothlake.FlexLib.SerialStopBits
+  commentId: T:Flex.Smoothlake.FlexLib.SerialStopBits
+  parent: Flex.Smoothlake.FlexLib
+  href: Flex.Smoothlake.FlexLib.SerialStopBits.html
+  name: SerialStopBits
+  nameWithType: SerialStopBits
+  fullName: Flex.Smoothlake.FlexLib.SerialStopBits

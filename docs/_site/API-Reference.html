@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>API Reference | FlexLib API Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="API Reference | FlexLib API Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="FlexLib">
+            FlexLib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="api-reference">API Reference</h1>
+
+<p>Quick reference guide for FlexLib API classes and methods. For complete XML documentation, use DocFX to generate full API docs.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#core-classes">Core Classes</a></li>
+<li><a href="#audio-streaming">Audio Streaming</a></li>
+<li><a href="#visual-display">Visual Display</a></li>
+<li><a href="#control-features">Control Features</a></li>
+<li><a href="#usb-cables">USB Cables</a></li>
+<li><a href="#enumerations">Enumerations</a></li>
+</ul>
+<hr>
+<h2 id="core-classes">Core Classes</h2>
+<h3 id="api-class">API Class</h3>
+<p>Central initialization and radio discovery management.</p>
+<h4 id="static-methods">Static Methods</h4>
+<pre><code class="lang-csharp">void Init()
+</code></pre>
+<p>Initialize FlexLib and start radio discovery. Must be called before using any radio functionality.</p>
+<pre><code class="lang-csharp">void CloseSession()
+</code></pre>
+<p>Cleanup and close all connections. Call when application exits.</p>
+<h4 id="static-properties">Static Properties</h4>
+<pre><code class="lang-csharp">string ProgramName { get; set; }
+</code></pre>
+<p>Name of your application. Required before calling <code>Init()</code>.</p>
+<pre><code class="lang-csharp">bool IsGUI { get; set; }
+</code></pre>
+<p>Set to <code>true</code> if application has a GUI, <code>false</code> for console/headless apps.</p>
+<pre><code class="lang-csharp">List&lt;Radio&gt; RadioList { get; }
+</code></pre>
+<p>List of all discovered radios on the network.</p>
+<h4 id="static-events">Static Events</h4>
+<pre><code class="lang-csharp">event RadioAddedEventHandler RadioAdded
+</code></pre>
+<p>Fired when a new radio is discovered.</p>
+<pre><code class="lang-csharp">event RadioRemovedEventHandler RadioRemoved
+</code></pre>
+<p>Fired when a radio is no longer available.</p>
+<hr>
+<h3 id="radio-class">Radio Class</h3>
+<p>Represents a single FlexRadio device.</p>
+<h4 id="connection-methods">Connection Methods</h4>
+<pre><code class="lang-csharp">void Connect()
+</code></pre>
+<p>Connect to the radio. Check <code>Connected</code> property afterward.</p>
+<pre><code class="lang-csharp">void Disconnect()
+</code></pre>
+<p>Disconnect from the radio.</p>
+<h4 id="properties">Properties</h4>
+<h5 id="connection-status">Connection Status</h5>
+<pre><code class="lang-csharp">bool Connected { get; }              // Is connected
+bool Available { get; }              // Can connect
+string Status { get; }               // Current status text
+</code></pre>
+<h5 id="radio-information">Radio Information</h5>
+<pre><code class="lang-csharp">string Nickname { get; }             // User-defined name
+string Model { get; }                // e.g., &quot;FLEX-6600&quot;
+string Serial { get; }               // Serial number
+IPAddress IP { get; }                // Network IP address
+string Version { get; }              // Firmware version
+</code></pre>
+<h5 id="collections">Collections</h5>
+<pre><code class="lang-csharp">ObservableCollection&lt;Slice&gt; SliceList { get; }
+ObservableCollection&lt;Panadapter&gt; PanadapterList { get; }
+ObservableCollection&lt;Waterfall&gt; WaterfallList { get; }
+ObservableCollection&lt;Meter&gt; MeterList { get; }
+ObservableCollection&lt;Memory&gt; MemoryList { get; }
+ObservableCollection&lt;Equalizer&gt; EQList { get; }
+ObservableCollection&lt;TNF&gt; TNFList { get; }
+ObservableCollection&lt;Xvtr&gt; XvtrList { get; }
+</code></pre>
+<h5 id="transmit-state">Transmit State</h5>
+<pre><code class="lang-csharp">InterlockState InterlockState { get; }    // TX/RX state
+InterlockReason InterlockReason { get; }  // Reason for state
+PTTSource PTTSource { get; }              // PTT input source
+bool Mox { get; set; }                    // Master TX control
+</code></pre>
+<h4 id="slice-management">Slice Management</h4>
+<pre><code class="lang-csharp">void RequestSliceFromRadio()
+</code></pre>
+<p>Request creation of a new slice. Listen for <code>SliceAdded</code> event.</p>
+<pre><code class="lang-csharp">void RemoveSlice(Slice slice)
+</code></pre>
+<p>Remove an existing slice.</p>
+<h4 id="audio-stream-creation">Audio Stream Creation</h4>
+<pre><code class="lang-csharp">DAXRXAudioStream CreateDAXRXAudioStream(int daxChannel)
+</code></pre>
+<p>Create a DAX receive audio stream.</p>
+<pre><code class="lang-csharp">DAXTXAudioStream CreateDAXTXAudioStream(int daxChannel)
+</code></pre>
+<p>Create a DAX transmit audio stream.</p>
+<pre><code class="lang-csharp">DAXIQStream CreateDAXIQStream(int daxChannel)
+</code></pre>
+<p>Create a DAX IQ data stream.</p>
+<pre><code class="lang-csharp">RXRemoteAudioStream CreateRXRemoteAudioStream()
+</code></pre>
+<p>Create a remote RX audio stream (for WAN).</p>
+<pre><code class="lang-csharp">TXRemoteAudioStream CreateTXRemoteAudioStream()
+</code></pre>
+<p>Create a remote TX audio stream (for WAN).</p>
+<h4 id="panadapter-management">Panadapter Management</h4>
+<pre><code class="lang-csharp">void RequestPanadapter()
+</code></pre>
+<p>Request creation of a new panadapter. Listen for <code>PanadapterAdded</code> event.</p>
+<h4 id="events">Events</h4>
+<pre><code class="lang-csharp">event SliceAddedEventHandler SliceAdded
+event SliceRemovedEventHandler SliceRemoved
+event PanadapterAddedEventHandler PanadapterAdded
+event WaterfallAddedEventHandler WaterfallAdded
+event MeterAddedEventHandler MeterAdded
+event PropertyChangedEventHandler PropertyChanged
+</code></pre>
+<hr>
+<h3 id="slice-class">Slice Class</h3>
+<p>Represents a receiver/transmitter channel.</p>
+<h4 id="frequency-control">Frequency Control</h4>
+<pre><code class="lang-csharp">double Freq { get; set; }            // Frequency in MHz
+double FreqStep { get; set; }        // Tuning step in MHz
+bool Lock { get; set; }              // Frequency lock
+</code></pre>
+<h4 id="mode-and-filter">Mode and Filter</h4>
+<pre><code class="lang-csharp">string Mode { get; set; }            // Operating mode (USB, LSB, CW, etc.)
+int FilterLow { get; set; }          // Low filter cutoff (Hz)
+int FilterHigh { get; set; }         // High filter cutoff (Hz)
+</code></pre>
+<p><strong>Supported Modes</strong>: <code>&quot;LSB&quot;</code>, <code>&quot;USB&quot;</code>, <code>&quot;AM&quot;</code>, <code>&quot;SAM&quot;</code>, <code>&quot;CW&quot;</code>, <code>&quot;FM&quot;</code>, <code>&quot;NFM&quot;</code>, <code>&quot;DFM&quot;</code>, <code>&quot;DIGL&quot;</code>, <code>&quot;DIGU&quot;</code>, <code>&quot;RTTY&quot;</code></p>
+<h4 id="audio-control">Audio Control</h4>
+<pre><code class="lang-csharp">int AudioGain { get; set; }          // Audio gain 0-100
+int AudioPan { get; set; }           // Audio pan -100 to 100
+bool AudioMute { get; set; }         // Mute audio
+int DAXChannel { get; set; }         // DAX channel assignment
+</code></pre>
+<h4 id="agc-and-processing">AGC and Processing</h4>
+<pre><code class="lang-csharp">string AGCMode { get; set; }         // AGC mode
+int AGCThreshold { get; set; }       // AGC threshold (dBm)
+bool ANFEnabled { get; set; }        // Auto Notch Filter
+bool APFEnabled { get; set; }        // Audio Peak Filter
+bool NBEnabled { get; set; }         // Noise Blanker
+int NR { get; set; }                 // Noise Reduction level
+</code></pre>
+<p><strong>AGC Modes</strong>: <code>&quot;off&quot;</code>, <code>&quot;slow&quot;</code>, <code>&quot;med&quot;</code>, <code>&quot;fast&quot;</code></p>
+<h4 id="antenna-selection">Antenna Selection</h4>
+<pre><code class="lang-csharp">string RXAnt { get; set; }           // RX antenna (ANT1, ANT2, XVTR, RX_A, RX_B)
+string TXAnt { get; set; }           // TX antenna (ANT1, ANT2, XVTR)
+</code></pre>
+<h4 id="transmit-control">Transmit Control</h4>
+<pre><code class="lang-csharp">bool Transmit { get; set; }          // PTT state
+bool Active { get; set; }            // Slice active state
+bool TX { get; set; }                // TX assigned
+</code></pre>
+<h4 id="properties-1">Properties</h4>
+<pre><code class="lang-csharp">int Index { get; }                   // Slice index (0-7)
+string Letter { get; }               // Slice letter (A-H)
+bool InUse { get; }                  // Slice in use
+Panadapter Panadapter { get; }       // Associated panadapter
+</code></pre>
+<hr>
+<h3 id="meter-class">Meter Class</h3>
+<p>Real-time telemetry monitoring.</p>
+<h4 id="properties-2">Properties</h4>
+<pre><code class="lang-csharp">string Name { get; }                 // Meter name
+string Units { get; }                // Unit of measurement
+string Source { get; }               // Data source
+float Value { get; }                 // Current value
+</code></pre>
+<h4 id="events-1">Events</h4>
+<pre><code class="lang-csharp">event DataReadyEventHandler DataReady
+</code></pre>
+<p>Fired when new meter data is available. Provides meter value.</p>
+<h4 id="common-meter-names">Common Meter Names</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MICPEAK</code></td>
+<td>Microphone peak level</td>
+<td>dB</td>
+</tr>
+<tr>
+<td><code>MICAVG</code></td>
+<td>Microphone average level</td>
+<td>dB</td>
+</tr>
+<tr>
+<td><code>COMPPEAK</code></td>
+<td>Compressor peak level</td>
+<td>dB</td>
+</tr>
+<tr>
+<td><code>POSTFILT</code></td>
+<td>Post-filter audio level</td>
+<td>dB</td>
+</tr>
+<tr>
+<td><code>SWR</code></td>
+<td>Standing wave ratio</td>
+<td>ratio</td>
+</tr>
+<tr>
+<td><code>FWD</code></td>
+<td>Forward power</td>
+<td>watts</td>
+</tr>
+<tr>
+<td><code>REF</code></td>
+<td>Reflected power</td>
+<td>watts</td>
+</tr>
+<tr>
+<td><code>VOLTAGE</code></td>
+<td>Power supply voltage</td>
+<td>volts</td>
+</tr>
+<tr>
+<td><code>TEMP</code></td>
+<td>PA temperature</td>
+<td>°C</td>
+</tr>
+<tr>
+<td><code>SIGNAL</code></td>
+<td>Signal strength</td>
+<td>dBm</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="audio-streaming">Audio Streaming</h2>
+<h3 id="daxrxaudiostream-class">DAXRXAudioStream Class</h3>
+<p>Receive audio from the radio.</p>
+<h4 id="methods">Methods</h4>
+<pre><code class="lang-csharp">void Start()
+</code></pre>
+<p>Start audio streaming.</p>
+<pre><code class="lang-csharp">void Stop()
+</code></pre>
+<p>Stop audio streaming.</p>
+<h4 id="properties-3">Properties</h4>
+<pre><code class="lang-csharp">int DAXChannel { get; }              // DAX channel number
+int SampleRate { get; }              // Sample rate (Hz)
+bool Streaming { get; }              // Is streaming active
+</code></pre>
+<h4 id="events-2">Events</h4>
+<pre><code class="lang-csharp">event DataReadyEventHandler&lt;float[]&gt; DataReady
+</code></pre>
+<p>Fired when audio samples are available. Provides <code>float[]</code> array of samples.</p>
+<p><strong>Sample Format</strong>: 32-bit float, mono, -1.0 to 1.0 range.</p>
+<hr>
+<h3 id="daxtxaudiostream-class">DAXTXAudioStream Class</h3>
+<p>Transmit audio to the radio.</p>
+<h4 id="methods-1">Methods</h4>
+<pre><code class="lang-csharp">void Start()
+void Stop()
+void AddTXData(float[] samples)
+</code></pre>
+<p>Add audio samples to transmit buffer.</p>
+<hr>
+<h3 id="daxiqstream-class">DAXIQStream Class</h3>
+<p>IQ data streaming for digital modes.</p>
+<h4 id="events-3">Events</h4>
+<pre><code class="lang-csharp">event DataReadyEventHandler&lt;float[]&gt; DataReady
+</code></pre>
+<p>IQ samples arrive interleaved: <code>[I, Q, I, Q, I, Q, ...]</code></p>
+<p><strong>Usage</strong>: Split into separate I and Q arrays for processing.</p>
+<hr>
+<h2 id="visual-display">Visual Display</h2>
+<h3 id="panadapter-class">Panadapter Class</h3>
+<p>Spectrum display control.</p>
+<h4 id="properties-4">Properties</h4>
+<pre><code class="lang-csharp">double CenterFreq { get; set; }      // Center frequency (MHz)
+double Bandwidth { get; set; }       // Displayed bandwidth (MHz)
+int MinDBM { get; set; }             // Minimum display level
+int MaxDBM { get; set; }             // Maximum display level
+int RFGain { get; set; }             // RF gain
+uint StreamID { get; }               // Stream identifier
+</code></pre>
+<h4 id="events-4">Events</h4>
+<pre><code class="lang-csharp">event DataReadyEventHandler&lt;float[]&gt; DataReady
+</code></pre>
+<p>Spectrum data ready. Array contains dBm values across bandwidth.</p>
+<hr>
+<h3 id="waterfall-class">Waterfall Class</h3>
+<p>Waterfall display control.</p>
+<h4 id="properties-5">Properties</h4>
+<pre><code class="lang-csharp">double CenterFreq { get; }           // Center frequency (MHz)
+double Bandwidth { get; }            // Bandwidth (MHz)
+int MinDBM { get; set; }             // Minimum level
+int MaxDBM { get; set; }             // Maximum level
+</code></pre>
+<hr>
+<h2 id="control-features">Control Features</h2>
+<h3 id="equalizer-class">Equalizer Class</h3>
+<p>Audio equalizer control.</p>
+<h4 id="methods-2">Methods</h4>
+<pre><code class="lang-csharp">void SetLevel(int band, int level)
+</code></pre>
+<p>Set EQ level for band. Band: 0-9, Level: -10 to +10 dB.</p>
+<h4 id="properties-6">Properties</h4>
+<pre><code class="lang-csharp">bool Enabled { get; set; }           // EQ enabled
+string Mode { get; set; }            // &quot;rx&quot; or &quot;tx&quot;
+</code></pre>
+<hr>
+<h3 id="tnf-class">TNF Class</h3>
+<p>Tracking Notch Filter for interference removal.</p>
+<h4 id="properties-7">Properties</h4>
+<pre><code class="lang-csharp">double Freq { get; set; }            // Notch frequency
+int Depth { get; set; }              // Notch depth (dB)
+int Width { get; set; }              // Notch width (Hz)
+bool Permanent { get; set; }         // Permanent or auto-track
+</code></pre>
+<hr>
+<h3 id="memory-class">Memory Class</h3>
+<p>Station memory management.</p>
+<h4 id="properties-8">Properties</h4>
+<pre><code class="lang-csharp">string Name { get; set; }            // Memory name
+double Freq { get; set; }            // Frequency
+string Mode { get; set; }            // Operating mode
+int Group { get; set; }              // Memory group
+</code></pre>
+<h4 id="methods-3">Methods</h4>
+<pre><code class="lang-csharp">void Apply()
+</code></pre>
+<p>Apply memory settings to a slice.</p>
+<hr>
+<h3 id="tuner-class">Tuner Class</h3>
+<p>Automatic antenna tuner.</p>
+<h4 id="methods-4">Methods</h4>
+<pre><code class="lang-csharp">void StartTune()
+</code></pre>
+<p>Start automatic tuning.</p>
+<h4 id="properties-9">Properties</h4>
+<pre><code class="lang-csharp">bool Enabled { get; set; }           // Tuner enabled
+bool Bypass { get; set; }            // Bypass tuner
+</code></pre>
+<hr>
+<h3 id="amplifier-class">Amplifier Class</h3>
+<p>External amplifier control.</p>
+<h4 id="properties-10">Properties</h4>
+<pre><code class="lang-csharp">string Model { get; }                // Amplifier model
+bool Enable { get; set; }            // Amplifier control enabled
+int Handle { get; }                  // Amplifier handle
+</code></pre>
+<hr>
+<h3 id="xvtr-class">Xvtr Class</h3>
+<p>Transverter management.</p>
+<h4 id="properties-11">Properties</h4>
+<pre><code class="lang-csharp">string Name { get; set; }            // Transverter name
+double RFFreq { get; set; }          // RF frequency
+double IFFreq { get; set; }          // IF frequency
+int MaxPower { get; set; }           // Max power (watts)
+</code></pre>
+<hr>
+<h2 id="usb-cables">USB Cables</h2>
+<h3 id="iusbcable-interface">IUsbCable Interface</h3>
+<p>Base interface for USB cable control.</p>
+<pre><code class="lang-csharp">void Enable()
+void Disable()
+bool Enabled { get; set; }
+string Name { get; }
+</code></pre>
+<h3 id="usbcatcable-class">UsbCatCable Class</h3>
+<p>CAT (Computer Aided Transceiver) control cable.</p>
+<h3 id="usbbcdcable-class">UsbBcdCable Class</h3>
+<p>BCD (Binary Coded Decimal) band output cable.</p>
+<h3 id="usbldpacable-class">UsbLdpaCable Class</h3>
+<p>Linear Driver/PA control cable.</p>
+<h3 id="usbbitcable-class">UsbBitCable Class</h3>
+<p>Digital I/O bit cable.</p>
+<hr>
+<h2 id="enumerations">Enumerations</h2>
+<h3 id="interlockstate">InterlockState</h3>
+<pre><code class="lang-csharp">enum InterlockState
+{
+    None,
+    Receive,
+    Ready,
+    NotReady,
+    PTTRequested,
+    Transmitting,
+    TXFault,
+    Timeout,
+    StuckInput,
+    UnkeyRequested
+}
+</code></pre>
+<h3 id="interlockreason">InterlockReason</h3>
+<pre><code class="lang-csharp">enum InterlockReason
+{
+    None,
+    RCA_TXREQ,
+    ACC_TXREQ,
+    BAD_MODE,
+    TUNED_TOO_FAR,
+    OUT_OF_BAND,
+    PA_RANGE,
+    CLIENT_TX_INHIBIT,
+    XVTR_RX_ONLY,
+    // ... more reasons
+}
+</code></pre>
+<h3 id="pttsource">PTTSource</h3>
+<pre><code class="lang-csharp">enum PTTSource
+{
+    None,
+    SW,      // Software (SmartSDR, CAT, etc.)
+    Mic,     // Microphone
+    ACC,     // Accessory port
+    RCA,     // RCA connector
+    TUNE     // Tune button
+}
+</code></pre>
+<hr>
+<h2 id="usage-examples">Usage Examples</h2>
+<h3 id="basic-connection">Basic Connection</h3>
+<pre><code class="lang-csharp">API.Init();
+await Task.Delay(2000);
+
+var radio = API.RadioList.FirstOrDefault();
+radio?.Connect();
+</code></pre>
+<h3 id="create-and-tune-slice">Create and Tune Slice</h3>
+<pre><code class="lang-csharp">radio.RequestSliceFromRadio();
+await Task.Delay(500);
+
+var slice = radio.SliceList.FirstOrDefault();
+if (slice != null)
+{
+    slice.Freq = 14.200;
+    slice.Mode = &quot;USB&quot;;
+}
+</code></pre>
+<h3 id="monitor-meters">Monitor Meters</h3>
+<pre><code class="lang-csharp">radio.MeterAdded += (meter) =&gt;
+{
+    if (meter.Name == &quot;SWR&quot;)
+    {
+        meter.DataReady += (data) =&gt;
+        {
+            Console.WriteLine($&quot;SWR: {data.Value:F2}:1&quot;);
+        };
+    }
+};
+</code></pre>
+<h3 id="audio-streaming-1">Audio Streaming</h3>
+<pre><code class="lang-csharp">var stream = radio.CreateDAXRXAudioStream(1);
+stream.DataReady += (samples) =&gt;
+{
+    // Process audio samples
+};
+stream.Start();
+</code></pre>
+<hr>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><strong><a href="Getting-Started.html">Getting Started Guide</a></strong> - Detailed tutorials</li>
+<li><strong><a href="Examples.html">Examples</a></strong> - Complete code examples</li>
+<li><strong><a href="Architecture.html">Architecture</a></strong> - System design details</li>
+<li><strong>DocFX Generated Docs</strong> - Full API documentation with all methods</li>
+</ul>
+<hr>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>All events fire on background threads - use <code>Dispatcher</code> for UI updates</li>
+<li>Property changes are synchronized with the radio automatically</li>
+<li>Always call <code>API.Init()</code> before using any radio functionality</li>
+<li>Always call <code>API.CloseSession()</code> when exiting</li>
+<li>Check <code>radio.Connected</code> before sending commands</li>
+<li>Wait for async operations (slice creation, etc.) to complete</li>
+</ul>
+<hr>
+<p><strong>For complete API documentation</strong>, generate HTML docs using DocFX:</p>
+<pre><code class="lang-bash">docfx docs/docfx.json
+docfx serve docs/_site
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
