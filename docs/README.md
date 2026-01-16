@@ -53,46 +53,6 @@ Welcome to the FlexLib API 4.1.5 documentation!
 2. Check **[CHANGELOG](../CHANGELOG.md)** for version changes
 3. Update code following migration steps
 
-## 📖 Generating Full API Documentation
-
-FlexLib includes XML documentation comments throughout the codebase. Generate complete HTML documentation using DocFX:
-
-### Install DocFX
-
-```bash
-# Install as global tool
-dotnet tool install -g docfx
-
-# Or install locally
-dotnet tool install docfx
-```
-
-### Generate Documentation
-
-```bash
-# Navigate to docs folder
-cd docs
-
-# Generate documentation
-docfx docfx.json
-
-# Serve documentation locally
-docfx serve _site
-```
-
-Then open your browser to `http://localhost:8080` to view the complete API documentation.
-
-### Build Output
-
-The generated documentation will be in `docs/_site/`:
-- Full API reference for all classes
-- Method signatures and parameters
-- Property documentation
-- Code examples from XML comments
-- Searchable interface
-
-## 📂 Documentation Structure
-
 ```
 docs/
 ├── README.md                 # This file
