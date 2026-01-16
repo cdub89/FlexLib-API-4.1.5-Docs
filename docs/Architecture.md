@@ -596,7 +596,7 @@ API.Init(); // Missing ProgramName
 ✅ **Do**:
 ```csharp
 // Check availability before connecting
-if (radio.Available && !radio.Connected)
+if (radio.ConnectedState == "Available" && !radio.Connected)
 {
     radio.Connect();
 }

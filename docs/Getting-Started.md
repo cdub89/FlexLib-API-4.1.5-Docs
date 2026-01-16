@@ -216,8 +216,8 @@ namespace MyFlexRadioApp
                 string model = radio.Model;            // e.g., "FLEX-6600"
                 string serial = radio.Serial;          // Serial number
                 IPAddress ip = radio.IP;               // IP address
-                string version = radio.Version;        // Firmware version
-                bool isAvailable = radio.Available;    // Can connect?
+                ulong  version = radio.Version;        // Firmware version
+                string connectedState = radio.ConnectedState;  // Connection state (e.g., "Available", "In Use")
                 string status = radio.Status;          // Current status
                 
                 Console.WriteLine($"Radio Found:");
@@ -226,7 +226,7 @@ namespace MyFlexRadioApp
                 Console.WriteLine($"  Serial: {serial}");
                 Console.WriteLine($"  IP: {ip}");
                 Console.WriteLine($"  Version: {version}");
-                Console.WriteLine($"  Available: {isAvailable}");
+                Console.WriteLine($"  Connected State: {connectedState}");
                 Console.WriteLine($"  Status: {status}");
             }
             else
@@ -1315,7 +1315,7 @@ namespace MyFlexRadioApp
 **Problem**: `radio.Connect()` doesn't result in `Connected = true`.
 
 **Solutions**:
-1. Verify radio is available (`radio.Available = true`)
+1. Verify radio is available (`radio.ConnectedState == "Available"`)
 2. Close other applications connected to the radio
 3. Check network connectivity with ping
 4. Verify firewall allows TCP port 4992
