@@ -137,59 +137,104 @@ FlexLib automatically discovers radios on your network. Use events to be notifie
 ### Listening for Radio Discovery
 
 ```csharp
-static async Task Main(string[] args)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    API.ProgramName = "MyFlexRadioApp";
-    API.IsGUI = false;
-    
-    // Subscribe to radio events BEFORE calling Init()
-    API.RadioAdded += OnRadioAdded;
-    API.RadioRemoved += OnRadioRemoved;
-    
-    API.Init();
-    
-    Console.WriteLine("Waiting for radios...");
-    await Task.Delay(5000); // Wait 5 seconds for discovery
-    
-    // List all discovered radios
-    Console.WriteLine($"\nFound {API.RadioList.Count} radio(s):");
-    foreach (var radio in API.RadioList)
+    class Program
     {
-        Console.WriteLine($"  - {radio.Nickname} ({radio.Model}) - {radio.IP}");
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            
+            // Subscribe to radio events BEFORE calling Init()
+            API.RadioAdded += OnRadioAdded;
+            API.RadioRemoved += OnRadioRemoved;
+            
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(5000); // Wait 5 seconds for discovery
+            
+            // List all discovered radios
+            Console.WriteLine($"\nFound {API.RadioList.Count} radio(s):");
+            foreach (var radio in API.RadioList)
+            {
+                Console.WriteLine($"  - {radio.Nickname} ({radio.Model}) - {radio.IP}");
+            }
+            
+            await Task.Delay(-1);
+        }
+
+        static void OnRadioAdded(Radio radio)
+        {
+            Console.WriteLine($"✓ Radio discovered: {radio.Nickname}");
+            Console.WriteLine($"  Model: {radio.Model}");
+            Console.WriteLine($"  Serial: {radio.Serial}");
+            Console.WriteLine($"  IP: {radio.IP}");
+            Console.WriteLine($"  Version: {radio.Version}");
+        }
+
+        static void OnRadioRemoved(Radio radio)
+        {
+            Console.WriteLine($"✗ Radio removed: {radio.Nickname}");
+        }
     }
-    
-    await Task.Delay(-1);
-}
-
-static void OnRadioAdded(Radio radio)
-{
-    Console.WriteLine($"✓ Radio discovered: {radio.Nickname}");
-    Console.WriteLine($"  Model: {radio.Model}");
-    Console.WriteLine($"  Serial: {radio.Serial}");
-    Console.WriteLine($"  IP: {radio.IP}");
-    Console.WriteLine($"  Version: {radio.Version}");
-}
-
-static void OnRadioRemoved(Radio radio)
-{
-    Console.WriteLine($"✗ Radio removed: {radio.Nickname}");
 }
 ```
 
 ### Getting Radio Information
 
 ```csharp
-Radio radio = API.RadioList.FirstOrDefault();
-if (radio != null)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Net;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    // Radio properties (available before connection)
-    string nickname = radio.Nickname;      // User-defined name
-    string model = radio.Model;            // e.g., "FLEX-6600"
-    string serial = radio.Serial;          // Serial number
-    IPAddress ip = radio.IP;               // IP address
-    string version = radio.Version;        // Firmware version
-    bool isAvailable = radio.Available;    // Can connect?
-    string status = radio.Status;          // Current status
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio != null)
+            {
+                // Radio properties (available before connection)
+                string nickname = radio.Nickname;      // User-defined name
+                string model = radio.Model;            // e.g., "FLEX-6600"
+                string serial = radio.Serial;          // Serial number
+                IPAddress ip = radio.IP;               // IP address
+                string version = radio.Version;        // Firmware version
+                bool isAvailable = radio.Available;    // Can connect?
+                string status = radio.Status;          // Current status
+                
+                Console.WriteLine($"Radio Found:");
+                Console.WriteLine($"  Nickname: {nickname}");
+                Console.WriteLine($"  Model: {model}");
+                Console.WriteLine($"  Serial: {serial}");
+                Console.WriteLine($"  IP: {ip}");
+                Console.WriteLine($"  Version: {version}");
+                Console.WriteLine($"  Available: {isAvailable}");
+                Console.WriteLine($"  Status: {status}");
+            }
+            else
+            {
+                Console.WriteLine("No radios found!");
+            }
+        }
+    }
 }
 ```
 
@@ -202,51 +247,74 @@ Once a radio is discovered, you can connect to it to gain full control.
 ### Basic Connection
 
 ```csharp
-static async Task ConnectToFirstRadio()
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    // Wait for radios to be discovered
-    await Task.Delay(2000);
-    
-    Radio? radio = API.RadioList.FirstOrDefault();
-    if (radio == null)
+    class Program
     {
-        Console.WriteLine("No radios found!");
-        return;
-    }
-    
-    Console.WriteLine($"Connecting to {radio.Nickname}...");
-    
-    // Subscribe to connection events
-    radio.PropertyChanged += (sender, e) =>
-    {
-        if (e.PropertyName == "Connected")
+        static async Task Main(string[] args)
         {
-            var r = sender as Radio;
-            if (r?.Connected == true)
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            await ConnectToFirstRadio();
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+
+        static async Task ConnectToFirstRadio()
+        {
+            // Wait for radios to be discovered
+            await Task.Delay(2000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
             {
-                Console.WriteLine("✓ Connected successfully!");
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            
+            // Subscribe to connection events
+            radio.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == "Connected")
+                {
+                    var r = sender as Radio;
+                    if (r?.Connected == true)
+                    {
+                        Console.WriteLine("✓ Connected successfully!");
+                    }
+                }
+            };
+            
+            // Connect to the radio
+            radio.Connect();
+            
+            // Wait for connection to complete
+            int timeout = 0;
+            while (!radio.Connected && timeout < 100)
+            {
+                await Task.Delay(100);
+                timeout++;
+            }
+            
+            if (radio.Connected)
+            {
+                Console.WriteLine($"Radio ready! Version: {radio.Version}");
+            }
+            else
+            {
+                Console.WriteLine("Connection timeout!");
             }
         }
-    };
-    
-    // Connect to the radio
-    radio.Connect();
-    
-    // Wait for connection to complete
-    int timeout = 0;
-    while (!radio.Connected && timeout < 100)
-    {
-        await Task.Delay(100);
-        timeout++;
-    }
-    
-    if (radio.Connected)
-    {
-        Console.WriteLine($"Radio ready! Version: {radio.Version}");
-    }
-    else
-    {
-        Console.WriteLine("Connection timeout!");
     }
 }
 ```
@@ -254,40 +322,81 @@ static async Task ConnectToFirstRadio()
 ### Connection with Error Handling
 
 ```csharp
-public static async Task<bool> ConnectWithRetry(Radio radio, int maxRetries = 3)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    for (int attempt = 1; attempt <= maxRetries; attempt++)
+    class Program
     {
-        Console.WriteLine($"Connection attempt {attempt}/{maxRetries}...");
-        
-        try
+        static async Task Main(string[] args)
         {
-            radio.Connect();
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
             
-            // Wait for connection with timeout
-            for (int i = 0; i < 50; i++) // 5 second timeout
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
             {
-                if (radio.Connected)
-                    return true;
-                    
-                await Task.Delay(100);
+                Console.WriteLine("No radios found!");
+                return;
             }
             
-            Console.WriteLine("Connection timeout");
+            bool connected = await ConnectWithRetry(radio);
+            if (connected)
+            {
+                Console.WriteLine("Successfully connected!");
+            }
+            else
+            {
+                Console.WriteLine("Failed to connect after all retries.");
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
-        catch (Exception ex)
+
+        public static async Task<bool> ConnectWithRetry(Radio radio, int maxRetries = 3)
         {
-            Console.WriteLine($"Connection error: {ex.Message}");
-        }
-        
-        if (attempt < maxRetries)
-        {
-            Console.WriteLine("Retrying...");
-            await Task.Delay(2000);
+            for (int attempt = 1; attempt <= maxRetries; attempt++)
+            {
+                Console.WriteLine($"Connection attempt {attempt}/{maxRetries}...");
+                
+                try
+                {
+                    radio.Connect();
+                    
+                    // Wait for connection with timeout
+                    for (int i = 0; i < 50; i++) // 5 second timeout
+                    {
+                        if (radio.Connected)
+                            return true;
+                            
+                        await Task.Delay(100);
+                    }
+                    
+                    Console.WriteLine("Connection timeout");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Connection error: {ex.Message}");
+                }
+                
+                if (attempt < maxRetries)
+                {
+                    Console.WriteLine("Retrying...");
+                    await Task.Delay(2000);
+                }
+            }
+            
+            return false;
         }
     }
-    
-    return false;
 }
 ```
 
@@ -311,136 +420,340 @@ A **Slice** represents a receiver or transmitter channel. You can have multiple 
 ### Creating a Slice
 
 ```csharp
-static async Task CreateAndConfigureSlice(Radio radio)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    if (!radio.Connected)
+    class Program
     {
-        Console.WriteLine("Radio not connected!");
-        return;
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                await CreateAndConfigureSlice(radio);
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+
+        static async Task CreateAndConfigureSlice(Radio radio)
+        {
+            if (!radio.Connected)
+            {
+                Console.WriteLine("Radio not connected!");
+                return;
+            }
+            
+            // Subscribe to slice events
+            radio.SliceAdded += (slice) =>
+            {
+                Console.WriteLine($"Slice created: Index {slice.Index}");
+            };
+            
+            // Request a new slice
+            radio.RequestSliceFromRadio();
+            
+            // Wait for slice to be created
+            await Task.Delay(500);
+            
+            // Get the slice
+            Slice? slice = radio.SliceList.FirstOrDefault();
+            if (slice == null)
+            {
+                Console.WriteLine("Failed to create slice!");
+                return;
+            }
+            
+            Console.WriteLine($"Slice {slice.Index} created successfully");
+        }
     }
-    
-    // Subscribe to slice events
-    radio.SliceAdded += (slice) =>
-    {
-        Console.WriteLine($"Slice created: Index {slice.Index}");
-    };
-    
-    // Request a new slice
-    radio.RequestSliceFromRadio();
-    
-    // Wait for slice to be created
-    await Task.Delay(500);
-    
-    // Get the slice
-    Slice? slice = radio.SliceList.FirstOrDefault();
-    if (slice == null)
-    {
-        Console.WriteLine("Failed to create slice!");
-        return;
-    }
-    
-    Console.WriteLine($"Slice {slice.Index} created successfully");
 }
 ```
 
 ### Tuning a Slice
 
 ```csharp
-static void TuneSlice(Slice slice)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    // Set frequency (in MHz)
-    slice.Freq = 14.200;  // 14.200 MHz (20m band)
-    
-    // Set operating mode
-    slice.Mode = "USB";   // Options: "LSB", "USB", "AM", "CW", "DIGL", "DIGU", "FM", "NFM"
-    
-    // Set filter bandwidth
-    slice.FilterLow = 200;    // Low cut (Hz)
-    slice.FilterHigh = 2800;  // High cut (Hz)
-    
-    // Set antennas
-    slice.RXAnt = "ANT1";     // Receive antenna
-    slice.TXAnt = "ANT1";     // Transmit antenna
-    
-    // Set other properties
-    slice.Active = true;      // Activate the slice
-    slice.AudioGain = 50;     // Audio gain (0-100)
-    slice.AGCMode = "med";    // AGC: "off", "slow", "med", "fast"
-    
-    Console.WriteLine($"Tuned to {slice.Freq:F3} MHz, Mode: {slice.Mode}");
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                radio.RequestSliceFromRadio();
+                await Task.Delay(500);
+                
+                Slice? slice = radio.SliceList.FirstOrDefault();
+                if (slice != null)
+                {
+                    TuneSlice(slice);
+                }
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+
+        static void TuneSlice(Slice slice)
+        {
+            // Set frequency (in MHz)
+            slice.Freq = 14.200;  // 14.200 MHz (20m band)
+            
+            // Set operating mode
+            slice.Mode = "USB";   // Options: "LSB", "USB", "AM", "CW", "DIGL", "DIGU", "FM", "NFM"
+            
+            // Set filter bandwidth
+            slice.FilterLow = 200;    // Low cut (Hz)
+            slice.FilterHigh = 2800;  // High cut (Hz)
+            
+            // Set antennas
+            slice.RXAnt = "ANT1";     // Receive antenna
+            slice.TXAnt = "ANT1";     // Transmit antenna
+            
+            // Set other properties
+            slice.Active = true;      // Activate the slice
+            slice.AudioGain = 50;     // Audio gain (0-100)
+            slice.AGCMode = "med";    // AGC: "off", "slow", "med", "fast"
+            
+            Console.WriteLine($"Tuned to {slice.Freq:F3} MHz, Mode: {slice.Mode}");
+        }
+    }
 }
 ```
 
 ### Monitoring Slice Changes
 
 ```csharp
-static void MonitorSlice(Slice slice)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    slice.PropertyChanged += (sender, e) =>
+    class Program
     {
-        var s = sender as Slice;
-        
-        switch (e.PropertyName)
+        static async Task Main(string[] args)
         {
-            case "Freq":
-                Console.WriteLine($"Frequency changed: {s.Freq:F6} MHz");
-                break;
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                radio.RequestSliceFromRadio();
+                await Task.Delay(500);
                 
-            case "Mode":
-                Console.WriteLine($"Mode changed: {s.Mode}");
-                break;
-                
-            case "Active":
-                Console.WriteLine($"Slice {(s.Active ? "activated" : "deactivated")}");
-                break;
-                
-            case "Transmit":
-                Console.WriteLine($"PTT: {(s.Transmit ? "TX" : "RX")}");
-                break;
+                Slice? slice = radio.SliceList.FirstOrDefault();
+                if (slice != null)
+                {
+                    MonitorSlice(slice);
+                    
+                    // Make some changes to trigger events
+                    slice.Freq = 14.200;
+                    await Task.Delay(1000);
+                    slice.Mode = "USB";
+                    await Task.Delay(1000);
+                    slice.Active = true;
+                }
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
-    };
+
+        static void MonitorSlice(Slice slice)
+        {
+            slice.PropertyChanged += (sender, e) =>
+            {
+                var s = sender as Slice;
+                
+                switch (e.PropertyName)
+                {
+                    case "Freq":
+                        Console.WriteLine($"Frequency changed: {s?.Freq:F6} MHz");
+                        break;
+                        
+                    case "Mode":
+                        Console.WriteLine($"Mode changed: {s?.Mode}");
+                        break;
+                        
+                    case "Active":
+                        Console.WriteLine($"Slice {(s?.Active == true ? "activated" : "deactivated")}");
+                        break;
+                        
+                    case "Transmit":
+                        Console.WriteLine($"PTT: {(s?.Transmit == true ? "TX" : "RX")}");
+                        break;
+                }
+            };
+        }
+    }
 }
 ```
 
 ### Complete Slice Example
 
 ```csharp
-static async Task SliceDemo(Radio radio)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    Console.WriteLine("\n=== Slice Demo ===\n");
-    
-    // Create a slice
-    radio.RequestSliceFromRadio();
-    await Task.Delay(500);
-    
-    var slice = radio.SliceList.FirstOrDefault();
-    if (slice == null) return;
-    
-    // Monitor changes
-    MonitorSlice(slice);
-    
-    // Tune to 20m band, USB
-    Console.WriteLine("Tuning to 20m USB...");
-    slice.Freq = 14.200;
-    slice.Mode = "USB";
-    slice.FilterLow = 200;
-    slice.FilterHigh = 2800;
-    
-    await Task.Delay(2000);
-    
-    // Tune to 40m band, LSB
-    Console.WriteLine("Tuning to 40m LSB...");
-    slice.Freq = 7.200;
-    slice.Mode = "LSB";
-    
-    await Task.Delay(2000);
-    
-    // Tune to 2m band, FM
-    Console.WriteLine("Tuning to 2m FM...");
-    slice.Freq = 146.520;
-    slice.Mode = "FM";
-    
-    await Task.Delay(2000);
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                await SliceDemo(radio);
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+
+        static async Task SliceDemo(Radio radio)
+        {
+            Console.WriteLine("\n=== Slice Demo ===\n");
+            
+            // Create a slice
+            radio.RequestSliceFromRadio();
+            await Task.Delay(500);
+            
+            var slice = radio.SliceList.FirstOrDefault();
+            if (slice == null) return;
+            
+            // Monitor changes
+            MonitorSlice(slice);
+            
+            // Tune to 20m band, USB
+            Console.WriteLine("Tuning to 20m USB...");
+            slice.Freq = 14.200;
+            slice.Mode = "USB";
+            slice.FilterLow = 200;
+            slice.FilterHigh = 2800;
+            
+            await Task.Delay(2000);
+            
+            // Tune to 40m band, LSB
+            Console.WriteLine("Tuning to 40m LSB...");
+            slice.Freq = 7.200;
+            slice.Mode = "LSB";
+            
+            await Task.Delay(2000);
+            
+            // Tune to 2m band, FM
+            Console.WriteLine("Tuning to 2m FM...");
+            slice.Freq = 146.520;
+            slice.Mode = "FM";
+            
+            await Task.Delay(2000);
+        }
+
+        static void MonitorSlice(Slice slice)
+        {
+            slice.PropertyChanged += (sender, e) =>
+            {
+                var s = sender as Slice;
+                
+                switch (e.PropertyName)
+                {
+                    case "Freq":
+                        Console.WriteLine($"  Frequency changed: {s?.Freq:F6} MHz");
+                        break;
+                        
+                    case "Mode":
+                        Console.WriteLine($"  Mode changed: {s?.Mode}");
+                        break;
+                        
+                    case "Active":
+                        Console.WriteLine($"  Slice {(s?.Active == true ? "activated" : "deactivated")}");
+                        break;
+                }
+            };
+        }
+    }
 }
 ```
 
@@ -453,48 +766,89 @@ Meters provide real-time telemetry data like signal strength, power output, SWR,
 ### Basic Meter Monitoring
 
 ```csharp
-static void SetupMeters(Radio radio)
-{
-    radio.MeterAdded += (meter) =>
-    {
-        Console.WriteLine($"Meter available: {meter.Name}");
-        
-        // Subscribe to meter data updates
-        meter.DataReady += (data) =>
-        {
-            HandleMeterData(meter.Name, data.Value);
-        };
-    };
-}
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
-static void HandleMeterData(string meterName, float value)
+namespace MyFlexRadioApp
 {
-    switch (meterName)
+    class Program
     {
-        case "MICPEAK":
-            // Microphone audio level (dB)
-            Console.WriteLine($"Mic Level: {value:F1} dB");
-            break;
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
             
-        case "SWR":
-            // Standing Wave Ratio
-            Console.WriteLine($"SWR: {value:F2}:1");
-            break;
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
             
-        case "FWD":
-            // Forward power (watts)
-            Console.WriteLine($"Forward Power: {value:F0} W");
-            break;
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
             
-        case "VOLTAGE":
-            // Power supply voltage
-            Console.WriteLine($"Voltage: {value:F1} V");
-            break;
+            // Setup meters before connecting
+            SetupMeters(radio);
             
-        case "TEMP":
-            // PA temperature
-            Console.WriteLine($"PA Temp: {value:F0} °C");
-            break;
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                Console.WriteLine("Monitoring meters... Press any key to exit.");
+                Console.ReadKey();
+            }
+        }
+
+        static void SetupMeters(Radio radio)
+        {
+            radio.MeterAdded += (meter) =>
+            {
+                Console.WriteLine($"Meter available: {meter.Name}");
+                
+                // Subscribe to meter data updates
+                meter.DataReady += (data) =>
+                {
+                    HandleMeterData(meter.Name, data.Value);
+                };
+            };
+        }
+
+        static void HandleMeterData(string meterName, float value)
+        {
+            switch (meterName)
+            {
+                case "MICPEAK":
+                    // Microphone audio level (dB)
+                    Console.WriteLine($"Mic Level: {value:F1} dB");
+                    break;
+                    
+                case "SWR":
+                    // Standing Wave Ratio
+                    Console.WriteLine($"SWR: {value:F2}:1");
+                    break;
+                    
+                case "FWD":
+                    // Forward power (watts)
+                    Console.WriteLine($"Forward Power: {value:F0} W");
+                    break;
+                    
+                case "VOLTAGE":
+                    // Power supply voltage
+                    Console.WriteLine($"Voltage: {value:F1} V");
+                    break;
+                    
+                case "TEMP":
+                    // PA temperature
+                    Console.WriteLine($"PA Temp: {value:F0} °C");
+                    break;
+            }
+        }
     }
 }
 ```
@@ -502,16 +856,55 @@ static void HandleMeterData(string meterName, float value)
 ### Monitoring Specific Meters
 
 ```csharp
-static void MonitorTransmitMeters(Radio radio)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    foreach (var meter in radio.MeterList)
+    class Program
     {
-        if (meter.Name == "SWR" || meter.Name == "FWD" || meter.Name == "TEMP")
+        static async Task Main(string[] args)
         {
-            meter.DataReady += (data) =>
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
             {
-                Console.WriteLine($"{meter.Name}: {data.Value:F2}");
-            };
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                MonitorTransmitMeters(radio);
+                Console.WriteLine("Monitoring transmit meters... Press any key to exit.");
+                Console.ReadKey();
+            }
+        }
+
+        static void MonitorTransmitMeters(Radio radio)
+        {
+            foreach (var meter in radio.MeterList)
+            {
+                if (meter.Name == "SWR" || meter.Name == "FWD" || meter.Name == "TEMP")
+                {
+                    meter.DataReady += (data) =>
+                    {
+                        Console.WriteLine($"{meter.Name}: {data.Value:F2}");
+                    };
+                }
+            }
         }
     }
 }
@@ -539,55 +932,135 @@ FlexLib supports multiple types of audio streams for receiving and transmitting 
 ### DAX RX Audio Stream
 
 ```csharp
-static void SetupRxAudioStream(Radio radio)
-{
-    // Create DAX RX audio stream
-    DAXRXAudioStream daxStream = radio.CreateDAXRXAudioStream(1); // DAX channel 1
-    
-    if (daxStream != null)
-    {
-        Console.WriteLine("DAX RX audio stream created");
-        
-        // Subscribe to audio data
-        daxStream.DataReady += (data) =>
-        {
-            // Process audio samples
-            // data contains float[] audio samples
-            ProcessAudioSamples(data);
-        };
-        
-        // Start streaming
-        daxStream.Start();
-    }
-}
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
-static void ProcessAudioSamples(float[] samples)
+namespace MyFlexRadioApp
 {
-    // Your audio processing code here
-    // - Write to file
-    // - Play to audio device
-    // - Process for digital modes
-    // - etc.
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                SetupRxAudioStream(radio);
+                Console.WriteLine("Audio streaming... Press any key to exit.");
+                Console.ReadKey();
+            }
+        }
+
+        static void SetupRxAudioStream(Radio radio)
+        {
+            // Create DAX RX audio stream
+            DAXRXAudioStream? daxStream = radio.CreateDAXRXAudioStream(1); // DAX channel 1
+            
+            if (daxStream != null)
+            {
+                Console.WriteLine("DAX RX audio stream created");
+                
+                // Subscribe to audio data
+                daxStream.DataReady += (data) =>
+                {
+                    // Process audio samples
+                    // data contains float[] audio samples
+                    ProcessAudioSamples(data);
+                };
+                
+                // Start streaming
+                daxStream.Start();
+            }
+        }
+
+        static void ProcessAudioSamples(float[] samples)
+        {
+            // Your audio processing code here
+            // - Write to file
+            // - Play to audio device
+            // - Process for digital modes
+            // - etc.
+            Console.WriteLine($"Received {samples.Length} audio samples");
+        }
+    }
 }
 ```
 
 ### Remote RX Audio
 
 ```csharp
-static void SetupRemoteAudio(Radio radio)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    // Enable remote RX audio
-    var remoteStream = radio.CreateRXRemoteAudioStream();
-    
-    if (remoteStream != null)
+    class Program
     {
-        Console.WriteLine("Remote RX audio stream created");
-        
-        remoteStream.DataReady += (audioData) =>
+        static async Task Main(string[] args)
         {
-            // Process remote audio samples
-            // Compressed audio over network
-        };
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                SetupRemoteAudio(radio);
+                Console.WriteLine("Remote audio streaming... Press any key to exit.");
+                Console.ReadKey();
+            }
+        }
+
+        static void SetupRemoteAudio(Radio radio)
+        {
+            // Enable remote RX audio
+            var remoteStream = radio.CreateRXRemoteAudioStream();
+            
+            if (remoteStream != null)
+            {
+                Console.WriteLine("Remote RX audio stream created");
+                
+                remoteStream.DataReady += (audioData) =>
+                {
+                    // Process remote audio samples
+                    // Compressed audio over network
+                    Console.WriteLine("Received remote audio data");
+                };
+            }
+        }
     }
 }
 ```
@@ -601,63 +1074,152 @@ Control transmit/receive switching programmatically.
 ### Software PTT
 
 ```csharp
-static void TransmitExample(Slice slice)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    Console.WriteLine("Starting transmission...");
-    
-    // Key the transmitter
-    slice.Transmit = true;
-    
-    // Wait for transmit to start
-    Thread.Sleep(500);
-    
-    Console.WriteLine("Transmitting...");
-    
-    // Transmit for 3 seconds
-    Thread.Sleep(3000);
-    
-    // Unkey the transmitter
-    slice.Transmit = false;
-    
-    Console.WriteLine("Transmission complete");
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
+            
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
+            {
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                radio.RequestSliceFromRadio();
+                await Task.Delay(500);
+                
+                Slice? slice = radio.SliceList.FirstOrDefault();
+                if (slice != null)
+                {
+                    slice.Freq = 14.200;
+                    slice.Mode = "USB";
+                    TransmitExample(slice);
+                }
+            }
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+
+        static void TransmitExample(Slice slice)
+        {
+            Console.WriteLine("Starting transmission...");
+            
+            // Key the transmitter
+            slice.Transmit = true;
+            
+            // Wait for transmit to start
+            Thread.Sleep(500);
+            
+            Console.WriteLine("Transmitting...");
+            
+            // Transmit for 3 seconds
+            Thread.Sleep(3000);
+            
+            // Unkey the transmitter
+            slice.Transmit = false;
+            
+            Console.WriteLine("Transmission complete");
+        }
+    }
 }
 ```
 
 ### Monitoring Interlock State
 
 ```csharp
-static void MonitorInterlock(Radio radio)
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyFlexRadioApp
 {
-    radio.PropertyChanged += (sender, e) =>
+    class Program
     {
-        if (e.PropertyName == "InterlockState")
+        static async Task Main(string[] args)
         {
-            Console.WriteLine($"Interlock State: {radio.InterlockState}");
+            API.ProgramName = "MyFlexRadioApp";
+            API.IsGUI = false;
+            API.Init();
             
-            switch (radio.InterlockState)
+            Console.WriteLine("Waiting for radios...");
+            await Task.Delay(3000);
+            
+            Radio? radio = API.RadioList.FirstOrDefault();
+            if (radio == null)
             {
-                case InterlockState.Receive:
-                    Console.WriteLine("In receive mode");
-                    break;
-                    
-                case InterlockState.Ready:
-                    Console.WriteLine("Ready to transmit");
-                    break;
-                    
-                case InterlockState.Transmitting:
-                    Console.WriteLine("Transmitting!");
-                    break;
-                    
-                case InterlockState.NotReady:
-                    Console.WriteLine($"Not ready: {radio.InterlockReason}");
-                    break;
-                    
-                case InterlockState.TXFault:
-                    Console.WriteLine("TX FAULT!");
-                    break;
+                Console.WriteLine("No radios found!");
+                return;
+            }
+            
+            Console.WriteLine($"Connecting to {radio.Nickname}...");
+            radio.Connect();
+            await Task.Delay(2000);
+            
+            if (radio.Connected)
+            {
+                MonitorInterlock(radio);
+                Console.WriteLine("Monitoring interlock state... Press any key to exit.");
+                Console.ReadKey();
             }
         }
-    };
+
+        static void MonitorInterlock(Radio radio)
+        {
+            radio.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == "InterlockState")
+                {
+                    Console.WriteLine($"Interlock State: {radio.InterlockState}");
+                    
+                    switch (radio.InterlockState)
+                    {
+                        case InterlockState.Receive:
+                            Console.WriteLine("In receive mode");
+                            break;
+                            
+                        case InterlockState.Ready:
+                            Console.WriteLine("Ready to transmit");
+                            break;
+                            
+                        case InterlockState.Transmitting:
+                            Console.WriteLine("Transmitting!");
+                            break;
+                            
+                        case InterlockState.NotReady:
+                            Console.WriteLine($"Not ready: {radio.InterlockReason}");
+                            break;
+                            
+                        case InterlockState.TXFault:
+                            Console.WriteLine("TX FAULT!");
+                            break;
+                    }
+                }
+            };
+        }
+    }
 }
 ```
 
@@ -670,51 +1232,65 @@ Always clean up resources when your application exits.
 ### Proper Cleanup
 
 ```csharp
-static async Task Main(string[] args)
-{
-    try
-    {
-        API.ProgramName = "MyFlexRadioApp";
-        API.Init();
-        
-        // Your application code here
-        
-        // Wait for Ctrl+C
-        var exitEvent = new ManualResetEvent(false);
-        Console.CancelKeyPress += (sender, e) =>
-        {
-            e.Cancel = true;
-            exitEvent.Set();
-        };
-        
-        Console.WriteLine("Press Ctrl+C to exit...");
-        exitEvent.WaitOne();
-    }
-    finally
-    {
-        // Cleanup
-        Cleanup();
-    }
-}
+using Flex.Smoothlake.FlexLib;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
-static void Cleanup()
+namespace MyFlexRadioApp
 {
-    Console.WriteLine("\nCleaning up...");
-    
-    // Disconnect all radios
-    foreach (var radio in API.RadioList)
+    class Program
     {
-        if (radio.Connected)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine($"Disconnecting from {radio.Nickname}...");
-            radio.Disconnect();
+            try
+            {
+                API.ProgramName = "MyFlexRadioApp";
+                API.IsGUI = false;
+                API.Init();
+                
+                // Your application code here
+                Console.WriteLine("FlexLib initialized");
+                await Task.Delay(3000);
+                
+                // Wait for Ctrl+C
+                var exitEvent = new ManualResetEvent(false);
+                Console.CancelKeyPress += (sender, e) =>
+                {
+                    e.Cancel = true;
+                    exitEvent.Set();
+                };
+                
+                Console.WriteLine("Press Ctrl+C to exit...");
+                exitEvent.WaitOne();
+            }
+            finally
+            {
+                // Cleanup
+                Cleanup();
+            }
+        }
+
+        static void Cleanup()
+        {
+            Console.WriteLine("\nCleaning up...");
+            
+            // Disconnect all radios
+            foreach (var radio in API.RadioList)
+            {
+                if (radio.Connected)
+                {
+                    Console.WriteLine($"Disconnecting from {radio.Nickname}...");
+                    radio.Disconnect();
+                }
+            }
+            
+            // Close API session
+            API.CloseSession();
+            
+            Console.WriteLine("Cleanup complete");
         }
     }
-    
-    // Close API session
-    API.CloseSession();
-    
-    Console.WriteLine("Cleanup complete");
 }
 ```
 
