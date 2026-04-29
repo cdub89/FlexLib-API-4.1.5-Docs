@@ -154,7 +154,7 @@ public string TXAnt            // TX antenna
 ```
 
 **Lifecycle**:
-1. Created by `Radio.RequestSliceFromRadio()`
+1. Created by `Radio.RequestSlice()`
 2. Configured via property setters
 3. Monitored via `PropertyChanged` events
 4. Removed by `Radio.RemoveSlice(slice)`
@@ -205,9 +205,12 @@ Example: "model=FLEX-6600 serial=1234-5678-9012-3456 ..."
 
 **Usage**:
 ```csharp
-var stream = radio.CreateDAXRXAudioStream(1); // DAX channel 1
-stream.DataReady += (samples) => ProcessAudio(samples);
-stream.Start();
+radio.DAXRXAudioStreamAdded += (audioStream) =>
+{
+    // DataReadyEventHandler signature: (RXAudioStream stream, float[] rx_data)
+    audioStream.DataReady += (stream, rx_data) => ProcessAudio(rx_data);
+};
+radio.RequestDAXRXAudioStream(1); // DAX channel 1
 ```
 
 #### DAXTXAudioStream
@@ -241,9 +244,10 @@ stream.Start();
 ```csharp
 radio.MeterAdded += (meter) =>
 {
-    meter.DataReady += (data) =>
+    // DataReadyEventHandler signature: (Meter meter, float data)
+    meter.DataReady += (m, value) =>
     {
-        Console.WriteLine($"{meter.Name}: {data.Value}");
+        Console.WriteLine($"{m.Name}: {value}");
     };
 };
 ```
@@ -315,10 +319,11 @@ Radio: "R1|0|slice 0"
 
 **Examples**:
 ```csharp
-// Factory methods on Radio class
-public DAXRXAudioStream CreateDAXRXAudioStream(int daxChannel);
-public DAXIQStream CreateDAXIQStream(int daxChannel);
-public RXRemoteAudioStream CreateRXRemoteAudioStream();
+// Request methods on Radio class (streams arrive via Added events)
+public void RequestDAXRXAudioStream(int channel);   // → DAXRXAudioStreamAdded
+public void RequestDAXIQStream(int channel);         // → DAXIQStreamAdded
+public void RequestRXRemoteAudioStream();            // → RXRemoteAudioStreamAdded
+public TXRemoteAudioStream CreateOpusStream();       // returns directly
 ```
 
 **Benefits**:
@@ -525,7 +530,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 ### Slice Creation Flow
 
 ```
-1. Application calls radio.RequestSliceFromRadio()
+1. Application calls radio.RequestSlice()
    ↓
 2. Command sent: "C<seq>|slice create"
    ↓

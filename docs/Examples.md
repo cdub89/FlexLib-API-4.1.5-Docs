@@ -84,7 +84,7 @@ namespace SimpleRadioController
             Console.WriteLine("✓ Connected");
 
             // Create a slice
-            _radio.RequestSliceFromRadio();
+            _radio.RequestSlice();
             await Task.Delay(500);
 
             _slice = _radio.SliceList.FirstOrDefault();
@@ -295,7 +295,7 @@ namespace FrequencyScanner
                 return false;
             }
 
-            _radio.RequestSliceFromRadio();
+            _radio.RequestSlice();
             await Task.Delay(500);
 
             _slice = _radio.SliceList.FirstOrDefault();
@@ -315,9 +315,10 @@ namespace FrequencyScanner
                 if (meter.Name == "SIGNAL" || meter.Name.Contains("SIGNAL"))
                 {
                     _signalMeter = meter;
-                    meter.DataReady += (data) =>
+                    // DataReadyEventHandler signature: (Meter meter, float data)
+                    meter.DataReady += (m, value) =>
                     {
-                        _currentSignalLevel = data.Value;
+                        _currentSignalLevel = value;
                     };
                 }
             };
@@ -495,7 +496,7 @@ namespace MultiRadioManager
                 var slice = radio.SliceList.FirstOrDefault();
                 if (slice == null)
                 {
-                    radio.RequestSliceFromRadio();
+                    radio.RequestSlice();
                     Task.Delay(500).Wait();
                     slice = radio.SliceList.FirstOrDefault();
                 }
@@ -627,7 +628,7 @@ namespace AudioStreamExample
     {
         private Radio? _radio;
         private Slice? _slice;
-        private DAXRXAudioStream? _audioStream;
+        private RXAudioStream? _audioStream;
         private FileStream? _waveFile;
         private BinaryWriter? _waveWriter;
         private long _sampleCount = 0;
@@ -649,7 +650,7 @@ namespace AudioStreamExample
 
             if (!_radio.Connected) return false;
 
-            _radio.RequestSliceFromRadio();
+            _radio.RequestSlice();
             await Task.Delay(500);
 
             _slice = _radio.SliceList.FirstOrDefault();
@@ -662,30 +663,29 @@ namespace AudioStreamExample
         {
             Console.WriteLine($"Starting recording to {filename}...");
 
-            // Create DAX audio stream
-            _audioStream = _radio!.CreateDAXRXAudioStream(daxChannel);
-            
-            if (_audioStream == null)
+            // Subscribe to the stream added event BEFORE requesting the stream.
+            // A standard 48kHz DAX stream is assumed for the WAV header.
+            // DataReadyEventHandler signature: (RXAudioStream stream, float[] rx_data)
+            _radio!.DAXRXAudioStreamAdded += (audioStream) =>
             {
-                Console.WriteLine("Failed to create audio stream!");
-                return;
-            }
+                _audioStream = audioStream;
 
-            // Setup wave file
-            _waveFile = new FileStream(filename, FileMode.Create);
-            _waveWriter = new BinaryWriter(_waveFile);
-            WriteWaveHeader(_waveWriter, _audioStream.SampleRate);
+                // Setup wave file (48kHz is standard for DAX RX streams)
+                const int sampleRate = 48000;
+                _waveFile = new FileStream(filename, FileMode.Create);
+                _waveWriter = new BinaryWriter(_waveFile);
+                WriteWaveHeader(_waveWriter, sampleRate);
 
-            // Subscribe to audio data
-            _audioStream.DataReady += OnAudioData;
+                audioStream.DataReady += OnAudioData;
 
-            // Start streaming
-            _audioStream.Start();
+                Console.WriteLine($"✓ Recording at {sampleRate} Hz");
+            };
 
-            Console.WriteLine($"✓ Recording at {_audioStream.SampleRate} Hz");
+            // Request the stream — audio arrives via DAXRXAudioStreamAdded
+            _radio.RequestDAXRXAudioStream(daxChannel);
         }
 
-        private void OnAudioData(float[] audioData)
+        private void OnAudioData(RXAudioStream stream, float[] audioData)
         {
             if (_waveWriter == null) return;
 
@@ -697,8 +697,8 @@ namespace AudioStreamExample
                 _sampleCount++;
             }
 
-            // Progress indicator
-            if (_sampleCount % 48000 == 0) // Every second
+            // Progress indicator every second (at 48kHz)
+            if (_sampleCount % 48000 == 0)
             {
                 Console.Write(".");
             }
@@ -707,8 +707,6 @@ namespace AudioStreamExample
         public void StopRecording()
         {
             Console.WriteLine("\nStopping recording...");
-
-            _audioStream?.Stop();
 
             if (_waveWriter != null && _waveFile != null)
             {
@@ -956,7 +954,7 @@ namespace DigitalModeInterface
     {
         private Radio? _radio;
         private Slice? _slice;
-        private DAXIQStream? _iqStream;
+        private RXAudioStream? _iqStream;
         private bool _isTransmitting = false;
 
         // IQ buffer for digital mode processing
@@ -982,7 +980,7 @@ namespace DigitalModeInterface
             if (!_radio.Connected) return false;
 
             // Create slice for digital modes
-            _radio.RequestSliceFromRadio();
+            _radio.RequestSlice();
             await Task.Delay(500);
 
             _slice = _radio.SliceList.FirstOrDefault();
@@ -1003,23 +1001,20 @@ namespace DigitalModeInterface
 
         public void StartIQStream(int daxChannel = 1)
         {
-            // Create DAX IQ stream for digital mode processing
-            _iqStream = _radio!.CreateDAXIQStream(daxChannel);
-            
-            if (_iqStream == null)
+            // Subscribe to the stream added event BEFORE requesting the stream.
+            // DataReadyEventHandler signature: (RXAudioStream stream, float[] rx_data)
+            _radio!.DAXIQStreamAdded += (iqStream) =>
             {
-                Console.WriteLine("Failed to create IQ stream!");
-                return;
-            }
+                _iqStream = iqStream;
+                iqStream.DataReady += OnIQData;
+                Console.WriteLine($"✓ IQ stream started at {iqStream.SampleRate} Hz");
+            };
 
-            // Subscribe to IQ data
-            _iqStream.DataReady += OnIQData;
-            _iqStream.Start();
-
-            Console.WriteLine($"✓ IQ stream started at {_iqStream.SampleRate} Hz");
+            // Request the stream — arrives via DAXIQStreamAdded
+            _radio.RequestDAXIQStream(daxChannel);
         }
 
-        private void OnIQData(float[] data)
+        private void OnIQData(RXAudioStream stream, float[] data)
         {
             // IQ data arrives interleaved: I, Q, I, Q, I, Q...
             for (int i = 0; i < data.Length; i += 2)
@@ -1070,10 +1065,11 @@ namespace DigitalModeInterface
 
         public void StartTransmit()
         {
-            if (_slice == null || _isTransmitting) return;
+            if (_radio == null || _slice == null || _isTransmitting) return;
 
             Console.WriteLine("Starting transmission...");
-            _slice.Transmit = true;
+            _slice.IsTransmitSlice = true;
+            _radio.Mox = true;
             _isTransmitting = true;
 
             // Monitor transmit meters
@@ -1082,10 +1078,10 @@ namespace DigitalModeInterface
 
         public void StopTransmit()
         {
-            if (_slice == null || !_isTransmitting) return;
+            if (_radio == null || _slice == null || !_isTransmitting) return;
 
             Console.WriteLine("Stopping transmission...");
-            _slice.Transmit = false;
+            _radio.Mox = false;
             _isTransmitting = false;
         }
 
@@ -1095,11 +1091,12 @@ namespace DigitalModeInterface
             {
                 if (meter.Name == "FWD" || meter.Name == "SWR" || meter.Name == "ALC")
                 {
-                    meter.DataReady += (data) =>
+                    // DataReadyEventHandler signature: (Meter meter, float data)
+                    meter.DataReady += (m, value) =>
                     {
                         if (_isTransmitting)
                         {
-                            Console.WriteLine($"  {meter.Name}: {data.Value:F1}");
+                            Console.WriteLine($"  {m.Name}: {value:F1}");
                         }
                     };
                 }
@@ -1108,7 +1105,6 @@ namespace DigitalModeInterface
 
         public void Cleanup()
         {
-            _iqStream?.Stop();
             _radio?.Disconnect();
             API.CloseSession();
         }
@@ -1179,6 +1175,7 @@ namespace RadioMonitor
         private async Task<bool> Initialize()
         {
             API.ProgramName = "RadioMonitor";
+            API.IsGUI = false;
             API.Init();
 
             await Task.Delay(2000);
@@ -1212,14 +1209,15 @@ namespace RadioMonitor
             };
 
             // Monitor meters
+            // DataReadyEventHandler signature: (Meter meter, float data)
             foreach (var meter in _radio.MeterList)
             {
                 if (meter.Name == "VOLTAGE" || meter.Name == "TEMP" || 
                     meter.Name == "FWD" || meter.Name == "SWR")
                 {
-                    meter.DataReady += (data) =>
+                    meter.DataReady += (m, value) =>
                     {
-                        LogMeter(meter.Name, data.Value);
+                        LogMeter(m.Name, value);
                     };
                 }
             }
@@ -1242,9 +1240,9 @@ namespace RadioMonitor
                 {
                     Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.Mode}");
                 }
-                else if (e.PropertyName == "Transmit")
+                else if (e.PropertyName == "IsTransmitSlice")
                 {
-                    string status = slice.Transmit ? "TX" : "RX";
+                    string status = slice.IsTransmitSlice ? "designated TX" : "RX only";
                     Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {status}");
                 }
             };

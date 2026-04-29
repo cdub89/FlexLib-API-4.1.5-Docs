@@ -187,7 +187,7 @@ Slice slice = radio.CreateSlice();
 **New (v4.x)**:
 ```csharp
 // Request slice from radio
-radio.RequestSliceFromRadio();
+radio.RequestSlice();
 
 // Wait for slice to be created
 // Subscribe to SliceAdded event or check SliceList
@@ -205,10 +205,10 @@ radio.SliceAdded += (slice) =>
 {
     slice.Freq = 14.200;
 };
-radio.RequestSliceFromRadio();
+radio.RequestSlice();
 
 // Or wait and check
-radio.RequestSliceFromRadio();
+radio.RequestSlice();
 await Task.Delay(500);
 var slice = radio.SliceList.FirstOrDefault();
 ```
@@ -225,15 +225,20 @@ stream.DataAvailable += OnAudioData;
 
 **New (v4.x)**:
 ```csharp
-DAXRXAudioStream stream = radio.CreateDAXRXAudioStream(1);
-stream.DataReady += OnAudioData;
-stream.Start();
+// Subscribe to the stream added event BEFORE requesting the stream.
+// DataReadyEventHandler signature: (RXAudioStream stream, float[] rx_data)
+radio.DAXRXAudioStreamAdded += (audioStream) =>
+{
+    audioStream.DataReady += OnAudioData;
+};
+radio.RequestDAXRXAudioStream(1); // DAX channel 1
 ```
 
 **Migration**:
-- Use factory methods on Radio class
+- Use `radio.RequestDAXRXAudioStream(channel)` instead of constructing a stream directly
+- Subscribe to `radio.DAXRXAudioStreamAdded` to receive the created stream
 - Rename event from `DataAvailable` to `DataReady`
-- Call `Start()` explicitly
+- Update handler signature: `void OnAudioData(RXAudioStream stream, float[] rx_data)`
 
 ---
 
@@ -291,10 +296,10 @@ radio.MeterAdded += (meter) =>
 {
     Console.WriteLine($"New meter: {meter.Name}");
     
-    meter.DataReady += (data) =>
+    // DataReadyEventHandler signature: (Meter meter, float data)
+    meter.DataReady += (m, value) =>
     {
-        // New: More detailed meter data
-        Console.WriteLine($"{meter.Name}: {data.Value} (units: {meter.Units})");
+        Console.WriteLine($"{m.Name}: {value} (units: {m.Units})");
     };
 };
 ```
@@ -359,7 +364,7 @@ if (eq != null)
 1. **Update namespaces**: `FlexLib` → `Flex.Smoothlake.FlexLib`
 2. **Update discovery**: Use `API.Init()` instead of `Discovery.Start()`
 3. **Update connections**: Remove IP parameters from `Connect()`
-4. **Update slice creation**: Use `RequestSliceFromRadio()` instead of `CreateSlice()`
+4. **Update slice creation**: Use `RequestSlice()` instead of `CreateSlice()`
 5. **Update property names**: See table above
 
 ### Code Changes Example
@@ -408,7 +413,7 @@ class Program
             
             if (radio.Connected)
             {
-                radio.RequestSliceFromRadio();
+                radio.RequestSlice();
                 await Task.Delay(500);
                 
                 var slice = radio.SliceList.FirstOrDefault();
@@ -430,7 +435,7 @@ class Program
 
 These APIs were removed and have no direct replacement:
 
-- `Radio.CreateSlice()` - Use `RequestSliceFromRadio()`
+- `Radio.CreateSlice()` - Use `RequestSlice()`
 - `Discovery.Start()` - Use `API.Init()`
 - `Discovery.Stop()` - Use `API.CloseSession()`
 
@@ -487,7 +492,7 @@ radio.SliceAdded += (slice) =>
 {
     // Use slice here
 };
-radio.RequestSliceFromRadio();
+radio.RequestSlice();
 ```
 
 ---
@@ -554,7 +559,7 @@ if (radio.Connected)
 - [ ] All namespaces updated
 - [ ] Discovery uses `API.Init()`
 - [ ] No IP addresses in `Connect()` calls
-- [ ] Slice creation uses `RequestSliceFromRadio()`
+- [ ] Slice creation uses `RequestSlice()`
 - [ ] Property names updated
 - [ ] Event subscriptions before operations
 - [ ] UI updates use Dispatcher
@@ -627,7 +632,7 @@ Get-ChildItem -Path . -Filter *.cs -Recurse | ForEach-Object {
 
 | Version | Release Date | Major Changes |
 |---------|--------------|---------------|
-| 4.1.5 | 2024 | .NET 8.0 support, dependency updates |
+| 4.1.5 | January 2026 | .NET 8.0 support, dependency updates |
 | 4.1.0 | 2023 | Bug fixes, performance improvements |
 | 4.0.0 | 2021 | Major refactor, new API design |
 | 3.x | 2018-2020 | Original FlexLib implementation |

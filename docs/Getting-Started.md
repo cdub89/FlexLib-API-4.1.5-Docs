@@ -404,12 +404,12 @@ namespace MyFlexRadioApp
 
 A Radio can be in several states:
 
-| State | Property | Description |
-|-------|----------|-------------|
-| Discovered | `Available = true` | Radio found on network |
-| Connecting | `Connected = false` | Connection in progress |
-| Connected | `Connected = true` | Full control available |
-| In Use | `Available = false` | Connected by another client |
+| State | How to detect | Description |
+|-------|---------------|-------------|
+| Discovered | `ConnectedState == "Available"` | Radio found on network, ready to connect |
+| Connecting | `Connected == false` | Connection in progress |
+| Connected | `Connected == true` | Full control available |
+| In Use | `ConnectedState == "In Use"` | Controlled by another client |
 
 ---
 
@@ -473,7 +473,7 @@ namespace MyFlexRadioApp
             };
             
             // Request a new slice
-            radio.RequestSliceFromRadio();
+            radio.RequestSlice();
             
             // Wait for slice to be created
             await Task.Delay(500);
@@ -526,7 +526,7 @@ namespace MyFlexRadioApp
             
             if (radio.Connected)
             {
-                radio.RequestSliceFromRadio();
+                radio.RequestSlice();
                 await Task.Delay(500);
                 
                 Slice? slice = radio.SliceList.FirstOrDefault();
@@ -601,7 +601,7 @@ namespace MyFlexRadioApp
             
             if (radio.Connected)
             {
-                radio.RequestSliceFromRadio();
+                radio.RequestSlice();
                 await Task.Delay(500);
                 
                 Slice? slice = radio.SliceList.FirstOrDefault();
@@ -642,8 +642,8 @@ namespace MyFlexRadioApp
                         Console.WriteLine($"Slice {(s?.Active == true ? "activated" : "deactivated")}");
                         break;
                         
-                    case "Transmit":
-                        Console.WriteLine($"PTT: {(s?.Transmit == true ? "TX" : "RX")}");
+                    case "IsTransmitSlice":
+                        Console.WriteLine($"Slice {(s?.IsTransmitSlice == true ? "is now" : "is no longer")} the TX slice");
                         break;
                 }
             };
@@ -698,7 +698,7 @@ namespace MyFlexRadioApp
             Console.WriteLine("\n=== Slice Demo ===\n");
             
             // Create a slice
-            radio.RequestSliceFromRadio();
+            radio.RequestSlice();
             await Task.Delay(500);
             
             var slice = radio.SliceList.FirstOrDefault();
@@ -812,9 +812,10 @@ namespace MyFlexRadioApp
                 Console.WriteLine($"Meter available: {meter.Name}");
                 
                 // Subscribe to meter data updates
-                meter.DataReady += (data) =>
+                // DataReadyEventHandler signature: (Meter meter, float data)
+                meter.DataReady += (m, value) =>
                 {
-                    HandleMeterData(meter.Name, data.Value);
+                    HandleMeterData(m.Name, value);
                 };
             };
         }
@@ -899,9 +900,9 @@ namespace MyFlexRadioApp
             {
                 if (meter.Name == "SWR" || meter.Name == "FWD" || meter.Name == "TEMP")
                 {
-                    meter.DataReady += (data) =>
+                    meter.DataReady += (m, value) =>
                     {
-                        Console.WriteLine($"{meter.Name}: {data.Value:F2}");
+                        Console.WriteLine($"{m.Name}: {value:F2}");
                     };
                 }
             }
@@ -971,24 +972,21 @@ namespace MyFlexRadioApp
 
         static void SetupRxAudioStream(Radio radio)
         {
-            // Create DAX RX audio stream
-            DAXRXAudioStream? daxStream = radio.CreateDAXRXAudioStream(1); // DAX channel 1
-            
-            if (daxStream != null)
+            // Subscribe to the stream added event BEFORE requesting the stream
+            // DataReadyEventHandler signature: (RXAudioStream stream, float[] rx_data)
+            radio.DAXRXAudioStreamAdded += (audioStream) =>
             {
                 Console.WriteLine("DAX RX audio stream created");
                 
-                // Subscribe to audio data
-                daxStream.DataReady += (data) =>
+                audioStream.DataReady += (stream, rx_data) =>
                 {
-                    // Process audio samples
-                    // data contains float[] audio samples
-                    ProcessAudioSamples(data);
+                    // rx_data contains float[] mono PCM samples, -1.0 to 1.0
+                    ProcessAudioSamples(rx_data);
                 };
-                
-                // Start streaming
-                daxStream.Start();
-            }
+            };
+            
+            // Request DAX channel 1 — stream arrives via DAXRXAudioStreamAdded
+            radio.RequestDAXRXAudioStream(1);
         }
 
         static void ProcessAudioSamples(float[] samples)
@@ -1046,20 +1044,21 @@ namespace MyFlexRadioApp
 
         static void SetupRemoteAudio(Radio radio)
         {
-            // Enable remote RX audio
-            var remoteStream = radio.CreateRXRemoteAudioStream();
-            
-            if (remoteStream != null)
+            // Subscribe to the stream added event BEFORE requesting the stream
+            // DataReadyEventHandler signature: (RXAudioStream stream, float[] rx_data)
+            radio.RXRemoteAudioStreamAdded += (remoteStream) =>
             {
                 Console.WriteLine("Remote RX audio stream created");
                 
-                remoteStream.DataReady += (audioData) =>
+                remoteStream.DataReady += (stream, rx_data) =>
                 {
-                    // Process remote audio samples
-                    // Compressed audio over network
-                    Console.WriteLine("Received remote audio data");
+                    // Opus-decoded PCM audio over WAN
+                    Console.WriteLine($"Received {rx_data.Length} remote audio samples");
                 };
-            }
+            };
+            
+            // Request the stream — arrives via RXRemoteAudioStreamAdded
+            radio.RequestRXRemoteAudioStream();
         }
     }
 }
@@ -1106,7 +1105,7 @@ namespace MyFlexRadioApp
             
             if (radio.Connected)
             {
-                radio.RequestSliceFromRadio();
+                radio.RequestSlice();
                 await Task.Delay(500);
                 
                 Slice? slice = radio.SliceList.FirstOrDefault();
@@ -1114,7 +1113,7 @@ namespace MyFlexRadioApp
                 {
                     slice.Freq = 14.200;
                     slice.Mode = "USB";
-                    TransmitExample(slice);
+                    TransmitExample(radio, slice);
                 }
             }
             
@@ -1122,12 +1121,13 @@ namespace MyFlexRadioApp
             Console.ReadKey();
         }
 
-        static void TransmitExample(Slice slice)
+        static void TransmitExample(Radio radio, Slice slice)
         {
             Console.WriteLine("Starting transmission...");
             
-            // Key the transmitter
-            slice.Transmit = true;
+            // Mark this slice as the active TX slice, then key the transmitter via Mox
+            slice.IsTransmitSlice = true;
+            radio.Mox = true;
             
             // Wait for transmit to start
             Thread.Sleep(500);
@@ -1138,7 +1138,7 @@ namespace MyFlexRadioApp
             Thread.Sleep(3000);
             
             // Unkey the transmitter
-            slice.Transmit = false;
+            radio.Mox = false;
             
             Console.WriteLine("Transmission complete");
         }
@@ -1323,7 +1323,7 @@ namespace MyFlexRadioApp
 
 ### Slice Not Created
 
-**Problem**: `radio.RequestSliceFromRadio()` doesn't create a slice.
+**Problem**: `radio.RequestSlice()` doesn't create a slice.
 
 **Solutions**:
 1. Verify radio is connected

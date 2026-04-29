@@ -69,9 +69,9 @@ Represents a single FlexRadio device.
 #### Connection Methods
 
 ```csharp
-void Connect()
+bool Connect(string gui_client_id = null)
 ```
-Connect to the radio. Check `Connected` property afterward.
+Connect to the radio. Returns `true` if connection succeeded. The optional `gui_client_id` parameter is used when binding to a specific GUI client session.
 
 ```csharp
 void Disconnect()
@@ -83,7 +83,7 @@ Disconnect from the radio.
 ##### Connection Status
 ```csharp
 bool Connected { get; }              // Is connected
-bool Available { get; }              // Can connect
+string ConnectedState { get; set; }  // "Available", "In Use", "Update", "Updating"
 string Status { get; }               // Current status text
 ```
 
@@ -93,7 +93,7 @@ string Nickname { get; }             // User-defined name
 string Model { get; }                // e.g., "FLEX-6600"
 string Serial { get; }               // Serial number
 IPAddress IP { get; }                // Network IP address
-string Version { get; }              // Firmware version
+ulong Version { get; set; }          // Firmware version
 ```
 
 ##### Collections
@@ -119,9 +119,9 @@ bool Mox { get; set; }                    // Master TX control
 #### Slice Management
 
 ```csharp
-void RequestSliceFromRadio()
+void RequestSlice()
 ```
-Request creation of a new slice. Listen for `SliceAdded` event.
+Request creation of a new slice on a new panadapter. Listen for `SliceAdded` event.
 
 ```csharp
 void RemoveSlice(Slice slice)
@@ -130,30 +130,32 @@ Remove an existing slice.
 
 #### Audio Stream Creation
 
-```csharp
-DAXRXAudioStream CreateDAXRXAudioStream(int daxChannel)
-```
-Create a DAX receive audio stream.
+Audio streams are created asynchronously. Subscribe to the corresponding `*Added` event **before** calling the `Request*` method, then handle the stream in the event callback.
 
 ```csharp
-DAXTXAudioStream CreateDAXTXAudioStream(int daxChannel)
+void RequestDAXRXAudioStream(int channel)
 ```
-Create a DAX transmit audio stream.
+Request a DAX receive audio stream. Listen for `DAXRXAudioStreamAdded` event.
 
 ```csharp
-DAXIQStream CreateDAXIQStream(int daxChannel)
+void RequestDAXTXAudioStream()
 ```
-Create a DAX IQ data stream.
+Request a DAX transmit audio stream. Listen for `DAXTXAudioStreamAdded` event.
 
 ```csharp
-RXRemoteAudioStream CreateRXRemoteAudioStream()
+void RequestDAXIQStream(int channel)
 ```
-Create a remote RX audio stream (for WAN).
+Request a DAX IQ data stream. Listen for `DAXIQStreamAdded` event.
 
 ```csharp
-TXRemoteAudioStream CreateTXRemoteAudioStream()
+void RequestRXRemoteAudioStream()
 ```
-Create a remote TX audio stream (for WAN).
+Request a remote RX audio stream (for WAN). Listen for `RXRemoteAudioStreamAdded` event.
+
+```csharp
+TXRemoteAudioStream CreateOpusStream()
+```
+Create a remote TX (Opus-encoded) audio stream (for WAN). Returns the stream directly.
 
 #### Panadapter Management
 
@@ -183,7 +185,7 @@ Represents a receiver/transmitter channel.
 
 ```csharp
 double Freq { get; set; }            // Frequency in MHz
-double FreqStep { get; set; }        // Tuning step in MHz
+int TuneStep { get; set; }           // Tuning step in Hz
 bool Lock { get; set; }              // Frequency lock
 ```
 
@@ -202,7 +204,7 @@ int FilterHigh { get; set; }         // High filter cutoff (Hz)
 ```csharp
 int AudioGain { get; set; }          // Audio gain 0-100
 int AudioPan { get; set; }           // Audio pan -100 to 100
-bool AudioMute { get; set; }         // Mute audio
+bool Mute { get; set; }              // Mute audio
 int DAXChannel { get; set; }         // DAX channel assignment
 ```
 
@@ -211,10 +213,11 @@ int DAXChannel { get; set; }         // DAX channel assignment
 ```csharp
 string AGCMode { get; set; }         // AGC mode
 int AGCThreshold { get; set; }       // AGC threshold (dBm)
-bool ANFEnabled { get; set; }        // Auto Notch Filter
-bool APFEnabled { get; set; }        // Audio Peak Filter
-bool NBEnabled { get; set; }         // Noise Blanker
-int NR { get; set; }                 // Noise Reduction level
+bool ANFOn { get; set; }             // Auto Notch Filter enabled
+bool APFOn { get; set; }             // Audio Peak Filter enabled
+bool NBOn { get; set; }              // Noise Blanker enabled
+bool NROn { get; set; }              // Noise Reduction enabled
+int NRLevel { get; set; }            // Noise Reduction level 0-100
 ```
 
 **AGC Modes**: `"off"`, `"slow"`, `"med"`, `"fast"`
@@ -229,10 +232,11 @@ string TXAnt { get; set; }           // TX antenna (ANT1, ANT2, XVTR)
 #### Transmit Control
 
 ```csharp
-bool Transmit { get; set; }          // PTT state
 bool Active { get; set; }            // Slice active state
-bool TX { get; set; }                // TX assigned
+bool IsTransmitSlice { get; set; }   // Whether this slice is the designated TX slice
 ```
+
+> **PTT control**: Use `radio.Mox = true` / `radio.Mox = false` on the `Radio` object to key/unkey the transmitter. `IsTransmitSlice` designates *which* slice drives the transmitter — it does not trigger PTT.
 
 #### Properties
 
@@ -261,9 +265,11 @@ float Value { get; }                 // Current value
 #### Events
 
 ```csharp
-event DataReadyEventHandler DataReady
+event Meter.DataReadyEventHandler DataReady
 ```
-Fired when new meter data is available. Provides meter value.
+Fires when new meter data is available.
+
+**Delegate signature**: `void DataReadyEventHandler(Meter meter, float data)`
 
 #### Common Meter Names
 
@@ -286,66 +292,60 @@ Fired when new meter data is available. Provides meter value.
 
 ### DAXRXAudioStream Class
 
-Receive audio from the radio.
-
-#### Methods
-
-```csharp
-void Start()
-```
-Start audio streaming.
-
-```csharp
-void Stop()
-```
-Stop audio streaming.
+Receive audio from the radio. Created asynchronously via `radio.RequestDAXRXAudioStream(channel)` — handle the stream in the `radio.DAXRXAudioStreamAdded` event.
 
 #### Properties
 
 ```csharp
 int DAXChannel { get; }              // DAX channel number
-int SampleRate { get; }              // Sample rate (Hz)
-bool Streaming { get; }              // Is streaming active
 ```
 
 #### Events
 
 ```csharp
-event DataReadyEventHandler<float[]> DataReady
+event RXAudioStream.DataReadyEventHandler DataReady
 ```
-Fired when audio samples are available. Provides `float[]` array of samples.
+Fires when audio samples are available.
 
-**Sample Format**: 32-bit float, mono, -1.0 to 1.0 range.
+**Delegate signature**: `void DataReadyEventHandler(RXAudioStream stream, float[] rx_data)`
+
+**Sample format**: 32-bit float, mono, -1.0 to 1.0 range.
 
 ---
 
 ### DAXTXAudioStream Class
 
-Transmit audio to the radio.
+Transmit audio to the radio. Created asynchronously via `radio.RequestDAXTXAudioStream()` — handle the stream in the `radio.DAXTXAudioStreamAdded` event.
 
 #### Methods
 
 ```csharp
-void Start()
-void Stop()
-void AddTXData(float[] samples)
+void AddTXData(float[] tx_data_stereo, bool sendReducedBW = false)
 ```
-Add audio samples to transmit buffer.
+Send audio samples to the radio's transmit buffer. Samples are stereo-interleaved 32-bit float.
 
 ---
 
 ### DAXIQStream Class
 
-IQ data streaming for digital modes.
+IQ data streaming for digital modes. Created asynchronously via `radio.RequestDAXIQStream(channel)` — handle the stream in the `radio.DAXIQStreamAdded` event.
+
+#### Properties
+
+```csharp
+int SampleRate { get; set; }         // IQ sample rate (Hz)
+```
 
 #### Events
 
 ```csharp
-event DataReadyEventHandler<float[]> DataReady
+event RXAudioStream.DataReadyEventHandler DataReady
 ```
-IQ samples arrive interleaved: `[I, Q, I, Q, I, Q, ...]`
+Fires when IQ samples are available.
 
-**Usage**: Split into separate I and Q arrays for processing.
+**Delegate signature**: `void DataReadyEventHandler(RXAudioStream stream, float[] rx_data)`
+
+IQ samples arrive interleaved: `[I, Q, I, Q, I, Q, ...]` — split into separate I and Q arrays for processing.
 
 ---
 
@@ -598,7 +598,7 @@ radio?.Connect();
 ### Create and Tune Slice
 
 ```csharp
-radio.RequestSliceFromRadio();
+radio.RequestSlice();
 await Task.Delay(500);
 
 var slice = radio.SliceList.FirstOrDefault();
@@ -616,9 +616,9 @@ radio.MeterAdded += (meter) =>
 {
     if (meter.Name == "SWR")
     {
-        meter.DataReady += (data) =>
+        meter.DataReady += (m, value) =>
         {
-            Console.WriteLine($"SWR: {data.Value:F2}:1");
+            Console.WriteLine($"SWR: {value:F2}:1");
         };
     }
 };
@@ -627,12 +627,22 @@ radio.MeterAdded += (meter) =>
 ### Audio Streaming
 
 ```csharp
-var stream = radio.CreateDAXRXAudioStream(1);
-stream.DataReady += (samples) =>
+radio.DAXRXAudioStreamAdded += (audioStream) =>
 {
-    // Process audio samples
+    audioStream.DataReady += (stream, rx_data) =>
+    {
+        // Process rx_data (float[] of mono PCM samples, -1.0 to 1.0)
+    };
 };
-stream.Start();
+radio.RequestDAXRXAudioStream(1); // DAX channel 1
+```
+
+### PTT Control
+
+```csharp
+radio.Mox = true;   // Key the transmitter
+// ... transmit ...
+radio.Mox = false;  // Unkey the transmitter
 ```
 
 ---
