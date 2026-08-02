@@ -27,7 +27,7 @@ the source: see [Generating the full API reference](Generating-API-Docs.md).
 ## Corrections from the 4.1.5 edition
 
 These are not 4.1.5-to-4.2.20 API changes. They are places where the previous
-edition of this document did not match the library. Code copied from the old
+edition of these guides did not match the library. Code copied from the old
 reference will fail to compile or will silently target the wrong member.
 
 | Old reference said | Actually is | Impact |
@@ -52,6 +52,9 @@ reference will fail to compile or will silently target the wrong member.
 | `TNF.Width` (int), `Depth` (int) | `Bandwidth` (double), `Depth` (uint) | Does not compile |
 | `Amplifier.Handle` (int), `Enable` | `Handle` (string); no `Enable` | Does not compile |
 | `Xvtr.MaxPower` (int) | `MaxPower` (double) | Does not compile |
+| The Migration Guide said the HAAPI fault handler signature was unchanged from 4.1.5, only renamed | 4.1.5 `AmplifierFaultEventHandler(string reason)` takes one parameter; 4.2.x `HaapiFaultEventHandler(string noun, string reason)` takes two | Does not compile |
+| The Migration Guide listed `RadioPlatform.DragonFire`, the FLEX-8x00 / ML-9600 / AU-5x0 models, `TlsCommandCommunication`, and five `Radio` properties as new in 4.2.x | All present in 4.1.5.39794 already. Only `Radio.IsSystemModel` and `Radio.TurfRegion` are new | Wasted migration work |
+| The Migration Guide said the `DAXMICAudioStream.RXGain` dB curve changed in 4.2.x | Identical in both versions: 0-100 maps linearly to -10 dB to +10 dB | Needless re-tuning of audio levels |
 
 The most consequential of these for telemetry work: **there is no
 `Radio.MeterList` and no `Radio.MeterAdded`**, and **`Meter` has no `Value`

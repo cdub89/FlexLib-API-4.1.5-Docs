@@ -1,5 +1,10 @@
 # Generating the full API reference
 
+> **No API claims on this page.** These are tooling instructions for DocFX
+> and the .NET SDK, not documentation of FlexLib members, so there is
+> nothing here to verify against a FlexLib build. The source layout it
+> assumes matches the 4.2.20.41343 distribution.
+
 The hand-written guides in this repository cover the API you will
 actually use day to day. For the complete class-by-class reference,
 every type and member with FlexRadio's own documentation comments, you

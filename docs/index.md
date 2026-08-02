@@ -1,5 +1,10 @@
 # FlexLib API Documentation
 
+> **Verified against FlexLib 4.2.20.41343** (2026-08-02). This page is
+> navigation and orientation; the one code sample and the dependency list
+> were checked against the 4.2.20 source. Per-page verification status is on
+> each page.
+
 Community-maintained documentation for **FlexLib 4.2.x**, the C# API for
 FlexRadio Systems software-defined radios.
 
@@ -145,6 +150,7 @@ FlexLib pulls in these NuGet packages:
 - DotNetZip
 - Newtonsoft.Json
 - System.Collections.Immutable
+- System.Threading.Tasks.Dataflow (added in 4.2.x)
 
 Pinned versions vary by FlexLib build. Check the `.csproj` files in your
 own distribution rather than relying on a version list here.
@@ -198,9 +204,11 @@ if (radio != null)
 **Target frameworks**: .NET Framework 4.6.2, .NET 8.0
 **Per-page verification**: see the status line under each page's title
 
-The [API Reference](API-Reference.md) is verified against
-4.2.20.41343. The remaining pages were written against 4.1.5 and
-corrected in targeted passes; they are marked accordingly.
+Every page carrying API claims has been verified against 4.2.20.41343.
+The [Migration Guide](Migration-Guide.md) was additionally checked against
+the 4.1.5.39794 source, so its "new in 4.2.x" claims are the result of a
+comparison rather than an assumption. Read each page's status line for what
+that verification did and did not cover.
 
 ---
 
