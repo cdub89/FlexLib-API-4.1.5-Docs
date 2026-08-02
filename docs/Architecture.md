@@ -298,7 +298,8 @@ if (fwd != null)
 }
 ```
 
-`MeterAdded` does exist on `Slice` and `Amplifier`, with the signature
+`MeterAdded` does exist on `Slice`, `Amplifier`, and `Tuner`, each carrying
+its own owner type. On `Slice` the signature
 `(Slice slc, Meter m)`, for meters that appear as those objects are
 created:
 

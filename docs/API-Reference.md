@@ -36,7 +36,7 @@ reference will fail to compile or will silently target the wrong member.
 | `Slice.InUse` | Absent | Does not compile |
 | `Slice.AGCMode` is a `string` (`"off"`, `"slow"`, `"med"`, `"fast"`) | `AGCMode` enum (`None`, `Off`, `Slow`, `Medium`, `Fast`) | Does not compile |
 | `Radio.MeterList` | Absent. Use `Radio.FindMeterByName(string)` | Does not compile |
-| `radio.MeterAdded` event | Absent on `Radio`. Exists on `Slice` and `Amplifier` only | Does not compile |
+| `radio.MeterAdded` event | Absent on `Radio`. Exists on `Slice`, `Amplifier`, and `Tuner` | Does not compile |
 | `Meter.Value` property | Absent. Values arrive via the `DataReady` event | Does not compile |
 | `Meter.Units` is a `string` | `MeterUnits` enum | Does not compile |
 | `Radio.RemoveSlice(slice)` | `slice.Close()` | Does not compile |
@@ -439,7 +439,9 @@ public delegate void MeterAddedEventHandler(Slice slc, Meter m);
 event MeterAddedEventHandler MeterAdded
 ```
 
-Per-slice meters (for example `SIGNAL`) arrive here. Radio-wide meters do not.
+Per-slice meters arrive here. The slice-level signal meter is named `LEVEL`,
+not `SIGNAL`; there is no meter named `SIGNAL`. Radio-wide meters do not
+arrive here.
 
 ---
 

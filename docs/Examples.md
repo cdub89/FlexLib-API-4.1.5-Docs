@@ -856,7 +856,10 @@ namespace PanadapterExample
             pan.DataReady += OnPanadapterData;
         }
 
-        private void OnPanadapterData(float[] data)
+        // DataReadyEventHandler signature: (Panadapter pan, ushort[] data)
+        // The payload is raw FFT bin values, NOT dBm floats. The radio scales
+        // them across the panadapter's configured LowDbm..HighDbm window.
+        private void OnPanadapterData(Panadapter pan, ushort[] data)
         {
             _updateCount++;
 
@@ -868,12 +871,12 @@ namespace PanadapterExample
             }
         }
 
-        private void DisplaySpectrum(float[] data)
+        private void DisplaySpectrum(ushort[] data)
         {
             if (data.Length == 0) return;
 
-            // Find peak
-            float max = data.Max();
+            // Find peak bin
+            ushort max = data.Max();
             int maxIndex = Array.IndexOf(data, max);
 
             // Calculate frequency of peak
@@ -881,16 +884,20 @@ namespace PanadapterExample
             double startFreq = _panadapter.CenterFreq - (_panadapter.Bandwidth / 2.0);
             double peakFreq = startFreq + (maxIndex * freqStep);
 
-            Console.WriteLine($"  Peak: {max:F1} dBm at {peakFreq:F6} MHz");
+            // Report the bin value, not a dBm figure. The bin-to-dBm mapping is
+            // not part of the public API, so treat these as relative amplitudes.
+            Console.WriteLine($"  Peak bin: {max} at {peakFreq:F6} MHz");
 
-            // Simple ASCII spectrum display (every 10th point)
+            // Simple ASCII spectrum, scaled against this frame's own range
+            ushort min = data.Min();
+            int span = Math.Max(1, max - min);
+
             Console.Write("  ");
-            for (int i = 0; i < data.Length; i += data.Length / 50)
+            for (int i = 0; i < data.Length; i += Math.Max(1, data.Length / 50))
             {
-                int height = (int)((data[i] - _panadapter.LowDbm) / 
-                                   (_panadapter.HighDbm - _panadapter.LowDbm) * 8);
-                height = Math.Max(0, Math.Min(8, height));
-                
+                int height = (data[i] - min) * 8 / span;
+                height = Math.Max(0, Math.Min(7, height));
+
                 Console.Write("▁▂▃▄▅▆▇█"[height]);
             }
             Console.WriteLine();
@@ -995,7 +1002,7 @@ namespace DigitalModeInterface
             _slice.DemodMode = mode; // DIGU or DIGL
             _slice.FilterLow = 0;
             _slice.FilterHigh = 3000;
-            _slice.AGCMode = "off"; // Digital modes prefer no AGC
+            _slice.AGCMode = AGCMode.Off; // Digital modes prefer no AGC
 
             Console.WriteLine($"✓ Digital interface ready");
             Console.WriteLine($"  Mode: {_slice.DemodMode}");
@@ -1240,7 +1247,7 @@ namespace RadioMonitor
         {
             slice.PropertyChanged += (sender, e) =>
             {
-                if (e.PropertyName == "Freq" || e.PropertyName == "Mode")
+                if (e.PropertyName == "Freq" || e.PropertyName == "DemodMode")
                 {
                     Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.DemodMode}");
                 }

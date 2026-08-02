@@ -569,7 +569,7 @@ namespace MyFlexRadioApp
             // Set other properties
             slice.Active = true;      // Activate the slice
             slice.AudioGain = 50;     // Audio gain (0-100)
-            slice.AGCMode = "med";    // AGC: "off", "slow", "med", "fast"
+            slice.AGCMode = AGCMode.Medium;    // AGC: "off", "slow", "med", "fast"
             
             Console.WriteLine($"Tuned to {slice.Freq:F3} MHz, Mode: {slice.DemodMode}");
         }
@@ -644,8 +644,8 @@ namespace MyFlexRadioApp
                         Console.WriteLine($"Frequency changed: {s?.Freq:F6} MHz");
                         break;
                         
-                    case "Mode":
-                        Console.WriteLine($"Mode changed: {s?.Mode}");
+                    case "DemodMode":
+                        Console.WriteLine($"Mode changed: {s?.DemodMode}");
                         break;
                         
                     case "Active":
@@ -753,8 +753,8 @@ namespace MyFlexRadioApp
                         Console.WriteLine($"  Frequency changed: {s?.Freq:F6} MHz");
                         break;
                         
-                    case "Mode":
-                        Console.WriteLine($"  Mode changed: {s?.Mode}");
+                    case "DemodMode":
+                        Console.WriteLine($"  Mode changed: {s?.DemodMode}");
                         break;
                         
                     case "Active":
@@ -801,15 +801,17 @@ namespace MyFlexRadioApp
                 return;
             }
             
-            // Setup meters before connecting
-            SetupMeters(radio);
-            
             Console.WriteLine($"Connecting to {radio.Nickname}...");
             radio.Connect();
             await Task.Delay(2000);
             
             if (radio.Connected)
             {
+                // Meters only exist after the radio is connected and has
+                // reported its meter list. Looking them up before Connect
+                // finds nothing, silently.
+                SetupMeters(radio);
+
                 Console.WriteLine("Monitoring meters... Press any key to exit.");
                 Console.ReadKey();
             }

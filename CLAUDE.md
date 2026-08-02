@@ -455,11 +455,40 @@ Where to look first for common tasks:
 - **How a reader builds the full reference**:
   [docs/Generating-API-Docs.md](docs/Generating-API-Docs.md).
 
+## Tagging
+
+Tags mark a state of the documentation worth citing later: the version of
+FlexLib it describes and the accuracy standard it was held to. They do not
+mark a build or a shipped artifact.
+
+- **Annotated tags only.** `git tag -a vX.Y -m "<message>"`, never a
+  lightweight tag. Lightweight tags have caused busted releases in sibling
+  projects, and `v1.0` / `v1.1` here are lightweight for exactly that
+  historical reason. Do not add more.
+- **The user creates every tag and every release.** Same rule as commits:
+  propose the tag and the version number, state what changed, and hand over
+  the command. Never run `git tag`, `git push --tags`, or
+  `gh release create`.
+- **What the numbers mean.** MAJOR for a change in which FlexLib version
+  the docs describe, a licensing or scope change, or a restructure that
+  moves or removes pages. MINOR for new pages, new sections, or a
+  verification sweep that promotes a page's status line. There is no PATCH
+  component; a typo fix does not earn a tag.
+- **Never tag with a known-wrong API claim outstanding.** A tag is a
+  citable point, and a reader who pins to it gets whatever was wrong at
+  that moment. Run the verification sweep and, for a MAJOR, an adversarial
+  Codex audit (see Codex collaboration) before proposing the tag. Precedent:
+  the 2026-08-02 audit caught three compile-breaking errors that would
+  otherwise have shipped in `v2.0`.
+- **Release notes state the FlexLib build verified against**, which pages
+  changed status, and any claim still unverified. Drafted from the actual
+  diff, never from commit messages alone.
+
 ## Conventions
 
-- **This repo is documentation, not software.** There is no version to
-  bump, no release to cut, no changelog to maintain. Do not propose
-  release machinery.
+- **This repo is documentation, not software.** There is no build to
+  version and no artifact to ship, so do not propose build or release
+  machinery. Tags are the one exception; see Tagging below.
 - **Migration Guide canonicality**: this repo's
   `docs/Migration-Guide.md` is canonical for the FlexLib 4.1.5 to 4.2.x
   migration as a general developer record. SmartStreamer4's
