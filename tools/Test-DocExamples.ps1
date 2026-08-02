@@ -118,12 +118,27 @@ function Get-DocBlocks {
                     $body.Add($lines[$i]); $i++
                 }
                 if ($lang -eq 'csharp') {
-                    # Look back for a "Before (v3.x)" / "Old (v3.x)" heading or caption.
+                    # Detect blocks that deliberately show a superseded API, so they
+                    # are not compiled against the current tree. Three forms, in
+                    # decreasing order of how explicit the markup is:
+                    #
+                    #   1. A bolded caption: "**Old**:", "**Before (v3.x)**".
+                    #      The bold marker is required. Without it, ordinary prose
+                    #      such as "Before you begin, ensure you have:" would match
+                    #      and silently suppress a block that ought to be gated.
+                    #   2. "Old"/"Before" followed by any version number, which
+                    #      covers headings and table captions like "Old (v3.x)".
+                    #   3. A leading "// Old" / "// Before" comment in the body.
+                    #
+                    # Not restricted to v3: the 4.1.5-to-4.2.x section shows 4.1.5
+                    # APIs that no longer exist, and those must skip for the same
+                    # reason the v3 samples do.
                     $ctxFrom = [Math]::Max(0, $start - 13)
                     $ctx     = ($lines[$ctxFrom..([Math]::Max($ctxFrom, $start - 1))] -join "`n").ToLower()
                     $bodyTxt = ($body -join "`n")
-                    $legacy  = ($ctx -match '(before|old)\s*\(?v?3\.x') -or
-                               ($bodyTxt.ToLower() -match '//\s*(old|before)\s*\(?v?3')
+                    $legacy  = ($ctx -match '(?m)^\s*\*\*(old|before)\b[^\n]{0,40}\*\*') -or
+                               ($ctx -match '(old|before)\s*\(?v?\d') -or
+                               ($bodyTxt.ToLower() -match '//\s*(old|before)\b')
 
                     $b = [DocBlock]::new()
                     $b.File = $file.Name
@@ -131,7 +146,7 @@ function Get-DocBlocks {
                     $b.Line = $start + 1            # 1-based
                     $b.Body = $bodyTxt
                     $b.Kind = if ($legacy) { 'skip-legacy' } else { '' }
-                    if ($legacy) { $b.SkipReason = 'intentionally shows a superseded v3.x API' }
+                    if ($legacy) { $b.SkipReason = 'intentionally shows a superseded API' }
                     $blocks.Add($b)
                 }
             }
@@ -154,8 +169,10 @@ function Set-BlockKind {
     }
 
     # A signature listing is reference material, not code: member signatures with
-    # no bodies and no executable statements. 54 of 135 blocks are this shape,
+    # no bodies and no executable statements. Most blocks are this shape,
     # concentrated in API-Reference.md, and none of them can compile standalone.
+    # Run with -ListOnly for the current inventory rather than trusting a count
+    # written into a comment.
     $hasStatement = $false
     $hasControl   = $false
     foreach ($line in $content) {
