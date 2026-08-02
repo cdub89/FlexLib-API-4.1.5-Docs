@@ -79,9 +79,9 @@ keys), and default values.
 - **Cite the file.** Record `FlexLib/Slice.cs:86` style references in
   the report and the commit body. The next session re-verifies from
   the citation instead of re-deriving from scratch.
-- **The source is Windows-only.** The vendor tree is not in this repo
-  and is not on the Linux seat. See Dev Environment. On Linux, an API
-  claim cannot be verified, only flagged for the Windows seat.
+- **The source is never in this repo.** It lives outside it, on both
+  seats. See Dev Environment for the current paths, and confirm they
+  exist before relying on them.
 - **Unverifiable claims do not ship.** If the source cannot be reached
   this session, either leave the existing text alone or mark the new
   text explicitly as unverified and name it in the report. Do not
@@ -110,8 +110,8 @@ Follow this sequence for every change. Do not skip or reorder steps.
 3. **Read first.** Read the passage being changed and the pages that
    cross-link to it. Anchors break silently.
 4. **Verify against source.** For anything covered by Ground Truth,
-   read the FlexLib source before writing the claim. On the Linux seat,
-   defer and flag.
+   read the FlexLib source before writing the claim. If no source tree
+   is reachable this session, defer and flag rather than guess.
 5. **Edit** following Design Philosophy, Doc Quality, and Conventions
    below.
 6. **Gate.** Immediately after each edit, run the markdown gate (see
@@ -137,7 +137,8 @@ list before reporting completion.
 - [ ] Cross-document links and heading anchors touched by the change
   still resolve.
 - [ ] Code samples follow the sample conventions and use only members
-  confirmed to exist.
+  confirmed to exist. On the Windows seat, `tools\Test-DocExamples.ps1`
+  passes; on Linux it is named as deferred.
 - [ ] The page's verification status line is accurate for what was
   actually re-read this session.
 - [ ] Superseded or duplicated prose left by the change is deleted,
@@ -158,8 +159,7 @@ CLAUDE.md, AGENTS.md   Operating manual (AGENTS.md is a symlink)
 LICENSE                CC BY 4.0, covers this repo's prose only
 README.md              Repo landing page, scope and disclaimer
 docs/
-  index.md             DocFX home page
-  README.md            Documentation index
+  index.md             DocFX home page and the only docs landing page
   Getting-Started.md   Tutorial
   API-Reference.md     Hand-written quick reference (the core page)
   Examples.md          Worked examples
@@ -167,6 +167,8 @@ docs/
   Migration-Guide.md   4.1.5 to 4.2.x upgrade record
   Generating-API-Docs.md  How a reader builds the full reference
   docfx.json, toc.yml  DocFX config
+tools/
+  Test-DocExamples.ps1 Compiles the docs' C# blocks against a FlexLib tree
 ```
 
 **Untracked build products.** `docs/api/` (DocFX-extracted YAML) and
@@ -187,10 +189,18 @@ both.
   checkout carries one under `FlexLib_API_v<version>/`, and the build
   being documented may live elsewhere.
 - **Linux (secondary)**: prose, structure, linting, planning, and
-  audit work. No FlexLib source and no DocFX. API claims cannot be
-  verified here, only drafted and flagged. Any page edited on Linux
-  that touches a signature is not done until the Windows seat confirms
-  it.
+  audit work. As of 2026-08-02 it also carries a copy of the FlexLib
+  **4.2.20.41343** source at `~/github/FlexLib_API_v4.2.20.41343/`
+  (outside any git repo, and it must stay that way). So API claims
+  **can** be verified here by reading that tree. Confirm the path exists
+  at session start; it is not in git and will not be on a fresh machine.
+  What Linux still cannot do: no `dotnet`, no `pwsh`, no `docfx`, so
+  the example-compilation and DocFX build gates are Windows-only. A page
+  edited on Linux is source-verified but not compile-verified.
+- **Do not copy either vendor tree into a repo.** The 4.1.5 archive at
+  `~/github/FlexLib_API_v4.1.5.39794-archive/` is a historical reference
+  with its git remote deliberately removed. See Licensing and
+  Redistribution Policy.
 - **Git is the only channel the two seats share.** Claude Code
   auto-memory is machine-local and never syncs. Durable cross-seat
   knowledge belongs in this file, not in memory. Start every session
@@ -250,9 +260,12 @@ Documentation rots in proportion to its size.
 2. **Prefer correcting to appending.** A wrong passage gets rewritten
    in place, not left standing with a correction note beneath it. Two
    accounts of the same API is the failure mode this repo already has.
-3. **Watch the known duplication.** `docs/README.md` and
-   `docs/index.md` still overlap heavily. Do not deepen it; prefer
-   consolidating when touching either.
+3. **Two landing pages, not three.** The root `README.md` is the GitHub
+   entry point; `docs/index.md` is the DocFX site home. A third
+   (`docs/README.md`) existed until 2026-08-02 and was deleted: nothing
+   linked to it, and DocFX's `*.md` content glob built it into the site as
+   an unlinked duplicate of Home. Do not recreate it. New reader-facing
+   navigation goes in `docs/index.md`.
 4. **Guard against accretion.** Each addition makes the next look
    small. Name that pressure when you see it.
 
@@ -272,6 +285,36 @@ and lists, trailing spaces, final newline), then hand-fix the rest.
 Never suppress a rule inline to make the gate pass; if a rule is
 genuinely wrong for this repo, raise it and change
 `.markdownlint.json` deliberately.
+
+**Example compilation gate** (Windows seat only): after changing any
+`csharp` code block, compile the examples against a real FlexLib tree.
+
+```powershell
+.\tools\Test-DocExamples.ps1                     # gate: programs + type decls
+.\tools\Test-DocExamples.ps1 -ListOnly           # inventory, no build
+.\tools\Test-DocExamples.ps1 -IncludeFragments   # also gate on fragments
+```
+
+This is the strongest gate the repo has, because "the member exists" and
+"the code compiles" are different questions. The 2026-08-02 adversarial
+review found three compile-breaking errors that a source-grep pass had
+passed clean: a string assigned to the `AGCMode` enum, `s?.Mode` on a type
+whose property is `DemodMode`, and a `float[]` handler bound to a
+`ushort[]` delegate. Every one would have been caught by a compiler.
+
+The script classifies each block and reports what it skipped and why, so
+nothing is dropped silently. Of 135 blocks today: 26 gate (24 full programs
+plus 2 type declarations), 50 fragments are advisory, and 59 are skipped
+(54 are API signature listings that cannot compile standalone, 5 are the
+deliberate `Before (v3.x)` blocks in the Migration Guide). Diagnostics are
+mapped back to the documentation file and line with `#line` directives, so
+failures read as `docs/Examples.md(856)`.
+
+Fragments are advisory by default because a snippet lacks the surrounding
+declarations, so some failures are missing-context noise. The script sorts
+diagnostics accordingly: `CS1061` / `CS0117` / `CS1503` / `CS0029` and
+friends are reported as API errors, while `CS0103` / `CS0246` are reported
+separately as context-only. If a fragment produces an API error, it is real.
 
 **DocFX build gate** (Windows seat only): after structural changes
 (`toc.yml`, `docfx.json`, new or renamed pages, changed anchors),
@@ -383,9 +426,11 @@ guessed from the same priors we have. Switch channels and rerun.
 - Prose, structure, formatting, and link fixes.
 - Anything answerable by reading the FlexLib source directly, when the
   source is at hand and the question is small.
-- On the Linux seat for any API question: Codex has no more access to
-  the source than Claude does here, so its answer is unverified by
-  construction.
+- For any API question when no source tree is reachable: Codex has no
+  more access than Claude does, so its answer is unverified by
+  construction. When a tree **is** present, Codex reads it fine, including
+  paths outside the repo root under `--sandbox read-only`. Verified
+  2026-08-02 against `~/github/FlexLib_API_v4.2.20.41343/`.
 - As a stall when the user is waiting on a decision Claude should make.
 
 ### After Codex responds

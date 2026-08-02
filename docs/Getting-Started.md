@@ -1402,10 +1402,11 @@ namespace MyFlexRadioApp
 
 Now that you've mastered the basics:
 
-1. **Explore the [API Reference](api/index.md)** - Deep dive into all classes and methods
-2. **Study [Examples](Examples.md)** - See real-world application patterns
-3. **Read [Architecture](Architecture.md)** - Understand FlexLib's design
-4. **Build something!** - Start your own FlexRadio application
+1. **Explore the [API Reference](API-Reference.md)** - the classes and members you use most, with a corrections table for claims earlier editions got wrong
+2. **Generate the [full class reference](Generating-API-Docs.md)** - every type and member, built locally from your own copy of the FlexLib source
+3. **Study [Examples](Examples.md)** - See real-world application patterns
+4. **Read [Architecture](Architecture.md)** - Understand FlexLib's design
+5. **Build something!** - Start your own FlexRadio application
 
 ---
 

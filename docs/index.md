@@ -73,11 +73,15 @@ Upgrading from a previous version? Find:
 
 | Task | Link |
 |------|------|
+| Discover radios | [Getting Started - Discovery](Getting-Started.md#discovering-radios) |
 | Connect to a radio | [Getting Started - Connection](Getting-Started.md#connecting-to-a-radio) |
-| Create a slice | [Getting Started - Working with Slices](Getting-Started.md#working-with-slices) |
-| Stream audio | [Examples - Audio Streaming](Examples.md#audio-streaming) |
-| Handle meters | [Examples - Meter Monitoring](Examples.md#meter-monitoring) |
+| Create a slice, set frequency | [Getting Started - Working with Slices](Getting-Started.md#working-with-slices) |
+| Stream audio | [Getting Started - Audio](Getting-Started.md#audio-streaming), [Examples - Audio](Examples.md#audio-streaming) |
+| Read meters | [Getting Started - Monitoring Meters](Getting-Started.md#monitoring-meters) |
 | Transmit control | [Getting Started - PTT Control](Getting-Started.md#ptt-control) |
+| Drive multiple radios | [Examples - Multi-Radio Manager](Examples.md#multi-radio-manager) |
+| Digital modes | [Examples - Digital Mode Interface](Examples.md#digital-mode-interface) |
+| Build the full class reference | [Generating API Docs](Generating-API-Docs.md) |
 
 ## 💡 Key Concepts
 
