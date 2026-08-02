@@ -1,6 +1,11 @@
 # FlexLib Architecture
 
-This document provides a comprehensive overview of FlexLib's 4.1.5 architecture, design patterns, and internal workings.
+> **Partially verified.** Written against 4.1.5 and corrected in targeted
+> passes; not yet re-read end to end against a 4.2.x source tree. The
+> structural material (threading model, protocol, packet flow) is the most
+> durable part of this page; verify any specific signature you depend on.
+
+This document provides an overview of FlexLib's architecture, design patterns, and internal workings.
 
 ## Table of Contents
 
@@ -20,7 +25,7 @@ FlexLib is a client library that communicates with FlexRadio software-defined ra
 
 ### High-Level Architecture
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │           Your Application                      │
 │    (Console, WPF, WinForms, Service)            │
@@ -71,12 +76,14 @@ FlexLib is a client library that communicates with FlexRadio software-defined ra
 **Purpose**: Central initialization and radio management.
 
 **Responsibilities**:
+
 - Initialize discovery system
 - Maintain list of discovered radios
 - Manage radio lifecycle
 - Provide static access to radios
 
 **Key Members**:
+
 ```csharp
 public static void Init()
 public static List<Radio> RadioList
@@ -86,6 +93,7 @@ public static event RadioRemovedEventHandler RadioRemoved
 ```
 
 **Usage Pattern**:
+
 ```csharp
 API.Init();                    // Start discovery
 var radios = API.RadioList;    // Get discovered radios
@@ -99,6 +107,7 @@ API.CloseSession();            // Cleanup
 **Purpose**: Represents a single FlexRadio device.
 
 **Responsibilities**:
+
 - Manage connection to radio
 - Handle command/response protocol
 - Maintain radio state
@@ -107,6 +116,7 @@ API.CloseSession();            // Cleanup
 - Handle audio/data streams
 
 **Key Collections**:
+
 ```csharp
 public ObservableCollection<Slice> SliceList
 public ObservableCollection<Panadapter> PanadapterList
@@ -116,6 +126,7 @@ public ObservableCollection<Memory> MemoryList
 ```
 
 **State Properties**:
+
 ```csharp
 public bool Connected          // Connection status
 public string Nickname         // User-defined name
@@ -134,6 +145,7 @@ public string Version          // Firmware version
 **Purpose**: Represents a receiver/transmitter channel.
 
 **Responsibilities**:
+
 - Frequency control
 - Mode selection
 - Filter configuration
@@ -142,6 +154,7 @@ public string Version          // Firmware version
 - Antenna selection
 
 **Key Properties**:
+
 ```csharp
 public double Freq             // Frequency in MHz
 public string Mode             // Operating mode
@@ -154,6 +167,7 @@ public string TXAnt            // TX antenna
 ```
 
 **Lifecycle**:
+
 1. Created by `Radio.RequestSlice()`
 2. Configured via property setters
 3. Monitored via `PropertyChanged` events
@@ -166,6 +180,7 @@ public string TXAnt            // TX antenna
 **Purpose**: Discover FlexRadio devices on the network.
 
 **Mechanism**:
+
 - Opens UDP socket on port 4992
 - Sends discovery packets periodically
 - Listens for radio announcements
@@ -173,13 +188,15 @@ public string TXAnt            // TX antenna
 - Notifies API class of new radios
 
 **Protocol**:
-```
+
+```text
 Radio → UDP Broadcast → Port 4992
 Format: Key=Value pairs
 Example: "model=FLEX-6600 serial=1234-5678-9012-3456 ..."
 ```
 
 **Discovery Packet Fields**:
+
 - `discovery_protocol_version`
 - `model`
 - `serial`
@@ -198,12 +215,14 @@ Example: "model=FLEX-6600 serial=1234-5678-9012-3456 ..."
 **Purpose**: Receive audio from radio for playback or processing.
 
 **Characteristics**:
+
 - Mono audio stream
 - 24kHz, 48kHz, or 96kHz sample rate
 - 32-bit float samples
 - VITA-49 packet protocol
 
 **Usage**:
+
 ```csharp
 radio.DAXRXAudioStreamAdded += (audioStream) =>
 {
@@ -224,6 +243,7 @@ radio.RequestDAXRXAudioStream(1); // DAX channel 1
 **Purpose**: IQ data streaming for digital modes.
 
 **Characteristics**:
+
 - Interleaved I/Q samples
 - High sample rate (up to 192kHz)
 - Used for SDR applications
@@ -235,12 +255,14 @@ radio.RequestDAXRXAudioStream(1); // DAX channel 1
 **Purpose**: Real-time telemetry monitoring.
 
 **Types of Meters**:
+
 - **Signal meters**: SIGNAL, MICPEAK, COMPPEAK
 - **Power meters**: FWD, REF, SWR
 - **System meters**: VOLTAGE, TEMP
 - **Audio meters**: LEVELPEAK, LEVELAVG
 
 **Usage Pattern**:
+
 ```csharp
 radio.MeterAdded += (meter) =>
 {
@@ -261,6 +283,7 @@ radio.MeterAdded += (meter) =>
 **Usage**: Extensive use of C# events for state changes.
 
 **Implementation**:
+
 ```csharp
 // INotifyPropertyChanged for object property changes
 public event PropertyChangedEventHandler PropertyChanged;
@@ -274,6 +297,7 @@ public event DataReadyEventHandler DataReady;
 ```
 
 **Benefits**:
+
 - Decoupled architecture
 - Real-time updates
 - Event-driven programming model
@@ -286,6 +310,7 @@ public event DataReadyEventHandler DataReady;
 **Usage**: Radio command/response protocol.
 
 **Implementation**:
+
 ```csharp
 // Internal command structure
 class RadioCommand
@@ -300,13 +325,15 @@ SendCommand("slice tune " + index + " " + freq);
 ```
 
 **Protocol Format**:
-```
+
+```text
 Client → Radio: "C<seq>|<command> <args>"
 Radio → Client: "R<seq>|<result>"
 ```
 
 **Example**:
-```
+
+```text
 Client: "C1|slice create"
 Radio: "R1|0|slice 0"
 ```
@@ -318,6 +345,7 @@ Radio: "R1|0|slice 0"
 **Usage**: Creating streaming objects and connections.
 
 **Examples**:
+
 ```csharp
 // Request methods on Radio class (streams arrive via Added events)
 public void RequestDAXRXAudioStream(int channel);   // → DAXRXAudioStreamAdded
@@ -327,6 +355,7 @@ public TXRemoteAudioStream CreateOpusStream();       // returns directly
 ```
 
 **Benefits**:
+
 - Centralized object creation
 - Proper initialization
 - Resource management
@@ -340,6 +369,7 @@ public TXRemoteAudioStream CreateOpusStream();       // returns directly
 **Provided by**: UiWpfFramework
 
 **Usage**:
+
 ```csharp
 // Radio, Slice, and other classes inherit from ObservableObject
 public class Slice : ObservableObject
@@ -362,6 +392,7 @@ public class Slice : ObservableObject
 ```
 
 **Benefits for WPF/UI**:
+
 - Data binding support
 - Automatic UI updates
 - Reduced boilerplate code
@@ -400,6 +431,7 @@ radio.PropertyChanged += (sender, e) =>
 ### Synchronization
 
 FlexLib uses:
+
 - `lock` statements for critical sections
 - `ConcurrentDictionary` for thread-safe collections
 - `ImmutableList` for read-only collections
@@ -416,7 +448,8 @@ FlexLib uses:
 **Direction**: Radio → Client
 
 **Packet Format**:
-```
+
+```text
 discovery_protocol_version=3.0.0.2
 model=FLEX-6600
 serial=1234-5678-9012-3456
@@ -439,23 +472,26 @@ status=Available
 **Format**: ASCII text, newline-terminated
 
 **Command Format**:
-```
+
+```text
 C<sequence>|<command> <args>
 ```
 
 **Response Format**:
-```
+
+```text
 R<sequence>|<result_code>|<data>
 ```
 
 **Status Updates** (unsolicited):
-```
+
+```text
 S<hex_handle>|<object_type> <properties>
 ```
 
 **Examples**:
 
-```
+```text
 # Create a slice
 Client: C1|slice create
 Radio:  R1|0|slice 0
@@ -469,6 +505,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 ```
 
 **Result Codes**:
+
 - `0`: Success
 - Non-zero: Error (with error message)
 
@@ -479,6 +516,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 **Purpose**: High-performance audio/IQ streaming.
 
 **Characteristics**:
+
 - UDP packets
 - Binary format
 - Header + payload structure
@@ -486,7 +524,8 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 - Timestamps for synchronization
 
 **Packet Structure**:
-```
+
+```text
 ┌────────────────┐
 │  VITA Header   │ 28 bytes
 ├────────────────┤
@@ -495,6 +534,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 ```
 
 **Stream Types**:
+
 - **Audio**: 32-bit float PCM
 - **IQ**: Interleaved I/Q samples
 - **DAX**: Multiple channels possible
@@ -505,7 +545,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 
 ### Connection Flow
 
-```
+```text
 1. Application calls API.Init()
    ↓
 2. Discovery starts, sends UDP broadcasts
@@ -529,7 +569,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 
 ### Slice Creation Flow
 
-```
+```text
 1. Application calls radio.RequestSlice()
    ↓
 2. Command sent: "C<seq>|slice create"
@@ -547,7 +587,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 
 ### Property Change Flow
 
-```
+```text
 1. Application sets: slice.Freq = 14.200
    ↓
 2. Property setter checks if value changed
@@ -574,6 +614,7 @@ Radio:  S12345678|slice 0 freq=14.200000 mode=USB
 ### Initialization
 
 ✅ **Do**:
+
 ```csharp
 // Initialize once at startup
 API.ProgramName = "MyApp";
@@ -585,6 +626,7 @@ API.Init();
 ```
 
 ❌ **Don't**:
+
 ```csharp
 // Don't call Init() multiple times
 API.Init();
@@ -599,6 +641,7 @@ API.Init(); // Missing ProgramName
 ### Connection Management
 
 ✅ **Do**:
+
 ```csharp
 // Check availability before connecting
 if (radio.ConnectedState == "Available" && !radio.Connected)
@@ -612,6 +655,7 @@ for (int i = 0; i < 50 && !radio.Connected; i++)
 ```
 
 ❌ **Don't**:
+
 ```csharp
 // Don't assume immediate connection
 radio.Connect();
@@ -626,6 +670,7 @@ radio.Connect(); // Maybe already connected or unavailable
 ### Property Updates
 
 ✅ **Do**:
+
 ```csharp
 // Use PropertyChanged for updates
 slice.PropertyChanged += (s, e) =>
@@ -642,6 +687,7 @@ slice.FilterHigh = 2800;
 ```
 
 ❌ **Don't**:
+
 ```csharp
 // Don't poll properties
 while (true)
@@ -656,6 +702,7 @@ while (true)
 ### Threading
 
 ✅ **Do**:
+
 ```csharp
 // Use Dispatcher for UI updates
 radio.PropertyChanged += (s, e) =>
@@ -671,6 +718,7 @@ await Task.Run(() => LongRunningOperation());
 ```
 
 ❌ **Don't**:
+
 ```csharp
 // Don't update UI from events directly
 radio.PropertyChanged += (s, e) =>
@@ -684,6 +732,7 @@ radio.PropertyChanged += (s, e) =>
 ### Resource Cleanup
 
 ✅ **Do**:
+
 ```csharp
 try
 {
@@ -701,6 +750,7 @@ finally
 ```
 
 ❌ **Don't**:
+
 ```csharp
 // Don't forget cleanup
 API.Init();
@@ -713,6 +763,7 @@ return; // Leaked resources!
 ### Error Handling
 
 ✅ **Do**:
+
 ```csharp
 try
 {
@@ -736,6 +787,7 @@ else
 ```
 
 ❌ **Don't**:
+
 ```csharp
 // Don't ignore errors
 radio.Connect(); // May throw or fail silently
@@ -781,7 +833,7 @@ catch { } // Lost error information!
 
 FlexLib can enable debug logging:
 
-```
+```text
 Create file:
 %APPDATA%\FlexRadio Systems\log_discovery.txt
 %APPDATA%\FlexRadio Systems\log_disconnect.txt
@@ -790,6 +842,7 @@ Create file:
 ### Network Monitoring
 
 Use Wireshark to monitor:
+
 - UDP port 4992 (discovery)
 - TCP port 4992 (commands)
 - UDP streaming ports (audio/IQ)

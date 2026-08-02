@@ -1,6 +1,12 @@
 # FlexLib Code Examples
 
-This page provides practical, real-world examples for common FlexLib 4.1.5 programming tasks.
+> **Partially verified.** Written against 4.1.5 and corrected in targeted
+> passes; not yet re-read end to end against a 4.2.x source tree. Verify
+> any signature you depend on, and check the
+> [corrections table](API-Reference.md#corrections-from-the-415-edition)
+> in the API Reference.
+
+This page provides practical, real-world examples for common FlexLib programming tasks.
 
 ## Table of Contents
 
@@ -12,12 +18,8 @@ This page provides practical, real-world examples for common FlexLib 4.1.5 progr
   - [Audio Streaming](#audio-streaming)
   - [Panadapter Display](#panadapter-display)
   - [Digital Mode Interface](#digital-mode-interface)
-  - [Remote Station Controller](#remote-station-controller)
 - [Utility Examples](#utility-examples)
   - [Radio Monitor](#radio-monitor)
-  - [Band Hopper](#band-hopper)
-  - [Memory Manager](#memory-manager)
-  - [Amplifier Controller](#amplifier-controller)
 
 ---
 
@@ -1279,9 +1281,12 @@ namespace RadioMonitor
 ## More Examples
 
 For more examples and patterns, check out:
-- **ComPortPTT** project in this repository - COM port PTT control
-- **FlexRadio Community Forum** - User-contributed examples
-- **API Reference** - Method documentation with usage examples
+
+- **[SmartStreamer4](https://github.com/cdub89/SmartStreamer4)** - a working
+  application built against FlexLib 4.2.x
+- **FlexRadio Community Forum** - user-contributed examples
+- **[API Reference](API-Reference.md)** - member documentation with usage
+  examples
 
 ---
 

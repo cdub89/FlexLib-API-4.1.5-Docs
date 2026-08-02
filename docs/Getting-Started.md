@@ -1,6 +1,12 @@
 # Getting Started with FlexLib
 
-This guide will walk you through creating your first FlexLib 4.1.5 application, from setup to basic radio control.
+> **Partially verified.** Written against 4.1.5 and corrected in targeted
+> passes; not yet re-read end to end against a 4.2.x source tree. Verify
+> any signature you depend on, and check the
+> [corrections table](API-Reference.md#corrections-from-the-415-edition)
+> in the API Reference.
+
+This guide will walk you through creating your first FlexLib application, from setup to basic radio control.
 
 ## Table of Contents
 
@@ -23,16 +29,19 @@ This guide will walk you through creating your first FlexLib 4.1.5 application, 
 Before you begin, ensure you have:
 
 ### Software Requirements
+
 - **Visual Studio 2022** or later
 - **.NET 8.0 SDK** or **.NET Framework 4.6.2** Developer Pack
 - **FlexLib source code** or compiled DLL
 
 ### Hardware Requirements
+
 - **FlexRadio device** (6000 series or compatible)
 - **Network connection** to the radio (same subnet recommended)
 - **Windows PC** (Windows 10/11)
 
 ### Knowledge Prerequisites
+
 - Basic C# programming
 - Understanding of async/await patterns
 - Familiarity with event-driven programming
@@ -121,6 +130,7 @@ namespace MyFlexRadioApp
 ### Understanding Initialization
 
 When you call `API.Init()`:
+
 1. UDP discovery socket is opened on port 4992
 2. Discovery packets are sent on the network
 3. A cleanup timer starts to remove stale radios
@@ -1303,6 +1313,7 @@ namespace MyFlexRadioApp
 **Problem**: `API.RadioList` is empty after calling `API.Init()`.
 
 **Solutions**:
+
 1. Verify radio is powered on and connected to network
 2. Check PC and radio are on same subnet
 3. Disable VPN if active
@@ -1315,6 +1326,7 @@ namespace MyFlexRadioApp
 **Problem**: `radio.Connect()` doesn't result in `Connected = true`.
 
 **Solutions**:
+
 1. Verify radio is available (`radio.ConnectedState == "Available"`)
 2. Close other applications connected to the radio
 3. Check network connectivity with ping
@@ -1326,6 +1338,7 @@ namespace MyFlexRadioApp
 **Problem**: `radio.RequestSlice()` doesn't create a slice.
 
 **Solutions**:
+
 1. Verify radio is connected
 2. Check if maximum slices already created
 3. Wait longer (500-1000ms)
@@ -1336,6 +1349,7 @@ namespace MyFlexRadioApp
 **Problem**: Meter events not firing.
 
 **Solutions**:
+
 1. Subscribe to `MeterAdded` before connecting
 2. Verify meters exist in `radio.MeterList`
 3. Check meter subscription settings
@@ -1346,6 +1360,7 @@ namespace MyFlexRadioApp
 **Problem**: No audio data received.
 
 **Solutions**:
+
 1. Verify DAX channel is configured in SmartSDR
 2. Check audio stream is started
 3. Verify slice has audio source

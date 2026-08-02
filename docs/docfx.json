@@ -67,14 +67,14 @@
     "cleanupCacheHistory": false,
     "disableGitFeatures": false,
     "globalMetadata": {
-      "_appTitle": "FlexLib API Documentation",
+      "_appTitle": "FlexLib API Documentation (unofficial)",
       "_appName": "FlexLib",
-      "_appFooter": "Copyright © 2018-2024 FlexRadio Systems. All rights reserved.",
+      "_appFooter": "Community documentation, licensed CC BY 4.0. Not affiliated with or endorsed by FlexRadio Systems. FlexLib is proprietary to FlexRadio Systems.",
       "_enableSearch": true,
       "_enableNewTab": true,
       "_disableContribution": false,
       "_gitContribute": {
-        "repo": "https://github.com/flexradio/flexlib",
+        "repo": "https://github.com/cdub89/FlexLib-API-4.1.5-Docs",
         "branch": "main"
       }
     },

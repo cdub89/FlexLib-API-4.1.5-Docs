@@ -1,6 +1,8 @@
 # FlexLib Documentation
 
-Welcome to the FlexLib API 4.1.5 documentation!
+Index of the community-maintained FlexLib 4.2.x documentation. Start at
+[index.md](index.md) for the overview and the unaffiliated-project
+disclaimer.
 
 ## 📚 Available Documentation
 
@@ -33,6 +35,11 @@ Welcome to the FlexLib API 4.1.5 documentation!
   - New features
   - Migration strategies
 
+- **[Generating API Docs](Generating-API-Docs.md)** - Build the complete
+  class reference locally
+  - Why it is not published here
+  - Layout and build commands
+
 ## 🚀 Quick Start
 
 ### For New Users
@@ -50,21 +57,23 @@ Welcome to the FlexLib API 4.1.5 documentation!
 ### For Upgraders
 
 1. Read **[Migration Guide](Migration-Guide.md)** first
-2. Check **[CHANGELOG](../CHANGELOG.md)** for version changes
+2. Check the corrections table in
+   **[API Reference](API-Reference.md#corrections-from-the-415-edition)**;
+   some of what changed was this documentation being wrong, not the API
 3. Update code following migration steps
 
-```
+```text
 docs/
 ├── README.md                 # This file
+├── index.md                  # Documentation home page
 ├── Getting-Started.md        # Tutorial for beginners
 ├── API-Reference.md          # Quick API reference
 ├── Examples.md               # Code examples
 ├── Architecture.md           # System design
 ├── Migration-Guide.md        # Version upgrade guide
-├── docfx.json               # DocFX configuration
-├── index.md                 # DocFX home page
-├── toc.yml                  # Table of contents
-└── _site/                   # Generated HTML (after build)
+├── Generating-API-Docs.md    # Building the full reference locally
+├── docfx.json                # DocFX configuration
+└── toc.yml                   # Table of contents
 ```
 
 ## 🔍 Finding Information
@@ -75,11 +84,11 @@ docs/
 |---------------|---------------|
 | Getting started | [Getting Started Guide](Getting-Started.md) |
 | Code examples | [Examples](Examples.md) |
-| Class reference | [API Reference](API-Reference.md) or generated docs |
+| Class reference | [API Reference](API-Reference.md) |
+| Full generated reference | [Generating API Docs](Generating-API-Docs.md) |
 | System design | [Architecture](Architecture.md) |
 | Upgrading versions | [Migration Guide](Migration-Guide.md) |
-| Contributing | [CONTRIBUTING.md](../CONTRIBUTING.md) |
-| Version history | [CHANGELOG.md](../CHANGELOG.md) |
+| Contributing | [Repository README](../README.md#contributing) |
 
 ### By Feature
 
@@ -105,109 +114,75 @@ docs/
 
 ### For Advanced Users
 
-1. **Use the search**: Generated docs have full-text search
-2. **Check XML comments**: IntelliSense shows documentation in Visual Studio
-3. **Read source**: FlexLib source code is well-commented
-4. **Contribute**: Improve docs via pull requests
+1. **Build the full reference**: see
+   [Generating API Docs](Generating-API-Docs.md) for the class-by-class
+   documentation, generated from your own copy of the source
+2. **Check IntelliSense**: FlexLib ships XML comments, so Visual Studio
+   shows the authoritative description inline
+3. **Read the source**: it is the ground truth, and these pages defer to
+   it wherever they disagree
 
 ### For Contributors
 
-1. **Update XML comments**: All public APIs need documentation
-2. **Add examples**: Include code examples in XML `<example>` tags
-3. **Update guides**: Keep markdown docs synchronized
-4. **Test DocFX**: Regenerate docs to verify changes
+This repository documents an API it does not own. Corrections are
+welcome; unverifiable claims are not.
 
-## 🛠️ Documentation Standards
+1. **Trace every claim to the source**: name the FlexLib build you
+   checked (e.g. `4.2.20.41343`) and the source file and line
+2. **Do not infer**: a signature that follows the naming pattern, or that
+   another page here already states, is a lead and not evidence. Most of
+   this repository's history is correcting exactly those
+3. **Keep samples compilable on the reader's floor**: .NET Framework
+   4.6.2 as well as .NET 8
+4. **Do not submit generated output**: FlexLib source, DocFX YAML, or
+   rendered site files cannot be accepted (see
+   [Generating API Docs](Generating-API-Docs.md))
 
-### XML Documentation
+### Markdown style
 
-All public classes, methods, properties, and events must have:
-
-```csharp
-/// <summary>
-/// Brief one-line description.
-/// </summary>
-/// <remarks>
-/// Detailed description with multiple paragraphs if needed.
-/// Explain behavior, constraints, and important notes.
-/// </remarks>
-/// <param name="paramName">Parameter description</param>
-/// <returns>Return value description</returns>
-/// <exception cref="ExceptionType">When this is thrown</exception>
-/// <example>
-/// <code>
-/// // Example usage
-/// var result = SomeMethod(param);
-/// </code>
-/// </example>
-/// <seealso cref="RelatedClass"/>
-public ReturnType SomeMethod(ParamType paramName)
-{
-    // Implementation
-}
-```
-
-### Markdown Style
-
-- Use ATX headers (`#`, `##`, `###`)
-- Include code blocks with language tags
-- Add examples for complex topics
-- Link between documents with relative paths
-- Use tables for structured information
-
-## 🔄 Keeping Documentation Updated
-
-### When to Update
-
-Update documentation when:
-- Adding new public APIs
-- Changing existing behavior
-- Fixing bugs that affect usage
-- Adding new features
-- Deprecating functionality
-
-### What to Update
-
-1. **XML Comments**: Update in source code
-2. **API Reference**: If major API changes
-3. **Examples**: Add examples for new features
-4. **Getting Started**: For workflow changes
-5. **Migration Guide**: For breaking changes
-6. **CHANGELOG**: For all notable changes
+- ATX headings (`#`, `##`, `###`), sentence case
+- Language tag on every fenced block
+- Relative links between documents; verify anchors after editing headings
+- Tables for structured comparisons
+- No em dashes in prose
 
 ## 🆘 Getting Help
 
-### Documentation Issues
+### Documentation issues
 
-If you find documentation problems:
+Problems with these pages belong on this repository's issue tracker, not
+with FlexRadio:
 
-1. **Typos/errors**: Submit a pull request with fix
-2. **Unclear sections**: Open an issue with suggestions
-3. **Missing topics**: Request in GitHub issues
-4. **Outdated content**: Report with version information
+1. **Wrong signature or sample**: open an issue or pull request, and
+   include the FlexLib build and the source file that shows the correct
+   form
+2. **Unclear sections**: open an issue with suggestions
+3. **Missing topics**: request in the issue tracker
 
 ### Using FlexLib
 
-For help using FlexLib:
+For help with the library itself:
 
-1. **Search documentation**: Use search in generated docs
-2. **Check examples**: Most questions answered with examples
-3. **Community forum**: https://community.flexradio.com
-4. **GitHub issues**: For bug reports
-5. **Technical support**: support@flexradio.com
+1. **Check examples**: most questions are answered with code examples
+2. **Community forum**: <https://community.flexradio.com>
+3. **Technical support**: <mailto:support@flexradio.com>
+
+FlexRadio supports FlexLib. They did not write this documentation and
+cannot answer questions about it.
 
 ## 📝 License
 
-Documentation is part of the FlexLib project and follows the same license.
-
-Copyright © 2018-2024 FlexRadio Systems. All rights reserved.
+These documentation pages are licensed
+[CC BY 4.0](../LICENSE) and are not affiliated with FlexRadio Systems.
+The license covers this repository's prose, tables, and code samples
+only, and makes no claim over FlexLib or any other FlexRadio property.
 
 ## 🤝 Contributing
 
-We welcome documentation improvements! See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
-- Documentation standards
-- Submission process
-- Code of conduct
+Documentation improvements are welcome. See
+[For Contributors](#for-contributors) above for what a correction needs
+to carry, and the [repository README](../README.md#contributing) for the
+submission process.
 
 ---
 

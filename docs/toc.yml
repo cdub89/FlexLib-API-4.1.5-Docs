@@ -3,12 +3,14 @@
 - name: Getting Started
   href: Getting-Started.md
 - name: API Reference
-  href: api/
+  href: API-Reference.md
 - name: Examples
   href: Examples.md
 - name: Architecture
   href: Architecture.md
 - name: Migration Guide
   href: Migration-Guide.md
+- name: Generating API Docs
+  href: Generating-API-Docs.md
 - name: GitHub
-  href: https://github.com/flexradio/flexlib
+  href: https://github.com/cdub89/FlexLib-API-4.1.5-Docs
