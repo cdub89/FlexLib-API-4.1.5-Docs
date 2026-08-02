@@ -1,10 +1,10 @@
 # FlexLib Code Examples
 
-> **Partially verified.** Written against 4.1.5 and corrected in targeted
-> passes; not yet re-read end to end against a 4.2.x source tree. Verify
-> any signature you depend on, and check the
-> [corrections table](API-Reference.md#corrections-from-the-415-edition)
-> in the API Reference.
+> **Verified against FlexLib 4.2.20.41343** (2026-08-02). Every API member
+> referenced on this page was checked against the 4.2.20 source: the member
+> exists and is declared on the type used here. Prose describing behavior and
+> semantics has not been re-read against the source, and the examples have
+> not been compiled.
 
 This page provides practical, real-world examples for common FlexLib programming tasks.
 
@@ -92,7 +92,7 @@ namespace SimpleRadioController
             _slice = _radio.SliceList.FirstOrDefault();
             if (_slice != null)
             {
-                Console.WriteLine($"✓ Slice created: {_slice.Freq:F3} MHz, {_slice.Mode}");
+                Console.WriteLine($"✓ Slice created: {_slice.Freq:F3} MHz, {_slice.DemodMode}");
             }
         }
 
@@ -128,7 +128,7 @@ namespace SimpleRadioController
                     case "m":
                         if (parts.Length > 1)
                         {
-                            _slice!.Mode = parts[1].ToUpper();
+                            _slice!.DemodMode = parts[1].ToUpper();
                             Console.WriteLine($"Mode set to {parts[1].ToUpper()}");
                         }
                         break;
@@ -156,7 +156,7 @@ namespace SimpleRadioController
             {
                 Console.WriteLine($"\n--- Slice Info ---");
                 Console.WriteLine($"Frequency: {_slice.Freq:F6} MHz");
-                Console.WriteLine($"Mode: {_slice.Mode}");
+                Console.WriteLine($"Mode: {_slice.DemodMode}");
                 Console.WriteLine($"Filter: {_slice.FilterLow}-{_slice.FilterHigh} Hz");
                 Console.WriteLine($"RX Ant: {_slice.RXAnt}");
             }
@@ -215,7 +215,7 @@ namespace FrequencyScanner
             SetupMeterMonitoring();
 
             // Configure slice
-            _slice!.Mode = mode;
+            _slice!.DemodMode = mode;
             _slice.FilterLow = 200;
             _slice.FilterHigh = 2800;
 
@@ -312,17 +312,20 @@ namespace FrequencyScanner
 
         private void SetupMeterMonitoring()
         {
-            _radio!.MeterAdded += (meter) =>
+            // Signal level is a slice meter named "LEVEL", not a radio
+            // meter named "SIGNAL". Radio has no MeterAdded event, so look
+            // it up on the slice once the slice exists.
+            _signalMeter = _slice!.FindMeterByName("LEVEL");
+            if (_signalMeter == null)
             {
-                if (meter.Name == "SIGNAL" || meter.Name.Contains("SIGNAL"))
-                {
-                    _signalMeter = meter;
-                    // DataReadyEventHandler signature: (Meter meter, float data)
-                    meter.DataReady += (m, value) =>
-                    {
-                        _currentSignalLevel = value;
-                    };
-                }
+                Console.WriteLine("Slice is not reporting a LEVEL meter.");
+                return;
+            }
+
+            // DataReadyEventHandler signature: (Meter meter, float data)
+            _signalMeter.DataReady += (m, value) =>
+            {
+                _currentSignalLevel = value;
             };
         }
 
@@ -506,7 +509,7 @@ namespace MultiRadioManager
                 if (slice != null)
                 {
                     slice.Freq = freqMHz;
-                    slice.Mode = mode;
+                    slice.DemodMode = mode;
                     Console.WriteLine($"  {radio.Nickname}: Tuned");
                 }
             }
@@ -528,7 +531,7 @@ namespace MultiRadioManager
                     
                     foreach (var slice in radio.SliceList)
                     {
-                        Console.WriteLine($"    Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.Mode}");
+                        Console.WriteLine($"    Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.DemodMode}");
                     }
                 }
             }
@@ -828,7 +831,7 @@ namespace PanadapterExample
             if (!_radio.Connected) return false;
 
             // Request a panadapter
-            _radio.RequestPanadapter();
+            _radio.RequestPanafall();
             await Task.Delay(500);
 
             _panadapter = _radio.PanadapterList.FirstOrDefault();
@@ -847,7 +850,7 @@ namespace PanadapterExample
             Console.WriteLine($"  StreamID: {pan.StreamID}");
             Console.WriteLine($"  Center Frequency: {pan.CenterFreq:F3} MHz");
             Console.WriteLine($"  Bandwidth: {pan.Bandwidth:F3} MHz");
-            Console.WriteLine($"  MinDBM: {pan.MinDBM}, MaxDBM: {pan.MaxDBM}");
+            Console.WriteLine($"  LowDbm: {pan.LowDbm}, HighDbm: {pan.HighDbm}");
 
             // Subscribe to panadapter data
             pan.DataReady += OnPanadapterData;
@@ -884,8 +887,8 @@ namespace PanadapterExample
             Console.Write("  ");
             for (int i = 0; i < data.Length; i += data.Length / 50)
             {
-                int height = (int)((data[i] - _panadapter.MinDBM) / 
-                                   (_panadapter.MaxDBM - _panadapter.MinDBM) * 8);
+                int height = (int)((data[i] - _panadapter.LowDbm) / 
+                                   (_panadapter.HighDbm - _panadapter.LowDbm) * 8);
                 height = Math.Max(0, Math.Min(8, height));
                 
                 Console.Write("▁▂▃▄▅▆▇█"[height]);
@@ -989,13 +992,13 @@ namespace DigitalModeInterface
             if (_slice == null) return false;
 
             // Configure slice for digital modes
-            _slice.Mode = mode; // DIGU or DIGL
+            _slice.DemodMode = mode; // DIGU or DIGL
             _slice.FilterLow = 0;
             _slice.FilterHigh = 3000;
             _slice.AGCMode = "off"; // Digital modes prefer no AGC
 
             Console.WriteLine($"✓ Digital interface ready");
-            Console.WriteLine($"  Mode: {_slice.Mode}");
+            Console.WriteLine($"  Mode: {_slice.DemodMode}");
             Console.WriteLine($"  Frequency: {_slice.Freq:F3} MHz");
 
             return true;
@@ -1089,19 +1092,19 @@ namespace DigitalModeInterface
 
         private void MonitorTransmitMeters()
         {
-            foreach (var meter in _radio!.MeterList)
+            foreach (string name in new[] { "FWDPWR", "SWR", "HWALC" })
             {
-                if (meter.Name == "FWD" || meter.Name == "SWR" || meter.Name == "ALC")
+                Meter meter = _radio!.FindMeterByName(name);
+                if (meter == null) continue;
+
+                // DataReadyEventHandler signature: (Meter meter, float data)
+                meter.DataReady += (m, value) =>
                 {
-                    // DataReadyEventHandler signature: (Meter meter, float data)
-                    meter.DataReady += (m, value) =>
+                    if (_isTransmitting)
                     {
-                        if (_isTransmitting)
-                        {
-                            Console.WriteLine($"  {m.Name}: {value:F1}");
-                        }
-                    };
-                }
+                        Console.WriteLine($"  {m.Name}: {value:F1}");
+                    }
+                };
             }
         }
 
@@ -1212,16 +1215,15 @@ namespace RadioMonitor
 
             // Monitor meters
             // DataReadyEventHandler signature: (Meter meter, float data)
-            foreach (var meter in _radio.MeterList)
+            foreach (string name in new[] { "+13.8A", "PATEMP", "FWDPWR", "SWR" })
             {
-                if (meter.Name == "VOLTAGE" || meter.Name == "TEMP" || 
-                    meter.Name == "FWD" || meter.Name == "SWR")
+                Meter meter = _radio.FindMeterByName(name);
+                if (meter == null) continue;
+
+                meter.DataReady += (m, value) =>
                 {
-                    meter.DataReady += (m, value) =>
-                    {
-                        LogMeter(m.Name, value);
-                    };
-                }
+                    LogMeter(m.Name, value);
+                };
             }
 
             // Monitor interlock
@@ -1240,7 +1242,7 @@ namespace RadioMonitor
             {
                 if (e.PropertyName == "Freq" || e.PropertyName == "Mode")
                 {
-                    Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.Mode}");
+                    Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] Slice {slice.Index}: {slice.Freq:F3} MHz, {slice.DemodMode}");
                 }
                 else if (e.PropertyName == "IsTransmitSlice")
                 {
@@ -1254,9 +1256,9 @@ namespace RadioMonitor
         {
             string formatted = name switch
             {
-                "VOLTAGE" => $"{value:F1} V",
-                "TEMP" => $"{value:F0} °C",
-                "FWD" => $"{value:F0} W",
+                "+13.8A" => $"{value:F1} V",
+                "PATEMP" => $"{value:F0} °C",
+                "FWDPWR" => $"{value:F0} W",
                 "SWR" => $"{value:F2}:1",
                 _ => $"{value:F2}"
             };

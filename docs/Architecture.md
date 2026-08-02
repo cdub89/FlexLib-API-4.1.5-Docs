@@ -1,9 +1,10 @@
 # FlexLib Architecture
 
-> **Partially verified.** Written against 4.1.5 and corrected in targeted
-> passes; not yet re-read end to end against a 4.2.x source tree. The
-> structural material (threading model, protocol, packet flow) is the most
-> durable part of this page; verify any specific signature you depend on.
+> **Verified against FlexLib 4.2.20.41343** (2026-08-02). Every API member
+> referenced on this page was checked against the 4.2.20 source: the member
+> exists and is declared on the type used here. Prose describing behavior and
+> semantics has not been re-read against the source, and the examples have
+> not been compiled.
 
 This document provides an overview of FlexLib's architecture, design patterns, and internal workings.
 
@@ -118,22 +119,32 @@ API.CloseSession();            // Cleanup
 **Key Collections**:
 
 ```csharp
-public ObservableCollection<Slice> SliceList
-public ObservableCollection<Panadapter> PanadapterList
-public ObservableCollection<Waterfall> WaterfallList
-public ObservableCollection<Meter> MeterList
-public ObservableCollection<Memory> MemoryList
+public List<Slice> SliceList
+public List<Panadapter> PanadapterList
+public List<Memory> MemoryList
+public List<TNF> TNFList
+public List<Amplifier> AmplifierList
 ```
+
+These are `List<T>`, not `ObservableCollection<T>`. Do not bind to them
+expecting collection-change notifications; use the `SliceAdded` /
+`SliceRemoved` style events instead.
+
+There is no `Radio.MeterList` and no `Radio.WaterfallList`. Meters are
+looked up by name (see the Meter Class section below); waterfalls are
+reached through their panadapter.
 
 **State Properties**:
 
 ```csharp
 public bool Connected          // Connection status
+public string ConnectedState   // e.g. "Available", "In Use"
 public string Nickname         // User-defined name
 public string Model            // Radio model
 public string Serial           // Serial number
 public IPAddress IP            // Network address
-public string Version          // Firmware version
+public ulong Version           // Firmware version (not a string)
+public string Status           // Current status
 ```
 
 **Design**: Implements `INotifyPropertyChanged` for real-time updates.
@@ -157,21 +168,25 @@ public string Version          // Firmware version
 
 ```csharp
 public double Freq             // Frequency in MHz
-public string Mode             // Operating mode
+public string DemodMode        // Operating mode; valid values in ModeList
 public int FilterLow           // Low-pass filter Hz
 public int FilterHigh          // High-pass filter Hz
 public bool Active             // Slice active state
-public bool Transmit           // PTT state
+public bool IsTransmitSlice    // Whether this slice is the TX slice
 public string RXAnt            // RX antenna
 public string TXAnt            // TX antenna
 ```
+
+The mode property is `DemodMode`, not `Mode`. There is no `Slice.Transmit`
+for keying: PTT is `Radio.Mox`. `IsTransmitSlice` reports which slice
+transmits, it does not key the radio.
 
 **Lifecycle**:
 
 1. Created by `Radio.RequestSlice()`
 2. Configured via property setters
 3. Monitored via `PropertyChanged` events
-4. Removed by `Radio.RemoveSlice(slice)`
+4. Removed by `slice.Close()`, not by a method on `Radio`
 
 ---
 
@@ -256,21 +271,41 @@ radio.RequestDAXRXAudioStream(1); // DAX channel 1
 
 **Types of Meters**:
 
-- **Signal meters**: SIGNAL, MICPEAK, COMPPEAK
-- **Power meters**: FWD, REF, SWR
-- **System meters**: VOLTAGE, TEMP
-- **Audio meters**: LEVELPEAK, LEVELAVG
+Meter names are exact strings the radio reports. The ones the library
+matches on include:
+
+- **Power**: `FWDPWR`, `REFPWR`, `SWR`, `PAEFF`
+- **Audio and drive**: `LEVEL`, `MIC`, `MICPEAK`, `COMPPEAK`, `HWALC`
+- **System**: `PATEMP`, `+13.8A`
+
+A lookup with a name the radio does not report returns `null` rather
+than throwing, so a typo fails silently.
 
 **Usage Pattern**:
 
+`Radio` exposes no `MeterAdded` event and no `Value` property on
+`Meter`. Look the meter up by name, then subscribe to `DataReady`:
+
 ```csharp
-radio.MeterAdded += (meter) =>
+Meter fwd = radio.FindMeterByName("FWDPWR");
+if (fwd != null)
 {
     // DataReadyEventHandler signature: (Meter meter, float data)
-    meter.DataReady += (m, value) =>
+    fwd.DataReady += (m, value) =>
     {
-        Console.WriteLine($"{m.Name}: {value}");
+        Console.WriteLine($"{m.Name}: {value} ({m.Units})");
     };
+}
+```
+
+`MeterAdded` does exist on `Slice` and `Amplifier`, with the signature
+`(Slice slc, Meter m)`, for meters that appear as those objects are
+created:
+
+```csharp
+slice.MeterAdded += (slc, m) =>
+{
+    m.DataReady += (meter, value) => Console.WriteLine($"{meter.Name}: {value}");
 };
 ```
 
@@ -681,7 +716,7 @@ slice.PropertyChanged += (s, e) =>
 
 // Batch related changes
 slice.Freq = 14.200;
-slice.Mode = "USB";
+slice.DemodMode = "USB";
 slice.FilterLow = 200;
 slice.FilterHigh = 2800;
 ```

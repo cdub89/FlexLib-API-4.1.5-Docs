@@ -1,10 +1,10 @@
 # Getting Started with FlexLib
 
-> **Partially verified.** Written against 4.1.5 and corrected in targeted
-> passes; not yet re-read end to end against a 4.2.x source tree. Verify
-> any signature you depend on, and check the
-> [corrections table](API-Reference.md#corrections-from-the-415-edition)
-> in the API Reference.
+> **Verified against FlexLib 4.2.20.41343** (2026-08-02). Every API member
+> referenced on this page was checked against the 4.2.20 source: the member
+> exists and is declared on the type used here. Prose describing behavior and
+> semantics has not been re-read against the source, and the examples have
+> not been compiled.
 
 This guide will walk you through creating your first FlexLib application, from setup to basic radio control.
 
@@ -58,7 +58,7 @@ dotnet new console -n MyFlexRadioApp
 cd MyFlexRadioApp
 
 # Add reference to FlexLib project
-dotnet add reference ../FlexLib_API_v4.1.5.39794/FlexLib/FlexLib.csproj
+dotnet add reference ../FlexLib_API_v4.2.20.41343/FlexLib/FlexLib.csproj
 ```
 
 ### Option 2: Create a WPF Application
@@ -69,7 +69,7 @@ dotnet new wpf -n MyFlexRadioWpfApp
 cd MyFlexRadioWpfApp
 
 # Add reference to FlexLib project
-dotnet add reference ../FlexLib_API_v4.1.5.39794/FlexLib/FlexLib.csproj
+dotnet add reference ../FlexLib_API_v4.2.20.41343/FlexLib/FlexLib.csproj
 ```
 
 ### Project Configuration
@@ -85,7 +85,7 @@ Update your `.csproj` file to target the correct framework:
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlexLib_API_v4.1.5.39794\FlexLib\FlexLib.csproj" />
+    <ProjectReference Include="..\FlexLib_API_v4.2.20.41343\FlexLib\FlexLib.csproj" />
   </ItemGroup>
 </Project>
 ```
@@ -556,7 +556,7 @@ namespace MyFlexRadioApp
             slice.Freq = 14.200;  // 14.200 MHz (20m band)
             
             // Set operating mode
-            slice.Mode = "USB";   // Options: "LSB", "USB", "AM", "CW", "DIGL", "DIGU", "FM", "NFM"
+            slice.DemodMode = "USB";   // Options: "LSB", "USB", "AM", "CW", "DIGL", "DIGU", "FM", "NFM"
             
             // Set filter bandwidth
             slice.FilterLow = 200;    // Low cut (Hz)
@@ -571,7 +571,7 @@ namespace MyFlexRadioApp
             slice.AudioGain = 50;     // Audio gain (0-100)
             slice.AGCMode = "med";    // AGC: "off", "slow", "med", "fast"
             
-            Console.WriteLine($"Tuned to {slice.Freq:F3} MHz, Mode: {slice.Mode}");
+            Console.WriteLine($"Tuned to {slice.Freq:F3} MHz, Mode: {slice.DemodMode}");
         }
     }
 }
@@ -622,7 +622,7 @@ namespace MyFlexRadioApp
                     // Make some changes to trigger events
                     slice.Freq = 14.200;
                     await Task.Delay(1000);
-                    slice.Mode = "USB";
+                    slice.DemodMode = "USB";
                     await Task.Delay(1000);
                     slice.Active = true;
                 }
@@ -720,7 +720,7 @@ namespace MyFlexRadioApp
             // Tune to 20m band, USB
             Console.WriteLine("Tuning to 20m USB...");
             slice.Freq = 14.200;
-            slice.Mode = "USB";
+            slice.DemodMode = "USB";
             slice.FilterLow = 200;
             slice.FilterHigh = 2800;
             
@@ -729,14 +729,14 @@ namespace MyFlexRadioApp
             // Tune to 40m band, LSB
             Console.WriteLine("Tuning to 40m LSB...");
             slice.Freq = 7.200;
-            slice.Mode = "LSB";
+            slice.DemodMode = "LSB";
             
             await Task.Delay(2000);
             
             // Tune to 2m band, FM
             Console.WriteLine("Tuning to 2m FM...");
             slice.Freq = 146.520;
-            slice.Mode = "FM";
+            slice.DemodMode = "FM";
             
             await Task.Delay(2000);
         }
@@ -817,17 +817,29 @@ namespace MyFlexRadioApp
 
         static void SetupMeters(Radio radio)
         {
-            radio.MeterAdded += (meter) =>
+            // Radio has no MeterAdded event and no MeterList. Look each
+            // meter up by its exact name, after the radio is connected.
+            string[] wanted = { "MICPEAK", "SWR", "FWDPWR", "+13.8A", "PATEMP" };
+
+            foreach (string name in wanted)
             {
+                Meter meter = radio.FindMeterByName(name);
+                if (meter == null)
+                {
+                    // Returns null for a name this radio does not report.
+                    Console.WriteLine($"Meter not available: {name}");
+                    continue;
+                }
+
                 Console.WriteLine($"Meter available: {meter.Name}");
-                
+
                 // Subscribe to meter data updates
                 // DataReadyEventHandler signature: (Meter meter, float data)
                 meter.DataReady += (m, value) =>
                 {
                     HandleMeterData(m.Name, value);
                 };
-            };
+            }
         }
 
         static void HandleMeterData(string meterName, float value)
@@ -844,17 +856,17 @@ namespace MyFlexRadioApp
                     Console.WriteLine($"SWR: {value:F2}:1");
                     break;
                     
-                case "FWD":
+                case "FWDPWR":
                     // Forward power (watts)
                     Console.WriteLine($"Forward Power: {value:F0} W");
                     break;
                     
-                case "VOLTAGE":
+                case "+13.8A":
                     // Power supply voltage
                     Console.WriteLine($"Voltage: {value:F1} V");
                     break;
                     
-                case "TEMP":
+                case "PATEMP":
                     // PA temperature
                     Console.WriteLine($"PA Temp: {value:F0} °C");
                     break;
@@ -906,15 +918,15 @@ namespace MyFlexRadioApp
 
         static void MonitorTransmitMeters(Radio radio)
         {
-            foreach (var meter in radio.MeterList)
+            foreach (string name in new[] { "SWR", "FWDPWR", "REFPWR", "PATEMP" })
             {
-                if (meter.Name == "SWR" || meter.Name == "FWD" || meter.Name == "TEMP")
+                Meter meter = radio.FindMeterByName(name);
+                if (meter == null) continue;
+
+                meter.DataReady += (m, value) =>
                 {
-                    meter.DataReady += (m, value) =>
-                    {
-                        Console.WriteLine($"{m.Name}: {value:F2}");
-                    };
-                }
+                    Console.WriteLine($"{m.Name}: {value:F2}");
+                };
             }
         }
     }
@@ -923,16 +935,27 @@ namespace MyFlexRadioApp
 
 ### Common Meter Names
 
+These are exact strings the radio reports. A lookup with a name the radio
+does not report returns `null` rather than throwing, so a typo fails
+silently.
+
 | Meter Name | Description | Unit |
 |------------|-------------|------|
 | `MICPEAK` | Mic audio peak level | dB |
-| `SWR` | Standing wave ratio | ratio |
-| `FWD` | Forward power | watts |
-| `REF` | Reflected power | watts |
-| `VOLTAGE` | Power supply voltage | volts |
-| `TEMP` | PA temperature | °C |
-| `SIGNAL` | Signal strength | dBm |
+| `MIC` | Mic level | dB |
 | `COMPPEAK` | Compressor peak | dB |
+| `HWALC` | Hardware ALC | dB |
+| `LEVEL` | Audio level | dB |
+| `SWR` | Standing wave ratio | ratio |
+| `FWDPWR` | Forward power | watts |
+| `REFPWR` | Reflected power | watts |
+| `PAEFF` | PA efficiency | percent |
+| `PATEMP` | PA temperature | °C |
+| `+13.8A` | Power supply voltage | volts |
+
+Earlier editions of this guide listed `FWD`, `REF`, `VOLTAGE`, `TEMP`,
+and `SIGNAL`. None of those are meter names the library matches on; a
+lookup using them returns `null`.
 
 ---
 
@@ -1122,7 +1145,7 @@ namespace MyFlexRadioApp
                 if (slice != null)
                 {
                     slice.Freq = 14.200;
-                    slice.Mode = "USB";
+                    slice.DemodMode = "USB";
                     TransmitExample(radio, slice);
                 }
             }
@@ -1350,9 +1373,14 @@ namespace MyFlexRadioApp
 
 **Solutions**:
 
-1. Subscribe to `MeterAdded` before connecting
-2. Verify meters exist in `radio.MeterList`
-3. Check meter subscription settings
+1. Look meters up with `radio.FindMeterByName` after the radio is
+   connected, not before. `Radio` has no `MeterAdded` event and no
+   `MeterList`
+2. Check the name against the table above. `FindMeterByName` returns
+   `null` for an unknown name rather than throwing, so a typo looks
+   like a radio that is not reporting
+3. Read values from the `DataReady` event. `Meter` has no `Value`
+   property to poll
 4. Ensure radio is transmitting (for TX meters)
 
 ### Audio Stream Issues
